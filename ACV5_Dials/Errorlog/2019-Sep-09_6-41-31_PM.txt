@@ -1,0 +1,450 @@
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 48409
+Only local connections are allowed.
+Sep 09, 2019 6:42:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 1******* *******
+2019-Sep-09_6-42-22_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+String TextBox
+parent dial 1 is displayed --->String TextBox
+parent dial 2 is displayed --->CurrencyTextBox
+child dial is displayed --->String Long TextBox
+*****PASS*****
+_____________________________________________________________________________
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 37679
+Only local connections are allowed.
+Sep 09, 2019 6:47:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 2******* *******
+2019-Sep-09_6-47-58_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+String Long TextBox
+parent dial 1 is displayed --->String Long TextBox
+parent dial 2 is displayed --->CurrencyTextBox
+child dial is displayed --->String TextBox
+*****PASS*****
+_____________________________________________________________________________
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 2729
+Only local connections are allowed.
+Sep 09, 2019 6:52:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 3******* *******
+2019-Sep-09_6-52-51_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+MultLine TextBox
+parent dial 1 is displayed --->MultLine TextBox
+parent dial 2 is displayed --->String Long TextBox
+child dial is displayed --->String Long TextBox
+*****PASS*****
+_____________________________________________________________________________
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 26138
+Only local connections are allowed.
+Sep 09, 2019 6:57:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 4******* *******
+2019-Sep-09_6-57-43_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+String TextBox
+parent dial 1 is displayed --->String TextBox
+parent dial 2 is displayed --->String TextBox
+child dial is displayed --->String Long TextBox
+*****PASS*****
+_____________________________________________________________________________
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 17797
+Only local connections are allowed.
+Sep 09, 2019 7:02:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 5******* *******
+2019-Sep-09_7-02-38_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+CurrencyTextBox
+parent dial 1 is displayed --->CurrencyTextBox
+parent dial 2 is displayed --->CurrencyTextBox
+child dial is displayed --->SpellChecker Long TextBox
+*****PASS*****
+_____________________________________________________________________________
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 14522
+Only local connections are allowed.
+Sep 09, 2019 7:08:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 6******* *******
+2019-Sep-09_7-08-04_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+SpellChecker Long TextBox
+parent dial 1 is displayed --->SpellChecker Long TextBox
+parent dial 2 is displayed --->MultLine TextBox
+child dial is displayed --->String Long TextBox
+*****PASS*****
+_____________________________________________________________________________
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 28845
+Only local connections are allowed.
+Sep 09, 2019 7:12:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 7******* *******
+2019-Sep-09_7-12-58_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+WebSiteStringTextBox
+parent dial 1 is displayed --->WebSiteStringTextBox
+parent dial 2 is displayed --->CurrencyTextBox
+child dial is displayed --->String TextBox
+*****PASS*****
+_____________________________________________________________________________
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 27887
+Only local connections are allowed.
+Sep 09, 2019 7:17:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 8******* *******
+2019-Sep-09_7-17-50_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+States Dropdown
+parent dial 1 is displayed --->States Dropdown
+parent dial 2 is displayed --->SpellChecker String TextBox
+child dial is displayed --->SpellChecker String TextBox
+*****PASS*****
+_____________________________________________________________________________
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 6011
+Only local connections are allowed.
+Sep 09, 2019 7:22:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 9******* *******
+2019-Sep-09_7-22-48_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+MultLine TextBox
+parent dial 1 is displayed --->MultLine TextBox
+parent dial 2 is displayed --->WebSiteStringTextBox
+child dial is displayed --->States Dropdown
+*****PASS*****
+_____________________________________________________________________________
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 9382
+Only local connections are allowed.
+Sep 09, 2019 7:27:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 10******* *******
+2019-Sep-09_7-27-36_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+String TextBox
+parent dial 1 is displayed --->String TextBox
+parent dial 2 is displayed --->String TextBox
+child dial is displayed --->String Long TextBox
+*****PASS*****
+_____________________________________________________________________________
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 48842
+Only local connections are allowed.
+Sep 09, 2019 7:32:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 11******* *******
+2019-Sep-09_7-32-32_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+MultLine TextBox
+parent dial 1 is displayed --->MultLine TextBox
+parent dial 2 is displayed --->MultLine TextBox
+child dial is displayed --->String TextBox
+*****PASS*****
+_____________________________________________________________________________
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 9056
+Only local connections are allowed.
+Sep 09, 2019 7:37:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 12******* *******
+2019-Sep-09_7-37-24_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+String Long TextBox
+parent dial 1 is displayed --->String Long TextBox
+parent dial 2 is displayed --->String Long TextBox
+child dial is displayed --->CallTracking
+*****PASS*****
+_____________________________________________________________________________
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 19235
+Only local connections are allowed.
+Sep 09, 2019 7:42:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 13******* *******
+2019-Sep-09_7-42-21_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+SpellChecker Long TextBox
+parent dial 1 is displayed --->SpellChecker Long TextBox
+parent dial 2 is displayed --->MultLine TextBox
+child dial is displayed --->QRCode
+*****PASS*****
+_____________________________________________________________________________
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 11244
+Only local connections are allowed.
+Sep 09, 2019 7:47:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 14******* *******
+2019-Sep-09_7-47-45_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+WebSiteStringTextBox
+parent dial 1 is displayed --->WebSiteStringTextBox
+parent dial 2 is displayed --->CurrencyTextBox
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//label[contains(text(),'OptionRadioList')])[1]"}
+  (Session info: chrome=76.0.3809.132)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'VARUN-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir15104_14471}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=76.0.3809.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: abb6ed1af8c381ee9fdee517c703ee27
+*** Element info: {Using=xpath, value=(//label[contains(text(),'OptionRadioList')])[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:476)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at tec.ACV5.suite.orderFlow.main(orderFlow.java:500)
+*****FAIL*****
+_____________________________________________________________________________
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 5270
+Only local connections are allowed.
+Sep 09, 2019 7:52:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 15******* *******
+2019-Sep-09_7-52-47_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+States Dropdown
+parent dial 1 is displayed --->States Dropdown
+parent dial 2 is displayed --->SpellChecker String TextBox
+child dial is displayed --->Image Selector
+*****PASS*****
+_____________________________________________________________________________
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 21867
+Only local connections are allowed.
+Sep 09, 2019 7:57:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 16******* *******
+2019-Sep-09_7-57-44_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+MultLine TextBox
+parent dial 1 is displayed --->MultLine TextBox
+parent dial 2 is displayed --->WebSiteStringTextBox
+child dial is displayed --->Image Selector
+*****PASS*****
+_____________________________________________________________________________
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 19915
+Only local connections are allowed.
+Sep 09, 2019 8:02:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 17******* *******
+2019-Sep-09_8-02-45_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+String TextBox
+parent dial 1 is displayed --->String TextBox
+parent dial 2 is displayed --->String TextBox
+child dial is displayed --->Map Selector
+*****PASS*****
+_____________________________________________________________________________
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 46611
+Only local connections are allowed.
+Sep 09, 2019 8:07:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 18******* *******
+2019-Sep-09_8-07-36_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+MultLine TextBox
+parent dial 1 is displayed --->MultLine TextBox
+parent dial 2 is displayed --->MultLine TextBox
+child dial is displayed --->Date Time Picker
+*****PASS*****
+_____________________________________________________________________________
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 16745
+Only local connections are allowed.
+Sep 09, 2019 8:12:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 19******* *******
+2019-Sep-09_8-12-36_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+String Long TextBox
+parent dial 1 is displayed --->String Long TextBox
+parent dial 2 is displayed --->String Long TextBox
+child dial is displayed --->Date Selector
+*****PASS*****
+_____________________________________________________________________________
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 35260
+Only local connections are allowed.
+Sep 09, 2019 8:17:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 20******* *******
+2019-Sep-09_8-17-30_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+String TextBox
+parent dial 1 is displayed --->String TextBox
+parent dial 2 is displayed --->CurrencyTextBox
+child dial is displayed --->Date Picker
+*****PASS*****
+_____________________________________________________________________________
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 8325
+Only local connections are allowed.
+Sep 09, 2019 8:22:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 21******* *******
+2019-Sep-09_8-22-27_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+String Long TextBox
+parent dial 1 is displayed --->String Long TextBox
+parent dial 2 is displayed --->CurrencyTextBox
+child dial is displayed --->6RTFEditor
+*****PASS*****
+_____________________________________________________________________________
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 37848
+Only local connections are allowed.
+Sep 09, 2019 8:27:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 22******* *******
+2019-Sep-09_8-27-27_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+String TextBox
+parent dial 1 is displayed --->String TextBox
+parent dial 2 is displayed --->String Long TextBox
+child dial is displayed --->Weight Picker
+*****PASS*****
+_____________________________________________________________________________
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 5684
+Only local connections are allowed.
+Sep 09, 2019 8:32:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 23******* *******
+2019-Sep-09_8-32-44_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+String TextBox
+parent dial 1 is displayed --->String TextBox
+parent dial 2 is displayed --->String TextBox
+child dial is displayed --->WebSiteStringTextBox
+*****PASS*****
+_____________________________________________________________________________
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 25866
+Only local connections are allowed.
+Sep 09, 2019 8:37:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 24******* *******
+2019-Sep-09_8-37-46_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+CurrencyTextBox
+parent dial 1 is displayed --->CurrencyTextBox
+parent dial 2 is displayed --->CurrencyTextBox
+child dial is displayed --->Map Selector
+*****PASS*****
+_____________________________________________________________________________
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 11773
+Only local connections are allowed.
+Sep 09, 2019 8:42:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 25******* *******
+2019-Sep-09_8-42-47_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+MultLine TextBox
+parent dial 1 is displayed --->MultLine TextBox
+parent dial 2 is displayed --->WebSiteStringTextBox
+child dial is displayed --->Time Picker
+*****PASS*****
+_____________________________________________________________________________
+***TOTAL TC's Executed= 25
+***TOTAL TC's PASS= 24
+***TOTAL TC's FAIL= 1

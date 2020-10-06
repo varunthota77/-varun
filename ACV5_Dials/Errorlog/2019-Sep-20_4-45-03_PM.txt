@@ -1,0 +1,20 @@
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 11597
+Only local connections are allowed.
+Sep 20, 2019 4:45:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 14******* *******
+2019-Sep-20_4-45-11_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+WebSiteStringTextBox
+parent dial 1 is displayed --->WebSiteStringTextBox
+parent dial 2 is displayed --->CurrencyTextBox
+child dial is displayed --->OptionRadioList
+*****PASS*****
+_____________________________________________________________________________
+***TOTAL TC's Executed= 1
+***TOTAL TC's PASS= 1
+***TOTAL TC's FAIL= 0

@@ -1,0 +1,11 @@
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 34933
+Only local connections are allowed.
+Apr 03, 2020 10:28:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 1******* *******
+2020-Apr-03_10-28-17_AM
+Admin Login done
+NewAddress1
+NewCity
+Dial settings done successfully
+Admin Logout done
