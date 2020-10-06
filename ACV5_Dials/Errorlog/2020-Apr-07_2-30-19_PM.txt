@@ -1,0 +1,103 @@
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 14204
+Only local connections are allowed.
+Apr 07, 2020 2:30:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 11******* *******
+2020-Apr-07_2-30-46_PM
+Admin Login done
+NewAddress1
+NewCity
+Dial settings done successfully
+Admin Logout done
+MultLine TextBox
+parent dial 1 is displayed --->MultLine TextBox
+parent dial 2 is displayed --->MultLine TextBox
+child dial is displayed --->String TextBox
+Expected Dials are:{MultLine TextBox,MultLine TextBox,String TextBox}
+Actual Dials are:{MultLine TextBox,MultLine TextBox,String TextBox}
+Expected and Actual results are same
+*****PASS*****
+_____________________________________________________________________________
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 34245
+Only local connections are allowed.
+Apr 07, 2020 2:42:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 12******* *******
+2020-Apr-07_2-42-10_PM
+Admin Login done
+NewAddress1
+NewCity
+Dial settings done successfully
+Admin Logout done
+String Long TextBox
+parent dial 1 is displayed --->String Long TextBox
+parent dial 2 is displayed --->String Long TextBox
+child dial is displayed --->CallTracking
+Expected Dials are:{String Long TextBox,String Long TextBox,CallTracking}
+Actual Dials are:{String Long TextBox,String Long TextBox,CallTracking}
+Expected and Actual results are same
+*****PASS*****
+_____________________________________________________________________________
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 12094
+Only local connections are allowed.
+Apr 07, 2020 2:49:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 13******* *******
+2020-Apr-07_2-49-34_PM
+Admin Login done
+NewAddress1
+NewCity
+Dial settings done successfully
+Admin Logout done
+SpellChecker Long TextBox
+parent dial 1 is displayed --->SpellChecker Long TextBox
+parent dial 2 is displayed --->MultLine TextBox
+child dial is displayed --->QRCode
+Expected Dials are:{SpellChecker Long TextBox,MultLine TextBox,QRCode}
+Actual Dials are:{SpellChecker Long TextBox,MultLine TextBox,QRCode}
+Expected and Actual results are same
+*****PASS*****
+_____________________________________________________________________________
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 39751
+Only local connections are allowed.
+Apr 07, 2020 2:56:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 14******* *******
+2020-Apr-07_2-56-56_PM
+Admin Login done
+NewAddress1
+NewCity
+Dial settings done successfully
+Admin Logout done
+WebSiteStringTextBox
+parent dial 1 is displayed --->WebSiteStringTextBox
+parent dial 2 is displayed --->CurrencyTextBox
+child dial is displayed --->OptionRadioList
+Expected Dials are:{WebSiteStringTextBox,CurrencyTextBox,OptionRadioList}
+Actual Dials are:{WebSiteStringTextBox,CurrencyTextBox,OptionRadioList}
+Expected and Actual results are same
+*****PASS*****
+_____________________________________________________________________________
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 34399
+Only local connections are allowed.
+Apr 07, 2020 3:09:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 15******* *******
+2020-Apr-07_3-09-06_PM
+Admin Login done
+NewAddress1
+NewCity
+Dial settings done successfully
+Admin Logout done
+States Dropdown
+parent dial 1 is displayed --->States Dropdown
+parent dial 2 is displayed --->SpellChecker String TextBox
+child dial is displayed --->Image Selector
+Expected Dials are:{States Dropdown,SpellChecker String TextBox,Image Selector}
+Actual Dials are:{States Dropdown,SpellChecker String TextBox,Image Selector}
+Expected and Actual results are same
+*****PASS*****
+_____________________________________________________________________________
+***TOTAL TC's Executed= 5
+***TOTAL TC's PASS= 5
+***TOTAL TC's FAIL= 0

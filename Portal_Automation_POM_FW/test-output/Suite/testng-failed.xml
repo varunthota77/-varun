@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test Fund Approval flow(failed)">
+    <classes>
+      <class name="com.test.suite.Approval_WorkFlow_Test">
+        <methods>
+          <include name="end_test_fundSetup"/>
+          <include name="fund_setup"/>
+          <include name="init_browser"/>
+        </methods>
+      </class> <!-- com.test.suite.Approval_WorkFlow_Test -->
+      <class name="com.test.suite.Fund_Submit_Test">
+        <methods>
+          <include name="init_browser"/>
+          <include name="end_test_fundSetup"/>
+        </methods>
+      </class> <!-- com.test.suite.Fund_Submit_Test -->
+    </classes>
+  </test> <!-- Test Fund Approval flow(failed) -->
+</suite> <!-- Failed suite [Suite] -->

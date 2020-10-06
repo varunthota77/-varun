@@ -1,0 +1,2 @@
+set classpath=D:\Porta_Automation_WorkStuff\portal_automation\Portal_Automation_POM_FW\bin\;D:\Porta_Automation_WorkStuff\portal_automation\Portal_Automation_POM_FW\lib\*
+java org.testng.TestNG testng.xml

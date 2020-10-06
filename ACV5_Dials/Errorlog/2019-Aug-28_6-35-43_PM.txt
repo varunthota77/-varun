@@ -1,0 +1,525 @@
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 24068
+Only local connections are allowed.
+Aug 28, 2019 6:35:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 1******* *******
+2019-Aug-28_6-35-49_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+String TextBox
+parent dial 1 is displayed --->String TextBox
+parent dial 2 is displayed --->CurrencyTextBox
+child dial is displayed --->String Long TextBox
+*****PASS*****
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 1654
+Only local connections are allowed.
+Aug 28, 2019 6:41:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 2******* *******
+2019-Aug-28_6-41-40_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+String Long TextBox
+parent dial 1 is displayed --->String Long TextBox
+parent dial 2 is displayed --->CurrencyTextBox
+child dial is displayed --->String TextBox
+*****PASS*****
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 48894
+Only local connections are allowed.
+Aug 28, 2019 6:47:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 3******* *******
+2019-Aug-28_6-47-06_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+String TextBox
+parent dial 1 is displayed --->String TextBox
+parent dial 2 is displayed --->String Long TextBox
+child dial is displayed --->String Long TextBox
+*****PASS*****
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 20536
+Only local connections are allowed.
+Aug 28, 2019 6:52:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 4******* *******
+2019-Aug-28_6-52-09_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+String TextBox
+parent dial 1 is displayed --->String TextBox
+parent dial 2 is displayed --->String TextBox
+child dial is displayed --->String Long TextBox
+*****PASS*****
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 11990
+Only local connections are allowed.
+Aug 28, 2019 6:57:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 5******* *******
+2019-Aug-28_6-57-04_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+CurrencyTextBox
+parent dial 1 is displayed --->CurrencyTextBox
+parent dial 2 is displayed --->CurrencyTextBox
+child dial is displayed --->SpellChecker Long TextBox
+*****PASS*****
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 36256
+Only local connections are allowed.
+Aug 28, 2019 7:01:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 6******* *******
+2019-Aug-28_7-01-59_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+SpellChecker Long TextBox
+parent dial 1 is displayed --->SpellChecker Long TextBox
+parent dial 2 is displayed --->MultLine TextBox
+child dial is displayed --->String Long TextBox
+*****PASS*****
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 12574
+Only local connections are allowed.
+Aug 28, 2019 7:06:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 7******* *******
+2019-Aug-28_7-06-58_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+WebSiteStringTextBox
+parent dial 1 is displayed --->WebSiteStringTextBox
+parent dial 2 is displayed --->CurrencyTextBox
+child dial is displayed --->String TextBox
+*****PASS*****
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 44007
+Only local connections are allowed.
+Aug 28, 2019 7:11:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 8******* *******
+2019-Aug-28_7-11-49_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+States Dropdown
+parent dial 1 is displayed --->States Dropdown
+parent dial 2 is displayed --->SpellChecker String TextBox
+child dial is displayed --->SpellChecker String TextBox
+*****PASS*****
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 23686
+Only local connections are allowed.
+Aug 28, 2019 7:16:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 9******* *******
+2019-Aug-28_7-16-53_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+MultLine TextBox
+parent dial 1 is displayed --->MultLine TextBox
+parent dial 2 is displayed --->WebSiteStringTextBox
+child dial is displayed --->States Dropdown
+*****PASS*****
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 11304
+Only local connections are allowed.
+[1567000305.634][SEVERE]: bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+Aug 28, 2019 7:21:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 10******* *******
+2019-Aug-28_7-21-49_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+String TextBox
+parent dial 1 is displayed --->String TextBox
+parent dial 2 is displayed --->String TextBox
+child dial is displayed --->String Long TextBox
+*****PASS*****
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 27925
+Only local connections are allowed.
+Aug 28, 2019 7:26:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 11******* *******
+2019-Aug-28_7-26-45_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+MultLine TextBox
+parent dial 1 is displayed --->MultLine TextBox
+parent dial 2 is displayed --->MultLine TextBox
+child dial is displayed --->String TextBox
+*****PASS*****
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 16138
+Only local connections are allowed.
+Aug 28, 2019 7:31:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 12******* *******
+2019-Aug-28_7-31-37_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+String Long TextBox
+parent dial 1 is displayed --->String Long TextBox
+parent dial 2 is displayed --->String Long TextBox
+child dial is displayed --->CallTracking
+*****PASS*****
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 46077
+Only local connections are allowed.
+Aug 28, 2019 7:36:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 13******* *******
+2019-Aug-28_7-36-33_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+SpellChecker Long TextBox
+parent dial 1 is displayed --->SpellChecker Long TextBox
+parent dial 2 is displayed --->MultLine TextBox
+child dial is displayed --->QRCode
+*****PASS*****
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 8298
+Only local connections are allowed.
+Aug 28, 2019 7:41:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 14******* *******
+2019-Aug-28_7-41-34_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+WebSiteStringTextBox
+parent dial 1 is displayed --->WebSiteStringTextBox
+parent dial 2 is displayed --->CurrencyTextBox
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//label[contains(text(),'OptionRadioList')])[1]"}
+  (Session info: chrome=76.0.3809.132)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'VARUN-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir21652_11793}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=76.0.3809.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 43ce33c387d552616888ef70301abc34
+*** Element info: {Using=xpath, value=(//label[contains(text(),'OptionRadioList')])[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:476)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at tec.ACV5.suite.orderFlow.main(orderFlow.java:483)
+java.lang.NullPointerException
+	at tec.ACV5.common.commonclass.captureScreenshot(commonclass.java:73)
+	at tec.ACV5.suite.orderFlow.main(orderFlow.java:507)
+*****FAIL*****
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 23445
+Only local connections are allowed.
+Aug 28, 2019 7:47:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 15******* *******
+2019-Aug-28_7-47-01_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+States Dropdown
+parent dial 1 is displayed --->States Dropdown
+parent dial 2 is displayed --->SpellChecker String TextBox
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//label[contains(text(),'OptionCheckBoxList')])[1]"}
+  (Session info: chrome=76.0.3809.132)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'VARUN-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir10376_29007}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=76.0.3809.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: cf411c4178f81a2a9ff926537e86ff1b
+*** Element info: {Using=xpath, value=(//label[contains(text(),'OptionCheckBoxList')])[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:476)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at tec.ACV5.suite.orderFlow.main(orderFlow.java:483)
+java.lang.NullPointerException
+	at tec.ACV5.common.commonclass.captureScreenshot(commonclass.java:73)
+	at tec.ACV5.suite.orderFlow.main(orderFlow.java:507)
+*****FAIL*****
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 15512
+Only local connections are allowed.
+Aug 28, 2019 7:52:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 16******* *******
+2019-Aug-28_7-52-09_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+MultLine TextBox
+parent dial 1 is displayed --->MultLine TextBox
+parent dial 2 is displayed --->WebSiteStringTextBox
+child dial is displayed --->DropDownList
+*****PASS*****
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 20864
+Only local connections are allowed.
+Aug 28, 2019 7:57:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 17******* *******
+2019-Aug-28_7-57-16_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+String TextBox
+parent dial 1 is displayed --->String TextBox
+parent dial 2 is displayed --->String TextBox
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//label[contains(text(),'Dependent Dropdown')])[1]"}
+  (Session info: chrome=76.0.3809.132)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'VARUN-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir22880_17907}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=76.0.3809.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: f3fc87ed8a9755c26e6c8190c0653e15
+*** Element info: {Using=xpath, value=(//label[contains(text(),'Dependent Dropdown')])[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:476)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at tec.ACV5.suite.orderFlow.main(orderFlow.java:483)
+java.lang.NullPointerException
+	at tec.ACV5.common.commonclass.captureScreenshot(commonclass.java:73)
+	at tec.ACV5.suite.orderFlow.main(orderFlow.java:507)
+*****FAIL*****
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 3361
+Only local connections are allowed.
+Aug 28, 2019 8:02:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 18******* *******
+2019-Aug-28_8-02-25_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+MultLine TextBox
+parent dial 1 is displayed --->MultLine TextBox
+parent dial 2 is displayed --->MultLine TextBox
+child dial is displayed --->Date Time Picker
+*****PASS*****
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 15181
+Only local connections are allowed.
+Aug 28, 2019 8:07:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 19******* *******
+2019-Aug-28_8-07-25_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+String Long TextBox
+parent dial 1 is displayed --->String Long TextBox
+parent dial 2 is displayed --->String Long TextBox
+child dial is displayed --->Date Selector
+*****PASS*****
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 7975
+Only local connections are allowed.
+Aug 28, 2019 8:12:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 20******* *******
+2019-Aug-28_8-12-21_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+String TextBox
+parent dial 1 is displayed --->String TextBox
+parent dial 2 is displayed --->CurrencyTextBox
+child dial is displayed --->Date Picker
+*****PASS*****
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 9135
+Only local connections are allowed.
+Aug 28, 2019 8:17:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 21******* *******
+2019-Aug-28_8-17-20_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'ACTIVE')]"}
+  (Session info: chrome=76.0.3809.132)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'VARUN-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir2512_18160}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=76.0.3809.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 08d63819394d902c494a13c7c8a4d308
+*** Element info: {Using=xpath, value=//span[contains(text(),'ACTIVE')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:476)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at tec.ACV5.suite.orderFlow.main(orderFlow.java:152)
+java.lang.NullPointerException
+	at tec.ACV5.common.commonclass.captureScreenshot(commonclass.java:73)
+	at tec.ACV5.suite.orderFlow.main(orderFlow.java:507)
+*****FAIL*****
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 34736
+Only local connections are allowed.
+Aug 28, 2019 8:20:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 22******* *******
+2019-Aug-28_8-20-59_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+String TextBox
+parent dial 1 is displayed --->String TextBox
+parent dial 2 is displayed --->String Long TextBox
+child dial is displayed --->Weight Picker
+*****PASS*****
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 44077
+Only local connections are allowed.
+Aug 28, 2019 8:25:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 23******* *******
+2019-Aug-28_8-25-52_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+String TextBox
+parent dial 1 is displayed --->String TextBox
+parent dial 2 is displayed --->String TextBox
+child dial is displayed --->WebSiteStringTextBox
+*****PASS*****
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 24009
+Only local connections are allowed.
+Aug 28, 2019 8:30:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 24******* *******
+2019-Aug-28_8-30-56_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+CurrencyTextBox
+parent dial 1 is displayed --->CurrencyTextBox
+parent dial 2 is displayed --->CurrencyTextBox
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//label[contains(text(),'Table Data')])[1]"}
+  (Session info: chrome=76.0.3809.132)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'VARUN-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir22328_25231}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=76.0.3809.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 599db2de84154c27bd3c82de61fefdd2
+*** Element info: {Using=xpath, value=(//label[contains(text(),'Table Data')])[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:476)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at tec.ACV5.suite.orderFlow.main(orderFlow.java:483)
+java.lang.NullPointerException
+	at tec.ACV5.common.commonclass.captureScreenshot(commonclass.java:73)
+	at tec.ACV5.suite.orderFlow.main(orderFlow.java:507)
+*****FAIL*****
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 27345
+Only local connections are allowed.
+Aug 28, 2019 8:36:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 25******* *******
+2019-Aug-28_8-36-01_PM
+Admin Login done
+Text_1
+Text_11
+Dial settings done successfully
+Admin Logout done
+MultLine TextBox
+parent dial 1 is displayed --->MultLine TextBox
+parent dial 2 is displayed --->WebSiteStringTextBox
+child dial is displayed --->Time Picker
+*****PASS*****
+***TOTAL TC's Executed= 25
+***TOTAL TC's PASS= 20
+***TOTAL TC's FAIL= 5

@@ -1,0 +1,111 @@
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 41958
+Only local connections are allowed.
+Apr 08, 2020 7:59:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 16******* *******
+2020-Apr-08_7-59-40_AM
+Admin Login done
+NewAddress1
+NewCity
+Dial settings done successfully
+Admin Logout done
+MultLine TextBox
+parent dial 1 is displayed --->MultLine TextBox
+parent dial 2 is displayed --->WebSiteStringTextBox
+child dial is displayed --->Image Selector
+Expected Dials are:{MultLine TextBox,WebSiteStringTextBox,Image Selector}
+Actual Dials are:{MultLine TextBox,WebSiteStringTextBox,Image Selector}
+Expected and Actual results are same
+*****PASS*****
+_____________________________________________________________________________
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 14088
+Only local connections are allowed.
+Apr 08, 2020 8:07:24 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 17******* *******
+2020-Apr-08_8-07-24_AM
+Admin Login done
+NewAddress1
+NewCity
+Dial settings done successfully
+Admin Logout done
+String TextBox
+parent dial 1 is displayed --->String TextBox
+parent dial 2 is displayed --->String TextBox
+child dial is displayed --->Map Selector
+Expected Dials are:{String TextBox,String TextBox,Map Selector}
+Actual Dials are:{String TextBox,String TextBox,Map Selector}
+Expected and Actual results are same
+*****PASS*****
+_____________________________________________________________________________
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 19327
+Only local connections are allowed.
+Apr 08, 2020 8:14:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 18******* *******
+2020-Apr-08_8-14-20_AM
+Admin Login done
+org.openqa.selenium.WebDriverException: unknown error: Element <a id="lnkProductInfo" name="lnkProductInfo" href="#/productinfo/1,12648238" class="k-link">...</a> is not clickable at point (86, 170). Other element would receive the click: <div class="ui-widget-overlay ui-front" style="z-index: 100;"></div>
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 62 milliseconds
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'VARUN-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir23940_10625}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=80.0.3987.149, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 11c9d36277999e64c4c006d7fef836b2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at tec.ACV5.suite.orderFlow.main(orderFlow.java:146)
+*****FAIL*****
+_____________________________________________________________________________
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 21043
+Only local connections are allowed.
+Apr 08, 2020 8:15:55 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 19******* *******
+2020-Apr-08_8-15-55_AM
+Admin Login done
+NewAddress1
+NewCity
+Dial settings done successfully
+Admin Logout done
+String Long TextBox
+parent dial 1 is displayed --->String Long TextBox
+parent dial 2 is displayed --->String Long TextBox
+child dial is displayed --->Date Selector
+Expected Dials are:{String Long TextBox,String Long TextBox,Date Selector}
+Actual Dials are:{String Long TextBox,String Long TextBox,Date Selector}
+Expected and Actual results are same
+*****PASS*****
+_____________________________________________________________________________
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 43804
+Only local connections are allowed.
+Apr 08, 2020 8:28:35 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+****** ****** Test Case Number --> 20******* *******
+2020-Apr-08_8-28-35_AM
+Admin Login done
+NewAddress1
+NewCity
+Dial settings done successfully
+Admin Logout done
+String TextBox
+parent dial 1 is displayed --->String TextBox
+parent dial 2 is displayed --->CurrencyTextBox
+child dial is displayed --->Date Picker
+Expected Dials are:{String TextBox,CurrencyTextBox,Date Picker}
+Actual Dials are:{String TextBox,CurrencyTextBox,Date Picker}
+Expected and Actual results are same
+*****PASS*****
+_____________________________________________________________________________
+***TOTAL TC's Executed= 5
+***TOTAL TC's PASS= 4
+***TOTAL TC's FAIL= 1
