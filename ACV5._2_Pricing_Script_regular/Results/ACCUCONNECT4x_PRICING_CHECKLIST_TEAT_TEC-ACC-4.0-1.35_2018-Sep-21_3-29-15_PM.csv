@@ -1,0 +1,34 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,ProductDetailsPopUp,Item price,'$3.99,'$0.00,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,ProductDetailsPopUp,Discount,'$0.00,'$5.65,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,ProductDetailsPopUp,Item price,'$3.99,'$0.00,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,ProductDetailsPopUp,Discount,'$0.00,'$5.65,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,VeiwPricingPopUp,Item price,'$3.99,'$0.00,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,Select List,Shipping Price,'$101.99,'$18.99,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,ProductDetailsPopUp,Item price,'$3.99,'$0.00,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,ProductDetailsPopUp,Discount,'$0.00,'$5.65,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,AddonPrice,Addon price,'Addon1 - $0.58 ( Flat Rate ),'Addon1,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,ViewSummary,Item price,'$3.99,'$0.00,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,ViewSummary,subtotal,'$323.19,'$0.00,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,ViewSummary,Discount,'-$0.00,'-( $5.65 ),FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,ViewSummary,Addon price,'$0.58,'$0.00,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,ViewSummary,Shipping price,'$101.99,'$18.99,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,ViewSummary,total,'$425.76,'$18.99,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,ShoppingCart,Item price,'$3.99,'$0.00,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,ShoppingCart,Discount price,'$0.00,'$5.65,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,ShoppingCart,Addon price,'$0.58,'$0.00,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,ShoppingCart,Shipping price,'$101.99,'$18.99,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,ShoppingCart,GridTotal,'$425.76,'$18.99,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,ShoppingCart,total,'$425.76,'$18.99,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,OrderCheckOut,ItemPrice,'$3.99,'$0.00,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,OrderCheckOut,Discount,'$0.00,'ship,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,OrderCheckOut,Shipping price,'$101.99,'$18.99,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,OrderCheckOut,Amount,'$425.76,'$18.99,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,OrderCheckOut,SubTotal,'$425.76,'$18.99,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,OrderCheckOut,PromotionDiscount,'-$22.29,'-$3.49,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,OrderCheckOut,TaxPercentage,'(14.44%),'(7.89%),FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,OrderCheckOut,TaxAmount,'$58.26,'$1.50,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,OrderCheckOut,Total,'$461.73,'$17.00,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,Order checkout,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,OrderCheckout,AppliedPayment,'$461.73,'$17.00,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,Order checkout,CostCenter,'Cost center option displayed to user,'Cost center option NOT displayed to user,FAIL,null

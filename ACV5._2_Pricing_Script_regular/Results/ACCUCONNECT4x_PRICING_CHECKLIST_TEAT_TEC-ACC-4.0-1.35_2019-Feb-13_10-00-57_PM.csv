@@ -1,0 +1,11 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC007,21.0,4 Decimal point, , , , , PASS,7043
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price, , , , , PASS,7044
+TC008,23.0,3 Decimal point, , , , , PASS,7045
+TC008,24.0,4 Decimal point, , , , , PASS,7046
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax, , , , , PASS,7047
+TC009,26.0,3 Decimal point, , , , , PASS,7048
+TC009,27.0,4 Decimal point, , , , , PASS,7049
+TC010,28.0,(2 Decimal point) To test Dynamic-print Drop shipment with list when shipping is Taxable and shipping price is Flatrate., , , , , PASS,7050
+TC010,29.0,3 Decimal point, , , , , PASS,7051
+TC010,30.0,4 Decimal point, , , , , PASS,7052

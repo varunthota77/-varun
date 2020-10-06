@@ -1,0 +1,13 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC048,144.0,4 Decimal point,Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC048,144.0,4 Decimal point,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC048,144.0,4 Decimal point,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7314
+TC048,144.0,4 Decimal point,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7314
+TC048,144.0,4 Decimal point,PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7314
+TC048,144.0,4 Decimal point, , , , , Fail,7314
+TC050,149.0,4 Decimal point
+Currency decimal is 4 and Order amount decimal value is 2,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7315
+TC050,149.0,4 Decimal point
+Currency decimal is 4 and Order amount decimal value is 2,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7315
+TC050,149.0,4 Decimal point
+Currency decimal is 4 and Order amount decimal value is 2,Approver Print Popup,PrintTotal,'$29.75,',FAIL,7315

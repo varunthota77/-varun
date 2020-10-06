@@ -1,0 +1,19 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC014,41.0,3 Decimal point, , , , , PASS,7053
+TC014,42.0,4 Decimal point, , , , , PASS,7054
+TC015,45.0,4 Decimal point,ViewSummary,subtotal,'$14.2365,'$13.2560,FAIL,null
+TC015,45.0,4 Decimal point,ViewSummary,Discount,'-$0.6492,'-$0.6045,FAIL,null
+TC015,45.0,4 Decimal point,ViewSummary,DownloadPrice,'$14.2365,'$13.2560,FAIL,null
+TC015,45.0,4 Decimal point,ViewSummary,total,'$13.5873,'$12.6515,FAIL,null
+TC015,45.0,4 Decimal point,ShoppingCart,GridTotal,'$13.5873,'$12.6515,FAIL,null
+TC015,45.0,4 Decimal point,ShoppingCart,total,'$13.5873,'$12.6515,FAIL,null
+TC015,45.0,4 Decimal point,OrderCheckOut,ItemPrice,'$14.2365,'$13.2560,FAIL,null
+TC015,45.0,4 Decimal point,OrderCheckOut,Amount,'$13.5873,'$12.6515,FAIL,null
+TC015,45.0,4 Decimal point,OrderCheckOut,SubTotal,'$13.5873,'$12.6515,FAIL,null
+TC015,45.0,4 Decimal point,OrderCheckOut,PromotionDiscount,'-$2.3600,'-$1.2300,FAIL,null
+TC015,45.0,4 Decimal point,OrderCheckOut,TaxPercentage,'(7.8900%),'(1.2500%),FAIL,null
+TC015,45.0,4 Decimal point,OrderCheckOut,TaxAmount,'$0.8858,'$0.1428,FAIL,null
+TC015,45.0,4 Decimal point,OrderCheckOut,Total,'$12.1131,'$11.5643,FAIL,null
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type), , , , , PASS,7055
+TC016,47.0,3 Decimal point, , , , , PASS,7056
+TC017,49.0,(2 Decimal point) To test Dynamic-print (Download+shipping) when Discount and promotion coupon are Percentage where item price is flat rate, , , , , PASS,7058

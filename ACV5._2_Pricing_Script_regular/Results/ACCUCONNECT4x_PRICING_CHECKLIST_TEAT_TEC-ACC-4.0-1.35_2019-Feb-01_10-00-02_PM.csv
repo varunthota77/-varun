@@ -1,0 +1,245 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,ProductDetailsPopUp,Item price,'$2,'$2.0000,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,ProductDetailsPopUp,Discount,'1%,'1.0000%,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,VeiwPricingPopUp,Item price,'$2,'$2.0000,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,Select List,Shipping Price,'$9,'$9.00,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,ProductDetailsPopUp,Item price,'$2,'$2.0000,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,ProductDetailsPopUp,Discount,'1%,'1.0000%,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,AddonPrice,Addon price,'Addon1 - $3 ( Per Piece ),'Addon1 - $3.0000 ( Per Piece ),FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,ViewSummary,Discount percentage,'(1 %),'(1.00 %),FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,ViewSummary,Item price,'$2,'$2.0000,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,ViewSummary,subtotal,'$18,'$18.00,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,ViewSummary,Discount,'-$0,'-$0.18,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,ViewSummary,Addon price,'$27,'$27.00,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,ViewSummary,Shipping price,'$9,'$9.00,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,ViewSummary,total,'$54,'$53.82,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,ShoppingCart,Item price,'$2,'$2.0000,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,ShoppingCart,Discount price,'1%,'1.00%,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,ShoppingCart,Addon price,'$27,'$27.00,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,ShoppingCart,Shipping price,'$9,'$9.00,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,ShoppingCart,GridTotal,'$54,'$53.82,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,ShoppingCart,total,'$54,'$53.82,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,OrderCheckOut,ItemPrice,'$2,'$2.0000,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,OrderCheckOut,Shipping price,'$9,'$9.00,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,OrderCheckOut,Amount,'$54,'$53.82,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,OrderCheckOut,SubTotal,'$54,'$53.82,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,OrderCheckOut,PromotionDiscount,'-$4,'-$4.00,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,OrderCheckOut,TaxPercentage,'(2%),'(2.00%),FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,OrderCheckOut,TaxAmount,'$1,'$1.00,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,OrderCheckOut,Total,'null,'$50.82,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,OrderCheckout,AppliedPayment,'$51,'$50.82,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,Order Summary,ItemPrice,'$2,'$2.0000,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,Order Summary,Discount,'1%,'1.00%,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,Order Summary,Shipping price,'$9,'$9.00,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,Order Summary,Amount,'$54,'$53.82,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,Order Summary,SubTotal,'$54,'$53.82,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,Order Summary,PromotionDiscount,'- $4,'- $4.00,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,Order Summary,TaxPercentage,'(2%),'(2.00%),FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,Order Summary,TaxValue,'$1,'$1.00,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,Order Summary,Shipping price,'$9,'$9.00,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,Order Summary,Total,'$51,'$50.82,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,Order Summary,AppliedDiscontPrice,'- $0,'- $0.18,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,Order Summary,AppliedAddonPrice,'$27,'$27.00,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,OS Print Popup,PrintTotal,'$51,'$50.82,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,OS Print Popup,ItemPrice,'$2,'$2.0000,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,OS Print Popup,Discount,'1%,'1.00%,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,OS Print Popup,Amount,'$54,'$53.82,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,OS Print Popup,SubTotal,'$54,'$53.82,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,OS Print Popup,PromotionDiscount,'-$4,'-$4.00,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,OS Print Popup,PrintTaxValue,'$1,'$1.00,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,OS Print Popup,AppliedDiscontPrice,'-$0,'-$0.18,FAIL,7017
+TC051,152.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,OS Print Popup,AppliedAddonPrice,'$27,'$27.00,FAIL,7017
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,ProductDetailsPopUp,Item price,'$1,'$1.0000,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,ProductDetailsPopUp,Discount,'$2,'$2.0000,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,VeiwPricingPopUp,Item price,'$1,'$1.0000,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,Select List,Shipping Price,'$18,'$18.00,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,ProductDetailsPopUp,Item price,'$1,'$1.0000,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,ProductDetailsPopUp,Discount,'$2,'$2.0000,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,AddonPrice,Addon price,'Addon1 - $2 ( Per Piece ),'Addon1 - $2.0000 ( Per Piece ),FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,ViewSummary,Item price,'$1,'$1.0000,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,ViewSummary,subtotal,'$9,'$9.00,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,ViewSummary,Discount,'-( $2 ),'-( $2.00 ),FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,ViewSummary,Addon price,'$18,'$18.00,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,ViewSummary,Shipping price,'$18,'$18.00,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,ViewSummary,total,'$43,'$43.00,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,ShoppingCart,Item price,'$1,'$1.0000,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,ShoppingCart,Discount price,'$2,'$2.00,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,ShoppingCart,Addon price,'$18,'$18.00,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,ShoppingCart,Shipping price,'$18,'$18.00,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,ShoppingCart,GridTotal,'$43,'$43.00,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,ShoppingCart,total,'$43,'$43.00,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,OrderCheckOut,ItemPrice,'$1,'$1.0000,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,OrderCheckOut,Shipping price,'$18,'$18.00,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,OrderCheckOut,Amount,'$43,'$43.00,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,OrderCheckOut,SubTotal,'$43,'$43.00,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,OrderCheckOut,PromotionDiscount,'-$0,'-$0.00,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,OrderCheckOut,TaxPercentage,'(2%),'(2.00%),FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,OrderCheckOut,TaxAmount,'$1,'$0.86,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,OrderCheckOut,Total,'null,'$43.86,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,OrderCheckout,AppliedPayment,'$44,'$43.86,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,Order Summary,ItemPrice,'$1,'$1.0000,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,Order Summary,Discount,'$2,'$2.00,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,Order Summary,Shipping price,'$18,'$18.00,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,Order Summary,Amount,'$43,'$43.00,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,Order Summary,SubTotal,'$43,'$43.00,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,Order Summary,TaxPercentage,'(2%),'(2.00%),FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,Order Summary,TaxValue,'$1,'$0.86,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,Order Summary,Shipping price,'$18,'$18.00,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,Order Summary,Total,'$44,'$43.86,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,Order Summary,AppliedDiscontPrice,'- $2,'- $2.00,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,Order Summary,AppliedAddonPrice,'$18,'$18.00,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,OS Print Popup,PrintTotal,'$44,'$43.86,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,OS Print Popup,ItemPrice,'$1,'$1.0000,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,OS Print Popup,Discount,'$2,'$2.00,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,OS Print Popup,Amount,'$43,'$43.00,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,OS Print Popup,SubTotal,'$43,'$43.00,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,OS Print Popup,PrintTaxValue,'$1,'$0.86,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,OS Print Popup,AppliedDiscontPrice,'-$2,'-$2.00,FAIL,7018
+TC051,153.0,4 Decimal point
+Currency decimal and Order amount decimal values are Zero's,OS Print Popup,AppliedAddonPrice,'$18,'$18.00,FAIL,7018
+TC051,154.0,4 Decimal point
+Currency decimal is Zero and Order amount decimal value is 3,ProductDetailsPopUp,Item price,'$2,'$2.0000,FAIL,7019
+TC051,154.0,4 Decimal point
+Currency decimal is Zero and Order amount decimal value is 3,ProductDetailsPopUp,Discount,'1%,'1.0000%,FAIL,7019
+TC051,154.0,4 Decimal point
+Currency decimal is Zero and Order amount decimal value is 3,VeiwPricingPopUp,Item price,'$2,'$2.0000,FAIL,7019
+TC051,154.0,4 Decimal point
+Currency decimal is Zero and Order amount decimal value is 3,ProductDetailsPopUp,Item price,'$2,'$2.0000,FAIL,7019
+TC051,154.0,4 Decimal point
+Currency decimal is Zero and Order amount decimal value is 3,ProductDetailsPopUp,Discount,'1%,'1.0000%,FAIL,7019
+TC051,154.0,4 Decimal point
+Currency decimal is Zero and Order amount decimal value is 3,AddonPrice,Addon price,'Addon1 - $1 ( Per Piece ),'Addon1 - $1.0000 ( Per Piece ),FAIL,7019
+TC051,154.0,4 Decimal point
+Currency decimal is Zero and Order amount decimal value is 3,ViewSummary,Item price,'$2,'$2.0000,FAIL,7019
+TC051,154.0,4 Decimal point
+Currency decimal is Zero and Order amount decimal value is 3,ShoppingCart,Item price,'$2,'$2.0000,FAIL,7019
+TC051,154.0,4 Decimal point
+Currency decimal is Zero and Order amount decimal value is 3,OrderCheckOut,ItemPrice,'$2,'$2.0000,FAIL,7019
+TC051,154.0,4 Decimal point
+Currency decimal is Zero and Order amount decimal value is 3,Order Summary,ItemPrice,'$2,'$2.0000,FAIL,7019
+TC051,154.0,4 Decimal point
+Currency decimal is Zero and Order amount decimal value is 3,OS Print Popup,ItemPrice,'$2,'$2.0000,FAIL,7019
+TC051,155.0,4 Decimal point
+Currency decimal is 3 and Order amount decimal value is 2,Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,7020
+TC051,155.0,4 Decimal point
+Currency decimal is 3 and Order amount decimal value is 2,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7020
+TC052,156.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters Custom Tax_OFF,VeiwPricingPopUp,Item price,'$0.54,'$32.38,FAIL,7021
+TC052,156.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters Custom Tax_OFF,ProductDetailsPopUp,Item price,'$0.54,'$32.38,FAIL,7021
+TC052,156.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters Custom Tax_OFF,ProductDetailsPopUp,Discount,'$2.54,'2.53%,FAIL,7021
+TC052,156.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters Custom Tax_OFF,AddonPrice,Addon price,'Addon1 - $3.45 ( Flat Rate ),'Addon1 - $35.21 ( Flat Rate ),FAIL,7021
+TC052,156.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters Custom Tax_OFF,ViewSummary,Item price,'$0.54,'$32.38,FAIL,7021
+TC052,156.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters Custom Tax_OFF,ViewSummary,subtotal,'$5.40,'$32.38,FAIL,7021
+TC052,156.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters Custom Tax_OFF,ViewSummary,Discount,'-( $2.54 ),'-$0.82,FAIL,7021
+TC052,156.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters Custom Tax_OFF,ViewSummary,Addon price,'$3.45,'$35.21,FAIL,7021
+TC052,156.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters Custom Tax_OFF,ViewSummary,postage price,'$100.00,'$0.00,FAIL,7021
+TC052,156.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters Custom Tax_OFF,ViewSummary,total,'$106.31,'$66.77,FAIL,7021
+TC052,156.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters Custom Tax_OFF,ShoppingCart,Item price,'$0.54,'$32.38,FAIL,7021
+TC052,156.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters Custom Tax_OFF,ShoppingCart,Discount price,'$2.54,'2.53%,FAIL,7021
+TC052,156.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters Custom Tax_OFF,ShoppingCart,Addon price,'$3.45,'$35.21,FAIL,7021
+TC052,156.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters Custom Tax_OFF,ShoppingCart,postage price,'$100.00,'$0.00,FAIL,7021
+TC052,156.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters Custom Tax_OFF,ShoppingCart,GridTotal,'$106.31,'$66.77,FAIL,7021
+TC052,156.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters Custom Tax_OFF,ShoppingCart,total,'$106.31,'$66.77,FAIL,7021
+TC052,156.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters Custom Tax_OFF,OrderCheckOut,ItemPrice,'$0.54,'$32.3780,FAIL,7021
+TC052,156.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters Custom Tax_OFF,OrderCheckOut,postage price,'$100.00,'$0.0000,FAIL,7021
+TC052,156.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters Custom Tax_OFF,OrderCheckOut,Amount,'$106.31,'$66.7718,FAIL,7021
+TC052,156.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters Custom Tax_OFF,OrderCheckOut,SubTotal,'$106.31,'$66.7718,FAIL,7021
+TC052,156.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters Custom Tax_OFF,OrderCheckOut,PromotionDiscount,'-$1.54,'-$3.4920,FAIL,7021
+TC052,156.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters Custom Tax_OFF,OrderCheckOut,TaxAmount,'$0.00,'$3.5120,FAIL,7021
+TC052,156.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters Custom Tax_OFF,OrderCheckOut,Total,'$104.77,'$66.7918,FAIL,7021
+TC052,156.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters Custom Tax_OFF,OrderCheckout,AppliedPayment,'$104.77,'$66.7918,FAIL,7021

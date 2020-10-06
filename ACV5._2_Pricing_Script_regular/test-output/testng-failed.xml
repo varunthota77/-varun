@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="tec.AC40.Suite.OrderFlow">
+        <methods>
+          <include name="AccuPrice"/>
+          <include name="CreateFolder"/>
+          <include name="root"/>
+        </methods>
+      </class> <!-- tec.AC40.Suite.OrderFlow -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

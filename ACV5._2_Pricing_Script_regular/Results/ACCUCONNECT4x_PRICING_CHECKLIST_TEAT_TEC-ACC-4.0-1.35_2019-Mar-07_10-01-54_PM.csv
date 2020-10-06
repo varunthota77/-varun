@@ -1,0 +1,36 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC047,141.0,4 Decimal point,Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC047,141.0,4 Decimal point,Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC047,141.0,4 Decimal point,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC047,141.0,4 Decimal point,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7139
+TC047,141.0,4 Decimal point,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7139
+TC047,141.0,4 Decimal point,PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7139
+TC047,141.0,4 Decimal point, , , , , Fail,7139
+TC048,142.0,(2 Decimal point) To test Static-Inventory Ship to My Address: Print when shipping is Taxable and shipping price and Item price are Flat rate.(Applying only tax and addOns(Per Piece)),Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC048,142.0,(2 Decimal point) To test Static-Inventory Ship to My Address: Print when shipping is Taxable and shipping price and Item price are Flat rate.(Applying only tax and addOns(Per Piece)),OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC048,142.0,(2 Decimal point) To test Static-Inventory Ship to My Address: Print when shipping is Taxable and shipping price and Item price are Flat rate.(Applying only tax and addOns(Per Piece)),User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7140
+TC048,142.0,(2 Decimal point) To test Static-Inventory Ship to My Address: Print when shipping is Taxable and shipping price and Item price are Flat rate.(Applying only tax and addOns(Per Piece)),Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7140
+TC048,142.0,(2 Decimal point) To test Static-Inventory Ship to My Address: Print when shipping is Taxable and shipping price and Item price are Flat rate.(Applying only tax and addOns(Per Piece)),PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7140
+TC048,142.0,(2 Decimal point) To test Static-Inventory Ship to My Address: Print when shipping is Taxable and shipping price and Item price are Flat rate.(Applying only tax and addOns(Per Piece)), , , , , Fail,7140
+TC048,143.0,3 Decimal point,Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC048,143.0,3 Decimal point,Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC048,143.0,3 Decimal point,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC048,143.0,3 Decimal point,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7141
+TC048,143.0,3 Decimal point,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7141
+TC048,143.0,3 Decimal point,PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7141
+TC048,143.0,3 Decimal point, , , , , Fail,7141
+TC048,144.0,4 Decimal point,Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC048,144.0,4 Decimal point,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC048,144.0,4 Decimal point,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7142
+TC048,144.0,4 Decimal point,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7142
+TC048,144.0,4 Decimal point,PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7142
+TC048,144.0,4 Decimal point, , , , , Fail,7142
+TC049,145.0,(2 Decimal point) Static Inventory-Ship to Multiple Locations, , , , , PASS,7143
+TC049,146.0,3 Decimal point, , , , , PASS,7144
+TC049,147.0,4 Decimal point, , , , , PASS,7145
+TC050,148.0,4 Decimal point
+Currency decimal is 4 and Order amount decimal value is 2, , , , , PASS,7146
+TC050,149.0,4 Decimal point
+Currency decimal is 4 and Order amount decimal value is 2, , , , , PASS,7147
+TC050,150.0,4 Decimal point
+Currency decimal is 4 and Order amount decimal value is 3, , , , , PASS,7148

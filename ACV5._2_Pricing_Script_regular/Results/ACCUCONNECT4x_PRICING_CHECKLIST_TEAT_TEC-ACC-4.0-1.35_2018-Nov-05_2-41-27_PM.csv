@@ -1,0 +1,16 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC002,5.0,3 Decimal point,ShoppingCart,Quantity,'10.0,'17,FAIL,null
+TC002,5.0,3 Decimal point,ShoppingCart,postage price,'$100.000,'$11.890,FAIL,null
+TC002,5.0,3 Decimal point,ShoppingCart,GridTotal,'$138.548,'$50.438,FAIL,null
+TC002,5.0,3 Decimal point,ShoppingCart,total,'$138.548,'$188.986,FAIL,null
+TC002,5.0,3 Decimal point,OrderCheckOut,Quantity,'10.0,'17,FAIL,null
+TC002,5.0,3 Decimal point,OrderCheckOut,postage price,'$100.000,'$11.890,FAIL,null
+TC002,5.0,3 Decimal point,OrderCheckOut,Amount,'$138.548,'$50.438,FAIL,null
+TC002,5.0,3 Decimal point,OrderCheckOut,SubTotal,'$138.548,'$50.438,FAIL,null
+TC002,5.0,3 Decimal point,OrderCheckOut,PromotionDiscount,'-$2.120,'-$0.000,FAIL,null
+TC002,5.0,3 Decimal point,OrderCheckOut,Total,'$136.428,'$50.438,FAIL,null
+TC002,5.0,3 Decimal point,OrderCheckout,AppliedPayment,'$136.428,'$50.438,FAIL,null
+TC002,5.0,3 Decimal point,OS Print Popup,PrintTotal,'$136.428,'$50.438,FAIL,null
+TC002,5.0,3 Decimal point,OS Print Popup,Quantity,'10.0,'17,FAIL,null
+TC002,5.0,3 Decimal point,OS Print Popup,Amount,'$138.548,'$50.438,FAIL,null
+TC002,5.0,3 Decimal point,OS Print Popup,SubTotal,'$138.548,'$50.438,FAIL,null

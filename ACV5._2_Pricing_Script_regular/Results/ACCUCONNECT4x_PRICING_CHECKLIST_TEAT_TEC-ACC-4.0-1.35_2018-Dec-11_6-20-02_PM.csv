@@ -1,0 +1,35 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC001,2.0,3 Decimal point,ProductDetailsPopUp,Item price,'$0.742,'$0.54,FAIL,null
+TC001,2.0,3 Decimal point,ProductDetailsPopUp,Discount,'$2.641,'$0.00,FAIL,null
+TC001,2.0,3 Decimal point,ProductDetailsPopUp,Item price,'$0.742,'$0.54,FAIL,null
+TC001,2.0,3 Decimal point,ProductDetailsPopUp,Discount,'$2.641,'$0.00,FAIL,null
+TC001,2.0,3 Decimal point,VeiwPricingPopUp,Item price,'$0.742,'$0.54,FAIL,null
+TC001,2.0,3 Decimal point,ProductDetailsPopUp,Item price,'$0.742,'$0.54,FAIL,null
+TC001,2.0,3 Decimal point,ProductDetailsPopUp,Discount,'$2.641,'$0.00,FAIL,null
+TC001,2.0,3 Decimal point,AddonPrice,Addon price,'Addon1 - $4.456 ( Flat Rate ),'Addon1 - $0.23 ( Flat Rate ),FAIL,null
+TC001,2.0,3 Decimal point,ViewSummary,Item price,'$0.742,'$0.54,FAIL,null
+TC001,2.0,3 Decimal point,ViewSummary,subtotal,'$7.420,'$5.40,FAIL,null
+TC001,2.0,3 Decimal point,ViewSummary,Discount,'-( $2.641 ),'-$0.00,FAIL,null
+TC001,2.0,3 Decimal point,ViewSummary,Addon price,'$4.456,'$0.23,FAIL,null
+TC001,2.0,3 Decimal point,ViewSummary,postage price,'$100.000,'$100.00,FAIL,null
+TC001,2.0,3 Decimal point,ViewSummary,total,'$109.235,'$105.63,FAIL,null
+TC001,2.0,3 Decimal point,ShoppingCart,Item price,'$0.742,'$0.54,FAIL,null
+TC001,2.0,3 Decimal point,ShoppingCart,Discount price,'$2.641,'$0.00,FAIL,null
+TC001,2.0,3 Decimal point,ShoppingCart,Addon price,'$4.456,'$0.23,FAIL,null
+TC001,2.0,3 Decimal point,ShoppingCart,postage price,'$100.000,'$100.00,FAIL,null
+TC001,2.0,3 Decimal point,ShoppingCart,GridTotal,'$109.235,'$105.63,FAIL,null
+TC001,2.0,3 Decimal point,ShoppingCart,total,'$109.235,'$105.63,FAIL,null
+TC001,2.0,3 Decimal point,OrderCheckOut,ItemPrice,'$0.742,'$0.54,FAIL,null
+TC001,2.0,3 Decimal point,OrderCheckOut,postage price,'$100.000,'$100.00,FAIL,null
+TC001,2.0,3 Decimal point,OrderCheckOut,Amount,'$109.235,'$105.63,FAIL,null
+TC001,2.0,3 Decimal point,OrderCheckOut,SubTotal,'$109.235,'$105.63,FAIL,null
+TC001,2.0,3 Decimal point,OrderCheckOut,PromotionDiscount,'-$2.540,'-$0.00,FAIL,null
+TC001,2.0,3 Decimal point,OrderCheckOut,TaxPercentage,'(8.461%),'(2.85%),FAIL,null
+TC001,2.0,3 Decimal point,OrderCheckOut,TaxAmount,'$9.027,'$3.01,FAIL,null
+TC001,2.0,3 Decimal point,OrderCheckOut,Total,'$115.722,'$108.64,FAIL,null
+TC001,2.0,3 Decimal point,OrderCheckout,AppliedPayment,'$115.722,'$108.64,FAIL,null
+TC001,2.0,3 Decimal point,OS Print Popup,PrintTotal,'$115.722,'$108.64,FAIL,null
+TC001,2.0,3 Decimal point,OS Print Popup,ItemPrice,'$0.742,'$0.54,FAIL,null
+TC001,2.0,3 Decimal point,OS Print Popup,Discount,'$2.641,'$0.00,FAIL,null
+TC001,2.0,3 Decimal point,OS Print Popup,Amount,'$109.235,'$105.63,FAIL,null
+TC001,2.0,3 Decimal point,OS Print Popup,SubTotal,'$109.235,'$105.63,FAIL,null

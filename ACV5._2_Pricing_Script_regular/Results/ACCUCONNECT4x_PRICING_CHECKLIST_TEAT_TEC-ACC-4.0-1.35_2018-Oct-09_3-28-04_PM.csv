@@ -1,0 +1,2 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price, , , , , Fail,6637

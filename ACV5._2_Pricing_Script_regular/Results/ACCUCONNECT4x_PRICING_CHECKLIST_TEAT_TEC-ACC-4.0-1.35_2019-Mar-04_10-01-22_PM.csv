@@ -1,0 +1,21 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC034,101.0,3 Decimal point,Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC034,101.0,3 Decimal point,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC034,101.0,3 Decimal point,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7169
+TC034,101.0,3 Decimal point,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7169
+TC034,101.0,3 Decimal point,PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7169
+TC034,101.0,3 Decimal point, , , , , Fail,7169
+TC034,102.0,4 Decimal point,Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC034,102.0,4 Decimal point,Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC034,102.0,4 Decimal point,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC034,102.0,4 Decimal point,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7170
+TC034,102.0,4 Decimal point,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7170
+TC034,102.0,4 Decimal point,PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7170
+TC034,102.0,4 Decimal point, , , , , Fail,7170
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type, , , , , PASS,7171
+TC035,104.0,3 Decimal point, , , , , PASS,7172
+TC035,105.0,4 Decimal point, , , , , PASS,7173
+TC036,106.0,(2 Decimal point) To test Static-Download/Print Item process type , , , , , PASS,7174
+TC036,107.0,3 Decimal point, , , , , PASS,7175
+TC037,110.0,3 Decimal point, , , , , PASS,7177
+TC037,111.0,4 Decimal point, , , , , PASS,7178

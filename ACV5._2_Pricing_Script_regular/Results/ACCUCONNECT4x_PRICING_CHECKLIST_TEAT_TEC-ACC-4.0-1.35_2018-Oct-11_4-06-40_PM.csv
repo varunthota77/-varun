@@ -1,0 +1,22 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC001,2.0,3 Decimal point,ProductDetailsPopUp,Item price,'$0.742,'$0.00,FAIL,null
+TC001,2.0,3 Decimal point,ProductDetailsPopUp,Discount,'$2.641,'$1.22,FAIL,null
+TC001,2.0,3 Decimal point,ProductDetailsPopUp,Item price,'$0.742,'$0.00,FAIL,null
+TC001,2.0,3 Decimal point,ProductDetailsPopUp,Discount,'$2.641,'$1.22,FAIL,null
+TC001,2.0,3 Decimal point,VeiwPricingPopUp,Item price,'$0.742,'$0.00,FAIL,null
+TC001,2.0,3 Decimal point,ProductDetailsPopUp,Item price,'$0.742,'$0.00,FAIL,null
+TC001,2.0,3 Decimal point,ProductDetailsPopUp,Discount,'$2.641,'$1.22,FAIL,null
+TC001,2.0,3 Decimal point,AddonPrice,Addon price,'Addon1 - $4.456 ( Flat Rate ),'Addon1,FAIL,null
+TC001,2.0,3 Decimal point,ViewSummary,Item price,'$0.742,'$0.00,FAIL,null
+TC001,2.0,3 Decimal point,ViewSummary,subtotal,'$7.420,'$0.00,FAIL,null
+TC001,2.0,3 Decimal point,ViewSummary,Discount,'-( $2.641 ),'-( $1.22 ),FAIL,null
+TC001,2.0,3 Decimal point,ViewSummary,Addon price,'$4.456,'$0.00,FAIL,null
+TC001,2.0,3 Decimal point,ViewSummary,postage price,'$100.000,'$0.00,FAIL,null
+TC001,2.0,3 Decimal point,ViewSummary,total,'$109.235,'$0.00,FAIL,null
+TC001,2.0,3 Decimal point,ShoppingCart,Item price,'$0.742,'$0.00,FAIL,null
+TC001,2.0,3 Decimal point,ShoppingCart,Discount price,'$2.641,'$1.22,FAIL,null
+TC001,2.0,3 Decimal point,ShoppingCart,Addon price,'$4.456,'$0.00,FAIL,null
+TC001,2.0,3 Decimal point,ShoppingCart,postage price,'$100.000,'$0.00,FAIL,null
+TC001,2.0,3 Decimal point,ShoppingCart,GridTotal,'$109.235,'$0.00,FAIL,null
+TC001,2.0,3 Decimal point,ShoppingCart,total,'$109.235,'$0.00,FAIL,null
+TC001,2.0,3 Decimal point,Order checkout,CostCenter,'Cost center option NOT displayed to user,'Cost center option displayed to user,FAIL,null

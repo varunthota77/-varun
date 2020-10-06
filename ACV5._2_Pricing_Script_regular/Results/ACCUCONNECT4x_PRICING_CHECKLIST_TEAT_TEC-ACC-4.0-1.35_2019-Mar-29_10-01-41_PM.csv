@@ -1,0 +1,13 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters , , , , , PASS,7316
+TC001,2.0,3 Decimal point, , , , , PASS,7317
+TC001,3.0,4 Decimal point, , , , , PASS,7318
+TC002,4.0,(2 Decimal point) To test Dynamic-print with list When Enable calculate tax is unchecked., , , , , PASS,7319
+TC002,5.0,3 Decimal point, , , , , PASS,7320
+TC002,6.0,4 Decimal point,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC002,6.0,4 Decimal point,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC002,6.0,4 Decimal point,OS Print Popup,PrintTotal,'$156.5363,',FAIL,null
+TC003,7.0,(2 Decimal point) To test Dynamic-print when Discount and promotion coupon Percentage where item price is flat rate, , , , , PASS,7322
+TC003,8.0,3 Decimal point, , , , , PASS,7323
+TC003,9.0,4 Decimal point, , , , , PASS,7324
+TC004,10.0,(2 Decimal point) To test Dynamic-print with list WhenDiscount percentage and coupon value., , , , , PASS,7325

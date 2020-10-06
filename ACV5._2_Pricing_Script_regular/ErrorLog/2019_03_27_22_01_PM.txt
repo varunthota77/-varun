@@ -1,0 +1,2553 @@
+****** ****** Test Case Number --> 121.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 27726
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+<------- Both Item prices are different ------> 1
+Expected value: $1.27
+ Actual value :$1.25
+<----  Both Discount prices are different ------> 2
+Exptected value :$2.78
+ Actual value :3.11%
+<------- Both Item prices are different ------> 3
+Expected value: $1.27
+ Actual value :$1.25
+<----  Both Discount prices are different ------> 4
+Exptected value :$2.78
+ Actual value :3.11%
+<------- Both Itemm prices are different ------> 5
+Expected value: $1.27
+Actual value :$1.25
+Report are saved and closed
+org.openqa.selenium.WebDriverException: unknown error: Element <input type="text" data-bind="value:ContactFieldValue,attr:{ id:id,name:id, ContactType:ContactType},enable:isReadOnly" maxlength="50" id="SHIP_CF_PHONE-1077" name="SHIP_CF_PHONE-1077" contacttype="12" data-role="maskedtextbox" class="" autocomplete="off" tabindex="8"> is not clickable at point (521, 496). Other element would receive the click: <div class="ui-widget-overlay ui-front"></div>
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 50 milliseconds
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir11224_6075}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=73.0.3683.86, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: f2ca84397107b0c9fa0fb3c29a835b43
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:1786)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Time Stamp : _2019-Mar-27_10-09-29_PM
+ Don't kill browser
+****** ****** Test Case Number --> 122.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 8328
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+<------- Both Item prices are different ------> 1
+Expected value: $1.679
+ Actual value :$1.25
+<----  Both Discount prices are different ------> 2
+Exptected value :$1.560
+ Actual value :3.11%
+<------- Both Item prices are different ------> 3
+Expected value: $1.679
+ Actual value :$1.25
+<----  Both Discount prices are different ------> 4
+Exptected value :$1.560
+ Actual value :3.11%
+<------- Both Itemm prices are different ------> 5
+Expected value: $1.679
+Actual value :$1.25
+6 SelectListActualShipping2 :$1.94
+<------- Select List Both Shipping Prices are different ------> 6
+Actual Shipping price is : $1.94
+Expected shipping price is : $2.896
+<------- Both Item prices are different ------> 7
+Expected value: $1.679
+ Actual value :$1.25
+<----  Both Discount prices are different ------> 8
+Exptected value :$1.560
+ Actual value :3.11%
+<----- View Summary Both Addon prices are different ----->9
+Actual Addon price is: Addon1
+Expected Addon price is: Addon1 - $0.902 ( Flat Rate )
+OrderFlow.IsBaseDiscountZero :false
+BasePriceIncrementValue :0
+Quantity11234____11
+<----- View Summary Both item prices are different ----->10
+Actual Item price is: $1.25
+Expected Item price is: $1.679
+<----- View Summary Both subtotals are different ----->11
+Actual subtotal is : $13.75
+Expected subtotal is : $18.469
+ActualDiscount-$0.43
+ExpectedDiscount-( $1.560 )
+ActualDiscount0908hh-$0.43
+<------ View Summary Both Discount prices are different ------>12
+Actual Discount price is : -$0.43
+Expected Discount price is : -( $1.560 )
+<------- View Summary Both Addon prices are different ------>13
+Actual Addon price is : $0.00
+Expected Addon price is : $0.902
+<------ View Summary Both Shipping prices are different ----->14
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $2.896
+<------View Summary Both Total values are different ----->15
+Actual total value is :$15.26
+Expected total value is :$20.707
+<----- Shopping cart Both item prices are different -------->16
+Actual Item price is: $1.25
+Expected Item price is: $1.679
+<-------- Shopping cart Both Discount prices are different ------>17
+Actual Discount price is : 3.11%
+Expected Discount price is : $1.560
+<-------- Shopping cart Both Addon prices are different ------->18
+Actual Addon price is : $0.00
+Expected Addon price is : $0.902
+<-------- Shopping cart Both Shipping prices are different -------->19
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $2.896
+<---------Shopping cart  Both Total values are different -------->20
+Actual total value is :$15.26
+Expected total value is :$20.707
+<---------- Shopping cart Both Total values are different ---------->21
+Actual total value is :$15.26
+Expected total value is :$20.707
+<------- Order Checkout Both Item prices are different --------> 22
+ActualOCItemPrice : $1.25
+ExpectedItemPrice : $1.679
+gc
+<-------- Order CheckOut Both Shipping prices are different -------->23
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $2.896
+mp
+<---------- Order Checkout Both Amounts are different1 ------------>24
+ActualOCAmount : $15.26
+ExpectedAmount : $20.707
+<----------- Order Checkout Both SubTotals are different ---------->25
+ActualOCSubTotal : $15.26
+ExpectedAmount : $20.707
+<-------- Order Checkout Both Promotion discounts are different ---------->26
+ActualOCPromotionDiscount : -$2.24
+ExpectedPromotionDiscount : -$1.650
+<------------- Order Checkout Both Tax percentages are different ------------>27
+ActualOCTaxPercentage : (5.98%)
+ExpectedTaxpercentage : (2.150%)
+<---------- Order Checkout Both Tax amounts are different ------------->28
+ActualOCTaxAmount : $0.78
+ExpectedTaxAmount : $0.410
+<------------ Order Checkout Both GrandTotal Amounts are different ----------->29
+ActualOCTotal : $13.80
+ExpectedTotal : $19.467
+<--------- Ordercheckout Both applied payments values are different -------->30
+Actual Applied value is :$13.80
+Expected Applied value is :$19.467
+<----------- Order Summary Bothe Item prices are different -------->31
+ExpectedOSItemPrice : $1.679
+ActualOSItemPrice : $1.25
+<--------- Order Summary Both Discount prices are different ------------>32
+ExpectedOSDiscount : $1.560
+ActualOSDiscount : 3.11%
+<-------- Order Summary Both Shipping prices are different1 -------->33
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $2.896
+<---------- Order Summary Both Amounts are different2 ------------>34
+ExpectedOSAmount : $20.707
+ActualOSAmount : $15.26
+<----------Order Summary Both SubTotal are different ---------->35
+ExpectedOSSubTotal : $20.707
+ActualOSSubTotal : $15.26
+<--------- Order Summary Both Promotion Discount are different --------> 36
+ExpectedOSPromotionDiscount : - $1.650
+ActualOSPromotionDiscount : - $2.24
+<------------- Order Summary Both Tax percentages are different ------------->37
+ExpectedOSTaxPercentage : (2.150%)
+ActualOSTaxPercentage : (5.98%)
+<--------Order Summary Both Tax values are different ---------->38
+ExpectedOSTaxValue : $0.410
+ActualOSTaxValue : $0.78
+<-------- Order Summary Both Shipping prices are different3 -------->39
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $2.896
+<---------- Order Summary Both Total values are different ---------->40
+ExpectedOSTotal : $19.467
+ ActualOSTotal : $13.80
+<----------Order Summary Both Applied Discount values are different ------------->41
+ExpectedOSAppliedDiscontPrice : - $1.560
+ActualOSAppliedDiscontPrice : - $0.43
+<------------ Order Summary Both Applied Addon prices are different----------->42
+ExpectedOSAppliedAddonPrice : $0.902
+ActualOSAppliedAddonPrice : $0.00
+billing1Billed to :
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+<--------- Both Total1 prices are different --------->43
+ExpectedPrintTotal1 : $19.467
+ActualPrintTotal1 : $13.80
+<-------- Bothe Item prices are different --------->44
+ExpectedPrintPOPUPSItemPrice : $1.679
+ActualPrintPOPUPSItemPrice : $1.25
+<------- Both Discount prices are different --------->45
+ExpectedPrintPOPUPSDiscount : $1.560
+ActualPrintPOPUPDiscount : 3.11%
+<-------- Both Amounts are different-------> 46
+ExpectedPrintPOPUPAmount : $20.707
+ActualPrintPOPUPAmount : $15.26
+<-------- Both SubTotal are different---------> 47
+ExpectedPrintPOPUPSubTotal :$20.707
+ActualPrintPOPUPSubTotal :$15.26
+<-------- Both Promotion Discounts are different --------->48
+ExpectedPrintPOPUPPromotionDiscount : -$1.650
+ActualPrintPOPUPPromotionDiscount : -$2.24
+<-------- Both Tax values are different --------->49
+ExpectedPrintTaxValue : $0.410
+ActualPrintPOPUPTaxValue : $0.78
+<-------- Both Applied Discount prices are different --------->50
+ExpectedPrintPOPUPAppliedDiscontPrice : -$1.560
+ActualPrintPOPUPAppliedDiscontPrice : -$0.43
+<-------- Both Applied Addon prices are different --------->51
+ExpectedPrintPOPUPAppliedAddonPrice : $0.902
+ActualPrintPOPUPAppliedAddonPrice : $0.00
+OrderNumber : 7308
+<--------- Both View orders grid subtotal prices are different ------> 52
+Expected value: $18.469
+  Actual value :$13.75
+ VO Popup Sub total price is -->$13.75
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  11
+Int Actual Qunaity -->11
+**ActualQuantity**11
+Both Item quantitys are same
+<-------- Both View Order Grid Pop-Up Item Prices are different --------->53
+Expected View Order Grid  Item Prices price : $1.679
+Actual Users View Order Grid  price : $1.25
+<-------- Both item Subtotals in view order grid popup values are different --------->54
+Expected View Order Grid  Subtotal price : $18.469
+Actual View Order Grid  Subtotal price : $13.75
+<-------- Both view order grid popup Addon prices are different --------->55
+Expected View Order Grid  Addon price : $0.902
+Actual View Order Grid  Addon price : $0.00
+OrderFlow.IsBaseDiscountZero :false
+BasePriceIncrementValue :0
+<-------- Both VOGPOPUP item Discount prices are different --------->56
+Expected View Order Grid Discount price : $1.560
+Actual View Order Grid  Discount price : 3.11%
+<------ VOGPOPUP Both Shipping prices are different1 ----->57
+Actual View Order Grid  Shipping price value is: $1.94
+Expected View Order Grid  Shipping price value is: $2.896
+<-------- Both order total Subtotals in view order grid popup values are different --------->58
+Expected View Order Grid  Subtotal price : $18.469
+Actual View Order Grid  Subtotal price : $13.75
+<-------- Both VOGPOPUP order total Addon prices are different --------->59
+Expected User View Order Grid Popup Addon price : $0.902
+Actual Users  View Order Grid Popup Addon price : $0.00
+ExpectedOrderDiscount4
+<-------- Both VOGPOPUP order  Discount prices are different --------->60
+Expected User VOGPOPUP order  Discount price : -$1.560
+Actual Users VOGPOPUP order  Discount price : -$0.43
+<-------- Both VOGPOPUP order  Promotion Discount prices are different --------->61
+Expected User VOGPOPUP order  Promotion Discount price : -$1.650
+Actual Users VOGPOPUP order  Promotion Discount price : -$2.24
+<-------- Both VOGPOPUP order  Promotion Shipping prices are different 1--------->62
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $2.896
+<-------- Both VOGPOPUP order Postage prices are different --------->63
+Expected User View Orders Postage price : $0.000
+Actual Users view orders Postage price : $0.00
+<-------- Both VOGPOPUP order  Tax prices are different3 -------->64
+Expected User View Orders Tax price : $0.410
+Actual Users view orders Tax price : null
+<-------- Both VOGPOPUP order  Total prices are different 1--------->65
+Expected User View Orders Total price : $19.467
+Actual Users view orders Total price : $13.80
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+<-------- Both subtotal prices are different --------->66
+ExpectedUserViewOrders Subtotal price : $18.469
+Actual Users view orders Subtotal price : $13.75
+<-------- Both Addon prices are different --------->67
+Expected User View Orders Addon price : $0.902
+Actual Users view orders Addon price : $0.00
+<-------- Both Discount prices are different --------->68
+Expected User View Orders Discount price : -$1.560
+Actual Users view orders Discount price : -$0.43
+<-------- Both Promotion Discount prices are different --------->69
+Expected User View Orders Promotion Discount price : -$1.650
+Actual Users view orders Promotion Discount price : -$2.24
+<-------- Both Promotion Shipping prices are different --------->70
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $2.896
+<-------- Both Promotion Tax prices are different -------->71
+Expected User View Orders Tax price : $0.410
+Actual Users view orders Tax price : $0.78
+<-------- Both Promotion Total prices are different --------->72
+Expected User View Orders Total price : $19.467
+Actual Users view orders Total price : $13.80
+<-------- Both Promotion Item Prices are different --------->73
+Expected User View Orders Item Prices price : $
+Actual Users view orders Item Prices price : $1.25
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"lblAddOnAmount"}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir10328_28819}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=73.0.3683.86, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 2eabd9be1b6f3db33b6c12bfc76d217b
+*** Element info: {Using=id, value=lblAddOnAmount}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at tec.AC40.Common.Commonclass.UserViewOrdersPagePriceverification(Commonclass.java:17897)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:3416)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+<--------- Both Total1 prices are different --------->75
+ExpectedPrintTotal1 : $19.467
+ActualPrintTotal1 : $13.80
+<-------- Bothe Item prices are different --------->76
+ExpectedPrintPOPUPSItemPrice : $1.679
+ActualPrintPOPUPSItemPrice : $1.25
+<------- Both Discount prices are different --------->77
+ExpectedPrintPOPUPSDiscount : $1.560
+ActualPrintPOPUPDiscount : 3.11%
+<-------- Both Amounts are different-------> 78
+ExpectedPrintPOPUPAmount : $20.707
+ActualPrintPOPUPAmount : $15.26
+<-------- Both SubTotal are different---------> 79
+ExpectedPrintPOPUPSubTotal :$20.707
+ActualPrintPOPUPSubTotal :$15.26
+<-------- Both Promotion Discounts are different --------->80
+ExpectedPrintPOPUPPromotionDiscount : -$1.650
+ActualPrintPOPUPPromotionDiscount : -$2.24
+<-------- Both Tax values are different --------->81
+ExpectedPrintTaxValue : $0.410
+ActualPrintPOPUPTaxValue : $0.78
+<-------- Both Applied Discount prices are different --------->82
+ExpectedPrintPOPUPAppliedDiscontPrice : -$1.560
+ActualPrintPOPUPAppliedDiscontPrice : -$0.43
+<-------- Both Applied Addon prices are different --------->83
+ExpectedPrintPOPUPAppliedAddonPrice : $0.902
+ActualPrintPOPUPAppliedAddonPrice : $0.00
+<--------- Both View orders grid subtotal prices are different ------> 84
+Expected value: $18.469
+  Actual value :$13.75
+ VO Popup Sub total price is -->$13.75
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  11
+Int Actual Qunaity -->11
+**ActualQuantity**11
+Both Item quantitys are same
+<-------- Both View Order Grid Pop-Up Item Prices are different --------->85
+Expected View Order Grid  Item Prices price : $1.679
+Actual Users View Order Grid  price : $1.25
+<-------- Both item Subtotals in view order grid popup values are different --------->86
+Expected View Order Grid  Subtotal price : $18.469
+Actual View Order Grid  Subtotal price : $13.75
+<-------- Both view order grid popup Addon prices are different --------->87
+Expected View Order Grid  Addon price : $0.902
+Actual View Order Grid  Addon price : $0.00
+OrderFlow.IsBaseDiscountZero :false
+BasePriceIncrementValue :0
+<-------- Both VOGPOPUP item Discount prices are different --------->88
+Expected View Order Grid Discount price : $1.560
+Actual View Order Grid  Discount price : 3.11%
+<------ VOGPOPUP Both Shipping prices are different1 ----->89
+Actual View Order Grid  Shipping price value is: $1.94
+Expected View Order Grid  Shipping price value is: $2.896
+<-------- Both order total Subtotals in view order grid popup values are different --------->90
+Expected View Order Grid  Subtotal price : $18.469
+Actual View Order Grid  Subtotal price : $13.75
+<-------- Both VOGPOPUP order total Addon prices are different --------->91
+Expected User View Order Grid Popup Addon price : $0.902
+Actual Users  View Order Grid Popup Addon price : $0.00
+ExpectedOrderDiscount4
+<-------- Both VOGPOPUP order  Discount prices are different --------->92
+Expected User VOGPOPUP order  Discount price : -$1.560
+Actual Users VOGPOPUP order  Discount price : -$0.43
+<-------- Both VOGPOPUP order  Promotion Discount prices are different --------->93
+Expected User VOGPOPUP order  Promotion Discount price : -$1.650
+Actual Users VOGPOPUP order  Promotion Discount price : -$2.24
+<-------- Both VOGPOPUP order  Promotion Shipping prices are different 1--------->94
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $2.896
+<-------- Both VOGPOPUP order Postage prices are different --------->95
+Expected User View Orders Postage price : $0.000
+Actual Users view orders Postage price : $0.00
+<-------- Both VOGPOPUP order  Tax prices are different3 -------->96
+Expected User View Orders Tax price : $0.410
+Actual Users view orders Tax price : null
+<-------- Both VOGPOPUP order  Total prices are different 1--------->97
+Expected User View Orders Total price : $19.467
+Actual Users view orders Total price : $13.80
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+<-------- Both subtotal prices are different --------->98
+ExpectedUserViewOrders Subtotal price : $18.469
+Actual Users view orders Subtotal price : $13.75
+<-------- Both Addon prices are different --------->99
+Expected User View Orders Addon price : $0.902
+Actual Users view orders Addon price : $0.00
+<-------- Both Discount prices are different --------->100
+Expected User View Orders Discount price : -$1.560
+Actual Users view orders Discount price : -$0.43
+<-------- Both Promotion Discount prices are different --------->101
+Expected User View Orders Promotion Discount price : -$1.650
+Actual Users view orders Promotion Discount price : -$2.24
+<-------- Both Promotion Shipping prices are different --------->102
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $2.896
+<-------- Both Promotion Tax prices are different -------->103
+Expected User View Orders Tax price : $0.410
+Actual Users view orders Tax price : $0.78
+<-------- Both Promotion Total prices are different --------->104
+Expected User View Orders Total price : $19.467
+Actual Users view orders Total price : $13.80
+<-------- Both Promotion Item Prices are different --------->105
+Expected User View Orders Item Prices price : $
+Actual Users view orders Item Prices price : $1.25
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"lblAddOnAmount"}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir10328_28819}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=73.0.3683.86, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 2eabd9be1b6f3db33b6c12bfc76d217b
+*** Element info: {Using=id, value=lblAddOnAmount}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at tec.AC40.Common.Commonclass.UserViewOrdersPagePriceverification(Commonclass.java:17897)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:5787)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+<--------- Both Total1 prices are different --------->107
+ExpectedPrintTotal1 : $19.467
+ActualPrintTotal1 : $13.80
+<-------- Bothe Item prices are different --------->108
+ExpectedPrintPOPUPSItemPrice : $1.679
+ActualPrintPOPUPSItemPrice : $1.25
+<------- Both Discount prices are different --------->109
+ExpectedPrintPOPUPSDiscount : $1.560
+ActualPrintPOPUPDiscount : 3.11%
+<-------- Both Amounts are different-------> 110
+ExpectedPrintPOPUPAmount : $20.707
+ActualPrintPOPUPAmount : $15.26
+<-------- Both SubTotal are different---------> 111
+ExpectedPrintPOPUPSubTotal :$20.707
+ActualPrintPOPUPSubTotal :$15.26
+<-------- Both Promotion Discounts are different --------->112
+ExpectedPrintPOPUPPromotionDiscount : -$1.650
+ActualPrintPOPUPPromotionDiscount : -$2.24
+<-------- Both Tax values are different --------->113
+ExpectedPrintTaxValue : $0.410
+ActualPrintPOPUPTaxValue : $0.78
+<-------- Both Applied Discount prices are different --------->114
+ExpectedPrintPOPUPAppliedDiscontPrice : -$1.560
+ActualPrintPOPUPAppliedDiscontPrice : -$0.43
+<-------- Both Applied Addon prices are different --------->115
+ExpectedPrintPOPUPAppliedAddonPrice : $0.902
+ActualPrintPOPUPAppliedAddonPrice : $0.00
+<--------- Both View orders grid subtotal prices are different ------> 116
+Expected value: $18.469
+  Actual value :$13.75
+ VO Popup Sub total price is -->$13.75
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  11
+Int Actual Qunaity -->11
+**ActualQuantity**11
+Both Item quantitys are same
+<-------- Both View Order Grid Pop-Up Item Prices are different --------->117
+Expected View Order Grid  Item Prices price : $1.679
+Actual Users View Order Grid  price : $1.25
+<-------- Both item Subtotals in view order grid popup values are different --------->118
+Expected View Order Grid  Subtotal price : $18.469
+Actual View Order Grid  Subtotal price : $13.75
+<-------- Both view order grid popup Addon prices are different --------->119
+Expected View Order Grid  Addon price : $0.902
+Actual View Order Grid  Addon price : $0.00
+OrderFlow.IsBaseDiscountZero :false
+BasePriceIncrementValue :0
+<-------- Both VOGPOPUP item Discount prices are different --------->120
+Expected View Order Grid Discount price : $1.560
+Actual View Order Grid  Discount price : 3.11%
+<------ VOGPOPUP Both Shipping prices are different1 ----->121
+Actual View Order Grid  Shipping price value is: $1.94
+Expected View Order Grid  Shipping price value is: $2.896
+<-------- Both order total Subtotals in view order grid popup values are different --------->122
+Expected View Order Grid  Subtotal price : $18.469
+Actual View Order Grid  Subtotal price : $13.75
+<-------- Both VOGPOPUP order total Addon prices are different --------->123
+Expected User View Order Grid Popup Addon price : $0.902
+Actual Users  View Order Grid Popup Addon price : $0.00
+ExpectedOrderDiscount4
+<-------- Both VOGPOPUP order  Discount prices are different --------->124
+Expected User VOGPOPUP order  Discount price : -$1.560
+Actual Users VOGPOPUP order  Discount price : -$0.43
+<-------- Both VOGPOPUP order  Promotion Discount prices are different --------->125
+Expected User VOGPOPUP order  Promotion Discount price : -$1.650
+Actual Users VOGPOPUP order  Promotion Discount price : -$2.24
+<-------- Both VOGPOPUP order  Promotion Shipping prices are different 1--------->126
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $2.896
+<-------- Both VOGPOPUP order Postage prices are different --------->127
+Expected User View Orders Postage price : $0.000
+Actual Users view orders Postage price : $0.00
+<-------- Both VOGPOPUP order  Tax prices are different3 -------->128
+Expected User View Orders Tax price : $0.410
+Actual Users view orders Tax price : null
+<-------- Both VOGPOPUP order  Total prices are different 1--------->129
+Expected User View Orders Total price : $19.467
+Actual Users view orders Total price : $13.80
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+<-------- Both subtotal prices are different --------->130
+ExpectedUserViewOrders Subtotal price : $18.469
+Actual Users view orders Subtotal price : $13.75
+<-------- Both Addon prices are different --------->131
+Expected User View Orders Addon price : $0.902
+Actual Users view orders Addon price : $0.00
+<-------- Both Discount prices are different --------->132
+Expected User View Orders Discount price : -$1.560
+Actual Users view orders Discount price : -$0.43
+<-------- Both Promotion Discount prices are different --------->133
+Expected User View Orders Promotion Discount price : -$1.650
+Actual Users view orders Promotion Discount price : -$2.24
+<-------- Both Promotion Shipping prices are different --------->134
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $2.896
+<-------- Both Promotion Tax prices are different -------->135
+Expected User View Orders Tax price : $0.410
+Actual Users view orders Tax price : $0.78
+<-------- Both Promotion Total prices are different --------->136
+Expected User View Orders Total price : $19.467
+Actual Users view orders Total price : $13.80
+<-------- Both Promotion Item Prices are different --------->137
+Expected User View Orders Item Prices price : $
+Actual Users view orders Item Prices price : $1.25
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"lblAddOnAmount"}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir10328_28819}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=73.0.3683.86, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 2eabd9be1b6f3db33b6c12bfc76d217b
+*** Element info: {Using=id, value=lblAddOnAmount}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at tec.AC40.Common.Commonclass.UserViewOrdersPagePriceverification(Commonclass.java:17897)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:5945)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+<--------- Both Total1 prices are different --------->139
+ExpectedPrintTotal1 : $19.467
+ActualPrintTotal1 : $13.80
+<-------- Bothe Item prices are different --------->140
+ExpectedPrintPOPUPSItemPrice : $1.679
+ActualPrintPOPUPSItemPrice : $1.25
+<------- Both Discount prices are different --------->141
+ExpectedPrintPOPUPSDiscount : $1.560
+ActualPrintPOPUPDiscount : 3.11%
+<-------- Both Amounts are different-------> 142
+ExpectedPrintPOPUPAmount : $20.707
+ActualPrintPOPUPAmount : $15.26
+<-------- Both SubTotal are different---------> 143
+ExpectedPrintPOPUPSubTotal :$20.707
+ActualPrintPOPUPSubTotal :$15.26
+<-------- Both Promotion Discounts are different --------->144
+ExpectedPrintPOPUPPromotionDiscount : -$1.650
+ActualPrintPOPUPPromotionDiscount : -$2.24
+<-------- Both Tax values are different --------->145
+ExpectedPrintTaxValue : $0.410
+ActualPrintPOPUPTaxValue : $0.78
+<-------- Both Applied Discount prices are different --------->146
+ExpectedPrintPOPUPAppliedDiscontPrice : -$1.560
+ActualPrintPOPUPAppliedDiscontPrice : -$0.43
+<-------- Both Applied Addon prices are different --------->147
+ExpectedPrintPOPUPAppliedAddonPrice : $0.902
+ActualPrintPOPUPAppliedAddonPrice : $0.00
+___ ___ ___ ____ _ ____ ____ ____ ______ ____ ___ ____ ____ ____ ____ ____ ____ _____ ____ _____ ____ _
+** ** **Actual and Expected values are not same, Test FAIL** ** **
+Number of errors : 147
+Time Stamp : _2019-Mar-27_10-33-37_PM
+ Don't kill browser
+****** ****** Test Case Number --> 123.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 38950
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+<------- Both Item prices are different ------> 1
+Expected value: $1.2034
+ Actual value :$1.25
+<----  Both Discount prices are different ------> 2
+Exptected value :$3.2100
+ Actual value :3.11%
+<------- Both Item prices are different ------> 3
+Expected value: $1.2034
+ Actual value :$1.25
+<----  Both Discount prices are different ------> 4
+Exptected value :$3.2100
+ Actual value :3.11%
+<------- Both Itemm prices are different ------> 5
+Expected value: $1.2034
+Actual value :$1.25
+6 SelectListActualShipping2 :$1.94
+<------- Select List Both Shipping Prices are different ------> 6
+Actual Shipping price is : $1.94
+Expected shipping price is : $1.9032
+<------- Both Item prices are different ------> 7
+Expected value: $1.2034
+ Actual value :$1.25
+<----  Both Discount prices are different ------> 8
+Exptected value :$3.2100
+ Actual value :3.11%
+<----- View Summary Both Addon prices are different ----->9
+Actual Addon price is: Addon1
+Expected Addon price is: Addon1 - $0.5423 ( Flat Rate )
+OrderFlow.IsBaseDiscountZero :false
+BasePriceIncrementValue :0
+Quantity11234____15
+<----- View Summary Both item prices are different ----->10
+Actual Item price is: $1.25
+Expected Item price is: $1.2034
+<----- View Summary Both subtotals are different ----->11
+Actual subtotal is : $18.75
+Expected subtotal is : $18.0510
+ActualDiscount-$0.58
+ExpectedDiscount-( $3.2100 )
+ActualDiscount0908hh-$0.58
+<------ View Summary Both Discount prices are different ------>12
+Actual Discount price is : -$0.58
+Expected Discount price is : -( $3.2100 )
+<------- View Summary Both Addon prices are different ------>13
+Actual Addon price is : $0.00
+Expected Addon price is : $0.5423
+<------ View Summary Both Shipping prices are different ----->14
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $1.9032
+<------View Summary Both Total values are different ----->15
+Actual total value is :$20.11
+Expected total value is :$17.2865
+<----- Shopping cart Both item prices are different -------->16
+Actual Item price is: $1.25
+Expected Item price is: $1.2034
+<-------- Shopping cart Both Discount prices are different ------>17
+Actual Discount price is : 3.11%
+Expected Discount price is : $3.2100
+<-------- Shopping cart Both Addon prices are different ------->18
+Actual Addon price is : $0.00
+Expected Addon price is : $0.5423
+<-------- Shopping cart Both Shipping prices are different -------->19
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $1.9032
+<---------Shopping cart  Both Total values are different -------->20
+Actual total value is :$20.11
+Expected total value is :$17.2865
+<---------- Shopping cart Both Total values are different ---------->21
+Actual total value is :$20.11
+Expected total value is :$17.2865
+<------- Order Checkout Both Item prices are different --------> 22
+ActualOCItemPrice : $1.25
+ExpectedItemPrice : $1.2034
+gc
+<-------- Order CheckOut Both Shipping prices are different -------->23
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $1.9032
+mp
+<---------- Order Checkout Both Amounts are different1 ------------>24
+ActualOCAmount : $20.11
+ExpectedAmount : $17.2865
+<----------- Order Checkout Both SubTotals are different ---------->25
+ActualOCSubTotal : $20.11
+ExpectedAmount : $17.2865
+<-------- Order Checkout Both Promotion discounts are different ---------->26
+ActualOCPromotionDiscount : -$2.24
+ExpectedPromotionDiscount : -$2.4300
+<------------- Order Checkout Both Tax percentages are different ------------>27
+ActualOCTaxPercentage : (5.98%)
+ExpectedTaxpercentage : (4.1200%)
+<---------- Order Checkout Both Tax amounts are different ------------->28
+ActualOCTaxAmount : $1.07
+ExpectedTaxAmount : $0.6121
+<------------ Order Checkout Both GrandTotal Amounts are different ----------->29
+ActualOCTotal : $18.94
+ExpectedTotal : $15.4686
+<--------- Ordercheckout Both applied payments values are different -------->30
+Actual Applied value is :$18.94
+Expected Applied value is :$15.4686
+<----- In Ordercheckout page cost center not displayed ------>31
+Actual value is :Cost center option NOT displayed to user
+Expected value is :Cost center option displayed to user
+Report are saved and closed
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@aria-owns='ddlCostCenter_listbox']/span"}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir9368_31338}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=73.0.3683.86, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 221c2f2ff606d56bc540a5be1a9d59cc
+*** Element info: {Using=xpath, value=//*[@aria-owns='ddlCostCenter_listbox']/span}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:476)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:3087)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Time Stamp : _2019-Mar-27_10-44-28_PM
+ Don't kill browser
+****** ****** Test Case Number --> 124.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 37617
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+<------- Both Item prices are different ------> 1
+Expected value: $0.54
+ Actual value :$1.25
+<----  Both Discount prices are different ------> 2
+Exptected value :3.12%
+ Actual value :3.11%
+<------- Both Item prices are different ------> 3
+Expected value: $0.54
+ Actual value :$1.25
+<----  Both Discount prices are different ------> 4
+Exptected value :3.12%
+ Actual value :3.11%
+<------- Both Itemm prices are different ------> 5
+Expected value: $0.54
+Actual value :$1.25
+6 SelectListActualShipping2 :$1.94
+<------- Select List Both Shipping Prices are different ------> 6
+Actual Shipping price is : $1.94
+Expected shipping price is : $4.05
+<------- Both Item prices are different ------> 7
+Expected value: $0.54
+ Actual value :$1.25
+<----  Both Discount prices are different ------> 8
+Exptected value :3.12%
+ Actual value :3.11%
+<----- View Summary Both Addon prices are different ----->9
+Actual Addon price is: Addon1
+Expected Addon price is: Addon1 - $0.12 ( Flat Rate )
+<---- View Summary Both Discount percentages are different ------> 10
+Actual Discount percentage is : (3.11 %)
+Expected Discount percentage is is : (3.12 %)
+Quantity11234____21
+<----- View Summary Both item prices are different ----->11
+Actual Item price is: $1.25
+Expected Item price is: $0.54
+<----- View Summary Both subtotals are different ----->12
+Actual subtotal is : $26.25
+Expected subtotal is : $11.34
+ActualDiscount-$0.82
+ExpectedDiscount-$0.35
+ActualDiscount0908hh-$0.82
+<------ View Summary Both Discount prices are different ------>13
+Actual Discount price is : -$0.82
+Expected Discount price is : -$0.35
+<------- View Summary Both Addon prices are different ------>14
+Actual Addon price is : $0.00
+Expected Addon price is : $0.12
+<------ View Summary Both Shipping prices are different ----->15
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $4.05
+<------View Summary Both Total values are different ----->16
+Actual total value is :$27.37
+Expected total value is :$15.16
+<----- Shopping cart Both item prices are different -------->17
+Actual Item price is: $1.25
+Expected Item price is: $0.54
+<-------- Shopping cart Both Discount prices are different ------>18
+Actual Discount price is : 3.11%
+Expected Discount price is : 3.12%
+<-------- Shopping cart Both Addon prices are different ------->19
+Actual Addon price is : $0.00
+Expected Addon price is : $0.12
+<-------- Shopping cart Both Shipping prices are different -------->20
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $4.05
+<---------Shopping cart  Both Total values are different -------->21
+Actual total value is :$27.37
+Expected total value is :$15.16
+<---------- Shopping cart Both Total values are different ---------->22
+Actual total value is :$27.37
+Expected total value is :$15.16
+<------- Order Checkout Both Item prices are different --------> 23
+ActualOCItemPrice : $1.25
+ExpectedItemPrice : $0.54
+gc
+<-------- Order CheckOut Both Shipping prices are different -------->24
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $4.05
+mp
+<---------- Order Checkout Both Amounts are different1 ------------>25
+ActualOCAmount : $27.37
+ExpectedAmount : $15.16
+<----------- Order Checkout Both SubTotals are different ---------->26
+ActualOCSubTotal : $27.37
+ExpectedAmount : $15.16
+<-------- Order Checkout Both Promotion discounts are different ---------->27
+ActualOCPromotionDiscount : -$2.24
+ExpectedPromotionDiscount : -$2.31
+<------------- Order Checkout Both Tax percentages are different ------------>28
+ActualOCTaxPercentage : (5.98%)
+ExpectedTaxpercentage : (0.00%)
+<---------- Order Checkout Both Tax amounts are different ------------->29
+ActualOCTaxAmount : $1.50
+ExpectedTaxAmount : $0.00
+<------------ Order Checkout Both GrandTotal Amounts are different ----------->30
+ActualOCTotal : $26.63
+ExpectedTotal : $12.85
+<--------- Ordercheckout Both applied payments values are different -------->31
+Actual Applied value is :$26.63
+Expected Applied value is :$12.85
+<----------- Order Summary Bothe Item prices are different -------->32
+ExpectedOSItemPrice : $0.54
+ActualOSItemPrice : $1.25
+<--------- Order Summary Both Discount prices are different ------------>33
+ExpectedOSDiscount : 3.12%
+ActualOSDiscount : 3.11%
+<-------- Order Summary Both Shipping prices are different1 -------->34
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $4.05
+<---------- Order Summary Both Amounts are different2 ------------>35
+ExpectedOSAmount : $15.16
+ActualOSAmount : $27.37
+<----------Order Summary Both SubTotal are different ---------->36
+ExpectedOSSubTotal : $15.16
+ActualOSSubTotal : $27.37
+<--------- Order Summary Both Promotion Discount are different --------> 37
+ExpectedOSPromotionDiscount : - $2.31
+ActualOSPromotionDiscount : - $2.24
+<------------- Order Summary Both Tax percentages are different ------------->38
+ExpectedOSTaxPercentage : (0.00%)
+ActualOSTaxPercentage : (5.98%)
+<--------Order Summary Both Tax values are different ---------->39
+ExpectedOSTaxValue : $0.00
+ActualOSTaxValue : $1.50
+<-------- Order Summary Both Shipping prices are different3 -------->40
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $4.05
+<---------- Order Summary Both Total values are different ---------->41
+ExpectedOSTotal : $12.85
+ ActualOSTotal : $26.63
+<----------Order Summary Both Applied Discount values are different ------------->42
+ExpectedOSAppliedDiscontPrice : - $0.35
+ActualOSAppliedDiscontPrice : - $0.82
+<------------ Order Summary Both Applied Addon prices are different----------->43
+ExpectedOSAppliedAddonPrice : $0.12
+ActualOSAppliedAddonPrice : $0.00
+billing1Billed to :
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing1
+<-------- Billing Address not displayed in OS Print Popup page ---------->44
+Actual Billing Address Status : Billing address not displayed
+Expected Billing Address Status : Billing address displays to user
+billing1
+<-------- Billing Address not displayed in OS Print Popup page ---------->45
+Actual Billing Address Status : Billing address not displayed
+Expected Billing Address Status : Billing address displays to user
+<--------- Both Total1 prices are different --------->46
+ExpectedPrintTotal1 : $12.85
+ActualPrintTotal1 : 
+java.lang.NumberFormatException: empty String
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1842)
+	at sun.misc.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.lang.Double.parseDouble(Double.java:538)
+	at java.lang.Double.valueOf(Double.java:502)
+	at tec.AC40.Common.Commonclass.PrintPopUpPriceVerification(Commonclass.java:15144)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:3226)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+OrderNumber : 7310
+Report are saved and closed
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //img[contains(@src,'image_a.jpg')] (tried for 180 second(s) with 1 SECONDS interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:264)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:3312)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //img[contains(@src,'image_a.jpg')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:899)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:898)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:208)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:204)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:647)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 23 more
+Time Stamp : _2019-Mar-27_10-59-39_PM
+ Don't kill browser
+****** ****** Test Case Number --> 125.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 11775
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+<------- Both Item prices are different ------> 1
+Expected value: $0.631
+ Actual value :$1.25
+<----  Both Discount prices are different ------> 2
+Exptected value :1.560%
+ Actual value :3.11%
+<------- Both Item prices are different ------> 3
+Expected value: $0.631
+ Actual value :$1.25
+<----  Both Discount prices are different ------> 4
+Exptected value :1.560%
+ Actual value :3.11%
+<------- Both Itemm prices are different ------> 5
+Expected value: $0.631
+Actual value :$1.25
+6 SelectListActualShipping2 :$1.94
+<------- Select List Both Shipping Prices are different ------> 6
+Actual Shipping price is : $1.94
+Expected shipping price is : $2.031
+<------- Both Item prices are different ------> 7
+Expected value: $0.631
+ Actual value :$1.25
+<----  Both Discount prices are different ------> 8
+Exptected value :1.560%
+ Actual value :3.11%
+<----- View Summary Both Addon prices are different ----->9
+Actual Addon price is: Addon1
+Expected Addon price is: Addon1 - $0.312 ( Flat Rate )
+<---- View Summary Both Discount percentages are different ------> 10
+Actual Discount percentage is : (3.11 %)
+Expected Discount percentage is is : (1.560 %)
+Quantity11234____11
+<----- View Summary Both item prices are different ----->11
+Actual Item price is: $1.25
+Expected Item price is: $0.631
+<----- View Summary Both subtotals are different ----->12
+Actual subtotal is : $13.75
+Expected subtotal is : $6.941
+ActualDiscount-$0.43
+ExpectedDiscount-$0.108
+ActualDiscount0908hh-$0.43
+<------ View Summary Both Discount prices are different ------>13
+Actual Discount price is : -$0.43
+Expected Discount price is : -$0.108
+<------- View Summary Both Addon prices are different ------>14
+Actual Addon price is : $0.00
+Expected Addon price is : $0.312
+<------ View Summary Both Shipping prices are different ----->15
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $2.031
+<------View Summary Both Total values are different ----->16
+Actual total value is :$15.26
+Expected total value is :$9.176
+<----- Shopping cart Both item prices are different -------->17
+Actual Item price is: $1.25
+Expected Item price is: $0.631
+<-------- Shopping cart Both Discount prices are different ------>18
+Actual Discount price is : 3.11%
+Expected Discount price is : 1.560%
+<-------- Shopping cart Both Addon prices are different ------->19
+Actual Addon price is : $0.00
+Expected Addon price is : $0.312
+<-------- Shopping cart Both Shipping prices are different -------->20
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $2.031
+<---------Shopping cart  Both Total values are different -------->21
+Actual total value is :$15.26
+Expected total value is :$9.176
+<---------- Shopping cart Both Total values are different ---------->22
+Actual total value is :$15.26
+Expected total value is :$9.176
+<------- Order Checkout Both Item prices are different --------> 23
+ActualOCItemPrice : $1.25
+ExpectedItemPrice : $0.631
+gc
+<-------- Order CheckOut Both Shipping prices are different -------->24
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $2.031
+mp
+<---------- Order Checkout Both Amounts are different1 ------------>25
+ActualOCAmount : $15.26
+ExpectedAmount : $9.176
+<----------- Order Checkout Both SubTotals are different ---------->26
+ActualOCSubTotal : $15.26
+ExpectedAmount : $9.176
+<-------- Order Checkout Both Promotion discounts are different ---------->27
+ActualOCPromotionDiscount : -$2.24
+ExpectedPromotionDiscount : -$1.850
+<------------- Order Checkout Both Tax percentages are different ------------>28
+ActualOCTaxPercentage : (5.98%)
+ExpectedTaxpercentage : (0.000%)
+<---------- Order Checkout Both Tax amounts are different ------------->29
+ActualOCTaxAmount : $0.78
+ExpectedTaxAmount : $0.000
+<------------ Order Checkout Both GrandTotal Amounts are different ----------->30
+ActualOCTotal : $13.80
+ExpectedTotal : $7.326
+<--------- Ordercheckout Both applied payments values are different -------->31
+Actual Applied value is :$13.80
+Expected Applied value is :$7.326
+<----- In Ordercheckout page cost center not displayed ------>32
+Actual value is :Cost center option NOT displayed to user
+Expected value is :Cost center option displayed to user
+Report are saved and closed
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@aria-owns='ddlCostCenter_listbox']/span"}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir8516_4897}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=73.0.3683.86, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 6a9a3713a79ac65a55314d4d613d88c5
+*** Element info: {Using=xpath, value=//*[@aria-owns='ddlCostCenter_listbox']/span}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:476)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:3087)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Time Stamp : _2019-Mar-27_11-11-13_PM
+ Don't kill browser
+****** ****** Test Case Number --> 126.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 46348
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+Report are saved and closed
+org.openqa.selenium.WebDriverException: unknown error: Element <a href="#" id="lnkFeatureName_2191876" title="..." class="productfeaturedAssetLink anchor_blue anchor_font line_height_30 product_name">Static Inventory</a> is not clickable at point (521, 616). Other element would receive the click: <div class="ui-widget-overlay ui-front"></div>
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 57 milliseconds
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir5292_15349}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=73.0.3683.86, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: c9521b2e579f16594802f66952424b9b
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:874)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Time Stamp : _2019-Mar-27_11-13-26_PM
+ Don't kill browser
+****** ****** Test Case Number --> 127.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 48434
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+<------- Both Item prices are different ------> 1
+Expected value: $1.02
+ Actual value :$1.25
+<----  Both Discount prices are different ------> 2
+Exptected value :$0.00
+ Actual value :3.11%
+<------- Both Item prices are different ------> 3
+Expected value: $1.02
+ Actual value :$1.25
+<----  Both Discount prices are different ------> 4
+Exptected value :$0.00
+ Actual value :3.11%
+<------- Both Itemm prices are different ------> 5
+Expected value: $1.02
+Actual value :$1.25
+Report are saved and closed
+org.openqa.selenium.WebDriverException: unknown error: Element <input type="text" data-bind="value:ContactFieldValue,attr:{ id:id,name:id, ContactType:ContactType},enable:isReadOnly" maxlength="50" id="SHIP_CF_PHONE-1077" name="SHIP_CF_PHONE-1077" contacttype="12" data-role="maskedtextbox" class="" autocomplete="off" tabindex="8"> is not clickable at point (521, 496). Other element would receive the click: <div class="ui-widget-overlay ui-front"></div>
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 53 milliseconds
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir5364_2005}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=73.0.3683.86, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 6821f8572e69ac45592c44c2d48baf89
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:1786)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Time Stamp : _2019-Mar-27_11-20-18_PM
+ Don't kill browser
+****** ****** Test Case Number --> 128.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 5225
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+<------- Both Item prices are different ------> 1
+Expected value: $2.712
+ Actual value :$1.25
+<----  Both Discount prices are different ------> 2
+Exptected value :$0.000
+ Actual value :3.11%
+<------- Both Item prices are different ------> 3
+Expected value: $2.712
+ Actual value :$1.25
+<----  Both Discount prices are different ------> 4
+Exptected value :$0.000
+ Actual value :3.11%
+<------- Both Itemm prices are different ------> 5
+Expected value: $2.712
+Actual value :$1.25
+6 SelectListActualShipping2 :$1.94
+<------- Select List Both Shipping Prices are different ------> 6
+Actual Shipping price is : $1.94
+Expected shipping price is : $2.952
+<------- Both Item prices are different ------> 7
+Expected value: $2.712
+ Actual value :$1.25
+<----  Both Discount prices are different ------> 8
+Exptected value :$0.000
+ Actual value :3.11%
+<----- View Summary Both Addon prices are different ----->9
+Actual Addon price is: Addon1
+Expected Addon price is: Addon1 - $0.820 ( Flat Rate )
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+Quantity11234____12
+<----- View Summary Both item prices are different ----->10
+Actual Item price is: $1.25
+Expected Item price is: $2.712
+<----- View Summary Both subtotals are different ----->11
+Actual subtotal is : $15.00
+Expected subtotal is : $32.544
+ActualDiscount-$0.47
+ExpectedDiscount-$0.000
+ActualDiscount0908hh-$0.47
+<------ View Summary Both Discount prices are different ------>12
+Actual Discount price is : -$0.47
+Expected Discount price is : -$0.000
+<------- View Summary Both Addon prices are different ------>13
+Actual Addon price is : $0.00
+Expected Addon price is : $0.820
+<------ View Summary Both Shipping prices are different ----->14
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $2.952
+<------View Summary Both Total values are different ----->15
+Actual total value is :$16.47
+Expected total value is :$36.316
+<----- Shopping cart Both item prices are different -------->16
+Actual Item price is: $1.25
+Expected Item price is: $2.712
+<-------- Shopping cart Both Discount prices are different ------>17
+Actual Discount price is : 3.11%
+Expected Discount price is : $0.000
+<-------- Shopping cart Both Addon prices are different ------->18
+Actual Addon price is : $0.00
+Expected Addon price is : $0.820
+<-------- Shopping cart Both Shipping prices are different -------->19
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $2.952
+<---------Shopping cart  Both Total values are different -------->20
+Actual total value is :$16.47
+Expected total value is :$36.316
+<---------- Shopping cart Both Total values are different ---------->21
+Actual total value is :$16.47
+Expected total value is :$36.316
+<------- Order Checkout Both Item prices are different --------> 22
+ActualOCItemPrice : $1.25
+ExpectedItemPrice : $2.712
+gc
+<-------- Order CheckOut Both Shipping prices are different -------->23
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $2.952
+mp
+<---------- Order Checkout Both Amounts are different1 ------------>24
+ActualOCAmount : $16.47
+ExpectedAmount : $36.316
+<----------- Order Checkout Both SubTotals are different ---------->25
+ActualOCSubTotal : $16.47
+ExpectedAmount : $36.316
+<-------- Order Checkout Both Promotion discounts are different ---------->26
+ActualOCPromotionDiscount : -$2.24
+ExpectedPromotionDiscount : -$2.030
+<------------- Order Checkout Both Tax percentages are different ------------>27
+ActualOCTaxPercentage : (5.98%)
+ExpectedTaxpercentage : (1.230%)
+<---------- Order Checkout Both Tax amounts are different ------------->28
+ActualOCTaxAmount : $0.85
+ExpectedTaxAmount : $0.422
+<------------ Order Checkout Both GrandTotal Amounts are different ----------->29
+ActualOCTotal : $15.08
+ExpectedTotal : $34.708
+<--------- Ordercheckout Both applied payments values are different -------->30
+Actual Applied value is :$15.08
+Expected Applied value is :$34.708
+<----------- Order Summary Bothe Item prices are different -------->31
+ExpectedOSItemPrice : $2.712
+ActualOSItemPrice : $1.25
+<--------- Order Summary Both Discount prices are different ------------>32
+ExpectedOSDiscount : $0.000
+ActualOSDiscount : 3.11%
+<-------- Order Summary Both Shipping prices are different1 -------->33
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $2.952
+<---------- Order Summary Both Amounts are different2 ------------>34
+ExpectedOSAmount : $36.316
+ActualOSAmount : $16.47
+<----------Order Summary Both SubTotal are different ---------->35
+ExpectedOSSubTotal : $36.316
+ActualOSSubTotal : $16.47
+<--------- Order Summary Both Promotion Discount are different --------> 36
+ExpectedOSPromotionDiscount : - $2.030
+ActualOSPromotionDiscount : - $2.24
+<------------- Order Summary Both Tax percentages are different ------------->37
+ExpectedOSTaxPercentage : (1.230%)
+ActualOSTaxPercentage : (5.98%)
+<--------Order Summary Both Tax values are different ---------->38
+ExpectedOSTaxValue : $0.422
+ActualOSTaxValue : $0.85
+<-------- Order Summary Both Shipping prices are different3 -------->39
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $2.952
+<---------- Order Summary Both Total values are different ---------->40
+ExpectedOSTotal : $34.708
+ ActualOSTotal : $15.08
+<----------Order Summary Both Applied Discount values are different ------------->41
+ExpectedOSAppliedDiscontPrice : - $0.000
+ActualOSAppliedDiscontPrice : - $0.47
+<------------ Order Summary Both Applied Addon prices are different----------->42
+ExpectedOSAppliedAddonPrice : $0.820
+ActualOSAppliedAddonPrice : $0.00
+billing1Billed to :
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+<--------- Both Total1 prices are different --------->43
+ExpectedPrintTotal1 : $34.708
+ActualPrintTotal1 : $15.08
+<-------- Bothe Item prices are different --------->44
+ExpectedPrintPOPUPSItemPrice : $2.712
+ActualPrintPOPUPSItemPrice : $1.25
+<------- Both Discount prices are different --------->45
+ExpectedPrintPOPUPSDiscount : $0.000
+ActualPrintPOPUPDiscount : 3.11%
+<-------- Both Amounts are different-------> 46
+ExpectedPrintPOPUPAmount : $36.316
+ActualPrintPOPUPAmount : $16.47
+<-------- Both SubTotal are different---------> 47
+ExpectedPrintPOPUPSubTotal :$36.316
+ActualPrintPOPUPSubTotal :$16.47
+<-------- Both Promotion Discounts are different --------->48
+ExpectedPrintPOPUPPromotionDiscount : -$2.030
+ActualPrintPOPUPPromotionDiscount : -$2.24
+<-------- Both Tax values are different --------->49
+ExpectedPrintTaxValue : $0.422
+ActualPrintPOPUPTaxValue : $0.85
+<-------- Both Applied Discount prices are different --------->50
+ExpectedPrintPOPUPAppliedDiscontPrice : -$0.000
+ActualPrintPOPUPAppliedDiscontPrice : -$0.47
+<-------- Both Applied Addon prices are different --------->51
+ExpectedPrintPOPUPAppliedAddonPrice : $0.820
+ActualPrintPOPUPAppliedAddonPrice : $0.00
+OrderNumber : 7312
+<--------- Both View orders grid subtotal prices are different ------> 52
+Expected value: $32.544
+  Actual value :$15.00
+ VO Popup Sub total price is -->
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  12
+Int Actual Qunaity -->12
+**ActualQuantity**12
+Both Item quantitys are same
+<-------- Both View Order Grid Pop-Up Item Prices are different --------->53
+Expected View Order Grid  Item Prices price : $2.712
+Actual Users View Order Grid  price : $1.25
+<-------- Both item Subtotals in view order grid popup values are different --------->54
+Expected View Order Grid  Subtotal price : $32.544
+Actual View Order Grid  Subtotal price : $15.00
+<-------- Both view order grid popup Addon prices are different --------->55
+Expected View Order Grid  Addon price : $0.820
+Actual View Order Grid  Addon price : $0.00
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+<-------- Both VOGPOPUP item Discount prices are different --------->56
+Expected View Order Grid Discount price : $0.000
+Actual View Order Grid  Discount price : 3.11%
+<------ VOGPOPUP Both Shipping prices are different1 ----->57
+Actual View Order Grid  Shipping price value is: $1.94
+Expected View Order Grid  Shipping price value is: $2.952
+<-------- Both order total Subtotals in view order grid popup values are different --------->58
+Expected View Order Grid  Subtotal price : $32.544
+Actual View Order Grid  Subtotal price : $15.00
+<-------- Both VOGPOPUP order total Addon prices are different --------->59
+Expected User View Order Grid Popup Addon price : $0.820
+Actual Users  View Order Grid Popup Addon price : $0.00
+ExpectedOrderDiscount4
+<-------- Both VOGPOPUP order  Discount prices are different --------->60
+Expected User VOGPOPUP order  Discount price : -$0.000
+Actual Users VOGPOPUP order  Discount price : -$0.47
+<-------- Both VOGPOPUP order  Promotion Discount prices are different --------->61
+Expected User VOGPOPUP order  Promotion Discount price : -$2.030
+Actual Users VOGPOPUP order  Promotion Discount price : -$2.24
+<-------- Both VOGPOPUP order  Promotion Shipping prices are different 1--------->62
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $2.952
+<-------- Both VOGPOPUP order Postage prices are different --------->63
+Expected User View Orders Postage price : $0.000
+Actual Users view orders Postage price : $0.00
+<-------- Both VOGPOPUP order  Tax prices are different3 -------->64
+Expected User View Orders Tax price : $0.422
+Actual Users view orders Tax price : null
+<-------- Both VOGPOPUP order  Total prices are different 1--------->65
+Expected User View Orders Total price : $34.708
+Actual Users view orders Total price : $15.08
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+<-------- Both subtotal prices are different --------->66
+ExpectedUserViewOrders Subtotal price : $32.544
+Actual Users view orders Subtotal price : $15.00
+<-------- Both Addon prices are different --------->67
+Expected User View Orders Addon price : $0.820
+Actual Users view orders Addon price : $0.00
+<-------- Both Discount prices are different --------->68
+Expected User View Orders Discount price : -$0.000
+Actual Users view orders Discount price : -$0.47
+<-------- Both Promotion Discount prices are different --------->69
+Expected User View Orders Promotion Discount price : -$2.030
+Actual Users view orders Promotion Discount price : -$2.24
+<-------- Both Promotion Shipping prices are different --------->70
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $2.952
+<-------- Both Promotion Tax prices are different -------->71
+Expected User View Orders Tax price : $0.422
+Actual Users view orders Tax price : $0.85
+<-------- Both Promotion Total prices are different --------->72
+Expected User View Orders Total price : $34.708
+Actual Users view orders Total price : $15.08
+<-------- Both Promotion Item Prices are different --------->73
+Expected User View Orders Item Prices price : $
+Actual Users view orders Item Prices price : $1.25
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"lblAddOnAmount"}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir13612_13273}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=73.0.3683.86, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3f216a7e436726545b57b70f446aa150
+*** Element info: {Using=id, value=lblAddOnAmount}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at tec.AC40.Common.Commonclass.UserViewOrdersPagePriceverification(Commonclass.java:17897)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:3416)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+<--------- Both Total1 prices are different --------->75
+ExpectedPrintTotal1 : $34.708
+ActualPrintTotal1 : $15.08
+<-------- Bothe Item prices are different --------->76
+ExpectedPrintPOPUPSItemPrice : $2.712
+ActualPrintPOPUPSItemPrice : $1.25
+<------- Both Discount prices are different --------->77
+ExpectedPrintPOPUPSDiscount : $0.000
+ActualPrintPOPUPDiscount : 3.11%
+<-------- Both Amounts are different-------> 78
+ExpectedPrintPOPUPAmount : $36.316
+ActualPrintPOPUPAmount : $16.47
+<-------- Both SubTotal are different---------> 79
+ExpectedPrintPOPUPSubTotal :$36.316
+ActualPrintPOPUPSubTotal :$16.47
+<-------- Both Promotion Discounts are different --------->80
+ExpectedPrintPOPUPPromotionDiscount : -$2.030
+ActualPrintPOPUPPromotionDiscount : -$2.24
+<-------- Both Tax values are different --------->81
+ExpectedPrintTaxValue : $0.422
+ActualPrintPOPUPTaxValue : $0.85
+<-------- Both Applied Discount prices are different --------->82
+ExpectedPrintPOPUPAppliedDiscontPrice : -$0.000
+ActualPrintPOPUPAppliedDiscontPrice : -$0.47
+<-------- Both Applied Addon prices are different --------->83
+ExpectedPrintPOPUPAppliedAddonPrice : $0.820
+ActualPrintPOPUPAppliedAddonPrice : $0.00
+Report are saved and closed
+org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 37 milliseconds
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir13612_13273}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=73.0.3683.86, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3f216a7e436726545b57b70f446aa150
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:4643)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Time Stamp : _2019-Mar-27_11-36-48_PM
+ Don't kill browser
+****** ****** Test Case Number --> 129.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 38485
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+Report are saved and closed
+org.openqa.selenium.WebDriverException: unknown error: Element <a href="#" id="lnkFeatureName_2191876" title="..." class="productfeaturedAssetLink anchor_blue anchor_font line_height_30 product_name">Static Inventory</a> is not clickable at point (521, 616). Other element would receive the click: <div class="ui-widget-overlay ui-front"></div>
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 51 milliseconds
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir13376_8672}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=73.0.3683.86, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3c90dd895e95bf45fe3c0bf5d29038c0
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:874)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Time Stamp : _2019-Mar-27_11-38-33_PM
+ Don't kill browser
+****** ****** Test Case Number --> 130.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 5299
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+<------- Both Item prices are different ------> 1
+Expected value: $2.02
+ Actual value :$1.25
+<----  Both Discount prices are different ------> 2
+Exptected value :2.32%
+ Actual value :3.11%
+<------- Both Item prices are different ------> 3
+Expected value: $2.02
+ Actual value :$1.25
+<----  Both Discount prices are different ------> 4
+Exptected value :2.32%
+ Actual value :3.11%
+<------- Both Itemm prices are different ------> 5
+Expected value: $2.02
+Actual value :$1.25
+6 SelectListActualShipping2 :$1.94
+<------- Select List Both Shipping Prices are different ------> 6
+Actual Shipping price is : $1.94
+Expected shipping price is : $1.24
+<------- Both Item prices are different ------> 7
+Expected value: $2.02
+ Actual value :$1.25
+<----  Both Discount prices are different ------> 8
+Exptected value :2.32%
+ Actual value :3.11%
+<----- View Summary Both Addon prices are different ----->9
+Actual Addon price is: Addon1
+Expected Addon price is: Addon1 - $0.41 ( Flat Rate )
+<---- View Summary Both Discount percentages are different ------> 10
+Actual Discount percentage is : (3.11 %)
+Expected Discount percentage is is : (2.32 %)
+Quantity11234____11
+<----- View Summary Both item prices are different ----->11
+Actual Item price is: $1.25
+Expected Item price is: $2.02
+<----- View Summary Both subtotals are different ----->12
+Actual subtotal is : $13.75
+Expected subtotal is : $22.22
+ActualDiscount-$0.43
+ExpectedDiscount-$0.52
+ActualDiscount0908hh-$0.43
+<------ View Summary Both Discount prices are different ------>13
+Actual Discount price is : -$0.43
+Expected Discount price is : -$0.52
+<------- View Summary Both Addon prices are different ------>14
+Actual Addon price is : $0.00
+Expected Addon price is : $0.41
+<------ View Summary Both Shipping prices are different ----->15
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $1.24
+<------View Summary Both Total values are different ----->16
+Actual total value is :$15.26
+Expected total value is :$23.35
+<----- Shopping cart Both item prices are different -------->17
+Actual Item price is: $1.25
+Expected Item price is: $2.02
+<-------- Shopping cart Both Discount prices are different ------>18
+Actual Discount price is : 3.11%
+Expected Discount price is : 2.32%
+<-------- Shopping cart Both Addon prices are different ------->19
+Actual Addon price is : $0.00
+Expected Addon price is : $0.41
+<-------- Shopping cart Both Shipping prices are different -------->20
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $1.24
+<---------Shopping cart  Both Total values are different -------->21
+Actual total value is :$15.26
+Expected total value is :$23.35
+<---------- Shopping cart Both Total values are different ---------->22
+Actual total value is :$15.26
+Expected total value is :$23.35
+<------- Order Checkout Both Item prices are different --------> 23
+ActualOCItemPrice : $1.25
+ExpectedItemPrice : $2.02
+gc
+<-------- Order CheckOut Both Shipping prices are different -------->24
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $1.24
+mp
+<---------- Order Checkout Both Amounts are different1 ------------>25
+ActualOCAmount : $15.26
+ExpectedAmount : $23.35
+<----------- Order Checkout Both SubTotals are different ---------->26
+ActualOCSubTotal : $15.26
+ExpectedAmount : $23.35
+<------------- Order Checkout Both Tax percentages are different ------------>27
+ActualOCTaxPercentage : (5.98%)
+ExpectedTaxpercentage : (3.06%)
+<---------- Order Checkout Both Tax amounts are different ------------->28
+ActualOCTaxAmount : $0.91
+ExpectedTaxAmount : $0.71
+<------------ Order Checkout Both GrandTotal Amounts are different ----------->29
+ActualOCTotal : $16.17
+ExpectedTotal : $24.06
+<--------- Ordercheckout Both applied payments values are different -------->30
+Actual Applied value is :$16.17
+Expected Applied value is :$24.06
+<----------- Order Summary Bothe Item prices are different -------->31
+ExpectedOSItemPrice : $2.02
+ActualOSItemPrice : $1.25
+<--------- Order Summary Both Discount prices are different ------------>32
+ExpectedOSDiscount : 2.32%
+ActualOSDiscount : 3.11%
+<-------- Order Summary Both Shipping prices are different1 -------->33
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $1.24
+<---------- Order Summary Both Amounts are different2 ------------>34
+ExpectedOSAmount : $23.35
+ActualOSAmount : $15.26
+<----------Order Summary Both SubTotal are different ---------->35
+ExpectedOSSubTotal : $23.35
+ActualOSSubTotal : $15.26
+<------------- Order Summary Both Tax percentages are different ------------->36
+ExpectedOSTaxPercentage : (3.06%)
+ActualOSTaxPercentage : (5.98%)
+<--------Order Summary Both Tax values are different ---------->37
+ExpectedOSTaxValue : $0.71
+ActualOSTaxValue : $0.91
+<-------- Order Summary Both Shipping prices are different3 -------->38
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $1.24
+<---------- Order Summary Both Total values are different ---------->39
+ExpectedOSTotal : $24.06
+ ActualOSTotal : $16.17
+<----------Order Summary Both Applied Discount values are different ------------->40
+ExpectedOSAppliedDiscontPrice : - $0.52
+ActualOSAppliedDiscontPrice : - $0.43
+<------------ Order Summary Both Applied Addon prices are different----------->41
+ExpectedOSAppliedAddonPrice : $0.41
+ActualOSAppliedAddonPrice : $0.00
+billing1Billed to :
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+<--------- Both Total1 prices are different --------->42
+ExpectedPrintTotal1 : $24.06
+ActualPrintTotal1 : $16.17
+<-------- Bothe Item prices are different --------->43
+ExpectedPrintPOPUPSItemPrice : $2.02
+ActualPrintPOPUPSItemPrice : $1.25
+<------- Both Discount prices are different --------->44
+ExpectedPrintPOPUPSDiscount : 2.32%
+ActualPrintPOPUPDiscount : 3.11%
+<-------- Both Amounts are different-------> 45
+ExpectedPrintPOPUPAmount : $23.35
+ActualPrintPOPUPAmount : $15.26
+<-------- Both SubTotal are different---------> 46
+ExpectedPrintPOPUPSubTotal :$23.35
+ActualPrintPOPUPSubTotal :$15.26
+<-------- Both Tax values are different --------->47
+ExpectedPrintTaxValue : $0.71
+ActualPrintPOPUPTaxValue : $0.91
+<-------- Both Applied Discount prices are different --------->48
+ExpectedPrintPOPUPAppliedDiscontPrice : -$0.52
+ActualPrintPOPUPAppliedDiscontPrice : -$0.43
+<-------- Both Applied Addon prices are different --------->49
+ExpectedPrintPOPUPAppliedAddonPrice : $0.41
+ActualPrintPOPUPAppliedAddonPrice : $0.00
+OrderNumber : 7313
+<--------- Both View orders grid subtotal prices are different ------> 50
+Expected value: $22.22
+  Actual value :$13.75
+ VO Popup Sub total price is -->
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  11
+Int Actual Qunaity -->11
+**ActualQuantity**11
+Both Item quantitys are same
+<-------- Both View Order Grid Pop-Up Item Prices are different --------->51
+Expected View Order Grid  Item Prices price : $2.02
+Actual Users View Order Grid  price : $1.25
+<-------- Both item Subtotals in view order grid popup values are different --------->52
+Expected View Order Grid  Subtotal price : $22.22
+Actual View Order Grid  Subtotal price : $13.75
+<-------- Both view order grid popup Addon prices are different --------->53
+Expected View Order Grid  Addon price : $0.41
+Actual View Order Grid  Addon price : $0.00
+<-------- Both VOGPOPUP item Discount prices are different --------->54
+Expected View Order Grid Discount price : 2.32%
+Actual View Order Grid  Discount price : 3.11%
+<------ VOGPOPUP Both Shipping prices are different1 ----->55
+Actual View Order Grid  Shipping price value is: $1.94
+Expected View Order Grid  Shipping price value is: $1.24
+<-------- Both order total Subtotals in view order grid popup values are different --------->56
+Expected View Order Grid  Subtotal price : $22.22
+Actual View Order Grid  Subtotal price : $13.75
+<-------- Both VOGPOPUP order total Addon prices are different --------->57
+Expected User View Order Grid Popup Addon price : $0.41
+Actual Users  View Order Grid Popup Addon price : $0.00
+ExpectedOrderDiscount6
+<-------- Both VOGPOPUP order  Discount prices are different --------->58
+Expected User VOGPOPUP order  Discount price : -$0.52
+Actual Users VOGPOPUP order  Discount price : -$0.43
+<-------- Both VOGPOPUP order  Promotion Shipping prices are different 1--------->59
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $1.24
+<-------- Both VOGPOPUP order  Tax prices are different3 -------->60
+Expected User View Orders Tax price : $0.71
+Actual Users view orders Tax price : null
+<-------- Both VOGPOPUP order  Total prices are different 1--------->61
+Expected User View Orders Total price : $24.06
+Actual Users view orders Total price : $16.17
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+<-------- Both subtotal prices are different --------->62
+ExpectedUserViewOrders Subtotal price : $22.22
+Actual Users view orders Subtotal price : $13.75
+<-------- Both Addon prices are different --------->63
+Expected User View Orders Addon price : $0.41
+Actual Users view orders Addon price : $0.00
+<-------- Both Discount prices are different --------->64
+Expected User View Orders Discount price : -$0.52
+Actual Users view orders Discount price : -$0.43
+<-------- Both Promotion Shipping prices are different --------->65
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $1.24
+<-------- Both Promotion Tax prices are different -------->66
+Expected User View Orders Tax price : $0.71
+Actual Users view orders Tax price : $0.91
+<-------- Both Promotion Total prices are different --------->67
+Expected User View Orders Total price : $24.06
+Actual Users view orders Total price : $16.17
+<-------- Both Promotion Item Prices are different --------->68
+Expected User View Orders Item Prices price : $
+Actual Users view orders Item Prices price : $1.25
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"lblAddOnAmount"}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir15336_1873}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=73.0.3683.86, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: f6296fc156c9c9ff9e286c0c0dd49c3f
+*** Element info: {Using=id, value=lblAddOnAmount}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at tec.AC40.Common.Commonclass.UserViewOrdersPagePriceverification(Commonclass.java:17897)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:3416)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+<--------- Both Total1 prices are different --------->70
+ExpectedPrintTotal1 : $24.06
+ActualPrintTotal1 : $16.17
+<-------- Bothe Item prices are different --------->71
+ExpectedPrintPOPUPSItemPrice : $2.02
+ActualPrintPOPUPSItemPrice : $1.25
+<------- Both Discount prices are different --------->72
+ExpectedPrintPOPUPSDiscount : 2.32%
+ActualPrintPOPUPDiscount : 3.11%
+<-------- Both Amounts are different-------> 73
+ExpectedPrintPOPUPAmount : $23.35
+ActualPrintPOPUPAmount : $15.26
+<-------- Both SubTotal are different---------> 74
+ExpectedPrintPOPUPSubTotal :$23.35
+ActualPrintPOPUPSubTotal :$15.26
+<-------- Both Tax values are different --------->75
+ExpectedPrintTaxValue : $0.71
+ActualPrintPOPUPTaxValue : $0.91
+<-------- Both Applied Discount prices are different --------->76
+ExpectedPrintPOPUPAppliedDiscontPrice : -$0.52
+ActualPrintPOPUPAppliedDiscontPrice : -$0.43
+<-------- Both Applied Addon prices are different --------->77
+ExpectedPrintPOPUPAppliedAddonPrice : $0.41
+ActualPrintPOPUPAppliedAddonPrice : $0.00
+<--------- Both View orders grid subtotal prices are different ------> 78
+Expected value: $22.22
+  Actual value :$13.75
+ VO Popup Sub total price is -->$13.75
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  11
+Int Actual Qunaity -->11
+**ActualQuantity**11
+Both Item quantitys are same
+<-------- Both View Order Grid Pop-Up Item Prices are different --------->79
+Expected View Order Grid  Item Prices price : $2.02
+Actual Users View Order Grid  price : $1.25
+<-------- Both item Subtotals in view order grid popup values are different --------->80
+Expected View Order Grid  Subtotal price : $22.22
+Actual View Order Grid  Subtotal price : $13.75
+<-------- Both view order grid popup Addon prices are different --------->81
+Expected View Order Grid  Addon price : $0.41
+Actual View Order Grid  Addon price : $0.00
+<-------- Both VOGPOPUP item Discount prices are different --------->82
+Expected View Order Grid Discount price : 2.32%
+Actual View Order Grid  Discount price : 3.11%
+<------ VOGPOPUP Both Shipping prices are different1 ----->83
+Actual View Order Grid  Shipping price value is: $1.94
+Expected View Order Grid  Shipping price value is: $1.24
+<-------- Both order total Subtotals in view order grid popup values are different --------->84
+Expected View Order Grid  Subtotal price : $22.22
+Actual View Order Grid  Subtotal price : $13.75
+<-------- Both VOGPOPUP order total Addon prices are different --------->85
+Expected User View Order Grid Popup Addon price : $0.41
+Actual Users  View Order Grid Popup Addon price : $0.00
+ExpectedOrderDiscount6
+<-------- Both VOGPOPUP order  Discount prices are different --------->86
+Expected User VOGPOPUP order  Discount price : -$0.52
+Actual Users VOGPOPUP order  Discount price : -$0.43
+<-------- Both VOGPOPUP order  Promotion Shipping prices are different 1--------->87
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $1.24
+<-------- Both VOGPOPUP order  Tax prices are different3 -------->88
+Expected User View Orders Tax price : $0.71
+Actual Users view orders Tax price : null
+<-------- Both VOGPOPUP order  Total prices are different 1--------->89
+Expected User View Orders Total price : $24.06
+Actual Users view orders Total price : $16.17
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+<-------- Both subtotal prices are different --------->90
+ExpectedUserViewOrders Subtotal price : $22.22
+Actual Users view orders Subtotal price : $13.75
+<-------- Both Addon prices are different --------->91
+Expected User View Orders Addon price : $0.41
+Actual Users view orders Addon price : $0.00
+<-------- Both Discount prices are different --------->92
+Expected User View Orders Discount price : -$0.52
+Actual Users view orders Discount price : -$0.43
+<-------- Both Promotion Shipping prices are different --------->93
+Actual Shipping price value is: $1.94
+Expected Shipping price value is: $1.24
+<-------- Both Promotion Tax prices are different -------->94
+Expected User View Orders Tax price : $0.71
+Actual Users view orders Tax price : $0.91
+<-------- Both Promotion Total prices are different --------->95
+Expected User View Orders Total price : $24.06
+Actual Users view orders Total price : $16.17
+<-------- Both Promotion Item Prices are different --------->96
+Expected User View Orders Item Prices price : $
+Actual Users view orders Item Prices price : $1.25
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"lblAddOnAmount"}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir15336_1873}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=73.0.3683.86, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: f6296fc156c9c9ff9e286c0c0dd49c3f
+*** Element info: {Using=id, value=lblAddOnAmount}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at tec.AC40.Common.Commonclass.UserViewOrdersPagePriceverification(Commonclass.java:17897)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:5787)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+BillingAddress & BillingAddress
+billing1
+<-------- Billing Address not displayed in Approver Print Popup page ---------->98
+Actual Billing Address Status : Billing address not displayed
+Expected Billing Address Status : Billing address displays to user
+billing1
+<-------- Billing Address not displayed in Approver Print Popup page ---------->99
+Actual Billing Address Status : Billing address not displayed
+Expected Billing Address Status : Billing address displays to user
+<--------- Both Total1 prices are different --------->100
+ExpectedPrintTotal1 : $24.06
+ActualPrintTotal1 : 
+java.lang.NumberFormatException: empty String
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1842)
+	at sun.misc.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.lang.Double.parseDouble(Double.java:538)
+	at java.lang.Double.valueOf(Double.java:502)
+	at tec.AC40.Common.Commonclass.PrintPopUpPriceVerification(Commonclass.java:15144)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:5807)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: username (tried for 180 second(s) with 1 SECONDS interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:264)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at tec.AC40.Common.Commonclass.PSLogin(Commonclass.java:336)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:5825)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: username
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:899)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:898)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:184)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 24 more
+Report are saved and closed
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //a[@onclick='javascript:return linkClick("#/pendingscheduledorders")']/span (tried for 180 second(s) with 1 SECONDS interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:264)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:5846)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //a[@onclick='javascript:return linkClick("#/pendingscheduledorders")']/span
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:899)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:898)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:184)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 23 more
+** End**
+
+===============================================
+Suite
+Total tests run: 448, Failures: 0, Skips: 0
+===============================================
+

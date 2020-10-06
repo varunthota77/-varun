@@ -1,0 +1,16 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,OrderCheckOut,Discount,'$0.00,'ship,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,Order checkout,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,Order Summary,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,User View Orders,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,1
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,1
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,1
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,Approver View Orders,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,1
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,1
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,1
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,PS View Orders,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,1
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,1
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,1
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable , , , , , Fail,1

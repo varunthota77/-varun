@@ -1,0 +1,43 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC026,77.0,3 Decimal point,Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC026,77.0,3 Decimal point,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC026,77.0,3 Decimal point,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,6937
+TC026,78.0,4 Decimal point,ProductDetailsPopUp,Item price,'$1.4931,'$2.7120,FAIL,6937
+TC026,78.0,4 Decimal point,ProductDetailsPopUp,Discount,'$7.5600,'$6.2500,FAIL,6937
+TC026,78.0,4 Decimal point,ProductDetailsPopUp,Item price,'$1.4931,'$2.7120,FAIL,6937
+TC026,78.0,4 Decimal point,ProductDetailsPopUp,Discount,'$7.5600,'$6.2500,FAIL,6937
+TC026,78.0,4 Decimal point,VeiwPricingPopUp,Item price,'$1.4931,'$2.7120,FAIL,6937
+TC026,78.0,4 Decimal point,ProductDetailsPopUp,Item price,'$1.4931,'$2.7120,FAIL,6937
+TC026,78.0,4 Decimal point,ProductDetailsPopUp,Discount,'$7.5600,'$6.2500,FAIL,6937
+TC026,78.0,4 Decimal point,AddonPrice,Addon price,'Addon1 - $7.1268 ( Per Piece ),'Addon1 - $4.8120 ( Per Piece ),FAIL,6937
+TC026,78.0,4 Decimal point,ViewSummary,Item price,'$1.4931,'$2.7120,FAIL,6937
+TC026,78.0,4 Decimal point,ViewSummary,subtotal,'$20.9034,'$37.9680,FAIL,6937
+TC026,78.0,4 Decimal point,ViewSummary,Discount,'-( $7.5600 ),'-( $6.2500 ),FAIL,6937
+TC026,78.0,4 Decimal point,ViewSummary,Addon price,'$99.7752,'$67.3680,FAIL,6937
+TC026,78.0,4 Decimal point,ViewSummary,total,'$113.1186,'$99.0860,FAIL,6937
+TC026,78.0,4 Decimal point,ShoppingCart,Item price,'$1.4931,'$2.7120,FAIL,6937
+TC026,78.0,4 Decimal point,ShoppingCart,Discount price,'$7.5600,'$6.2500,FAIL,6937
+TC026,78.0,4 Decimal point,ShoppingCart,Addon price,'$99.7752,'$67.3680,FAIL,6937
+TC026,78.0,4 Decimal point,ShoppingCart,GridTotal,'$113.1186,'$99.0860,FAIL,6937
+TC026,78.0,4 Decimal point,ShoppingCart,total,'$113.1186,'$99.0860,FAIL,6937
+TC026,78.0,4 Decimal point,Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,6937
+TC026,78.0,4 Decimal point,Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,6937
+TC026,78.0,4 Decimal point,Order check out,Shipping Price,'$175.8848,'$119.1680,FAIL,6937
+TC026,78.0,4 Decimal point,OrderCheckOut,ItemPrice,'$1.4931,'$2.7120,FAIL,6937
+TC026,78.0,4 Decimal point,OrderCheckOut,Amount,'$113.1186,'$99.0860,FAIL,6937
+TC026,78.0,4 Decimal point,OrderCheckOut,SubTotal,'$113.1186,'$99.0860,FAIL,6937
+TC026,78.0,4 Decimal point,OrderCheckOut,PromotionDiscount,'-$2.2356,'-$1.2350,FAIL,6937
+TC026,78.0,4 Decimal point,OrderCheckOut,Shipping,'$175.8848,'$119.1680,FAIL,6937
+TC026,78.0,4 Decimal point,OrderCheckOut,TaxPercentage,'(2.1300%),'(1.2300%),FAIL,6937
+TC026,78.0,4 Decimal point,OrderCheckOut,TaxAmount,'$2.3618,'$1.2036,FAIL,6937
+TC026,78.0,4 Decimal point,OrderCheckOut,Total,'$289.1296,'$218.2226,FAIL,6937
+TC026,78.0,4 Decimal point,Order checkout,CostCenter,'Cost center option NOT displayed to user,'Cost center option displayed to user,FAIL,6937
+TC030,90.0,4 Decimal point,Select List,Shipping Price,'$77.6789,'$99.4990,FAIL,6938
+TC030,90.0,4 Decimal point,AddonPrice,Addon price,'Addon1 - $3.9999 ( Flat Rate ),'Addon1 - $2.4560 ( Flat Rate ),FAIL,6938
+TC030,90.0,4 Decimal point,ViewSummary,Addon price,'$3.9999,'$2.4560,FAIL,6938
+TC030,90.0,4 Decimal point,ViewSummary,Shipping price,'$77.6789,'$99.4990,FAIL,6938
+TC030,90.0,4 Decimal point,ViewSummary,total,'$616.1384,'$636.4146,FAIL,6938
+TC030,90.0,4 Decimal point,ShoppingCart,Addon price,'$3.9999,'$2.4560,FAIL,6938
+TC030,90.0,4 Decimal point,ShoppingCart,Shipping price,'$77.6789,'$99.4990,FAIL,6938
+TC030,90.0,4 Decimal point,ShoppingCart,GridTotal,'$616.1384,'$636.4146,FAIL,6938
+TC030,90.0,4 Decimal point,ShoppingCart,total,'$616.1384,'$636.4146,FAIL,6938

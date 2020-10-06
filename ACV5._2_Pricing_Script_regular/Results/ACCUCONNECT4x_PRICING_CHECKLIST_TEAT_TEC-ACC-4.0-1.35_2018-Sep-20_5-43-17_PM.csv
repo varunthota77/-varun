@@ -1,0 +1,11 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,OrderCheckOut,Discount,'$0.00,'ship,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,OrderCheckOut,PromotionDiscount,'-$22.29,'-$0.00,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,OrderCheckOut,TaxAmount,'$58.26,'$61.48,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,OrderCheckOut,Total,'$461.73,'$487.24,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,Order checkout,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,OrderCheckout,AppliedPayment,'$461.73,'$487.24,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,Order Summary,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,OS Print Popup,PrintTotal,'$461.73,'$487.24,FAIL,null

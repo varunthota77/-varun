@@ -1,0 +1,2 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC003,7.0,(2 Decimal point) To test Dynamic-print when Discount and promotion coupon Percentage where item price is flat rate, , , , , PASS,6636

@@ -1,0 +1,7 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters ,OrderCheckOut,Discount,'$2.54,'Postage1,FAIL,null
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters ,OrderCheckOut,PromotionDiscount,'-$1.54,'-$0.00,FAIL,null
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters ,OrderCheckOut,TaxAmount,'$5.71,'$5.79,FAIL,null
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters ,OrderCheckOut,Total,'$110.48,'$112.10,FAIL,null
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters ,OrderCheckout,AppliedPayment,'$110.48,'$112.10,FAIL,null
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters ,OS Print Popup,PrintTotal,'$110.48,'$112.10,FAIL,null
