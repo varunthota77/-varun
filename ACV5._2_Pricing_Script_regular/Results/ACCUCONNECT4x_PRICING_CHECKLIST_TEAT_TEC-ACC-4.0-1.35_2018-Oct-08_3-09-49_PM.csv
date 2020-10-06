@@ -1,0 +1,4 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC008,23.0,3 Decimal point,Admin Coop Fund,TaxAmount,'62,361.500,'62,359.518,FAIL,6627
+TC008,23.0,3 Decimal point,Admin Coop Fund,TaxAmount,'9,937,637.500,'9,937,639.482,FAIL,6627
+TC008,23.0,3 Decimal point, , , , , Fail,6627

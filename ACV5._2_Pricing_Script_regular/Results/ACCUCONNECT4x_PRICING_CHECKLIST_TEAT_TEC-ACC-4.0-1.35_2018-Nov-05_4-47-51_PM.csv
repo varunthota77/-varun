@@ -1,0 +1,12 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC002,5.0,3 Decimal point,ProductDetailsPopUp,Discount,'$7.340,'$2.540,FAIL,null
+TC002,5.0,3 Decimal point,ProductDetailsPopUp,Discount,'$7.340,'$2.540,FAIL,null
+TC002,5.0,3 Decimal point,ProductDetailsPopUp,Discount,'$7.340,'$2.540,FAIL,null
+TC002,5.0,3 Decimal point,AddonPrice,Addon price,'Addon1 - $4.657 ( Flat Rate ),'Addon1 - $3.450 ( Flat Rate ),FAIL,null
+TC002,5.0,3 Decimal point,ViewSummary,Discount,'-( $7.340 ),'-( $2.540 ),FAIL,null
+TC002,5.0,3 Decimal point,ViewSummary,Addon price,'$4.657,'$3.450,FAIL,null
+TC002,5.0,3 Decimal point,ViewSummary,total,'$138.548,'$142.141,FAIL,null
+TC002,5.0,3 Decimal point,ShoppingCart,Discount price,'$7.340,'$2.540,FAIL,null
+TC002,5.0,3 Decimal point,ShoppingCart,Addon price,'$4.657,'$3.450,FAIL,null
+TC002,5.0,3 Decimal point,ShoppingCart,GridTotal,'$138.548,'$142.141,FAIL,null
+TC002,5.0,3 Decimal point,ShoppingCart,total,'$138.548,'$142.141,FAIL,null

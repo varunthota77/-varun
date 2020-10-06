@@ -1,0 +1,2 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters , , , , , PASS,6832

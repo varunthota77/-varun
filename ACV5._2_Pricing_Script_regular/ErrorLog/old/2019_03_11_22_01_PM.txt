@@ -1,0 +1,1864 @@
+****** ****** Test Case Number --> 181.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 17250
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+6 SelectListActualShipping2 :$49.370
+Both addon prices are same
+OrderFlow.IsBaseDiscountZero :false
+BasePriceIncrementValue :0
+Quantity11234____20
+ActualDiscount-( $4.091 )
+ExpectedDiscount-( $4.091 )
+ActualDiscount0908hh-( $4.091 )
+gc
+mp
+billing1Billed to :
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+OrderNumber : 7197
+ VO Popup Sub total price is -->$51.569
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  20
+Int Actual Qunaity -->20
+**ActualQuantity**20
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+OrderFlow.IsBaseDiscountZero :false
+BasePriceIncrementValue :0
+Both VOGPOPUP item Discount prices are same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount4
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Co-op Fund
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$51.569
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  20
+Int Actual Qunaity -->20
+**ActualQuantity**20
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+OrderFlow.IsBaseDiscountZero :false
+BasePriceIncrementValue :0
+Both VOGPOPUP item Discount prices are same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount4
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Co-op Fund
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$51.569
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  20
+Int Actual Qunaity -->20
+**ActualQuantity**20
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+OrderFlow.IsBaseDiscountZero :false
+BasePriceIncrementValue :0
+Both VOGPOPUP item Discount prices are same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount4
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Co-op Fund
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+___ ___ ___ ____ _ ____ ____ ____ ______ ____ ___ ____ ____ ____ ____ ____ ____ _____ ____ _____ ____ _
+**** *** **Al l the Expected values and Actual values are same, Test PASS*** *** ***
+Time Stamp : _2019-Mar-11_10-40-44_PM
+ Don't kill browser
+****** ****** Test Case Number --> 182.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 18950
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+6 SelectListActualShipping2 :$24.9429
+Both addon prices are same
+Quantity11234____17
+ActualDiscount-$1.0276
+ExpectedDiscount-$1.0276
+ActualDiscount0908hh-$1.0276
+gc
+mp
+billing1Billed to :
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+OrderNumber : 7198
+ VO Popup Sub total price is -->$24.9407
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  17
+Int Actual Qunaity -->17
+**ActualQuantity**17
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Co-op Fund
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$24.9407
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  17
+Int Actual Qunaity -->17
+**ActualQuantity**17
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Co-op Fund
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$24.9407
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  17
+Int Actual Qunaity -->17
+**ActualQuantity**17
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Co-op Fund
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+___ ___ ___ ____ _ ____ ____ ____ ______ ____ ___ ____ ____ ____ ____ ____ ____ _____ ____ _____ ____ _
+**** *** **Al l the Expected values and Actual values are same, Test PASS*** *** ***
+Time Stamp : _2019-Mar-11_11-19-53_PM
+ Don't kill browser
+****** ****** Test Case Number --> 183.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 44273
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+6 SelectListActualShipping2 :$176.83
+Both addon prices are same
+OrderFlow.IsBaseDiscountZero :false
+BasePriceIncrementValue :0
+Quantity11234____8
+ActualDiscount-( $8.49 )
+ExpectedDiscount-( $8.49 )
+ActualDiscount0908hh-( $8.49 )
+gc
+mp
+billing1Billed to :
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+OrderNumber : 7199
+ VO Popup Sub total price is -->$25.25
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  8
+Int Actual Qunaity -->8
+**ActualQuantity**8
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+OrderFlow.IsBaseDiscountZero :false
+BasePriceIncrementValue :0
+Both VOGPOPUP item Discount prices are same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount4
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Co-op Fund
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$25.25
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  8
+Int Actual Qunaity -->8
+**ActualQuantity**8
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+OrderFlow.IsBaseDiscountZero :false
+BasePriceIncrementValue :0
+Both VOGPOPUP item Discount prices are same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount4
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Co-op Fund
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$25.25
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  8
+Int Actual Qunaity -->8
+**ActualQuantity**8
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+OrderFlow.IsBaseDiscountZero :false
+BasePriceIncrementValue :0
+Both VOGPOPUP item Discount prices are same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount4
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Co-op Fund
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+___ ___ ___ ____ _ ____ ____ ____ ______ ____ ___ ____ ____ ____ ____ ____ ____ _____ ____ _____ ____ _
+**** *** **Al l the Expected values and Actual values are same, Test PASS*** *** ***
+Time Stamp : _2019-Mar-11_11-58-57_PM
+ Don't kill browser
+****** ****** Test Case Number --> 184.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 45146
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+Both addon prices are same
+Quantity11234____17
+ActualDiscount-$1.6141
+ExpectedDiscount-$1.6141
+ActualDiscount0908hh-$1.6141
+<------- In Ordercheckout page Billig and Shipping address are different or Ship address have Eidt | Select links -------->1
+Actual Billg value is :38345 W.10 Mile Road
+suite 115
+Formington Hills, Texas 78732
+Edit  |  Show My Addresses
+Actual Shipping value is :38345 W.10 Mile Road
+suite 115
+Formington Hills, Texas 78732
+Edit  |  Show My Addresses
+Expected Billing Add :38345 W.10 Mile Road
+suite 115
+Formington Hills, Texas 78732
+Edit  |  Show My Addresses
+Expected Shippint Add :38345 W.10 Mile Road
+suite 115
+Formington Hills, Texas 78732
+Edit  |  Show My Addresses 
+<----- In Ordercheckout page Billig and Shipping address are different or Ship address have Eidt | Select links ---->2
+Actual Billg value is :38345 W.10 Mile Roada
+suite 115b
+Formington Hills, Texas 78732
+Edit  |  Show My Addresses
+Actual Shipping value is :38345 W.10 Mile Roada
+suite 115b
+Formington Hills, Texas 78732
+Edit
+<------- Order check out Both Shipping Prices are different ------> 3
+Actual Shipping price is : $2.6754
+Expected shipping price is : $24.9429
+nc
+pp
+<------------ Order Checkout Both Shipping Amounts are different -------->4
+ActualOCShippingAmount : $2.6754
+ExpectedShippingAmount : $24.9429
+<---------- Order Checkout Both Tax amounts are different ------------->5
+ActualOCTaxAmount : $1.7593
+ExpectedTaxAmount : $2.7213
+<------------ Order Checkout Both GrandTotal Amounts are different ----------->6
+ActualOCTotal : $42.4841
+ExpectedTotal : $65.7136
+<--------- Ordercheckout Both applied payments values are different -------->7
+Actual Applied value is :$42.4841
+Expected Applied value is :$65.7136
+<----------- Order Summary Bothe shipping amounts are different ------------>8
+ExpectedOSShipingAmount : $24.9429
+ActualOSShipingAmount : $2.6754
+<--------Order Summary Both Tax values are different ---------->9
+ExpectedOSTaxValue : $2.7213
+ActualOSTaxValue : $1.7593
+<---------- Order Summary Both Total values are different ---------->10
+ExpectedOSTotal : $65.7136
+ ActualOSTotal : $42.4841
+billing1Billed to :
+Address 1
+38345 W.10 Mile Roada
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Roada
+suite 115b
+Formington Hills, Texas - 78732
+billing1Sub Total derived after :
+Applied Total Discount Price : -$1.6141
+Applied Total Add-on Price : $3.4512
+Applied Total Postage Price : $0.0000
+Subtotal : $41.0148
+Promotion Disc : -$2.9654
+Shipping Amount: $2.6754
+Tax : $1.7593
+Total : $42.4841
+<-------- Billing Address not displayed in OS Print Popup page ---------->11
+Actual Billing Address Status : Billing address not displayed
+Expected Billing Address Status : Billing address displays to user
+<--------- Both Total1 prices are different --------->12
+ExpectedPrintTotal1 : $65.7136
+ActualPrintTotal1 : $42.4841
+<-------- Both Tax values are different --------->13
+ExpectedPrintTaxValue : $2.7213
+ActualPrintPOPUPTaxValue : $1.7593
+OrderNumber : 7200
+ VO Popup Sub total price is -->$39.1777
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  17
+Int Actual Qunaity -->17
+**ActualQuantity**17
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+<-------- Both VOGPOPUP order  Shipping prices are different2 --------->14
+Expected User View Orders Shipping price : $24.9429
+Actual Users view orders Shipping price : $2.6754
+<-------- Both VOGPOPUP order  Tax prices are different3 -------->15
+Expected User View Orders Tax price : $2.7213
+Actual Users view orders Tax price : null
+<-------- Both VOGPOPUP order  Total prices are different 1--------->16
+Expected User View Orders Total price : $65.7136
+Actual Users view orders Total price : $42.4841
+Billing Information
+Address 1
+38345 W.10 Mile Roada
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Co-op Fund
+billing1Billing Information
+Address 1
+38345 W.10 Mile Roada
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Co-op Fund
+<-------- Both Promotion Shipping prices are different --------->17
+Expected User View Orders Shipping price : $24.9429
+Actual Users view orders Shipping price : $2.6754
+<-------- Both Promotion Tax prices are different -------->18
+Expected User View Orders Tax price : $2.7213
+Actual Users view orders Tax price : $1.7593
+<-------- Both Promotion Total prices are different --------->19
+Expected User View Orders Total price : $65.7136
+Actual Users view orders Total price : $42.4841
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Roada
+suite 115b
+Formington Hills, Texas - 78732
+billing1Sub Total derived after :
+Applied Total Discount Price : -$1.6141
+Applied Total Add-on Price : $3.4512
+Applied Total Postage Price : $0.0000
+Subtotal : $41.0148
+Promotion Disc : -$2.9654
+Shipping Amount: $2.6754
+Tax : $1.7593
+Total : $42.4841
+<-------- Billing Address not displayed in User Print Popup page ---------->20
+Actual Billing Address Status : Billing address not displayed
+Expected Billing Address Status : Billing address displays to user
+<--------- Both Total1 prices are different --------->21
+ExpectedPrintTotal1 : $65.7136
+ActualPrintTotal1 : $42.4841
+<-------- Both Tax values are different --------->22
+ExpectedPrintTaxValue : $2.7213
+ActualPrintPOPUPTaxValue : $1.7593
+ VO Popup Sub total price is -->$39.1777
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  17
+Int Actual Qunaity -->17
+**ActualQuantity**17
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+<-------- Both VOGPOPUP order  Shipping prices are different2 --------->23
+Expected User View Orders Shipping price : $24.9429
+Actual Users view orders Shipping price : $2.6754
+<-------- Both VOGPOPUP order  Tax prices are different3 -------->24
+Expected User View Orders Tax price : $2.7213
+Actual Users view orders Tax price : null
+<-------- Both VOGPOPUP order  Total prices are different 1--------->25
+Expected User View Orders Total price : $65.7136
+Actual Users view orders Total price : $42.4841
+Billing Information
+Address 1
+38345 W.10 Mile Roada
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Co-op Fund
+billing1Billing Information
+Address 1
+38345 W.10 Mile Roada
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Co-op Fund
+<-------- Both Promotion Shipping prices are different --------->26
+Expected User View Orders Shipping price : $24.9429
+Actual Users view orders Shipping price : $2.6754
+<-------- Both Promotion Tax prices are different -------->27
+Expected User View Orders Tax price : $2.7213
+Actual Users view orders Tax price : $1.7593
+<-------- Both Promotion Total prices are different --------->28
+Expected User View Orders Total price : $65.7136
+Actual Users view orders Total price : $42.4841
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Roada
+suite 115b
+Formington Hills, Texas - 78732
+billing1Sub Total derived after :
+Applied Total Discount Price : -$1.6141
+Applied Total Add-on Price : $3.4512
+Applied Total Postage Price : $0.0000
+Subtotal : $41.0148
+Promotion Disc : -$2.9654
+Shipping Amount: $2.6754
+Tax : $1.7593
+Total : $42.4841
+<-------- Billing Address not displayed in Approver Print Popup page ---------->29
+Actual Billing Address Status : Billing address not displayed
+Expected Billing Address Status : Billing address displays to user
+<--------- Both Total1 prices are different --------->30
+ExpectedPrintTotal1 : $65.7136
+ActualPrintTotal1 : $42.4841
+<-------- Both Tax values are different --------->31
+ExpectedPrintTaxValue : $2.7213
+ActualPrintPOPUPTaxValue : $1.7593
+ VO Popup Sub total price is -->$39.1777
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  17
+Int Actual Qunaity -->17
+**ActualQuantity**17
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+<-------- Both VOGPOPUP order  Shipping prices are different2 --------->32
+Expected User View Orders Shipping price : $24.9429
+Actual Users view orders Shipping price : $2.6754
+<-------- Both VOGPOPUP order  Tax prices are different3 -------->33
+Expected User View Orders Tax price : $2.7213
+Actual Users view orders Tax price : null
+<-------- Both VOGPOPUP order  Total prices are different 1--------->34
+Expected User View Orders Total price : $65.7136
+Actual Users view orders Total price : $42.4841
+Billing Information
+Address 1
+38345 W.10 Mile Roada
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Co-op Fund
+billing1Billing Information
+Address 1
+38345 W.10 Mile Roada
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Co-op Fund
+<-------- Both Promotion Shipping prices are different --------->35
+Expected User View Orders Shipping price : $24.9429
+Actual Users view orders Shipping price : $2.6754
+<-------- Both Promotion Tax prices are different -------->36
+Expected User View Orders Tax price : $2.7213
+Actual Users view orders Tax price : $1.7593
+<-------- Both Promotion Total prices are different --------->37
+Expected User View Orders Total price : $65.7136
+Actual Users view orders Total price : $42.4841
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Roada
+suite 115b
+Formington Hills, Texas - 78732
+billing1Sub Total derived after :
+Applied Total Discount Price : -$1.6141
+Applied Total Add-on Price : $3.4512
+Applied Total Postage Price : $0.0000
+Subtotal : $41.0148
+Promotion Disc : -$2.9654
+Shipping Amount: $2.6754
+Tax : $1.7593
+Total : $42.4841
+<-------- Billing Address not displayed in PS Print Popup page ---------->38
+Actual Billing Address Status : Billing address not displayed
+Expected Billing Address Status : Billing address displays to user
+<--------- Both Total1 prices are different --------->39
+ExpectedPrintTotal1 : $65.7136
+ActualPrintTotal1 : $42.4841
+<-------- Both Tax values are different --------->40
+ExpectedPrintTaxValue : $2.7213
+ActualPrintPOPUPTaxValue : $1.7593
+<----------- Both CoopFund used amounts are different ------------>41
+ActualCoopFundused2 : 22,479.4489
+ExpectedCoopFundUsed2ab : 22,502.6784
+<----------- Both Avaible fund amounts are different ------------>42
+ActualAvailableFunds2 : 9,977,519.5511
+ExpectedAvailableFunds2ab : 9,977,496.3216
+___ ___ ___ ____ _ ____ ____ ____ ______ ____ ___ ____ ____ ____ ____ ____ ____ _____ ____ _____ ____ _
+** ** **Actual and Expected values are not same, Test FAIL** ** **
+Number of errors : 42
+Time Stamp : _2019-Mar-12_12-40-23_AM
+ Don't kill browser
+****** ****** Test Case Number --> 185.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 36423
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+Quantity11234____10
+ActualDiscount-$0.00
+ExpectedDiscount-$0.00
+ActualDiscount0908hh-$0.00
+if subtotal is  zero promotion value should be zero
+gc
+mp
+billing1Billed to :
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+OrderNumber : 7201
+ VO Popup Sub total price is -->$0.00
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  10
+Int Actual Qunaity -->10
+**ActualQuantity**10
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount4
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$0.00
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  10
+Int Actual Qunaity -->10
+**ActualQuantity**10
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount4
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$0.00
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  10
+Int Actual Qunaity -->10
+**ActualQuantity**10
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount4
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+___ ___ ___ ____ _ ____ ____ ____ ______ ____ ___ ____ ____ ____ ____ ____ ____ _____ ____ _____ ____ _
+**** *** **Al l the Expected values and Actual values are same, Test PASS*** *** ***
+Time Stamp : _2019-Mar-12_1-14-02_AM
+ Don't kill browser
+****** ****** Test Case Number --> 186.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 25343
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+6 SelectListActualShipping2 :$2.33
+Both addon prices are same
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+Quantity11234____3
+ActualDiscount-( $2.56 )
+ExpectedDiscount-( $2.56 )
+ActualDiscount0908hh-( $2.56 )
+gc
+mp
+ErrorMessage :Amount should be greater than zero
+___ ___ ___ ____ _ ____ ____ ____ ______ ____ ___ ____ ____ ____ ____ ____ ____ _____ ____ _____ ____ _
+**** *** **Al l the Expected values and Actual values are same, Test PASS*** *** ***
+Time Stamp : _2019-Mar-12_1-42-48_AM
+ Don't kill browser
+****** ****** Test Case Number --> 187.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 20105
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+3 SelectListActualShipping2 :$1.02
+Both addon prices are same
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+Quantity11234____8
+ActualDiscount-( $32.56 )
+ExpectedDiscount-( $32.56 )
+ActualDiscount0908hh-( $32.56 )
+gc
+mp
+ErrorMessage :Amount should be greater than zero
+___ ___ ___ ____ _ ____ ____ ____ ______ ____ ___ ____ ____ ____ ____ ____ ____ _____ ____ _____ ____ _
+**** *** **Al l the Expected values and Actual values are same, Test PASS*** *** ***
+Time Stamp : _2019-Mar-12_2-14-16_AM
+ Don't kill browser
+****** ****** Test Case Number --> 188.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 8714
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+Both addon prices are same
+Quantity11234____10
+ActualDiscount-$23.61
+ExpectedDiscount-$23.61
+ActualDiscount0908hh-$23.61
+gc
+mp
+billing0
+BillingAddress & BillingAddress
+billing0
+OrderNumber : 7202
+ VO Popup Sub total price is -->$31.25
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  10
+Int Actual Qunaity -->10
+**ActualQuantity**10
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+Both VOGPOPUP order Shipping prices are same 
+billing0
+BillingAddress & BillingAddress
+billing0
+ VO Popup Sub total price is -->$31.25
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  10
+Int Actual Qunaity -->10
+**ActualQuantity**10
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+Both VOGPOPUP order Shipping prices are same 
+billing0
+BillingAddress & BillingAddress
+billing0
+ VO Popup Sub total price is -->$31.25
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  10
+Int Actual Qunaity -->10
+**ActualQuantity**10
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+Both VOGPOPUP order Shipping prices are same 
+billing0
+BillingAddress & BillingAddress
+billing0
+___ ___ ___ ____ _ ____ ____ ____ ______ ____ ___ ____ ____ ____ ____ ____ ____ _____ ____ _____ ____ _
+**** *** **Al l the Expected values and Actual values are same, Test PASS*** *** ***
+Time Stamp : _2019-Mar-12_2-52-19_AM
+ Don't kill browser
+****** ****** Test Case Number --> 189.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 11389
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+Both addon prices are same
+Quantity11234____21
+ActualDiscount-$142.1342
+ExpectedDiscount-$142.1342
+ActualDiscount0908hh-$142.1342
+<------- In Ordercheckout page Billig and Shipping address are different or Ship address have Eidt | Select links -------->1
+Actual Billg value is :38345 W.10 Mile Road
+suite 115
+Formington Hills, Texas 78732
+Edit  |  Show My Addresses
+Actual Shipping value is :38345 W.10 Mile Road
+suite 115
+Formington Hills, Texas 78732
+Edit  |  Show My Addresses
+Expected Billing Add :38345 W.10 Mile Road
+suite 115
+Formington Hills, Texas 78732
+Edit  |  Show My Addresses
+Expected Shippint Add :38345 W.10 Mile Road
+suite 115
+Formington Hills, Texas 78732
+Edit  |  Show My Addresses 
+nc
+pp
+billing1Billed to :
+Address 1
+38345 W.10 Mile Roada
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Roada
+suite 115b
+Formington Hills, Texas - 78732
+billing1Sub Total derived after :
+Applied Total Discount Price : -$142.1342
+Applied Total Add-on Price : $22.1452
+Applied Total Postage Price : $0.0000
+Subtotal : $22.1452
+Promotion Disc : -$500.0000
+Shipping Amount: $449.8473
+Tax : $0.0000
+Total : $0.0000
+<-------- Billing Address not displayed in OS Print Popup page ---------->2
+Actual Billing Address Status : Billing address not displayed
+Expected Billing Address Status : Billing address displays to user
+OrderNumber : 7203
+ VO Popup Sub total price is -->$142.1342
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  21
+Int Actual Qunaity -->21
+**ActualQuantity**21
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+Billing Information
+Address 1
+38345 W.10 Mile Roada
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+billing1Billing Information
+Address 1
+38345 W.10 Mile Roada
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Roada
+suite 115b
+Formington Hills, Texas - 78732
+billing1Sub Total derived after :
+Applied Total Discount Price : -$142.1342
+Applied Total Add-on Price : $22.1452
+Applied Total Postage Price : $0.0000
+Subtotal : $22.1452
+Promotion Disc : -$500.0000
+Shipping Amount: $449.8473
+Tax : $0.0000
+Total : $0.0000
+<-------- Billing Address not displayed in User Print Popup page ---------->3
+Actual Billing Address Status : Billing address not displayed
+Expected Billing Address Status : Billing address displays to user
+ VO Popup Sub total price is -->$142.1342
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  21
+Int Actual Qunaity -->21
+**ActualQuantity**21
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+Billing Information
+Address 1
+38345 W.10 Mile Roada
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+billing1Billing Information
+Address 1
+38345 W.10 Mile Roada
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Roada
+suite 115b
+Formington Hills, Texas - 78732
+billing1Sub Total derived after :
+Applied Total Discount Price : -$142.1342
+Applied Total Add-on Price : $22.1452
+Applied Total Postage Price : $0.0000
+Subtotal : $22.1452
+Promotion Disc : -$500.0000
+Shipping Amount: $449.8473
+Tax : $0.0000
+Total : $0.0000
+<-------- Billing Address not displayed in Approver Print Popup page ---------->4
+Actual Billing Address Status : Billing address not displayed
+Expected Billing Address Status : Billing address displays to user
+ VO Popup Sub total price is -->$142.1342
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  21
+Int Actual Qunaity -->21
+**ActualQuantity**21
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+Billing Information
+Address 1
+38345 W.10 Mile Roada
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+billing1Billing Information
+Address 1
+38345 W.10 Mile Roada
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Roada
+suite 115b
+Formington Hills, Texas - 78732
+billing1Sub Total derived after :
+Applied Total Discount Price : -$142.1342
+Applied Total Add-on Price : $22.1452
+Applied Total Postage Price : $0.0000
+Subtotal : $22.1452
+Promotion Disc : -$500.0000
+Shipping Amount: $449.8473
+Tax : $0.0000
+Total : $0.0000
+<-------- Billing Address not displayed in PS Print Popup page ---------->5
+Actual Billing Address Status : Billing address not displayed
+Expected Billing Address Status : Billing address displays to user
+___ ___ ___ ____ _ ____ ____ ____ ______ ____ ___ ____ ____ ____ ____ ____ ____ _____ ____ _____ ____ _
+** ** **Actual and Expected values are not same, Test FAIL** ** **
+Number of errors : 5
+Time Stamp : _2019-Mar-12_3-31-39_AM
+ Don't kill browser
+****** ****** Test Case Number --> 190.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 37237
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: spnSuccessMessage (tried for 500 second(s) with 1 SECONDS interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:264)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at tec.AC40.Common.Commonclass.CouponCodePrice(Commonclass.java:7301)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:399)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: spnSuccessMessage
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:899)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:898)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:208)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:204)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:647)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 24 more
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //img[contains(@src,'Company.png')] (tried for 500 second(s) with 1 SECONDS interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:264)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at tec.AC40.Common.Commonclass.TaxSettings(Commonclass.java:7406)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:416)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //img[contains(@src,'Company.png')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:899)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:898)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:184)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 24 more
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //img[contains(@src,'Products_Icon.png')] (tried for 500 second(s) with 1 SECONDS interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:264)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at tec.AC40.Common.Commonclass.DownloadPriceSetting(Commonclass.java:4691)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:445)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //img[contains(@src,'Products_Icon.png')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:899)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:898)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:184)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 24 more
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //img[contains(@src,'Company.png')] (tried for 500 second(s) with 1 SECONDS interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:264)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at tec.AC40.Common.Commonclass.ShippingPriceSetting(Commonclass.java:5926)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:464)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //img[contains(@src,'Company.png')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:899)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:898)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:184)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 24 more
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //img[contains(@src,'Security.png')] (tried for 500 second(s) with 1 SECONDS interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:264)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at tec.AC40.Common.Commonclass.CaptureCoOpfundDetails(Commonclass.java:6651)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:470)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //img[contains(@src,'Security.png')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:899)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:898)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:184)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 24 more
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //img[contains(@src,'Products_Icon.png')] (tried for 500 second(s) with 1 SECONDS interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:264)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at tec.AC40.Common.Commonclass.IsTaxExemptSettings(Commonclass.java:6429)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:473)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //img[contains(@src,'Products_Icon.png')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:899)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:898)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:184)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 24 more
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //img[contains(@src,'Company.png')] (tried for 500 second(s) with 1 SECONDS interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:264)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at tec.AC40.Common.Commonclass.deleteingfullfillmentdetails(Commonclass.java:8036)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:488)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //img[contains(@src,'Company.png')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:899)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:898)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:184)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 24 more
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.linkText: Miscellaneous (tried for 500 second(s) with 1 SECONDS interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:264)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at tec.AC40.Common.Commonclass.OrderElementsSettings(Commonclass.java:18051)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:493)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.linkText: Miscellaneous
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:899)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:898)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:208)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:204)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:647)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 24 more
+Both addon prices are same
+Quantity11234____13
+<----- View Summary Both subtotals are different ----->9
+Actual subtotal is : $15.28
+Expected subtotal is : $9.81
+ActualDiscount-$15.28
+ExpectedDiscount-$9.81
+ActualDiscount0908hh-$15.28
+<------ View Summary Both Discount prices are different ------>10
+Actual Discount price is : -$15.28
+Expected Discount price is : -$9.81
+<------View Summary Both Download Priceses are different ----->11
+AcutalDownloadPrice is :$9.59
+ExpectedDownloadPrice is :$4.12
+<------- In Ordercheckout page Billig and Shipping address are different or Ship address have Eidt | Select links -------->12
+Actual Billg value is :38345 W.10 Mile Road
+suite 115
+Formington Hills, Texas 78732
+Edit  |  Show My Addresses
+Actual Shipping value is :38345 W.10 Mile Road
+suite 115
+Formington Hills, Texas 78732
+Edit  |  Show My Addresses
+Expected Billing Add :38345 W.10 Mile Road
+suite 115
+Formington Hills, Texas 78732
+Edit  |  Show My Addresses
+Expected Shippint Add :38345 W.10 Mile Road
+suite 115
+Formington Hills, Texas 78732
+Edit  |  Show My Addresses 
+<----- In Ordercheckout page Billig and Shipping address are different or Ship address have Eidt | Select links ---->13
+Actual Billg value is :38345 W.10 Mile Roada
+suite 115b
+Formington Hills, Texas 78732
+Edit  |  Show My Addresses
+Actual Shipping value is :38345 W.10 Mile Roada
+suite 115b
+Formington Hills, Texas 78732
+Edit
+<------- Order check out Both Shipping Prices are different ------> 14
+Actual Shipping price is : $278.48
+Expected shipping price is : $5.36
+nc
+pp
+<-------- Order Checkout Both Promotion discounts are different ---------->15
+ActualOCPromotionDiscount : -$500.00
+ExpectedPromotionDiscount : -$182.65
+<------------ Order Checkout Both Shipping Amounts are different ---------->16
+ActualOCShippingAmount : $278.48
+ExpectedShippingAmount : $5.36
+<------------- Order Checkout Both Tax percentages are different ------------>17
+ActualOCTaxPercentage : (5.69%)
+ExpectedTaxpercentage : (5.87%)
+ErrorMessage :Amount should be greater than zero
+___ ___ ___ ____ _ ____ ____ ____ ______ ____ ___ ____ ____ ____ ____ ____ ____ _____ ____ _____ ____ _
+** ** **Actual and Expected values are not same, Test FAIL** ** **
+Number of errors : 17
+** End**
+
+===============================================
+Suite
+Total tests run: 448, Failures: 0, Skips: 0
+===============================================
+

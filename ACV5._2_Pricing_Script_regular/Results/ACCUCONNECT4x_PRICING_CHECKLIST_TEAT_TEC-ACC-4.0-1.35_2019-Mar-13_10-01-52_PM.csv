@@ -1,0 +1,13 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC060,201.0,4 Decimal point,Order Summary,postage price,'$0.0000,',FAIL,null
+TC060,201.0,4 Decimal point, , , , , Fail,7216
+TC061,202.0,(2 Decimal point) Broadcat product where item price as per piece  with out applying tax,Order Summary,postage price,'$0.00,',FAIL,null
+TC061,202.0,(2 Decimal point) Broadcat product where item price as per piece  with out applying tax, , , , , Fail,7217
+TC061,203.0,3 Decimal point,Order Summary,postage price,'$0.000,',FAIL,null
+TC061,203.0,3 Decimal point, , , , , Fail,7218
+TC061,204.0,4 Decimal point,Order Summary,postage price,'$0.0000,',FAIL,null
+TC061,204.0,4 Decimal point, , , , , Fail,7219
+TC067,205.0,(2 Decimal point) To test Dynamic-print Ship to My Address: Print when shipping is Taxable and shipping price and Item price are Perpiece.(Applying Discount(%) Coupon(%)  Add-On(Perpiece) and Tax), , , , , PASS,7220
+TC067,206.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters , , , , , PASS,7221
+TC067,207.0,3 Decimal point, , , , , PASS,7222
+TC067,209.0,(2 Decimal point) To test Dynamic-print To test Dynamic-Download Item process type, , , , , PASS,7223

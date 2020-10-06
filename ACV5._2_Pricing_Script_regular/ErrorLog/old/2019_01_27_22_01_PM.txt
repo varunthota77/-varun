@@ -1,0 +1,2374 @@
+****** ****** Test Case Number --> 81.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 23644
+Only local connections are allowed.
+Jan 27, 2019 10:01:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+MultiPaymentLen :3
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+6 SelectListActualShipping2 :$137.3984
+Both addon prices are same
+Quantity11234____16
+ActualDiscount-$3.7280
+ExpectedDiscount-$3.7280
+ActualDiscount0908hh-$3.7280
+gc
+mp
+paymentLength : 3
+Order flow s value: 0
+** CAME UP TO HERE **
+Order flow s value: 1
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//ul[@id='ddlPaymentType_listbox'])[2]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir10348_2653}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=71.0.3578.98, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: c21d0e63cdc327a77ee1641abb735593
+*** Element info: {Using=xpath, value=(//ul[@id='ddlPaymentType_listbox'])[2]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:476)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at tec.AC40.Common.Commonclass.SelectPaymentTypeInCheckOutPage(Commonclass.java:10996)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:2962)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Report are saved and closed
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:2934)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Time Stamp : _2019-Jan-27_10-22-56_PM
+ Don't kill browser
+****** ****** Test Case Number --> 82.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 30646
+Only local connections are allowed.
+Jan 27, 2019 10:23:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+6 SelectListActualShipping2 :$2.33
+Both addon prices are same
+OrderFlow.IsBaseDiscountZero :false
+BasePriceIncrementValue :0
+Quantity11234____23
+ActualDiscount-( $1.73 )
+ExpectedDiscount-( $1.73 )
+ActualDiscount0908hh-( $1.73 )
+gc
+mp
+** CAME UP TO HERE **
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//table[@id='GrayGrid']/tbody/tr[2]/td[4]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir1704_24299}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=71.0.3578.98, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3158d0a9ce4253d836de74e3eb1e5f97
+*** Element info: {Using=xpath, value=//table[@id='GrayGrid']/tbody/tr[2]/td[4]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:476)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at tec.AC40.Common.Commonclass.VerifyAppliedAndRemaingPayments(Commonclass.java:10374)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:3011)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Report are saved and closed
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: lnkPrint (tried for 500 second(s) with 1 SECONDS interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:264)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:3152)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: lnkPrint
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:899)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:898)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:184)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 23 more
+Time Stamp : _2019-Jan-27_10-53-31_PM
+ Don't kill browser
+****** ****** Test Case Number --> 83.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 41959
+Only local connections are allowed.
+Jan 27, 2019 10:53:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+6 SelectListActualShipping2 :$7.797
+Both addon prices are same
+OrderFlow.IsBaseDiscountZero :false
+BasePriceIncrementValue :0
+Quantity11234____19
+ActualDiscount-( $1.230 )
+ExpectedDiscount-( $1.230 )
+ActualDiscount0908hh-( $1.230 )
+gc
+mp
+** CAME UP TO HERE **
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//table[@id='GrayGrid']/tbody/tr[2]/td[4]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir10268_30189}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=71.0.3578.98, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: dab0b8758778c19c684ec405f646838f
+*** Element info: {Using=xpath, value=//table[@id='GrayGrid']/tbody/tr[2]/td[4]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:476)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at tec.AC40.Common.Commonclass.VerifyAppliedAndRemaingPayments(Commonclass.java:10374)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:3011)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Report are saved and closed
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: lnkPrint (tried for 500 second(s) with 1 SECONDS interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:264)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:3152)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: lnkPrint
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:899)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:898)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:184)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 23 more
+Time Stamp : _2019-Jan-27_11-23-47_PM
+ Don't kill browser
+****** ****** Test Case Number --> 84.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 32454
+Only local connections are allowed.
+Jan 27, 2019 11:23:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+6 SelectListActualShipping2 :$8.8999
+Both addon prices are same
+OrderFlow.IsBaseDiscountZero :false
+BasePriceIncrementValue :0
+Quantity11234____27
+ActualDiscount-( $1.9900 )
+ExpectedDiscount-( $1.9900 )
+ActualDiscount0908hh-( $1.9900 )
+gc
+mp
+** CAME UP TO HERE **
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//table[@id='GrayGrid']/tbody/tr[2]/td[4]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir3444_11457}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=71.0.3578.98, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 7cd7114e11be413ba4035045edd29d42
+*** Element info: {Using=xpath, value=//table[@id='GrayGrid']/tbody/tr[2]/td[4]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:476)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at tec.AC40.Common.Commonclass.VerifyAppliedAndRemaingPayments(Commonclass.java:10374)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:3011)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Report are saved and closed
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: lnkPrint (tried for 500 second(s) with 1 SECONDS interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:264)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:3152)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: lnkPrint
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:899)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:898)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:184)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 23 more
+Time Stamp : _2019-Jan-27_11-54-12_PM
+ Don't kill browser
+****** ****** Test Case Number --> 85.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 12695
+Only local connections are allowed.
+Jan 27, 2019 11:54:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+6 SelectListActualShipping2 :$1.29
+Both addon prices are same
+Quantity11234____19
+ActualDiscount-$0.31
+ExpectedDiscount-$0.31
+ActualDiscount0908hh-$0.31
+gc
+mp
+** CAME UP TO HERE **
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//table[@id='GrayGrid']/tbody/tr[2]/td[4]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir10980_26327}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=71.0.3578.98, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: fa520a7e9fa14a1f304e737251e0acd4
+*** Element info: {Using=xpath, value=//table[@id='GrayGrid']/tbody/tr[2]/td[4]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:476)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at tec.AC40.Common.Commonclass.VerifyAppliedAndRemaingPayments(Commonclass.java:10374)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:3011)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Report are saved and closed
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: lnkPrint (tried for 500 second(s) with 1 SECONDS interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:264)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:3152)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: lnkPrint
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:899)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:898)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:184)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 23 more
+Time Stamp : _2019-Jan-28_12-23-19_AM
+ Don't kill browser
+****** ****** Test Case Number --> 86.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 16454
+Only local connections are allowed.
+Jan 28, 2019 12:23:31 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+6 SelectListActualShipping2 :$1.999
+Both addon prices are same
+Quantity11234____21
+ActualDiscount-$0.445
+ExpectedDiscount-$0.445
+ActualDiscount0908hh-$0.445
+gc
+mp
+** CAME UP TO HERE **
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//table[@id='GrayGrid']/tbody/tr[2]/td[4]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir9172_32116}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=71.0.3578.98, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: afa3eedbfa017efd3df7ad0b7930f165
+*** Element info: {Using=xpath, value=//table[@id='GrayGrid']/tbody/tr[2]/td[4]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:476)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at tec.AC40.Common.Commonclass.VerifyAppliedAndRemaingPayments(Commonclass.java:10374)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:3011)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Report are saved and closed
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: lnkPrint (tried for 500 second(s) with 1 SECONDS interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:264)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:3152)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: lnkPrint
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:899)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:898)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:184)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 23 more
+Time Stamp : _2019-Jan-28_12-52-48_AM
+ Don't kill browser
+****** ****** Test Case Number --> 87.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 19702
+Only local connections are allowed.
+Jan 28, 2019 12:52:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+6 SelectListActualShipping2 :$3.4889
+Both addon prices are same
+Quantity11234____41
+ActualDiscount-$0.0247
+ExpectedDiscount-$0.0247
+ActualDiscount0908hh-$0.0247
+gc
+mp
+** CAME UP TO HERE **
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//table[@id='GrayGrid']/tbody/tr[2]/td[4]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir10808_30690}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=71.0.3578.98, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: b4d81909149bb6d7348b054f4f8b9bd0
+*** Element info: {Using=xpath, value=//table[@id='GrayGrid']/tbody/tr[2]/td[4]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:476)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at tec.AC40.Common.Commonclass.VerifyAppliedAndRemaingPayments(Commonclass.java:10374)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:3011)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Report are saved and closed
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: lnkPrint (tried for 500 second(s) with 1 SECONDS interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:264)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:3152)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: lnkPrint
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:899)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:898)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:184)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 23 more
+Time Stamp : _2019-Jan-28_1-22-03_AM
+ Don't kill browser
+****** ****** Test Case Number --> 88.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 43316
+Only local connections are allowed.
+Jan 28, 2019 1:22:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+6 SelectListActualShipping2 :$101.99
+Both addon prices are same
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+Quantity11234____81
+ActualDiscount-$0.00
+ExpectedDiscount-$0.00
+ActualDiscount0908hh-$0.00
+gc
+mp
+billing1Billed to :
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+OrderNumber : 6997
+ VO Popup Sub total price is -->$323.19
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  81
+Int Actual Qunaity -->81
+**ActualQuantity**81
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount4
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$323.19
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  81
+Int Actual Qunaity -->81
+**ActualQuantity**81
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount4
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$323.19
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  81
+Int Actual Qunaity -->81
+**ActualQuantity**81
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount4
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+___ ___ ___ ____ _ ____ ____ ____ ______ ____ ___ ____ ____ ____ ____ ____ ____ _____ ____ _____ ____ _
+**** *** **Al l the Expected values and Actual values are same, Test PASS*** *** ***
+Time Stamp : _2019-Jan-28_1-52-00_AM
+ Don't kill browser
+****** ****** Test Case Number --> 89.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 45424
+Only local connections are allowed.
+Jan 28, 2019 1:52:09 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+6 SelectListActualShipping2 :$99.499
+Both addon prices are same
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+Quantity11234____49
+ActualDiscount-$0.000
+ExpectedDiscount-$0.000
+ActualDiscount0908hh-$0.000
+gc
+mp
+billing1Billed to :
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+OrderNumber : 6998
+ VO Popup Sub total price is -->$562.961
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  49
+Int Actual Qunaity -->49
+**ActualQuantity**49
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount4
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$562.961
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  49
+Int Actual Qunaity -->49
+**ActualQuantity**49
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount4
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$562.961
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  49
+Int Actual Qunaity -->49
+**ActualQuantity**49
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount4
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+___ ___ ___ ____ _ ____ ____ ____ ______ ____ ___ ____ ____ ____ ____ ____ ____ _____ ____ _____ ____ _
+**** *** **Al l the Expected values and Actual values are same, Test PASS*** *** ***
+Time Stamp : _2019-Jan-28_2-21-33_AM
+ Don't kill browser
+****** ****** Test Case Number --> 90.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 7955
+Only local connections are allowed.
+Jan 28, 2019 2:21:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+6 SelectListActualShipping2 :$77.6789
+Both addon prices are same
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+Quantity11234____54
+ActualDiscount-$0.0000
+ExpectedDiscount-$0.0000
+ActualDiscount0908hh-$0.0000
+gc
+mp
+billing1Billed to :
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+OrderNumber : 6999
+ VO Popup Sub total price is -->$534.4596
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  54
+Int Actual Qunaity -->54
+**ActualQuantity**54
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount4
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$534.4596
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  54
+Int Actual Qunaity -->54
+**ActualQuantity**54
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount4
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$534.4596
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  54
+Int Actual Qunaity -->54
+**ActualQuantity**54
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount4
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+___ ___ ___ ____ _ ____ ____ ____ ______ ____ ___ ____ ____ ____ ____ ____ ____ _____ ____ _____ ____ _
+**** *** **Al l the Expected values and Actual values are same, Test PASS*** *** ***
+Time Stamp : _2019-Jan-28_2-51-03_AM
+ Don't kill browser
+****** ****** Test Case Number --> 91.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 1145
+Only local connections are allowed.
+Jan 28, 2019 2:51:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+6 SelectListActualShipping2 :$11.89
+Both addon prices are same
+Quantity11234____17
+ActualDiscount-$3.09
+ExpectedDiscount-$3.09
+ActualDiscount0908hh-$3.09
+gc
+mp
+billing1Billed to :
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+OrderNumber : 7000
+ VO Popup Sub total price is -->$96.22
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  17
+Int Actual Qunaity -->17
+**ActualQuantity**17
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Co-op Fund
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$96.22
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  17
+Int Actual Qunaity -->17
+**ActualQuantity**17
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Co-op Fund
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$96.22
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  17
+Int Actual Qunaity -->17
+**ActualQuantity**17
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Co-op Fund
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+___ ___ ___ ____ _ ____ ____ ____ ______ ____ ___ ____ ____ ____ ____ ____ ____ _____ ____ _____ ____ _
+**** *** **Al l the Expected values and Actual values are same, Test PASS*** *** ***
+Time Stamp : _2019-Jan-28_3-21-06_AM
+ Don't kill browser
+****** ****** Test Case Number --> 92.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 4744
+Only local connections are allowed.
+Jan 28, 2019 3:21:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+6 SelectListActualShipping2 :$21.568
+Both addon prices are same
+Quantity11234____35
+ActualDiscount-$2.146
+ExpectedDiscount-$2.146
+ActualDiscount0908hh-$2.146
+gc
+mp
+billing1Billed to :
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+OrderNumber : 7001
+ VO Popup Sub total price is -->$43.890
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  35
+Int Actual Qunaity -->35
+**ActualQuantity**35
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Co-op Fund
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$43.890
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  35
+Int Actual Qunaity -->35
+**ActualQuantity**35
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Co-op Fund
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$43.890
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  35
+Int Actual Qunaity -->35
+**ActualQuantity**35
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Co-op Fund
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+___ ___ ___ ____ _ ____ ____ ____ ______ ____ ___ ____ ____ ____ ____ ____ ____ _____ ____ _____ ____ _
+**** *** **Al l the Expected values and Actual values are same, Test PASS*** *** ***
+Time Stamp : _2019-Jan-28_3-50-35_AM
+ Don't kill browser
+****** ****** Test Case Number --> 93.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 6270
+Only local connections are allowed.
+Jan 28, 2019 3:50:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+6 SelectListActualShipping2 :$9.5698
+Both addon prices are same
+Quantity11234____44
+ActualDiscount-$3.7206
+ExpectedDiscount-$3.7206
+ActualDiscount0908hh-$3.7206
+gc
+mp
+billing1Billed to :
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+OrderNumber : 7002
+ VO Popup Sub total price is -->$143.6512
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  44
+Int Actual Qunaity -->44
+**ActualQuantity**44
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Co-op Fund
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$143.6512
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  44
+Int Actual Qunaity -->44
+**ActualQuantity**44
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Co-op Fund
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$143.6512
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  44
+Int Actual Qunaity -->44
+**ActualQuantity**44
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Co-op Fund
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+___ ___ ___ ____ _ ____ ____ ____ ______ ____ ___ ____ ____ ____ ____ ____ ____ _____ ____ _____ ____ _
+**** *** **Al l the Expected values and Actual values are same, Test PASS*** *** ***
+Time Stamp : _2019-Jan-28_4-19-38_AM
+ Don't kill browser
+****** ****** Test Case Number --> 94.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 12511
+Only local connections are allowed.
+Jan 28, 2019 4:19:47 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+6 SelectListActualShipping2 :$21.26
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+Quantity11234____25
+ActualDiscount-$0.00
+ExpectedDiscount-$0.00
+ActualDiscount0908hh-$0.00
+gc
+mp
+billing1Billed to :
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+OrderNumber : 7003
+ VO Popup Sub total price is -->
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  25
+Int Actual Qunaity -->25
+**ActualQuantity**25
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount4
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$38.75
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  25
+Int Actual Qunaity -->25
+**ActualQuantity**25
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount4
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$38.75
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  25
+Int Actual Qunaity -->25
+**ActualQuantity**25
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount4
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+___ ___ ___ ____ _ ____ ____ ____ ______ ____ ___ ____ ____ ____ ____ ____ ____ _____ ____ _____ ____ _
+**** *** **Al l the Expected values and Actual values are same, Test PASS*** *** ***
+Time Stamp : _2019-Jan-28_4-48-07_AM
+ Don't kill browser
+****** ****** Test Case Number --> 95.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 38191
+Only local connections are allowed.
+Jan 28, 2019 4:48:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+6 SelectListActualShipping2 :$14.599
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+Quantity11234____36
+ActualDiscount-$0.000
+ExpectedDiscount-$0.000
+ActualDiscount0908hh-$0.000
+gc
+mp
+billing1Billed to :
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+OrderNumber : 7004
+ VO Popup Sub total price is -->$81.216
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  36
+Int Actual Qunaity -->36
+**ActualQuantity**36
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount4
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$81.216
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  36
+Int Actual Qunaity -->36
+**ActualQuantity**36
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount4
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$81.216
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  36
+Int Actual Qunaity -->36
+**ActualQuantity**36
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount4
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+___ ___ ___ ____ _ ____ ____ ____ ______ ____ ___ ____ ____ ____ ____ ____ ____ _____ ____ _____ ____ _
+**** *** **Al l the Expected values and Actual values are same, Test PASS*** *** ***
+** End**
+
+===============================================
+Suite
+Total tests run: 448, Failures: 0, Skips: 0
+===============================================
+

@@ -1,0 +1,7 @@
+[0829/172520:ERROR:settings.cc(261)] Settings magic is not 1129342067
+[0610/121618.258:ERROR:scoped_process_suspend.cc(30)] NtSuspendProcess: An attempt was made to access an exiting process.  (0xc000010a)
+[0610/121618.427:ERROR:process_info.cc(116)] ReadProcessMemory bool __cdecl crashpad::`anonymous-namespace'::ReadStruct<struct crashpad::process_types::RTL_USER_PROCESS_PARAMETERS<struct crashpad::process_types::internal::Traits32>>(void *,unsigned __int64,struct crashpad::process_types::RTL_USER_PROCESS_PARAMETERS<struct crashpad::process_types::internal::Traits32> *): Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0610/121618.428:ERROR:process_info.cc(559)] ReadProcessData failed
+[0610/121618.429:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0610/121618.429:ERROR:exception_snapshot_win.cc(87)] thread ID 0 not found in process
+[0610/121618.429:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::Initialize failed

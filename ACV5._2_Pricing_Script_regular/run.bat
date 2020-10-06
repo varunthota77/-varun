@@ -1,0 +1,2 @@
+set classpath=D:\Accu_selenium\ACV5._2_Pricing_Script_regular\bin\;D:\Accu_selenium\ACV5._2_Pricing_Script_regular\lib\*;
+java org.testng.TestNG D:\Accu_selenium\ACV5._2_Pricing_Script_regular\testng.xml

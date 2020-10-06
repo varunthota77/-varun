@@ -1,0 +1,4 @@
+****** ******TestCase : TC001 ***** Test Step NO: 1.0******* *******
+Dec 07, 2018 1:01:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+11a2be5a-e112-4dfd-8cd7-61f9f7a89173

@@ -1,0 +1,7 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable , , , , , PASS,6982
+TC030,89.0,3 Decimal point, , , , , PASS,6983
+TC031,92.0,3 Decimal point, , , , , PASS,6985
+TC031,93.0,4 Decimal point, , , , , PASS,6986
+TC032,94.0,(2 Decimal point) Static print where item process type as print When Addons  Coupon  Discount  Tax were not applicable, , , , , PASS,6987
+TC032,95.0,3 Decimal point, , , , , PASS,6988

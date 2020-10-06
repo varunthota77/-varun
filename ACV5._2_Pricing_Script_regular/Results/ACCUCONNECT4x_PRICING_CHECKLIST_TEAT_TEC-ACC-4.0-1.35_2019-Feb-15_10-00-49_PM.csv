@@ -1,0 +1,29 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC014,41.0,3 Decimal point, , , , , PASS,7061
+TC014,42.0,4 Decimal point, , , , , PASS,7062
+TC015,45.0,4 Decimal point,ProductDetailsPopUp,Item price,'$0.0000,'$0.000,FAIL,null
+TC015,45.0,4 Decimal point,ProductDetailsPopUp,Discount,'4.5600%,'3.250%,FAIL,null
+TC015,45.0,4 Decimal point,ProductDetailsPopUp,Item price,'$0.0000,'$0.000,FAIL,null
+TC015,45.0,4 Decimal point,ProductDetailsPopUp,Discount,'4.5600%,'3.250%,FAIL,null
+TC015,45.0,4 Decimal point,VeiwPricingPopUp,Item price,'$0.0000,'$0.000,FAIL,null
+TC015,45.0,4 Decimal point,ProductDetailsPopUp,Item price,'$0.0000,'$0.000,FAIL,null
+TC015,45.0,4 Decimal point,ProductDetailsPopUp,Discount,'4.5600%,'3.250%,FAIL,null
+TC015,45.0,4 Decimal point,ViewSummary,Discount percentage,'(4.5600 %),'(3.250 %),FAIL,null
+TC015,45.0,4 Decimal point,ViewSummary,subtotal,'$14.2365,'$13.256,FAIL,null
+TC015,45.0,4 Decimal point,ViewSummary,Discount,'-$0.6492,'-$0.431,FAIL,null
+TC015,45.0,4 Decimal point,ViewSummary,DownloadPrice,'$14.2365,'$13.256,FAIL,null
+TC015,45.0,4 Decimal point,ViewSummary,total,'$13.5873,'$12.825,FAIL,null
+TC015,45.0,4 Decimal point,ShoppingCart,Item price,'$0.0000,'$0.000,FAIL,null
+TC015,45.0,4 Decimal point,ShoppingCart,Discount price,'4.5600%,'3.250%,FAIL,null
+TC015,45.0,4 Decimal point,ShoppingCart,Addon price,'$0.0000,'$0.000,FAIL,null
+TC015,45.0,4 Decimal point,ShoppingCart,GridTotal,'$13.5873,'$12.825,FAIL,null
+TC015,45.0,4 Decimal point,ShoppingCart,total,'$13.5873,'$12.825,FAIL,null
+TC015,45.0,4 Decimal point,OrderCheckOut,ItemPrice,'$14.2365,'$13.256,FAIL,null
+TC015,45.0,4 Decimal point,OrderCheckOut,Amount,'$13.5873,'$12.825,FAIL,null
+TC015,45.0,4 Decimal point,OrderCheckOut,SubTotal,'$13.5873,'$12.825,FAIL,null
+TC015,45.0,4 Decimal point,OrderCheckOut,PromotionDiscount,'-$2.3600,'-$1.230,FAIL,null
+TC015,45.0,4 Decimal point,OrderCheckOut,TaxPercentage,'(7.8900%),'(1.250%),FAIL,null
+TC015,45.0,4 Decimal point,OrderCheckOut,TaxAmount,'$0.8858,'$0.145,FAIL,null
+TC015,45.0,4 Decimal point,OrderCheckOut,Total,'$12.1131,'$11.740,FAIL,null
+TC015,45.0,4 Decimal point,Order checkout,CostCenter,'Cost center option NOT displayed to user,'Cost center option displayed to user,FAIL,null
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type), , , , , PASS,7063

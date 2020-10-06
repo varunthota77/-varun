@@ -1,0 +1,1902 @@
+****** ****** Test Case Number --> 41.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 25674
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+OrderFlow.IsBaseDiscountZero :false
+BasePriceIncrementValue :0
+Quantity11234____1
+ActualDiscount-( $1.450 )
+ExpectedDiscount-( $1.450 )
+ActualDiscount0908hh-( $1.450 )
+gc
+map
+billing1Billed to :
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+OrderNumber : 7356
+ VO Popup Sub total price is -->$20.232
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  1
+Int Actual Qunaity -->1
+**ActualQuantity**1
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+OrderFlow.IsBaseDiscountZero :false
+BasePriceIncrementValue :0
+Both VOGPOPUP item Discount prices are same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount4
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Co-op Fund
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  1
+Int Actual Qunaity -->1
+**ActualQuantity**1
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+OrderFlow.IsBaseDiscountZero :false
+BasePriceIncrementValue :0
+Both VOGPOPUP item Discount prices are same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount4
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Co-op Fund
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$20.232
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  1
+Int Actual Qunaity -->1
+**ActualQuantity**1
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+OrderFlow.IsBaseDiscountZero :false
+BasePriceIncrementValue :0
+Both VOGPOPUP item Discount prices are same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount4
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Co-op Fund
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+___ ___ ___ ____ _ ____ ____ ____ ______ ____ ___ ____ ____ ____ ____ ____ ____ _____ ____ _____ ____ _
+**** *** **Al l the Expected values and Actual values are same, Test PASS*** *** ***
+Time Stamp : _2019-Apr-03_10-36-57_PM
+ Don't kill browser
+****** ****** Test Case Number --> 42.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 13983
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+OrderFlow.IsBaseDiscountZero :false
+BasePriceIncrementValue :0
+Quantity11234____1
+ActualDiscount-( $1.7900 )
+ExpectedDiscount-( $1.7900 )
+ActualDiscount0908hh-( $1.7900 )
+gc
+map
+billing1Billed to :
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+OrderNumber : 7357
+ VO Popup Sub total price is -->$30.4562
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  1
+Int Actual Qunaity -->1
+**ActualQuantity**1
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+OrderFlow.IsBaseDiscountZero :false
+BasePriceIncrementValue :0
+Both VOGPOPUP item Discount prices are same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount4
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Co-op Fund
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$30.4562
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  1
+Int Actual Qunaity -->1
+**ActualQuantity**1
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+OrderFlow.IsBaseDiscountZero :false
+BasePriceIncrementValue :0
+Both VOGPOPUP item Discount prices are same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount4
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Co-op Fund
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$30.4562
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  1
+Int Actual Qunaity -->1
+**ActualQuantity**1
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+OrderFlow.IsBaseDiscountZero :false
+BasePriceIncrementValue :0
+Both VOGPOPUP item Discount prices are same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount4
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Co-op Fund
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+___ ___ ___ ____ _ ____ ____ ____ ______ ____ ___ ____ ____ ____ ____ ____ ____ _____ ____ _____ ____ _
+**** *** **Al l the Expected values and Actual values are same, Test PASS*** *** ***
+Time Stamp : _2019-Apr-03_11-12-08_PM
+ Don't kill browser
+****** ****** Test Case Number --> 43.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 12629
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+Quantity11234____1
+ActualDiscount-$0.26
+ExpectedDiscount-$0.26
+ActualDiscount0908hh-$0.26
+gc
+map
+billing1Billed to :
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+OrderNumber : 7358
+ VO Popup Sub total price is -->$12.12
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  1
+Int Actual Qunaity -->1
+**ActualQuantity**1
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$12.12
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  1
+Int Actual Qunaity -->1
+**ActualQuantity**1
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$12.12
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  1
+Int Actual Qunaity -->1
+**ActualQuantity**1
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+___ ___ ___ ____ _ ____ ____ ____ ______ ____ ___ ____ ____ ____ ____ ____ ____ _____ ____ _____ ____ _
+**** *** **Al l the Expected values and Actual values are same, Test PASS*** *** ***
+Time Stamp : _2019-Apr-03_11-45-36_PM
+ Don't kill browser
+****** ****** Test Case Number --> 44.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 22093
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+Quantity11234____1
+ActualDiscount-$0.431
+ExpectedDiscount-$0.431
+ActualDiscount0908hh-$0.431
+gc
+map
+billing1Billed to :
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+OrderNumber : 7359
+ VO Popup Sub total price is -->
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  1
+Int Actual Qunaity -->1
+**ActualQuantity**1
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$13.256
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  1
+Int Actual Qunaity -->1
+**ActualQuantity**1
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$13.256
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  1
+Int Actual Qunaity -->1
+**ActualQuantity**1
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+___ ___ ___ ____ _ ____ ____ ____ ______ ____ ___ ____ ____ ____ ____ ____ ____ _____ ____ _____ ____ _
+**** *** **Al l the Expected values and Actual values are same, Test PASS*** *** ***
+Time Stamp : _2019-Apr-04_12-19-18_AM
+ Don't kill browser
+****** ****** Test Case Number --> 45.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 35626
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+Quantity11234____1
+ActualDiscount-$0.6492
+ExpectedDiscount-$0.6492
+ActualDiscount0908hh-$0.6492
+gc
+map
+billing1Billed to :
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+OrderNumber : 7360
+ VO Popup Sub total price is -->$14.2365
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  1
+Int Actual Qunaity -->1
+**ActualQuantity**1
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$14.2365
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  1
+Int Actual Qunaity -->1
+**ActualQuantity**1
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$14.2365
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  1
+Int Actual Qunaity -->1
+**ActualQuantity**1
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+___ ___ ___ ____ _ ____ ____ ____ ______ ____ ___ ____ ____ ____ ____ ____ ____ _____ ____ _____ ____ _
+**** *** **Al l the Expected values and Actual values are same, Test PASS*** *** ***
+Time Stamp : _2019-Apr-04_12-52-40_AM
+ Don't kill browser
+****** ****** Test Case Number --> 46.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 5129
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+Both addon prices are same
+Quantity11234____10
+ActualDiscount-$2.40
+ExpectedDiscount-$2.40
+ActualDiscount0908hh-$2.40
+gc
+mp
+billing1Billed to :
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+OrderNumber : 7361
+ VO Popup Sub total price is -->$113.32
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  10
+Int Actual Qunaity -->10
+**ActualQuantity**10
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$113.32
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  10
+Int Actual Qunaity -->10
+**ActualQuantity**10
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$113.32
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  10
+Int Actual Qunaity -->10
+**ActualQuantity**10
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+___ ___ ___ ____ _ ____ ____ ____ ______ ____ ___ ____ ____ ____ ____ ____ ____ _____ ____ _____ ____ _
+**** *** **Al l the Expected values and Actual values are same, Test PASS*** *** ***
+Time Stamp : _2019-Apr-04_1-28-55_AM
+ Don't kill browser
+****** ****** Test Case Number --> 47.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 4216
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+Both addon prices are same
+Quantity11234____10
+ActualDiscount-$4.407
+ExpectedDiscount-$4.407
+ActualDiscount0908hh-$4.407
+gc
+mp
+billing1Billed to :
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+OrderNumber : 7362
+ VO Popup Sub total price is -->$135.596
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  10
+Int Actual Qunaity -->10
+**ActualQuantity**10
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$135.596
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  10
+Int Actual Qunaity -->10
+**ActualQuantity**10
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$135.596
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  10
+Int Actual Qunaity -->10
+**ActualQuantity**10
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+___ ___ ___ ____ _ ____ ____ ____ ______ ____ ___ ____ ____ ____ ____ ____ ____ _____ ____ _____ ____ _
+**** *** **Al l the Expected values and Actual values are same, Test PASS*** *** ***
+Time Stamp : _2019-Apr-04_2-05-03_AM
+ Don't kill browser
+****** ****** Test Case Number --> 48.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 13362
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+Both addon prices are same
+Quantity11234____10
+ActualDiscount-$6.6941
+ExpectedDiscount-$6.6941
+ActualDiscount0908hh-$6.6941
+gc
+mp
+billing1Billed to :
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+OrderNumber : 7363
+ VO Popup Sub total price is -->$146.8005
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  10
+Int Actual Qunaity -->10
+**ActualQuantity**10
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$146.8005
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  10
+Int Actual Qunaity -->10
+**ActualQuantity**10
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$146.8005
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  10
+Int Actual Qunaity -->10
+**ActualQuantity**10
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+___ ___ ___ ____ _ ____ ____ ____ ______ ____ ___ ____ ____ ____ ____ ____ ____ _____ ____ _____ ____ _
+**** *** **Al l the Expected values and Actual values are same, Test PASS*** *** ***
+Time Stamp : _2019-Apr-04_2-41-12_AM
+ Don't kill browser
+****** ****** Test Case Number --> 49.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 43851
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+Both addon prices are same
+Quantity11234____22
+ActualDiscount-$1.38
+ExpectedDiscount-$1.38
+ActualDiscount0908hh-$1.38
+gc
+mp
+billing1Billed to :
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+OrderNumber : 7364
+ VO Popup Sub total price is -->$60.14
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  22
+Int Actual Qunaity -->22
+**ActualQuantity**22
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Co-op Fund
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$60.14
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  22
+Int Actual Qunaity -->22
+**ActualQuantity**22
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Co-op Fund
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$60.14
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  22
+Int Actual Qunaity -->22
+**ActualQuantity**22
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Co-op Fund
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+___ ___ ___ ____ _ ____ ____ ____ ______ ____ ___ ____ ____ ____ ____ ____ ____ _____ ____ _____ ____ _
+**** *** **Al l the Expected values and Actual values are same, Test PASS*** *** ***
+Time Stamp : _2019-Apr-04_3-18-19_AM
+ Don't kill browser
+****** ****** Test Case Number --> 50.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 7850
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+Both addon prices are same
+Quantity11234____27
+ActualDiscount-$3.528
+ExpectedDiscount-$3.528
+ActualDiscount0908hh-$3.528
+gc
+mp
+billing1Billed to :
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+OrderNumber : 7365
+ VO Popup Sub total price is -->$54.701
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  27
+Int Actual Qunaity -->27
+**ActualQuantity**27
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Co-op Fund
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$54.701
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  27
+Int Actual Qunaity -->27
+**ActualQuantity**27
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Co-op Fund
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$54.701
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  27
+Int Actual Qunaity -->27
+**ActualQuantity**27
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Co-op Fund
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+___ ___ ___ ____ _ ____ ____ ____ ______ ____ ___ ____ ____ ____ ____ ____ ____ _____ ____ _____ ____ _
+**** *** **Al l the Expected values and Actual values are same, Test PASS*** *** ***
+** End**
+
+===============================================
+Suite
+Total tests run: 448, Failures: 0, Skips: 0
+===============================================
+

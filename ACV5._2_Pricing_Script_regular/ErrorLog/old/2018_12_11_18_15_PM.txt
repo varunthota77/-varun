@@ -1,0 +1,6 @@
+****** ******TestCase : TC001 ***** Test Step NO: 2.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 28041
+Only local connections are allowed.
+Dec 11, 2018 6:16:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+CBT Method works

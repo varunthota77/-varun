@@ -1,0 +1,120 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC014,41.0,3 Decimal point, , , , , PASS,7064
+TC015,44.0,3 Decimal point,ViewSummary,subtotal,'$13.256,'$12.120,FAIL,7065
+TC015,44.0,3 Decimal point,ViewSummary,Discount,'-$0.431,'-$0.394,FAIL,7065
+TC015,44.0,3 Decimal point,ViewSummary,DownloadPrice,'$13.256,'$12.120,FAIL,7065
+TC015,44.0,3 Decimal point,ViewSummary,total,'$12.825,'$11.726,FAIL,7065
+TC015,44.0,3 Decimal point,ShoppingCart,GridTotal,'$12.825,'$11.726,FAIL,7065
+TC015,44.0,3 Decimal point,ShoppingCart,total,'$12.825,'$11.726,FAIL,7065
+TC015,44.0,3 Decimal point,OrderCheckOut,ItemPrice,'$13.256,'$12.120,FAIL,7065
+TC015,44.0,3 Decimal point,OrderCheckOut,Amount,'$12.825,'$11.726,FAIL,7065
+TC015,44.0,3 Decimal point,OrderCheckOut,SubTotal,'$12.825,'$11.726,FAIL,7065
+TC015,44.0,3 Decimal point,OrderCheckOut,PromotionDiscount,'-$1.230,'-$2.350,FAIL,7065
+TC015,44.0,3 Decimal point,OrderCheckOut,TaxPercentage,'(1.250%),'(3.120%),FAIL,7065
+TC015,44.0,3 Decimal point,OrderCheckOut,TaxAmount,'$0.145,'$0.293,FAIL,7065
+TC015,44.0,3 Decimal point,OrderCheckOut,Total,'$11.740,'$9.669,FAIL,7065
+TC015,45.0,4 Decimal point,ViewSummary,subtotal,'$14.2365,'$12.1200,FAIL,7065
+TC015,45.0,4 Decimal point,ViewSummary,Discount,'-$0.6492,'-$0.5527,FAIL,7065
+TC015,45.0,4 Decimal point,ViewSummary,DownloadPrice,'$14.2365,'$12.1200,FAIL,7065
+TC015,45.0,4 Decimal point,ViewSummary,total,'$13.5873,'$11.5673,FAIL,7065
+TC015,45.0,4 Decimal point,ShoppingCart,GridTotal,'$13.5873,'$11.5673,FAIL,7065
+TC015,45.0,4 Decimal point,ShoppingCart,total,'$13.5873,'$11.5673,FAIL,7065
+TC015,45.0,4 Decimal point,OrderCheckOut,ItemPrice,'$14.2365,'$12.1200,FAIL,7065
+TC015,45.0,4 Decimal point,OrderCheckOut,Amount,'$13.5873,'$11.5673,FAIL,7065
+TC015,45.0,4 Decimal point,OrderCheckOut,SubTotal,'$13.5873,'$11.5673,FAIL,7065
+TC015,45.0,4 Decimal point,OrderCheckOut,PromotionDiscount,'-$2.3600,'-$2.3500,FAIL,7065
+TC015,45.0,4 Decimal point,OrderCheckOut,TaxPercentage,'(7.8900%),'(3.1200%),FAIL,7065
+TC015,45.0,4 Decimal point,OrderCheckOut,TaxAmount,'$0.8858,'$0.2876,FAIL,7065
+TC015,45.0,4 Decimal point,OrderCheckOut,Total,'$12.1131,'$9.5049,FAIL,7065
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),Select List,Shipping Price,'$22.25,'$32.56,FAIL,7065
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),ViewSummary,Shipping price,'$22.25,'$32.56,FAIL,7065
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),ViewSummary,total,'$135.49,'$145.80,FAIL,7065
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),ShoppingCart,Shipping price,'$22.25,'$32.56,FAIL,7065
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),ShoppingCart,GridTotal,'$135.49,'$145.80,FAIL,7065
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),ShoppingCart,total,'$135.49,'$145.80,FAIL,7065
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),OrderCheckOut,Shipping price,'$22.25,'$32.56,FAIL,7065
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),OrderCheckOut,Amount,'$135.49,'$145.80,FAIL,7065
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),OrderCheckOut,SubTotal,'$135.49,'$145.80,FAIL,7065
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),OrderCheckOut,PromotionDiscount,'-$2.12,'-$2.35,FAIL,7065
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),OrderCheckOut,TaxPercentage,'(5.21%),'(3.12%),FAIL,7065
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),OrderCheckOut,TaxAmount,'$6.95,'$4.48,FAIL,7065
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),OrderCheckOut,Total,'$140.32,'$147.93,FAIL,7065
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),OrderCheckout,AppliedPayment,'$140.32,'$147.93,FAIL,7065
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),Order Summary,Shipping price,'$22.25,'$32.56,FAIL,7065
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),Order Summary,Amount,'$135.49,'$145.80,FAIL,7065
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),Order Summary,SubTotal,'$135.49,'$145.80,FAIL,7065
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),Order Summary,PromotionDiscount,'- $2.12,'- $2.35,FAIL,7065
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),Order Summary,TaxPercentage,'(5.21%),'(3.12%),FAIL,7065
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),Order Summary,TaxValue,'$6.95,'$4.48,FAIL,7065
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),Order Summary,Shipping price,'$22.25,'$32.56,FAIL,7065
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),Order Summary,Total,'$140.32,'$147.93,FAIL,7065
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),OS Print Popup,PrintTotal,'$140.32,'$147.93,FAIL,7065
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),OS Print Popup,Amount,'$135.49,'$145.80,FAIL,7065
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),OS Print Popup,SubTotal,'$135.49,'$145.80,FAIL,7065
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),OS Print Popup,PromotionDiscount,'-$2.12,'-$2.35,FAIL,7065
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),OS Print Popup,PrintTaxValue,'$6.95,'$4.48,FAIL,7065
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),User View Orders,Shipping price,'$22.25,'$32.56,FAIL,7066
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),User View Orders,Promotion Disocunt,'-$2.12,'-$2.35,FAIL,7066
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),User View Orders,Shipping price,'$22.25,'$32.56,FAIL,7066
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),User View Orders,Tax,'$6.95,'$4.48,FAIL,7066
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),User View Orders,Total,'$140.32,'$147.93,FAIL,7066
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),User View Orders,Promotion Disocunt,'-$2.12,'-$2.35,FAIL,7066
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),User View Orders,Shipping price,'$22.25,'$32.56,FAIL,7066
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),User View Orders,Tax,'$6.95,'$4.48,FAIL,7066
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),User View Orders,Total,'$140.32,'$147.93,FAIL,7066
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7066
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7066
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type),User Print Popup,PrintTotal,'$140.32,',FAIL,7066
+TC016,48.0,4 Decimal point,Select List,Shipping Price,'$41.2564,'$32.5640,FAIL,7066
+TC016,48.0,4 Decimal point,ViewSummary,subtotal,'$146.8005,'$144.6840,FAIL,7066
+TC016,48.0,4 Decimal point,ViewSummary,Discount,'-$6.6941,'-$6.5976,FAIL,7066
+TC016,48.0,4 Decimal point,ViewSummary,Shipping price,'$41.2564,'$32.5640,FAIL,7066
+TC016,48.0,4 Decimal point,ViewSummary,DownloadPrice,'$14.2365,'$12.1200,FAIL,7066
+TC016,48.0,4 Decimal point,ViewSummary,total,'$186.5944,'$175.8820,FAIL,7066
+TC016,48.0,4 Decimal point,ShoppingCart,Shipping price,'$41.2564,'$32.5640,FAIL,7066
+TC016,48.0,4 Decimal point,ShoppingCart,GridTotal,'$186.5944,'$175.8820,FAIL,7066
+TC016,48.0,4 Decimal point,ShoppingCart,total,'$186.5944,'$175.8820,FAIL,7066
+TC016,48.0,4 Decimal point,OrderCheckOut,Shipping price,'$41.2564,'$32.5640,FAIL,7066
+TC016,48.0,4 Decimal point,OrderCheckOut,Amount,'$186.5944,'$175.8820,FAIL,7066
+TC016,48.0,4 Decimal point,OrderCheckOut,SubTotal,'$186.5944,'$175.8820,FAIL,7066
+TC016,48.0,4 Decimal point,OrderCheckOut,PromotionDiscount,'-$5.3200,'-$2.3500,FAIL,7066
+TC016,48.0,4 Decimal point,OrderCheckOut,TaxPercentage,'(3.2100%),'(3.1200%),FAIL,7066
+TC016,48.0,4 Decimal point,OrderCheckOut,TaxAmount,'$5.8189,'$5.4142,FAIL,7066
+TC016,48.0,4 Decimal point,OrderCheckOut,Total,'$187.0933,'$178.9462,FAIL,7066
+TC016,48.0,4 Decimal point,OrderCheckout,AppliedPayment,'$187.0933,'$178.9462,FAIL,7066
+TC016,48.0,4 Decimal point,Order Summary,Shipping price,'$41.2564,'$32.5640,FAIL,7066
+TC016,48.0,4 Decimal point,Order Summary,Amount,'$186.5944,'$175.8820,FAIL,7066
+TC016,48.0,4 Decimal point,Order Summary,SubTotal,'$186.5944,'$175.8820,FAIL,7066
+TC016,48.0,4 Decimal point,Order Summary,PromotionDiscount,'- $5.3200,'- $2.3500,FAIL,7066
+TC016,48.0,4 Decimal point,Order Summary,TaxPercentage,'(3.2100%),'(3.1200%),FAIL,7066
+TC016,48.0,4 Decimal point,Order Summary,TaxValue,'$5.8189,'$5.4142,FAIL,7066
+TC016,48.0,4 Decimal point,Order Summary,Shipping price,'$41.2564,'$32.5640,FAIL,7066
+TC016,48.0,4 Decimal point,Order Summary,Total,'$187.0933,'$178.9462,FAIL,7066
+TC016,48.0,4 Decimal point,Order Summary,AppliedDiscontPrice,'- $6.6941,'- $6.5976,FAIL,7066
+TC016,48.0,4 Decimal point,OS Print Popup,PrintTotal,'$187.0933,'$178.9462,FAIL,7066
+TC016,48.0,4 Decimal point,OS Print Popup,Amount,'$186.5944,'$175.8820,FAIL,7066
+TC016,48.0,4 Decimal point,OS Print Popup,SubTotal,'$186.5944,'$175.8820,FAIL,7066
+TC016,48.0,4 Decimal point,OS Print Popup,PromotionDiscount,'-$5.3200,'-$2.3500,FAIL,7066
+TC016,48.0,4 Decimal point,OS Print Popup,PrintTaxValue,'$5.8189,'$5.4142,FAIL,7066
+TC016,48.0,4 Decimal point,OS Print Popup,AppliedDiscontPrice,'-$6.6941,'-$6.5976,FAIL,7066
+TC016,48.0,4 Decimal point,User View Orders,Sub Total,'$146.8005,'$144.6840,FAIL,7067
+TC016,48.0,4 Decimal point,User View Orders,SubTotal,'$146.8005,'$144.6840,FAIL,7067
+TC016,48.0,4 Decimal point,User View Orders,Shipping price,'$41.2564,'$32.5640,FAIL,7067
+TC016,48.0,4 Decimal point,User View Orders,SubTotal,'$146.8005,'$144.6840,FAIL,7067
+TC016,48.0,4 Decimal point,User View Orders,Discount,'-$6.6941,'-$6.5976,FAIL,7067
+TC016,48.0,4 Decimal point,User View Orders,Promotion Disocunt,'-$5.3200,'-$2.3500,FAIL,7067
+TC016,48.0,4 Decimal point,User View Orders,Shipping price,'$41.2564,'$32.5640,FAIL,7067
+TC016,48.0,4 Decimal point,User View Orders,Tax,'$5.8189,'$5.4142,FAIL,7067
+TC016,48.0,4 Decimal point,User View Orders,Total,'$187.0933,'$178.9462,FAIL,7067
+TC016,48.0,4 Decimal point,User View Orders,SubTotal,'$146.8005,'$144.6840,FAIL,7067
+TC016,48.0,4 Decimal point,User View Orders,Discount,'-$6.6941,'-$6.5976,FAIL,7067
+TC016,48.0,4 Decimal point,User View Orders,Promotion Disocunt,'-$5.3200,'-$2.3500,FAIL,7067
+TC016,48.0,4 Decimal point,User View Orders,Shipping price,'$41.2564,'$32.5640,FAIL,7067
+TC016,48.0,4 Decimal point,User View Orders,Tax,'$5.8189,'$5.4142,FAIL,7067
+TC016,48.0,4 Decimal point,User View Orders,Total,'$187.0933,'$178.9462,FAIL,7067
+TC016,48.0,4 Decimal point,User Print Popup,PrintTotal,'$187.0933,'$178.9462,FAIL,7067
+TC016,48.0,4 Decimal point,User Print Popup,Amount,'$186.5944,'$175.8820,FAIL,7067
+TC016,48.0,4 Decimal point,User Print Popup,SubTotal,'$186.5944,'$175.8820,FAIL,7067
+TC016,48.0,4 Decimal point,User Print Popup,PromotionDiscount,'-$5.3200,'-$2.3500,FAIL,7067
+TC016,48.0,4 Decimal point,User Print Popup,PrintTaxValue,'$5.8189,'$5.4142,FAIL,7067
+TC016,48.0,4 Decimal point,User Print Popup,AppliedDiscontPrice,'-$6.6941,'-$6.5976,FAIL,7067

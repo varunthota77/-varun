@@ -1,0 +1,35 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC008,24.0,4 Decimal point, , , , , PASS,7096
+TC009,27.0,4 Decimal point, , , , , PASS,7099
+TC010,29.0,3 Decimal point,ProductDetailsPopUp,Item price,'$56.236,'$31.25,FAIL,7100
+TC010,29.0,3 Decimal point,ProductDetailsPopUp,Discount,'6.120%,'5.52%,FAIL,7100
+TC010,29.0,3 Decimal point,ProductDetailsPopUp,Item price,'$56.236,'$31.25,FAIL,7100
+TC010,29.0,3 Decimal point,ProductDetailsPopUp,Discount,'6.120%,'5.52%,FAIL,7100
+TC010,29.0,3 Decimal point,VeiwPricingPopUp,Item price,'$56.236,'$31.25,FAIL,7100
+TC010,29.0,3 Decimal point,Select List,Shipping Price,'$32.564,'$22.25,FAIL,7100
+TC010,29.0,3 Decimal point,ProductDetailsPopUp,Item price,'$56.236,'$31.25,FAIL,7100
+TC010,29.0,3 Decimal point,ProductDetailsPopUp,Discount,'6.120%,'5.52%,FAIL,7100
+TC010,29.0,3 Decimal point,AddonPrice,Addon price,'Addon1 - $1.235 ( Flat Rate ),'Addon1 - $0.45 ( Flat Rate ),FAIL,7100
+TC010,29.0,3 Decimal point,ViewSummary,Discount percentage,'(6.120 %),'(5.52 %),FAIL,7100
+TC010,29.0,3 Decimal point,ViewSummary,Item price,'$56.236,'$31.25,FAIL,7100
+TC010,29.0,3 Decimal point,ViewSummary,subtotal,'$56.236,'$31.25,FAIL,7100
+TC010,29.0,3 Decimal point,ViewSummary,Discount,'-$3.442,'-$1.73,FAIL,7100
+TC010,29.0,3 Decimal point,ViewSummary,Addon price,'$1.235,'$0.45,FAIL,7100
+TC010,29.0,3 Decimal point,ViewSummary,Shipping price,'$32.564,'$22.25,FAIL,7100
+TC010,29.0,3 Decimal point,ViewSummary,total,'$86.593,'$52.22,FAIL,7100
+TC010,29.0,3 Decimal point,ShoppingCart,Item price,'$56.236,'$31.25,FAIL,7100
+TC010,29.0,3 Decimal point,ShoppingCart,Discount price,'6.120%,'5.52%,FAIL,7100
+TC010,29.0,3 Decimal point,ShoppingCart,Addon price,'$1.235,'$0.45,FAIL,7100
+TC010,29.0,3 Decimal point,ShoppingCart,Shipping price,'$32.564,'$22.25,FAIL,7100
+TC010,29.0,3 Decimal point,ShoppingCart,GridTotal,'$86.593,'$52.22,FAIL,7100
+TC010,29.0,3 Decimal point,ShoppingCart,total,'$86.593,'$52.22,FAIL,7100
+TC010,29.0,3 Decimal point,OrderCheckOut,ItemPrice,'$56.236,'$31.25,FAIL,7100
+TC010,29.0,3 Decimal point,OrderCheckOut,Shipping price,'$32.564,'$22.25,FAIL,7100
+TC010,29.0,3 Decimal point,OrderCheckOut,Amount,'$86.593,'$52.22,FAIL,7100
+TC010,29.0,3 Decimal point,OrderCheckOut,SubTotal,'$86.593,'$52.22,FAIL,7100
+TC010,29.0,3 Decimal point,OrderCheckOut,PromotionDiscount,'-$1.560,'-$2.35,FAIL,7100
+TC010,29.0,3 Decimal point,OrderCheckOut,TaxPercentage,'(4.230%),'(5.12%),FAIL,7100
+TC010,29.0,3 Decimal point,OrderCheckOut,TaxAmount,'$3.597,'$2.55,FAIL,7100
+TC010,29.0,3 Decimal point,OrderCheckOut,Total,'$88.630,'$52.42,FAIL,7100
+TC010,29.0,3 Decimal point,OrderCheckout,AppliedPayment,'$88.630,'$52.42,FAIL,7100
+TC010,29.0,3 Decimal point,Order checkout,CostCenter,'Cost center option NOT displayed to user,'Cost center option displayed to user,FAIL,7100

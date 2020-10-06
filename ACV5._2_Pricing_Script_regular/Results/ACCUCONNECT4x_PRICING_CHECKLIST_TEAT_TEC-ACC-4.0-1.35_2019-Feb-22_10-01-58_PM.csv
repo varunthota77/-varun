@@ -1,0 +1,161 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC007,21.0,4 Decimal point, , , , , PASS,7102
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price, , , , , PASS,7103
+TC008,23.0,3 Decimal point, , , , , PASS,7104
+TC008,24.0,4 Decimal point, , , , , PASS,7105
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,ProductDetailsPopUp,Item price,'$0.65,'$0.70,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,ProductDetailsPopUp,Discount,'$0.00,'$4.12,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,ProductDetailsPopUp,Item price,'$0.65,'$0.70,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,ProductDetailsPopUp,Discount,'$0.00,'$4.12,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,VeiwPricingPopUp,Item price,'$0.65,'$0.70,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,ProductDetailsPopUp,Item price,'$0.65,'$0.70,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,ProductDetailsPopUp,Discount,'$0.00,'$4.12,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,ViewSummary,Item price,'$0.65,'$0.70,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,ViewSummary,subtotal,'$6.50,'$7.00,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,ViewSummary,Discount,'-$0.00,'-( $4.12 ),FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,ViewSummary,Addon price,'$0.00,'$0.68,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,ViewSummary,total,'$6.50,'$3.56,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,ShoppingCart,Item price,'$0.65,'$0.70,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,ShoppingCart,Discount price,'$0.00,'$4.12,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,ShoppingCart,Addon price,'$0.00,'$0.68,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,ShoppingCart,GridTotal,'$6.50,'$3.56,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,ShoppingCart,total,'$6.50,'$3.56,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,OrderCheckOut,ItemPrice,'$0.65,'$0.70,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,OrderCheckOut,Amount,'$6.50,'$3.56,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,OrderCheckOut,SubTotal,'$6.50,'$3.56,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,OrderCheckOut,TaxPercentage,'(0.00%),'(1.12%),FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,OrderCheckOut,TaxAmount,'$0.00,'$0.04,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,OrderCheckOut,Total,'$6.50,'$3.60,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,OrderCheckout,AppliedPayment,'$6.50,'$3.60,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Order checkout,CostCenter,'Cost center option displayed to user,'Cost center option NOT displayed to user,FAIL,null
+TC009,26.0,3 Decimal point, , , , , PASS,7107
+TC009,27.0,4 Decimal point,ProductDetailsPopUp,Item price,'$0.7897,'$0.812,FAIL,null
+TC009,27.0,4 Decimal point,ProductDetailsPopUp,Discount,'$0.0000,'$0.000,FAIL,null
+TC009,27.0,4 Decimal point,ProductDetailsPopUp,Item price,'$0.7897,'$0.812,FAIL,null
+TC009,27.0,4 Decimal point,ProductDetailsPopUp,Discount,'$0.0000,'$0.000,FAIL,null
+TC009,27.0,4 Decimal point,VeiwPricingPopUp,Item price,'$0.7897,'$0.812,FAIL,null
+TC009,27.0,4 Decimal point,ProductDetailsPopUp,Item price,'$0.7897,'$0.812,FAIL,null
+TC009,27.0,4 Decimal point,ProductDetailsPopUp,Discount,'$0.0000,'$0.000,FAIL,null
+TC009,27.0,4 Decimal point,ViewSummary,Item price,'$0.7897,'$0.812,FAIL,null
+TC009,27.0,4 Decimal point,ViewSummary,subtotal,'$7.8970,'$8.120,FAIL,null
+TC009,27.0,4 Decimal point,ViewSummary,Discount,'-$0.0000,'-$0.000,FAIL,null
+TC009,27.0,4 Decimal point,ViewSummary,Addon price,'$0.0000,'$0.000,FAIL,null
+TC009,27.0,4 Decimal point,ViewSummary,postage price,'$0.0000,'$0.000,FAIL,null
+TC009,27.0,4 Decimal point,ViewSummary,total,'$7.8970,'$8.120,FAIL,null
+TC009,27.0,4 Decimal point,ShoppingCart,Item price,'$0.7897,'$0.812,FAIL,null
+TC009,27.0,4 Decimal point,ShoppingCart,Discount price,'$0.0000,'$0.000,FAIL,null
+TC009,27.0,4 Decimal point,ShoppingCart,Addon price,'$0.0000,'$0.000,FAIL,null
+TC009,27.0,4 Decimal point,ShoppingCart,postage price,'$0.0000,'$0.000,FAIL,null
+TC009,27.0,4 Decimal point,ShoppingCart,GridTotal,'$7.8970,'$8.120,FAIL,null
+TC009,27.0,4 Decimal point,ShoppingCart,total,'$7.8970,'$8.120,FAIL,null
+TC009,27.0,4 Decimal point,OrderCheckOut,ItemPrice,'$0.7897,'$0.812,FAIL,null
+TC009,27.0,4 Decimal point,OrderCheckOut,postage price,'$0.0000,'$0.000,FAIL,null
+TC009,27.0,4 Decimal point,OrderCheckOut,Amount,'$7.8970,'$8.120,FAIL,null
+TC009,27.0,4 Decimal point,OrderCheckOut,SubTotal,'$7.8970,'$8.120,FAIL,null
+TC009,27.0,4 Decimal point,OrderCheckOut,PromotionDiscount,'-$0.0000,'-$0.000,FAIL,null
+TC009,27.0,4 Decimal point,OrderCheckOut,TaxPercentage,'(0.0000%),'(0.000%),FAIL,null
+TC009,27.0,4 Decimal point,OrderCheckOut,TaxAmount,'$0.0000,'$0.000,FAIL,null
+TC009,27.0,4 Decimal point,OrderCheckOut,Total,'$7.8970,'$8.120,FAIL,null
+TC009,27.0,4 Decimal point,OrderCheckout,AppliedPayment,'$7.8970,'$8.120,FAIL,null
+TC009,27.0,4 Decimal point,Order Summary,ItemPrice,'$0.7897,'$0.812,FAIL,null
+TC009,27.0,4 Decimal point,Order Summary,Discount,'$0.0000,'$0.000,FAIL,null
+TC009,27.0,4 Decimal point,Order Summary,postage price,'$0.0000,'$0.000,FAIL,null
+TC009,27.0,4 Decimal point,Order Summary,Amount,'$7.8970,'$8.120,FAIL,null
+TC009,27.0,4 Decimal point,Order Summary,SubTotal,'$7.8970,'$8.120,FAIL,null
+TC009,27.0,4 Decimal point,Order Summary,TaxPercentage,'(0.0000%),'(0.000%),FAIL,null
+TC009,27.0,4 Decimal point,Order Summary,TaxValue,'$0.0000,'$0.000,FAIL,null
+TC009,27.0,4 Decimal point,Order Summary,Total,'$7.8970,'$8.120,FAIL,null
+TC009,27.0,4 Decimal point,Order Summary,AppliedDiscontPrice,'- $0.0000,'- $0.000,FAIL,null
+TC009,27.0,4 Decimal point,Order Summary,AppliedAddonPrice,'$0.0000,'$0.000,FAIL,null
+TC009,27.0,4 Decimal point,OS Print Popup,PrintTotal,'$7.8970,'$8.120,FAIL,null
+TC009,27.0,4 Decimal point,OS Print Popup,ItemPrice,'$0.7897,'$0.812,FAIL,null
+TC009,27.0,4 Decimal point,OS Print Popup,Discount,'$0.0000,'$0.000,FAIL,null
+TC009,27.0,4 Decimal point,OS Print Popup,Amount,'$7.8970,'$8.120,FAIL,null
+TC009,27.0,4 Decimal point,OS Print Popup,SubTotal,'$7.8970,'$8.120,FAIL,null
+TC009,27.0,4 Decimal point,OS Print Popup,PrintTaxValue,'$0.0000,'$0.000,FAIL,null
+TC009,27.0,4 Decimal point,OS Print Popup,AppliedDiscontPrice,'-$0.0000,'-$0.000,FAIL,null
+TC009,27.0,4 Decimal point,OS Print Popup,AppliedAddonPrice,'$0.0000,'$0.000,FAIL,null
+TC009,27.0,4 Decimal point,User View Orders,Sub Total,'$7.8970,'$8.120,FAIL,7108
+TC009,27.0,4 Decimal point,User View Orders,Item Price,'$0.7897,'$0.812,FAIL,7108
+TC009,27.0,4 Decimal point,User View Orders,SubTotal,'$7.8970,'$8.120,FAIL,7108
+TC009,27.0,4 Decimal point,User View Orders,Addon price,'$0.0000,'$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,User View Orders,Discount,'$0.0000,'$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,User View Orders,Shipping price,'$0.0000,'$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,User View Orders,SubTotal,'$7.8970,'$8.120,FAIL,7108
+TC009,27.0,4 Decimal point,User View Orders,Addon price,'$0.0000,'$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,User View Orders,Discount,'-$0.0000,'-$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,User View Orders,Postage,'$0.0000,'$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,User View Orders,Tax,'$0.0000,'$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,User View Orders,Total,'$7.8970,'$8.120,FAIL,7108
+TC009,27.0,4 Decimal point,User View Orders,SubTotal,'$7.8970,'$8.120,FAIL,7108
+TC009,27.0,4 Decimal point,User View Orders,Addon price,'$0.0000,'$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,User View Orders,Discount,'-$0.0000,'-$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,User View Orders,Tax,'$0.0000,'$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,User View Orders,Total,'$7.8970,'$8.120,FAIL,7108
+TC009,27.0,4 Decimal point,User View Orders,Item Price,'$,'$0.812,FAIL,7108
+TC009,27.0,4 Decimal point,User View Orders,Product Disocunt Price,'$0.0000,'$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,User Print Popup,PrintTotal,'$7.8970,'$8.120,FAIL,7108
+TC009,27.0,4 Decimal point,User Print Popup,ItemPrice,'$0.7897,'$0.812,FAIL,7108
+TC009,27.0,4 Decimal point,User Print Popup,Discount,'$0.0000,'$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,User Print Popup,Amount,'$7.8970,'$8.120,FAIL,7108
+TC009,27.0,4 Decimal point,User Print Popup,SubTotal,'$7.8970,'$8.120,FAIL,7108
+TC009,27.0,4 Decimal point,User Print Popup,PrintTaxValue,'$0.0000,'$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,User Print Popup,AppliedDiscontPrice,'-$0.0000,'-$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,User Print Popup,AppliedAddonPrice,'$0.0000,'$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,Approver View Orders,Sub Total,'$7.8970,'$8.120,FAIL,7108
+TC009,27.0,4 Decimal point,Approver View Orders,Item Price,'$0.7897,'$0.812,FAIL,7108
+TC009,27.0,4 Decimal point,Approver View Orders,SubTotal,'$7.8970,'$8.120,FAIL,7108
+TC009,27.0,4 Decimal point,Approver View Orders,Addon price,'$0.0000,'$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,Approver View Orders,Discount,'$0.0000,'$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,Approver View Orders,Shipping price,'$0.0000,'$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,Approver View Orders,SubTotal,'$7.8970,'$8.120,FAIL,7108
+TC009,27.0,4 Decimal point,Approver View Orders,Addon price,'$0.0000,'$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,Approver View Orders,Discount,'-$0.0000,'-$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,Approver View Orders,Postage,'$0.0000,'$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,Approver View Orders,Tax,'$0.0000,'$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,Approver View Orders,Total,'$7.8970,'$8.120,FAIL,7108
+TC009,27.0,4 Decimal point,Approver View Orders,SubTotal,'$7.8970,'$8.120,FAIL,7108
+TC009,27.0,4 Decimal point,Approver View Orders,Addon price,'$0.0000,'$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,Approver View Orders,Discount,'-$0.0000,'-$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,Approver View Orders,Tax,'$0.0000,'$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,Approver View Orders,Total,'$7.8970,'$8.120,FAIL,7108
+TC009,27.0,4 Decimal point,Approver View Orders,Item Price,'$,'$0.812,FAIL,7108
+TC009,27.0,4 Decimal point,Approver View Orders,Product Disocunt Price,'$0.0000,'$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,Approver Print Popup,PrintTotal,'$7.8970,'$8.120,FAIL,7108
+TC009,27.0,4 Decimal point,Approver Print Popup,ItemPrice,'$0.7897,'$0.812,FAIL,7108
+TC009,27.0,4 Decimal point,Approver Print Popup,Discount,'$0.0000,'$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,Approver Print Popup,Amount,'$7.8970,'$8.120,FAIL,7108
+TC009,27.0,4 Decimal point,Approver Print Popup,SubTotal,'$7.8970,'$8.120,FAIL,7108
+TC009,27.0,4 Decimal point,Approver Print Popup,PrintTaxValue,'$0.0000,'$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,Approver Print Popup,AppliedDiscontPrice,'-$0.0000,'-$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,Approver Print Popup,AppliedAddonPrice,'$0.0000,'$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,PS View Orders,Sub Total,'$7.8970,'$8.120,FAIL,7108
+TC009,27.0,4 Decimal point,PS View Orders,Item Price,'$0.7897,'$0.812,FAIL,7108
+TC009,27.0,4 Decimal point,PS View Orders,SubTotal,'$7.8970,'$8.120,FAIL,7108
+TC009,27.0,4 Decimal point,PS View Orders,Addon price,'$0.0000,'$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,PS View Orders,Discount,'$0.0000,'$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,PS View Orders,Shipping price,'$0.0000,'$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,PS View Orders,SubTotal,'$7.8970,'$8.120,FAIL,7108
+TC009,27.0,4 Decimal point,PS View Orders,Addon price,'$0.0000,'$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,PS View Orders,Discount,'-$0.0000,'-$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,PS View Orders,Postage,'$0.0000,'$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,PS View Orders,Tax,'$0.0000,'$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,PS View Orders,Total,'$7.8970,'$8.120,FAIL,7108
+TC009,27.0,4 Decimal point,PS View Orders,SubTotal,'$7.8970,'$8.120,FAIL,7108
+TC009,27.0,4 Decimal point,PS View Orders,Addon price,'$0.0000,'$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,PS View Orders,Discount,'-$0.0000,'-$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,PS View Orders,Tax,'$0.0000,'$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,PS View Orders,Total,'$7.8970,'$8.120,FAIL,7108
+TC009,27.0,4 Decimal point,PS View Orders,Item Price,'$,'$0.812,FAIL,7108
+TC009,27.0,4 Decimal point,PS View Orders,Product Disocunt Price,'$0.0000,'$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,PS Print Popup,PrintTotal,'$7.8970,'$8.120,FAIL,7108
+TC009,27.0,4 Decimal point,PS Print Popup,ItemPrice,'$0.7897,'$0.812,FAIL,7108
+TC009,27.0,4 Decimal point,PS Print Popup,Discount,'$0.0000,'$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,PS Print Popup,Amount,'$7.8970,'$8.120,FAIL,7108
+TC009,27.0,4 Decimal point,PS Print Popup,SubTotal,'$7.8970,'$8.120,FAIL,7108
+TC009,27.0,4 Decimal point,PS Print Popup,PrintTaxValue,'$0.0000,'$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,PS Print Popup,AppliedDiscontPrice,'-$0.0000,'-$0.000,FAIL,7108
+TC009,27.0,4 Decimal point,PS Print Popup,AppliedAddonPrice,'$0.0000,'$0.000,FAIL,7108
+TC009,27.0,4 Decimal point, , , , , Fail,7108
+TC010,29.0,3 Decimal point, , , , , PASS,7109
+TC010,30.0,4 Decimal point, , , , , PASS,7110

@@ -1,0 +1,8 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC028,82.0,(2 Decimal point) To test Static print with Shipping-print with available parameters (2 -Decimal point), , , , , PASS,7295
+TC029,85.0,(2 Decimal point) Static print Ship to My address-Print When tax was unchecked , , , , , PASS,7296
+TC029,86.0,3 Decimal point, , , , , PASS,7297
+TC029,87.0,4 Decimal point, , , , , PASS,7298
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable , , , , , PASS,7299
+TC030,89.0,3 Decimal point, , , , , PASS,7300
+TC030,90.0,4 Decimal point, , , , , PASS,7301

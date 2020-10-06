@@ -1,0 +1,327 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC007,21.0,4 Decimal point,ProductDetailsPopUp,Item price,'$0.9658,'$10.1200,FAIL,null
+TC007,21.0,4 Decimal point,VeiwPricingPopUp,Item price,'$0.9658,'$10.1200,FAIL,null
+TC007,21.0,4 Decimal point,ProductDetailsPopUp,Item price,'$0.9658,'$10.1200,FAIL,null
+TC007,21.0,4 Decimal point,ViewSummary,Item price,'$0.9658,'$10.1200,FAIL,null
+TC007,21.0,4 Decimal point,ViewSummary,subtotal,'$9.6580,'$101.2000,FAIL,null
+TC007,21.0,4 Decimal point,ViewSummary,total,'$106.4780,'$198.0200,FAIL,null
+TC007,21.0,4 Decimal point,ShoppingCart,Item price,'$0.9658,'$10.1200,FAIL,null
+TC007,21.0,4 Decimal point,ShoppingCart,Discount price,'$3.1800,'2.1200%,FAIL,null
+TC007,21.0,4 Decimal point,ShoppingCart,GridTotal,'$106.4780,'$199.0500,FAIL,null
+TC007,21.0,4 Decimal point,ShoppingCart,total,'$106.4780,'$199.0500,FAIL,null
+TC007,21.0,4 Decimal point,OrderCheckOut,ItemPrice,'$0.9658,'$10.12,FAIL,null
+TC007,21.0,4 Decimal point,OrderCheckOut,postage price,'$100.0000,'$100.00,FAIL,null
+TC007,21.0,4 Decimal point,OrderCheckOut,Amount,'$106.4780,'$199.05,FAIL,null
+TC007,21.0,4 Decimal point,OrderCheckOut,SubTotal,'$106.4780,'$199.05,FAIL,null
+TC007,21.0,4 Decimal point,OrderCheckOut,PromotionDiscount,'-$7.8900,'-$7.89,FAIL,null
+TC007,21.0,4 Decimal point,OrderCheckOut,TaxPercentage,'(8.1400%),'(8.14%),FAIL,null
+TC007,21.0,4 Decimal point,OrderCheckOut,TaxAmount,'$8.0251,'$15.56,FAIL,null
+TC007,21.0,4 Decimal point,OrderCheckOut,Total,'$106.6131,'$206.72,FAIL,null
+TC007,21.0,4 Decimal point,OrderCheckout,AppliedPayment,'$106.6131,'$206.72,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,ProductDetailsPopUp,Item price,'$0.92,'$0.920,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,ProductDetailsPopUp,Discount,'$2.21,'$2.210,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,ProductDetailsPopUp,Item price,'$0.92,'$12.234,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,ProductDetailsPopUp,Discount,'$2.21,'3.250%,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,VeiwPricingPopUp,Item price,'$0.92,'$12.234,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,ProductDetailsPopUp,Item price,'$0.92,'$12.234,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,ProductDetailsPopUp,Discount,'$2.21,'3.250%,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,AddonPrice,Addon price,'Addon1 - $0.23 ( Flat Rate ),'Addon1 - $4.236 ( Flat Rate ),FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,ViewSummary,Item price,'$0.92,'$12.234,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,ViewSummary,subtotal,'$9.20,'$122.340,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,ViewSummary,Discount,'-( $2.21 ),'-$3.976,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,ViewSummary,Addon price,'$0.23,'$4.236,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,ViewSummary,postage price,'$0.00,'$0.000,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,ViewSummary,total,'$7.22,'$122.600,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,ShoppingCart,Item price,'$0.92,'$12.234,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,ShoppingCart,Discount price,'$2.21,'3.250%,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,ShoppingCart,Addon price,'$0.23,'$4.236,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,ShoppingCart,postage price,'$0.00,'$0.000,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,ShoppingCart,GridTotal,'$7.22,'$122.600,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,ShoppingCart,total,'$7.22,'$122.600,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,OrderCheckOut,ItemPrice,'$0.92,'$12.234,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,OrderCheckOut,postage price,'$0.00,'$0.000,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,OrderCheckOut,Amount,'$7.22,'$122.600,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,OrderCheckOut,SubTotal,'$7.22,'$122.600,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,OrderCheckOut,PromotionDiscount,'-$1.23,'-$3.450,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,OrderCheckOut,TaxPercentage,'(0.98%),'(4.210%),FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,OrderCheckOut,TaxAmount,'$0.06,'$5.016,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,OrderCheckOut,Total,'$6.05,'$124.166,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,OrderCheckout,AppliedPayment,'$6.05,'$124.166,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Order Summary,ItemPrice,'$0.92,'$12.234,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Order Summary,Discount,'$2.21,'3.250%,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Order Summary,postage price,'$0.00,'$0.000,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Order Summary,Amount,'$7.22,'$122.600,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Order Summary,SubTotal,'$7.22,'$122.600,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Order Summary,PromotionDiscount,'- $1.23,'- $3.450,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Order Summary,TaxPercentage,'(0.98%),'(4.210%),FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Order Summary,TaxValue,'$0.06,'$5.016,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Order Summary,Total,'$6.05,'$124.166,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Order Summary,AppliedDiscontPrice,'- $2.21,'- $3.976,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Order Summary,AppliedAddonPrice,'$0.23,'$4.236,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,OS Print Popup,PrintTotal,'$6.05,'$124.166,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,OS Print Popup,ItemPrice,'$0.92,'$12.234,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,OS Print Popup,Discount,'$2.21,'3.250%,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,OS Print Popup,Amount,'$7.22,'$122.600,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,OS Print Popup,SubTotal,'$7.22,'$122.600,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,OS Print Popup,PromotionDiscount,'-$1.23,'-$3.450,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,OS Print Popup,PrintTaxValue,'$0.06,'$5.016,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,OS Print Popup,AppliedDiscontPrice,'-$2.21,'-$3.976,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,OS Print Popup,AppliedAddonPrice,'$0.23,'$4.236,FAIL,null
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,User View Orders,Sub Total,'$9.20,'$122.340,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,User View Orders,Item Price,'$0.92,'$12.234,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,User View Orders,SubTotal,'$9.20,'$122.340,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,User View Orders,Addon price,'$0.23,'$4.236,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,User View Orders,Discount,'$2.21,'3.250%,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,User View Orders,Shipping price,'$0.00,'$0.000,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,User View Orders,SubTotal,'$9.20,'$122.340,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,User View Orders,Addon price,'$0.23,'$4.236,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,User View Orders,Discount,'-$2.21,'-$3.976,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,User View Orders,Promotion Disocunt,'-$1.23,'-$3.450,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,User View Orders,Postage,'$0.00,'$0.000,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,User View Orders,Tax,'$0.06,'$5.016,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,User View Orders,Total,'$6.05,'$124.166,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,User View Orders,SubTotal,'$9.20,'$122.340,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,User View Orders,Addon price,'$0.23,'$4.236,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,User View Orders,Discount,'-$2.21,'-$3.976,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,User View Orders,Promotion Disocunt,'-$1.23,'-$3.450,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,User View Orders,Tax,'$0.06,'$5.016,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,User View Orders,Total,'$6.05,'$124.166,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,User View Orders,Item Price,'$,'$12.234,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,User View Orders,Addon Price,'$0.23,'$4.236,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,User View Orders,Product Disocunt Price,'$2.21,'3.250%,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,User Print Popup,PrintTotal,'$6.05,'$124.166,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,User Print Popup,ItemPrice,'$0.92,'$12.234,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,User Print Popup,Discount,'$2.21,'3.250%,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,User Print Popup,Amount,'$7.22,'$122.600,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,User Print Popup,SubTotal,'$7.22,'$122.600,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,User Print Popup,PromotionDiscount,'-$1.23,'-$3.450,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,User Print Popup,PrintTaxValue,'$0.06,'$5.016,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,User Print Popup,AppliedDiscontPrice,'-$2.21,'-$3.976,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,User Print Popup,AppliedAddonPrice,'$0.23,'$4.236,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Approver View Orders,Sub Total,'$9.20,'$122.340,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Approver View Orders,Item Price,'$0.92,'$12.234,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Approver View Orders,SubTotal,'$9.20,'$122.340,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Approver View Orders,Addon price,'$0.23,'$4.236,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Approver View Orders,Discount,'$2.21,'3.250%,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Approver View Orders,Shipping price,'$0.00,'$0.000,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Approver View Orders,SubTotal,'$9.20,'$122.340,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Approver View Orders,Addon price,'$0.23,'$4.236,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Approver View Orders,Discount,'-$2.21,'-$3.976,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Approver View Orders,Promotion Disocunt,'-$1.23,'-$3.450,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Approver View Orders,Postage,'$0.00,'$0.000,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Approver View Orders,Tax,'$0.06,'$5.016,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Approver View Orders,Total,'$6.05,'$124.166,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Approver View Orders,SubTotal,'$9.20,'$122.340,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Approver View Orders,Addon price,'$0.23,'$4.236,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Approver View Orders,Discount,'-$2.21,'-$3.976,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Approver View Orders,Promotion Disocunt,'-$1.23,'-$3.450,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Approver View Orders,Tax,'$0.06,'$5.016,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Approver View Orders,Total,'$6.05,'$124.166,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Approver View Orders,Item Price,'$,'$12.234,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Approver View Orders,Addon Price,'$0.23,'$4.236,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Approver View Orders,Product Disocunt Price,'$2.21,'3.250%,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Approver Print Popup,PrintTotal,'$6.05,'$124.166,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Approver Print Popup,ItemPrice,'$0.92,'$12.234,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Approver Print Popup,Discount,'$2.21,'3.250%,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Approver Print Popup,Amount,'$7.22,'$122.600,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Approver Print Popup,SubTotal,'$7.22,'$122.600,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Approver Print Popup,PromotionDiscount,'-$1.23,'-$3.450,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Approver Print Popup,PrintTaxValue,'$0.06,'$5.016,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Approver Print Popup,AppliedDiscontPrice,'-$2.21,'-$3.976,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,Approver Print Popup,AppliedAddonPrice,'$0.23,'$4.236,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,PS View Orders,Sub Total,'$9.20,'$122.340,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,PS View Orders,Item Price,'$0.92,'$12.234,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,PS View Orders,SubTotal,'$9.20,'$122.340,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,PS View Orders,Addon price,'$0.23,'$4.236,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,PS View Orders,Discount,'$2.21,'3.250%,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,PS View Orders,Shipping price,'$0.00,'$0.000,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,PS View Orders,SubTotal,'$9.20,'$122.340,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,PS View Orders,Addon price,'$0.23,'$4.236,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,PS View Orders,Discount,'-$2.21,'-$3.976,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,PS View Orders,Promotion Disocunt,'-$1.23,'-$3.450,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,PS View Orders,Postage,'$0.00,'$0.000,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,PS View Orders,Tax,'$0.06,'$5.016,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,PS View Orders,Total,'$6.05,'$124.166,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,PS View Orders,SubTotal,'$9.20,'$122.340,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,PS View Orders,Addon price,'$0.23,'$4.236,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,PS View Orders,Discount,'-$2.21,'-$3.976,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,PS View Orders,Promotion Disocunt,'-$1.23,'-$3.450,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,PS View Orders,Tax,'$0.06,'$5.016,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,PS View Orders,Total,'$6.05,'$124.166,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,PS View Orders,Item Price,'$,'$12.234,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,PS View Orders,Addon Price,'$0.23,'$4.236,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,PS View Orders,Product Disocunt Price,'$2.21,'3.250%,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,PS Print Popup,PrintTotal,'$6.05,'$124.166,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,PS Print Popup,ItemPrice,'$0.92,'$12.234,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,PS Print Popup,Discount,'$2.21,'3.250%,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,PS Print Popup,Amount,'$7.22,'$122.600,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,PS Print Popup,SubTotal,'$7.22,'$122.600,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,PS Print Popup,PromotionDiscount,'-$1.23,'-$3.450,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,PS Print Popup,PrintTaxValue,'$0.06,'$5.016,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,PS Print Popup,AppliedDiscontPrice,'-$2.21,'-$3.976,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price,PS Print Popup,AppliedAddonPrice,'$0.23,'$4.236,FAIL,7268
+TC008,22.0,(2 Decimal point) To test Dynamic-print with list Without Postage price, , , , , Fail,7268
+TC008,24.0,4 Decimal point,ProductDetailsPopUp,Item price,'$0.6987,'$49.89,FAIL,null
+TC008,24.0,4 Decimal point,ProductDetailsPopUp,Discount,'$4.1200,'$4.12,FAIL,null
+TC008,24.0,4 Decimal point,ProductDetailsPopUp,Item price,'$0.6987,'$49.89,FAIL,null
+TC008,24.0,4 Decimal point,ProductDetailsPopUp,Discount,'$4.1200,'2.29%,FAIL,null
+TC008,24.0,4 Decimal point,VeiwPricingPopUp,Item price,'$0.6987,'$49.89,FAIL,null
+TC008,24.0,4 Decimal point,ProductDetailsPopUp,Item price,'$0.6987,'$49.89,FAIL,null
+TC008,24.0,4 Decimal point,ProductDetailsPopUp,Discount,'$4.1200,'2.29%,FAIL,null
+TC008,24.0,4 Decimal point,AddonPrice,Addon price,'Addon1 - $0.6789 ( Flat Rate ),'Addon1 - $12.97 ( Flat Rate ),FAIL,null
+TC008,24.0,4 Decimal point,ViewSummary,Item price,'$0.6987,'$49.89,FAIL,null
+TC008,24.0,4 Decimal point,ViewSummary,subtotal,'$6.9870,'$49.89,FAIL,null
+TC008,24.0,4 Decimal point,ViewSummary,Discount,'-( $4.1200 ),'-$1.14,FAIL,null
+TC008,24.0,4 Decimal point,ViewSummary,Addon price,'$0.6789,'$12.97,FAIL,null
+TC008,24.0,4 Decimal point,ViewSummary,postage price,'$0.0000,'$0.00,FAIL,null
+TC008,24.0,4 Decimal point,ViewSummary,total,'$3.5459,'$61.72,FAIL,null
+TC008,24.0,4 Decimal point,ShoppingCart,Item price,'$0.6987,'$49.89,FAIL,null
+TC008,24.0,4 Decimal point,ShoppingCart,Discount price,'$4.1200,'2.29%,FAIL,null
+TC008,24.0,4 Decimal point,ShoppingCart,Addon price,'$0.6789,'$12.97,FAIL,null
+TC008,24.0,4 Decimal point,ShoppingCart,postage price,'$0.0000,'$0.00,FAIL,null
+TC008,24.0,4 Decimal point,ShoppingCart,GridTotal,'$3.5459,'$61.72,FAIL,null
+TC008,24.0,4 Decimal point,ShoppingCart,total,'$3.5459,'$61.72,FAIL,null
+TC008,24.0,4 Decimal point,OrderCheckOut,ItemPrice,'$0.6987,'$49.89,FAIL,null
+TC008,24.0,4 Decimal point,OrderCheckOut,postage price,'$0.0000,'$0.00,FAIL,null
+TC008,24.0,4 Decimal point,OrderCheckOut,Amount,'$3.5459,'$61.72,FAIL,null
+TC008,24.0,4 Decimal point,OrderCheckOut,SubTotal,'$3.5459,'$61.72,FAIL,null
+TC008,24.0,4 Decimal point,OrderCheckOut,PromotionDiscount,'-$1.5600,'-$7.77,FAIL,null
+TC008,24.0,4 Decimal point,OrderCheckOut,TaxPercentage,'(1.1200%),'(5.34%),FAIL,null
+TC008,24.0,4 Decimal point,OrderCheckOut,TaxAmount,'$0.0222,'$2.88,FAIL,null
+TC008,24.0,4 Decimal point,OrderCheckOut,Total,'$2.0081,'$56.83,FAIL,null
+TC008,24.0,4 Decimal point,OrderCheckout,AppliedPayment,'$2.0081,'$56.83,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,ProductDetailsPopUp,Item price,'$0.65,'$52.456,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,ProductDetailsPopUp,Discount,'$0.00,'6.450%,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,ProductDetailsPopUp,Item price,'$0.65,'$52.456,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,ProductDetailsPopUp,Discount,'$0.00,'6.450%,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,VeiwPricingPopUp,Item price,'$0.65,'$52.456,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,ProductDetailsPopUp,Item price,'$0.65,'$52.456,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,ProductDetailsPopUp,Discount,'$0.00,'6.450%,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,ViewSummary,Item price,'$0.65,'$52.456,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,ViewSummary,subtotal,'$6.50,'$52.456,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,ViewSummary,Discount,'-$0.00,'-$3.383,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,ViewSummary,Addon price,'$0.00,'$4.657,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,ViewSummary,postage price,'$0.00,'$0.000,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,ViewSummary,total,'$6.50,'$53.730,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,ShoppingCart,Item price,'$0.65,'$52.456,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,ShoppingCart,Discount price,'$0.00,'6.450%,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,ShoppingCart,Addon price,'$0.00,'$4.657,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,ShoppingCart,postage price,'$0.00,'$0.000,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,ShoppingCart,GridTotal,'$6.50,'$53.730,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,ShoppingCart,total,'$6.50,'$53.730,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,OrderCheckOut,ItemPrice,'$0.65,'$52.456,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,OrderCheckOut,postage price,'$0.00,'$0.000,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,OrderCheckOut,Amount,'$6.50,'$53.730,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,OrderCheckOut,SubTotal,'$6.50,'$53.730,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,OrderCheckOut,PromotionDiscount,'-$0.00,'-$0.000,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,OrderCheckOut,TaxPercentage,'(0.00%),'(4.810%),FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,OrderCheckOut,TaxAmount,'$0.00,'$2.584,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,OrderCheckOut,Total,'$6.50,'$56.314,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,OrderCheckout,AppliedPayment,'$6.50,'$56.314,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Order Summary,ItemPrice,'$0.65,'$52.456,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Order Summary,Discount,'$0.00,'6.450%,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Order Summary,postage price,'$0.00,'$0.000,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Order Summary,Amount,'$6.50,'$53.730,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Order Summary,SubTotal,'$6.50,'$53.730,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Order Summary,TaxPercentage,'(0.00%),'(4.810%),FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Order Summary,TaxValue,'$0.00,'$2.584,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Order Summary,Total,'$6.50,'$56.314,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Order Summary,AppliedDiscontPrice,'- $0.00,'- $3.383,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Order Summary,AppliedAddonPrice,'$0.00,'$4.657,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,OS Print Popup,PrintTotal,'$6.50,'$56.314,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,OS Print Popup,ItemPrice,'$0.65,'$52.456,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,OS Print Popup,Discount,'$0.00,'6.450%,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,OS Print Popup,Amount,'$6.50,'$53.730,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,OS Print Popup,SubTotal,'$6.50,'$53.730,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,OS Print Popup,PrintTaxValue,'$0.00,'$2.584,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,OS Print Popup,AppliedDiscontPrice,'-$0.00,'-$3.383,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,OS Print Popup,AppliedAddonPrice,'$0.00,'$4.657,FAIL,null
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,User View Orders,Sub Total,'$6.50,'$52.456,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,User View Orders,Item Price,'$0.65,'$52.456,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,User View Orders,SubTotal,'$6.50,'$52.456,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,User View Orders,Addon price,'$0.00,'$4.657,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,User View Orders,Discount,'$0.00,'6.450%,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,User View Orders,Shipping price,'$0.00,'$0.000,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,User View Orders,SubTotal,'$6.50,'$52.456,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,User View Orders,Addon price,'$0.00,'$4.657,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,User View Orders,Discount,'-$0.00,'-$3.383,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,User View Orders,Postage,'$0.00,'$0.000,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,User View Orders,Tax,'$0.00,'$2.584,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,User View Orders,Total,'$6.50,'$56.314,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,User View Orders,SubTotal,'$6.50,'$52.456,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,User View Orders,Addon price,'$0.00,'$4.657,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,User View Orders,Discount,'-$0.00,'-$3.383,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,User View Orders,Tax,'$0.00,'$2.584,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,User View Orders,Total,'$6.50,'$56.314,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,User View Orders,Item Price,'$,'$52.456,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,User View Orders,Product Disocunt Price,'$0.00,'6.450%,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,User Print Popup,PrintTotal,'$6.50,'$56.314,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,User Print Popup,ItemPrice,'$0.65,'$52.456,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,User Print Popup,Discount,'$0.00,'6.450%,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,User Print Popup,Amount,'$6.50,'$53.730,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,User Print Popup,SubTotal,'$6.50,'$53.730,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,User Print Popup,PrintTaxValue,'$0.00,'$2.584,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,User Print Popup,AppliedDiscontPrice,'-$0.00,'-$3.383,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,User Print Popup,AppliedAddonPrice,'$0.00,'$4.657,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Approver View Orders,Sub Total,'$6.50,'$52.456,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Approver View Orders,Item Price,'$0.65,'$52.456,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Approver View Orders,SubTotal,'$6.50,'$52.456,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Approver View Orders,Addon price,'$0.00,'$4.657,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Approver View Orders,Discount,'$0.00,'6.450%,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Approver View Orders,Shipping price,'$0.00,'$0.000,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Approver View Orders,SubTotal,'$6.50,'$52.456,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Approver View Orders,Addon price,'$0.00,'$4.657,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Approver View Orders,Discount,'-$0.00,'-$3.383,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Approver View Orders,Postage,'$0.00,'$0.000,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Approver View Orders,Tax,'$0.00,'$2.584,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Approver View Orders,Total,'$6.50,'$56.314,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Approver View Orders,SubTotal,'$6.50,'$52.456,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Approver View Orders,Addon price,'$0.00,'$4.657,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Approver View Orders,Discount,'-$0.00,'-$3.383,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Approver View Orders,Tax,'$0.00,'$2.584,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Approver View Orders,Total,'$6.50,'$56.314,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Approver View Orders,Item Price,'$,'$52.456,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Approver View Orders,Product Disocunt Price,'$0.00,'6.450%,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Approver Print Popup,PrintTotal,'$6.50,'$56.314,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Approver Print Popup,ItemPrice,'$0.65,'$52.456,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Approver Print Popup,Discount,'$0.00,'6.450%,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Approver Print Popup,Amount,'$6.50,'$53.730,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Approver Print Popup,SubTotal,'$6.50,'$53.730,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Approver Print Popup,PrintTaxValue,'$0.00,'$2.584,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Approver Print Popup,AppliedDiscontPrice,'-$0.00,'-$3.383,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,Approver Print Popup,AppliedAddonPrice,'$0.00,'$4.657,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,PS View Orders,Sub Total,'$6.50,'$52.456,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,PS View Orders,Item Price,'$0.65,'$52.456,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,PS View Orders,SubTotal,'$6.50,'$52.456,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,PS View Orders,Addon price,'$0.00,'$4.657,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,PS View Orders,Discount,'$0.00,'6.450%,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,PS View Orders,Shipping price,'$0.00,'$0.000,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,PS View Orders,SubTotal,'$6.50,'$52.456,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,PS View Orders,Addon price,'$0.00,'$4.657,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,PS View Orders,Discount,'-$0.00,'-$3.383,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,PS View Orders,Postage,'$0.00,'$0.000,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,PS View Orders,Tax,'$0.00,'$2.584,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,PS View Orders,Total,'$6.50,'$56.314,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,PS View Orders,SubTotal,'$6.50,'$52.456,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,PS View Orders,Addon price,'$0.00,'$4.657,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,PS View Orders,Discount,'-$0.00,'-$3.383,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,PS View Orders,Tax,'$0.00,'$2.584,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,PS View Orders,Total,'$6.50,'$56.314,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,PS View Orders,Item Price,'$,'$52.456,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,PS View Orders,Product Disocunt Price,'$0.00,'6.450%,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,PS Print Popup,PrintTotal,'$6.50,'$56.314,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,PS Print Popup,ItemPrice,'$0.65,'$52.456,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,PS Print Popup,Discount,'$0.00,'6.450%,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,PS Print Popup,Amount,'$6.50,'$53.730,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,PS Print Popup,SubTotal,'$6.50,'$53.730,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,PS Print Popup,PrintTaxValue,'$0.00,'$2.584,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,PS Print Popup,AppliedDiscontPrice,'-$0.00,'-$3.383,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax,PS Print Popup,AppliedAddonPrice,'$0.00,'$4.657,FAIL,7269
+TC009,25.0,(2 Decimal point) To test Dynamic-print with list without Addons  Postage  Coupon  Discount  Tax, , , , , Fail,7269
+TC009,26.0,3 Decimal point, , , , , PASS,7270
+TC009,27.0,4 Decimal point, , , , , PASS,7271
+TC010,28.0,(2 Decimal point) To test Dynamic-print Drop shipment with list when shipping is Taxable and shipping price is Flatrate.,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC010,28.0,(2 Decimal point) To test Dynamic-print Drop shipment with list when shipping is Taxable and shipping price is Flatrate.,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC010,28.0,(2 Decimal point) To test Dynamic-print Drop shipment with list when shipping is Taxable and shipping price is Flatrate.,OS Print Popup,PrintTotal,'$52.42,',FAIL,null
+TC010,29.0,3 Decimal point, , , , , PASS,7273
+TC010,30.0,4 Decimal point, , , , , PASS,7274

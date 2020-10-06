@@ -1,0 +1,61 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC017,51.0,4 Decimal point, , , , , PASS,7129
+TC018,52.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type)(Applying Discount(%) Coupon(Amount)  Add-On(Flat rate) and Tax),Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC018,52.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type)(Applying Discount(%) Coupon(Amount)  Add-On(Flat rate) and Tax),Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC018,52.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type)(Applying Discount(%) Coupon(Amount)  Add-On(Flat rate) and Tax),OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC018,52.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type)(Applying Discount(%) Coupon(Amount)  Add-On(Flat rate) and Tax),User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7130
+TC018,52.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type)(Applying Discount(%) Coupon(Amount)  Add-On(Flat rate) and Tax),Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7130
+TC018,52.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type)(Applying Discount(%) Coupon(Amount)  Add-On(Flat rate) and Tax),PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7130
+TC018,52.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type)(Applying Discount(%) Coupon(Amount)  Add-On(Flat rate) and Tax), , , , , Fail,7130
+TC018,53.0,3 Decimal point,Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC018,53.0,3 Decimal point,Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC018,53.0,3 Decimal point,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC018,53.0,3 Decimal point,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7131
+TC018,53.0,3 Decimal point,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7131
+TC018,53.0,3 Decimal point,PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7131
+TC018,53.0,3 Decimal point, , , , , Fail,7131
+TC018,54.0,4 Decimal point,Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC018,54.0,4 Decimal point,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC018,54.0,4 Decimal point,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7132
+TC018,54.0,4 Decimal point,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7132
+TC018,54.0,4 Decimal point,PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7132
+TC018,54.0,4 Decimal point, , , , , Fail,7132
+TC019,55.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type)(to test shipping price and Item price are Perpiece.)(Applying Discount(%)  Coupon(Amount) Add-On(Flat rate) and Tax),Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC019,55.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type)(to test shipping price and Item price are Perpiece.)(Applying Discount(%)  Coupon(Amount) Add-On(Flat rate) and Tax),Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC019,55.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type)(to test shipping price and Item price are Perpiece.)(Applying Discount(%)  Coupon(Amount) Add-On(Flat rate) and Tax),OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC019,55.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type)(to test shipping price and Item price are Perpiece.)(Applying Discount(%)  Coupon(Amount) Add-On(Flat rate) and Tax),User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7133
+TC019,55.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type)(to test shipping price and Item price are Perpiece.)(Applying Discount(%)  Coupon(Amount) Add-On(Flat rate) and Tax),Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7133
+TC019,55.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type)(to test shipping price and Item price are Perpiece.)(Applying Discount(%)  Coupon(Amount) Add-On(Flat rate) and Tax),PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7133
+TC019,55.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type)(to test shipping price and Item price are Perpiece.)(Applying Discount(%)  Coupon(Amount) Add-On(Flat rate) and Tax), , , , , Fail,7133
+TC019,56.0,3 Decimal point,Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC019,56.0,3 Decimal point,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC019,56.0,3 Decimal point,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7134
+TC019,56.0,3 Decimal point,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7134
+TC019,56.0,3 Decimal point,PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7134
+TC019,56.0,3 Decimal point, , , , , Fail,7134
+TC019,57.0,4 Decimal point,Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC019,57.0,4 Decimal point,Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC019,57.0,4 Decimal point,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC019,57.0,4 Decimal point,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7135
+TC019,57.0,4 Decimal point,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7135
+TC019,57.0,4 Decimal point,PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7135
+TC019,57.0,4 Decimal point, , , , , Fail,7135
+TC020,58.0,(2 Decimal point) To test Dynamic-print Shpping: Download/Print when shipping is Not Taxable and shipping price is Flat rate and Item Price is Per Piece,Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC020,58.0,(2 Decimal point) To test Dynamic-print Shpping: Download/Print when shipping is Not Taxable and shipping price is Flat rate and Item Price is Per Piece,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC020,58.0,(2 Decimal point) To test Dynamic-print Shpping: Download/Print when shipping is Not Taxable and shipping price is Flat rate and Item Price is Per Piece,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7136
+TC020,58.0,(2 Decimal point) To test Dynamic-print Shpping: Download/Print when shipping is Not Taxable and shipping price is Flat rate and Item Price is Per Piece,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7136
+TC020,58.0,(2 Decimal point) To test Dynamic-print Shpping: Download/Print when shipping is Not Taxable and shipping price is Flat rate and Item Price is Per Piece,PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7136
+TC020,58.0,(2 Decimal point) To test Dynamic-print Shpping: Download/Print when shipping is Not Taxable and shipping price is Flat rate and Item Price is Per Piece, , , , , Fail,7136
+TC020,59.0,3 Decimal point,Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC020,59.0,3 Decimal point,Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC020,59.0,3 Decimal point,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC020,59.0,3 Decimal point,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7137
+TC020,59.0,3 Decimal point,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7137
+TC020,59.0,3 Decimal point,PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7137
+TC020,59.0,3 Decimal point, , , , , Fail,7137
+TC020,60.0,4 Decimal point,Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC020,60.0,4 Decimal point,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC020,60.0,4 Decimal point,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7138
+TC020,60.0,4 Decimal point,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7138
+TC020,60.0,4 Decimal point,PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7138
+TC020,60.0,4 Decimal point, , , , , Fail,7138

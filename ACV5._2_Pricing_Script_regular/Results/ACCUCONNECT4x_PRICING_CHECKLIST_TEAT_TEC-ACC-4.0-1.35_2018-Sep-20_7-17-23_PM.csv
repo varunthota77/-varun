@@ -1,0 +1,148 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,OrderCheckOut,Discount,'$0.00,'ship,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,Order checkout,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,Order Summary,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,User View Orders,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,9
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,9
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,9
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,Approver View Orders,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,9
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,9
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,9
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,PS View Orders,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,9
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,9
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable ,PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,9
+TC030,88.0,(2 Decimal point) Static print Ship to My address-Print When discount was not applicable , , , , , Fail,9
+TC030,89.0,3 Decimal point,OrderCheckOut,Discount,'$0.000,'ship,FAIL,null
+TC030,89.0,3 Decimal point,Order checkout,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC030,89.0,3 Decimal point,Order Summary,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC030,89.0,3 Decimal point,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC030,89.0,3 Decimal point,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC030,89.0,3 Decimal point,User View Orders,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,10
+TC030,89.0,3 Decimal point,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,10
+TC030,89.0,3 Decimal point,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,10
+TC030,89.0,3 Decimal point,Approver View Orders,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,10
+TC030,89.0,3 Decimal point,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,10
+TC030,89.0,3 Decimal point,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,10
+TC030,89.0,3 Decimal point,PS View Orders,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,10
+TC030,89.0,3 Decimal point,PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,10
+TC030,89.0,3 Decimal point,PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,10
+TC030,89.0,3 Decimal point, , , , , Fail,10
+TC030,90.0,4 Decimal point,OrderCheckOut,Discount,'$0.0000,'ship,FAIL,null
+TC030,90.0,4 Decimal point,Order checkout,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC030,90.0,4 Decimal point,Order Summary,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC030,90.0,4 Decimal point,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC030,90.0,4 Decimal point,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC030,90.0,4 Decimal point,User View Orders,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,11
+TC030,90.0,4 Decimal point,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,11
+TC030,90.0,4 Decimal point,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,11
+TC030,90.0,4 Decimal point,Approver View Orders,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,11
+TC030,90.0,4 Decimal point,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,11
+TC030,90.0,4 Decimal point,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,11
+TC030,90.0,4 Decimal point,PS View Orders,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,11
+TC030,90.0,4 Decimal point,PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,11
+TC030,90.0,4 Decimal point,PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,11
+TC030,90.0,4 Decimal point, , , , , Fail,11
+TC032,94.0,(2 Decimal point) Static print where item process type as print When Addons  Coupon  Discount  Tax were not applicable,OrderCheckOut,Discount,'$0.00,'ship,FAIL,null
+TC032,94.0,(2 Decimal point) Static print where item process type as print When Addons  Coupon  Discount  Tax were not applicable,Order checkout,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC032,94.0,(2 Decimal point) Static print where item process type as print When Addons  Coupon  Discount  Tax were not applicable,Order Summary,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC032,94.0,(2 Decimal point) Static print where item process type as print When Addons  Coupon  Discount  Tax were not applicable,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC032,94.0,(2 Decimal point) Static print where item process type as print When Addons  Coupon  Discount  Tax were not applicable,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC032,94.0,(2 Decimal point) Static print where item process type as print When Addons  Coupon  Discount  Tax were not applicable,User View Orders,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,12
+TC032,94.0,(2 Decimal point) Static print where item process type as print When Addons  Coupon  Discount  Tax were not applicable,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,12
+TC032,94.0,(2 Decimal point) Static print where item process type as print When Addons  Coupon  Discount  Tax were not applicable,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,12
+TC032,94.0,(2 Decimal point) Static print where item process type as print When Addons  Coupon  Discount  Tax were not applicable,Approver View Orders,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,12
+TC032,94.0,(2 Decimal point) Static print where item process type as print When Addons  Coupon  Discount  Tax were not applicable,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,12
+TC032,94.0,(2 Decimal point) Static print where item process type as print When Addons  Coupon  Discount  Tax were not applicable,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,12
+TC032,94.0,(2 Decimal point) Static print where item process type as print When Addons  Coupon  Discount  Tax were not applicable,PS View Orders,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,12
+TC032,94.0,(2 Decimal point) Static print where item process type as print When Addons  Coupon  Discount  Tax were not applicable,PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,12
+TC032,94.0,(2 Decimal point) Static print where item process type as print When Addons  Coupon  Discount  Tax were not applicable,PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,12
+TC032,94.0,(2 Decimal point) Static print where item process type as print When Addons  Coupon  Discount  Tax were not applicable, , , , , Fail,12
+TC032,95.0,3 Decimal point,OrderCheckOut,Discount,'$0.000,'ship,FAIL,null
+TC032,95.0,3 Decimal point,Order checkout,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC032,95.0,3 Decimal point,Order Summary,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC032,95.0,3 Decimal point,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC032,95.0,3 Decimal point,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC032,95.0,3 Decimal point,User View Orders,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,13
+TC032,95.0,3 Decimal point,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,13
+TC032,95.0,3 Decimal point,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,13
+TC032,95.0,3 Decimal point,Approver View Orders,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,13
+TC032,95.0,3 Decimal point,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,13
+TC032,95.0,3 Decimal point,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,13
+TC032,95.0,3 Decimal point,PS View Orders,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,13
+TC032,95.0,3 Decimal point,PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,13
+TC032,95.0,3 Decimal point,PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,13
+TC032,95.0,3 Decimal point, , , , , Fail,13
+TC032,96.0,4 Decimal point,OrderCheckOut,Discount,'$0.0000,'ship,FAIL,null
+TC032,96.0,4 Decimal point,Order checkout,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC032,96.0,4 Decimal point,Order Summary,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC032,96.0,4 Decimal point,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC032,96.0,4 Decimal point,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC032,96.0,4 Decimal point,User View Orders,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,14
+TC032,96.0,4 Decimal point,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,14
+TC032,96.0,4 Decimal point,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,14
+TC032,96.0,4 Decimal point,Approver View Orders,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,14
+TC032,96.0,4 Decimal point,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,14
+TC032,96.0,4 Decimal point,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,14
+TC032,96.0,4 Decimal point,PS View Orders,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,14
+TC032,96.0,4 Decimal point,PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,14
+TC032,96.0,4 Decimal point,PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,14
+TC032,96.0,4 Decimal point, , , , , Fail,14
+TC034,101.0,3 Decimal point,Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC034,101.0,3 Decimal point,Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC034,101.0,3 Decimal point,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC034,101.0,3 Decimal point,OS Print Popup,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC034,101.0,3 Decimal point,Order summary page,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same,'Both BIlling, Shipping address are Different,FAIL,null
+TC034,101.0,3 Decimal point,User View Orders,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same,'Both BIlling, Shipping address are Different ,FAIL,15
+TC034,101.0,3 Decimal point,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,15
+TC034,101.0,3 Decimal point,User Print Popup,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,15
+TC034,101.0,3 Decimal point,Approver View Orders,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same,'Both BIlling, Shipping address are Different ,FAIL,15
+TC034,101.0,3 Decimal point,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,15
+TC034,101.0,3 Decimal point,Approver Print Popup,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,15
+TC034,101.0,3 Decimal point,PS View Orders,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same,'Both BIlling, Shipping address are Different ,FAIL,15
+TC034,101.0,3 Decimal point,PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,15
+TC034,101.0,3 Decimal point,PS Print Popup,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,15
+TC034,101.0,3 Decimal point, , , , , Fail,15
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Order checkout,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Order Summary,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,User View Orders,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,16
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,16
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,16
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Approver View Orders,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,16
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,16
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,16
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,PS View Orders,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,16
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,16
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,16
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type, , , , , Fail,16
+TC035,104.0,3 Decimal point,Order checkout,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC035,104.0,3 Decimal point,Order Summary,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC035,104.0,3 Decimal point,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC035,104.0,3 Decimal point,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC035,104.0,3 Decimal point,User View Orders,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,17
+TC035,104.0,3 Decimal point,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,17
+TC035,104.0,3 Decimal point,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,17
+TC035,104.0,3 Decimal point,Approver View Orders,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,17
+TC035,104.0,3 Decimal point,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,17
+TC035,104.0,3 Decimal point,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,17
+TC035,104.0,3 Decimal point,PS View Orders,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,17
+TC035,104.0,3 Decimal point,PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,17
+TC035,104.0,3 Decimal point,PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,17
+TC035,104.0,3 Decimal point, , , , , Fail,17
+TC035,105.0,4 Decimal point,Order checkout,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC035,105.0,4 Decimal point,Order Summary,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC035,105.0,4 Decimal point,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC035,105.0,4 Decimal point,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC035,105.0,4 Decimal point,User View Orders,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,18
+TC035,105.0,4 Decimal point,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,18
+TC035,105.0,4 Decimal point,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,18
+TC035,105.0,4 Decimal point,Approver View Orders,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,18
+TC035,105.0,4 Decimal point,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,18
+TC035,105.0,4 Decimal point,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,18
+TC035,105.0,4 Decimal point,PS View Orders,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,18
+TC035,105.0,4 Decimal point,PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,18
+TC035,105.0,4 Decimal point,PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,18
+TC035,105.0,4 Decimal point, , , , , Fail,18

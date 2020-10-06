@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<vdp_fields>
+  <dials>
+    <dial>
+      <name>WelcomeTitle</name>
+      <type>TEXT</type>
+    </dial>
+  <dial>
+     <name>WebSiteLogo</name>
+      <type>GRAPHIC</type>
+    </dial>
+  </dials>
+  <recipientfields>
+    <field>
+      <name>FirstName</name>
+    </field>
+    <field>
+      <name>LastName</name>
+    </field>
+    <field>
+      <name>Address1</name>
+    </field>
+    <field>
+      <name>City</name>
+    </field>
+    <field>
+      <name>State</name>
+    </field>
+    <field>
+      <name>Zip</name>
+    </field>
+  </recipientfields>
+</vdp_fields>

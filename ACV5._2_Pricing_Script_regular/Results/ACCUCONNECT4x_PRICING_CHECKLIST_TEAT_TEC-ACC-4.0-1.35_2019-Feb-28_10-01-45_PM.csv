@@ -1,0 +1,15 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC021,61.0,(2 Decimal point) To test Dynamic-print Dynamic-Ship to Multiple Locations, , , , , PASS,7139
+TC021,62.0,3 Decimal point, , , , , PASS,7140
+TC022,64.0,(2 Decimal point) To test Dynamic-print using Shipping to my address to test only print, , , , , PASS,7141
+TC022,65.0,3 Decimal point, , , , , PASS,7142
+TC023,67.0,(2 Decimal point) To test Static-print Shpping: Print when shipping is Taxable and shipping price is Per Piece and Item Price is Flat Rate, , , , , PASS,7143
+TC023,68.0,3 Decimal point, , , , , Fail,7144
+TC023,69.0,4 Decimal point, , , , , PASS,7145
+TC024,70.0,(2 Decimal point) To test Dynamic-print using Shipping to my address to test only print(Flat rate)(Applying Discount(%) Coupon(Amount)  Add-On(Flat rate) and Tax),Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC024,70.0,(2 Decimal point) To test Dynamic-print using Shipping to my address to test only print(Flat rate)(Applying Discount(%) Coupon(Amount)  Add-On(Flat rate) and Tax),Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC024,70.0,(2 Decimal point) To test Dynamic-print using Shipping to my address to test only print(Flat rate)(Applying Discount(%) Coupon(Amount)  Add-On(Flat rate) and Tax),OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC024,70.0,(2 Decimal point) To test Dynamic-print using Shipping to my address to test only print(Flat rate)(Applying Discount(%) Coupon(Amount)  Add-On(Flat rate) and Tax),User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7146
+TC024,70.0,(2 Decimal point) To test Dynamic-print using Shipping to my address to test only print(Flat rate)(Applying Discount(%) Coupon(Amount)  Add-On(Flat rate) and Tax),Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7146
+TC024,70.0,(2 Decimal point) To test Dynamic-print using Shipping to my address to test only print(Flat rate)(Applying Discount(%) Coupon(Amount)  Add-On(Flat rate) and Tax),PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7146
+TC024,70.0,(2 Decimal point) To test Dynamic-print using Shipping to my address to test only print(Flat rate)(Applying Discount(%) Coupon(Amount)  Add-On(Flat rate) and Tax), , , , , Fail,7146

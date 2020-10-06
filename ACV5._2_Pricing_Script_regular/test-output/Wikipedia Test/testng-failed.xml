@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="3" name="Failed suite [Wikipedia Test]" parallel="tests">
+  <test name="SampleTest to read method name ff(failed)" parallel="tests">
+    <classes>
+      <class name="tec.ypd.suite.smspull">
+        <methods>
+          <include name="results"/>
+          <include name="stop"/>
+          <include name="SmsPull" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tec.ypd.suite.smspull -->
+      <class name="tec.ypd.suite.MY_Account">
+        <methods>
+          <include name="testLogin" invocation-numbers="0"/>
+          <include name="results"/>
+          <include name="stop"/>
+        </methods>
+      </class> <!-- tec.ypd.suite.MY_Account -->
+    </classes>
+  </test> <!-- SampleTest to read method name ff(failed) -->
+</suite> <!-- Failed suite [Wikipedia Test] -->

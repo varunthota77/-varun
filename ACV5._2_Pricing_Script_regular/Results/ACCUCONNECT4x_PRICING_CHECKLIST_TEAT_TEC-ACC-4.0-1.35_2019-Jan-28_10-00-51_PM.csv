@@ -1,0 +1,85 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC038,113.0,3 Decimal point,ProductDetailsPopUp,Discount,'2.689%,'$0.000,FAIL,null
+TC038,113.0,3 Decimal point,ProductDetailsPopUp,Discount,'2.689%,'$0.000,FAIL,null
+TC038,113.0,3 Decimal point,ProductDetailsPopUp,Discount,'2.689%,'$0.000,FAIL,null
+TC038,113.0,3 Decimal point,AddonPrice,Addon price,'Addon1 - $1.243 ( Per Piece ),'Addon1,FAIL,null
+TC038,113.0,3 Decimal point,ShoppingCart,Discount price,'2.689%,'$0.000,FAIL,null
+TC038,113.0,3 Decimal point,ShoppingCart,Addon price,'$17.402,'$0.000,FAIL,null
+TC038,113.0,3 Decimal point,ShoppingCart,GridTotal,'$26.594,'$13.808,FAIL,null
+TC038,113.0,3 Decimal point,ShoppingCart,total,'$26.594,'$13.808,FAIL,null
+TC038,113.0,3 Decimal point,Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC038,113.0,3 Decimal point,Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC038,113.0,3 Decimal point,Order check out,Shipping Price,'$18.512,'$45.620,FAIL,null
+TC038,113.0,3 Decimal point,OrderCheckOut,Amount,'$26.594,'$13.808,FAIL,null
+TC038,113.0,3 Decimal point,OrderCheckOut,SubTotal,'$26.594,'$13.808,FAIL,null
+TC038,113.0,3 Decimal point,OrderCheckOut,PromotionDiscount,'-$0.992,'-$0.000,FAIL,null
+TC038,113.0,3 Decimal point,OrderCheckOut,Shipping,'$18.512,'$45.620,FAIL,null
+TC038,113.0,3 Decimal point,OrderCheckOut,TaxPercentage,'(4.210%),'(0.000%),FAIL,null
+TC038,113.0,3 Decimal point,OrderCheckOut,TaxAmount,'$1.857,'$0.000,FAIL,null
+TC038,113.0,3 Decimal point,OrderCheckOut,Total,'$45.971,'$59.428,FAIL,null
+TC038,113.0,3 Decimal point,OrderCheckout,AppliedPayment,'$45.971,'$59.428,FAIL,null
+TC038,113.0,3 Decimal point,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC038,113.0,3 Decimal point,OS Print Popup,PrintTotal,'$45.971,'$59.428,FAIL,null
+TC038,113.0,3 Decimal point,OS Print Popup,Discount,'2.689%,'$0.000,FAIL,null
+TC038,113.0,3 Decimal point,OS Print Popup,Amount,'$26.594,'$13.808,FAIL,null
+TC038,113.0,3 Decimal point,OS Print Popup,SubTotal,'$26.594,'$13.808,FAIL,null
+TC038,114.0,4 Decimal point,Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,7005
+TC038,114.0,4 Decimal point,Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,7005
+TC039,115.0,(2 Decimal point) To test Static-print Ship to My Address: Download/Print when shipping is Taxable and shipping price and Item price are Per Piece.(Applying Discount(%) Coupon(%) Add-On(Perpiece) and Tax),Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,7005
+TC039,115.0,(2 Decimal point) To test Static-print Ship to My Address: Download/Print when shipping is Taxable and shipping price and Item price are Per Piece.(Applying Discount(%) Coupon(%) Add-On(Perpiece) and Tax),OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7005
+TC039,115.0,(2 Decimal point) To test Static-print Ship to My Address: Download/Print when shipping is Taxable and shipping price and Item price are Per Piece.(Applying Discount(%) Coupon(%) Add-On(Perpiece) and Tax),User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7006
+TC039,115.0,(2 Decimal point) To test Static-print Ship to My Address: Download/Print when shipping is Taxable and shipping price and Item price are Per Piece.(Applying Discount(%) Coupon(%) Add-On(Perpiece) and Tax),Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7006
+TC039,115.0,(2 Decimal point) To test Static-print Ship to My Address: Download/Print when shipping is Taxable and shipping price and Item price are Per Piece.(Applying Discount(%) Coupon(%) Add-On(Perpiece) and Tax),PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7006
+TC039,115.0,(2 Decimal point) To test Static-print Ship to My Address: Download/Print when shipping is Taxable and shipping price and Item price are Per Piece.(Applying Discount(%) Coupon(%) Add-On(Perpiece) and Tax), , , , , Fail,7006
+TC039,116.0,3 Decimal point,ViewSummary,subtotal,'$24.247,'$23.104,FAIL,null
+TC039,116.0,3 Decimal point,ViewSummary,Discount,'-$1.263,'-$1.204,FAIL,null
+TC039,116.0,3 Decimal point,ViewSummary,DownloadPrice,'$5.263,'$4.120,FAIL,null
+TC039,116.0,3 Decimal point,ViewSummary,total,'$32.035,'$30.951,FAIL,null
+TC039,116.0,3 Decimal point,ShoppingCart,GridTotal,'$32.035,'$30.951,FAIL,null
+TC039,116.0,3 Decimal point,ShoppingCart,total,'$32.035,'$30.951,FAIL,null
+TC039,116.0,3 Decimal point,Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC039,116.0,3 Decimal point,Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC039,116.0,3 Decimal point,Order check out,Shipping Price,'$129.584,'$319.340,FAIL,null
+TC039,116.0,3 Decimal point,OrderCheckOut,Amount,'$32.035,'$30.951,FAIL,null
+TC039,116.0,3 Decimal point,OrderCheckOut,SubTotal,'$32.035,'$30.951,FAIL,null
+TC039,116.0,3 Decimal point,OrderCheckOut,PromotionDiscount,'-$1.544,'-$0.381,FAIL,null
+TC039,116.0,3 Decimal point,OrderCheckOut,Shipping,'$129.584,'$319.340,FAIL,null
+TC039,116.0,3 Decimal point,OrderCheckOut,TaxPercentage,'(4.210%),'(5.870%),FAIL,null
+TC039,116.0,3 Decimal point,OrderCheckOut,TaxAmount,'$6.739,'$20.540,FAIL,null
+TC039,116.0,3 Decimal point,OrderCheckOut,Total,'$166.814,'$370.450,FAIL,null
+TC039,116.0,3 Decimal point,OrderCheckout,AppliedPayment,'$166.814,'$370.450,FAIL,null
+TC039,116.0,3 Decimal point,Order Summary,Amount,'$32.035,'$30.951,FAIL,null
+TC039,116.0,3 Decimal point,Order Summary,SubTotal,'$32.035,'$30.951,FAIL,null
+TC039,116.0,3 Decimal point,Order Summary,PromotionDiscount,'- $1.544,'- $0.381,FAIL,null
+TC039,116.0,3 Decimal point,Order Summary,ShipingAmount,'$129.584,'$319.340,FAIL,null
+TC039,116.0,3 Decimal point,Order Summary,TaxPercentage,'(4.210%),'(5.870%),FAIL,null
+TC039,116.0,3 Decimal point,Order Summary,TaxValue,'$6.739,'$20.540,FAIL,null
+TC039,116.0,3 Decimal point,Order Summary,Total,'$166.814,'$370.450,FAIL,null
+TC039,116.0,3 Decimal point,Order Summary,AppliedDiscontPrice,'- $1.263,'- $1.204,FAIL,null
+TC039,116.0,3 Decimal point,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC039,116.0,3 Decimal point,OS Print Popup,PrintTotal,'$166.814,'$370.450,FAIL,null
+TC039,116.0,3 Decimal point,OS Print Popup,Amount,'$32.035,'$30.951,FAIL,null
+TC039,116.0,3 Decimal point,OS Print Popup,SubTotal,'$32.035,'$30.951,FAIL,null
+TC039,116.0,3 Decimal point,OS Print Popup,PromotionDiscount,'-$1.544,'-$0.381,FAIL,null
+TC039,116.0,3 Decimal point,OS Print Popup,PrintTaxValue,'$6.739,'$20.540,FAIL,null
+TC039,116.0,3 Decimal point,OS Print Popup,AppliedDiscontPrice,'-$1.263,'-$1.204,FAIL,null
+TC039,116.0,3 Decimal point,User View Orders,Sub Total,'$24.247,'$23.104,FAIL,7007
+TC039,116.0,3 Decimal point,User View Orders,SubTotal,'$24.247,'$23.104,FAIL,7007
+TC039,116.0,3 Decimal point,User View Orders,SubTotal,'$24.247,'$23.104,FAIL,7007
+TC039,116.0,3 Decimal point,User View Orders,Discount,'-$1.263,'-$1.204,FAIL,7007
+TC039,116.0,3 Decimal point,User View Orders,Promotion Disocunt,'-$1.544,'-$0.381,FAIL,7007
+TC039,116.0,3 Decimal point,User View Orders,Tax,'$6.739,'$20.540,FAIL,7007
+TC039,116.0,3 Decimal point,User View Orders,Total,'$166.814,'$370.450,FAIL,7007
+TC039,116.0,3 Decimal point,User View Orders,SubTotal,'$24.247,'$23.104,FAIL,7007
+TC039,116.0,3 Decimal point,User View Orders,Discount,'-$1.263,'-$1.204,FAIL,7007
+TC039,116.0,3 Decimal point,User View Orders,Promotion Disocunt,'-$1.544,'-$0.381,FAIL,7007
+TC039,116.0,3 Decimal point,User View Orders,Tax,'$6.739,'$20.540,FAIL,7007
+TC039,116.0,3 Decimal point,User View Orders,Total,'$166.814,'$370.450,FAIL,7007
+TC039,116.0,3 Decimal point,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7007
+TC039,116.0,3 Decimal point,User Print Popup,PrintTotal,'$166.814,'$370.450,FAIL,7007
+TC039,116.0,3 Decimal point,User Print Popup,Amount,'$32.035,'$30.951,FAIL,7007
+TC039,116.0,3 Decimal point,User Print Popup,SubTotal,'$32.035,'$30.951,FAIL,7007
+TC039,116.0,3 Decimal point,User Print Popup,PromotionDiscount,'-$1.544,'-$0.381,FAIL,7007
+TC039,116.0,3 Decimal point,User Print Popup,PrintTaxValue,'$6.739,'$20.540,FAIL,7007
+TC039,116.0,3 Decimal point,User Print Popup,AppliedDiscontPrice,'-$1.263,'-$1.204,FAIL,7007
+TC039,117.0,4 Decimal point,Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,7007

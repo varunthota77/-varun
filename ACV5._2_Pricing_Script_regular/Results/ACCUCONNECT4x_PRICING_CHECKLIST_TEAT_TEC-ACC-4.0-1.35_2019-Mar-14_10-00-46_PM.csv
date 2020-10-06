@@ -1,0 +1,30 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC067,221.0,(2 Decimal point) To test Static-Inventory Ship to My Address: Print when shipping is Taxable and shipping price and Item price are Per Piece.(Applying only tax and addOns(Per Piece)),Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC067,221.0,(2 Decimal point) To test Static-Inventory Ship to My Address: Print when shipping is Taxable and shipping price and Item price are Per Piece.(Applying only tax and addOns(Per Piece)),Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC067,221.0,(2 Decimal point) To test Static-Inventory Ship to My Address: Print when shipping is Taxable and shipping price and Item price are Per Piece.(Applying only tax and addOns(Per Piece)),OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC067,221.0,(2 Decimal point) To test Static-Inventory Ship to My Address: Print when shipping is Taxable and shipping price and Item price are Per Piece.(Applying only tax and addOns(Per Piece)),User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7225
+TC067,221.0,(2 Decimal point) To test Static-Inventory Ship to My Address: Print when shipping is Taxable and shipping price and Item price are Per Piece.(Applying only tax and addOns(Per Piece)),Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7225
+TC067,221.0,(2 Decimal point) To test Static-Inventory Ship to My Address: Print when shipping is Taxable and shipping price and Item price are Per Piece.(Applying only tax and addOns(Per Piece)),PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7225
+TC067,221.0,(2 Decimal point) To test Static-Inventory Ship to My Address: Print when shipping is Taxable and shipping price and Item price are Per Piece.(Applying only tax and addOns(Per Piece)), , , , , Fail,7225
+TC067,222.0,4 Decimal point, , , , , PASS,7226
+TC067,223.0,4 Decimal point
+Currency decimal is 4 and Order amount decimal value is 2, , , , , PASS,7227
+TC067,224.0,4 Decimal point
+Currency decimal is 4 and Order amount decimal value is 3, , , , , PASS,7228
+TC067,225.0,4 Decimal point
+Currency decimal is 3 and Order amount decimal value is 2,Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC067,225.0,4 Decimal point
+Currency decimal is 3 and Order amount decimal value is 2,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC067,225.0,4 Decimal point
+Currency decimal is 3 and Order amount decimal value is 2,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7229
+TC067,225.0,4 Decimal point
+Currency decimal is 3 and Order amount decimal value is 2,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7229
+TC067,225.0,4 Decimal point
+Currency decimal is 3 and Order amount decimal value is 2,PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7229
+TC067,225.0,4 Decimal point
+Currency decimal is 3 and Order amount decimal value is 2, , , , , Fail,7229
+TC067,226.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters Custom Tax_OFF, , , , , Fail,7230
+TC067,227.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters Select_OFF, , , , , Fail,7231
+TC067,228.0,(2 Decimal point) To test Dynamic-print with list Without discout, , , , , PASS,7232
+TC067,229.0,4 Decimal point, , , , , PASS,7233
+TC067,230.0,4 Decimal point, , , , , PASS,7234

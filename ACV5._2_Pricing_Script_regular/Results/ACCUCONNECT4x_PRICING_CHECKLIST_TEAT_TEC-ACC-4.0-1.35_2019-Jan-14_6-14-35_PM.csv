@@ -1,0 +1,214 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC041,121.0,(2 Decimal point) To test Static Inventory with Shipping-Print price with available parameters when shipping is taxable and  When tax was checked(2 decimal),ProductDetailsPopUp,Item price,'$1.27,'$85.978,FAIL,null
+TC041,121.0,(2 Decimal point) To test Static Inventory with Shipping-Print price with available parameters when shipping is taxable and  When tax was checked(2 decimal),ProductDetailsPopUp,Discount,'$2.78,'$0.000,FAIL,null
+TC041,121.0,(2 Decimal point) To test Static Inventory with Shipping-Print price with available parameters when shipping is taxable and  When tax was checked(2 decimal),ProductDetailsPopUp,Item price,'$1.27,'$85.978,FAIL,null
+TC041,121.0,(2 Decimal point) To test Static Inventory with Shipping-Print price with available parameters when shipping is taxable and  When tax was checked(2 decimal),ProductDetailsPopUp,Discount,'$2.78,'$0.000,FAIL,null
+TC041,121.0,(2 Decimal point) To test Static Inventory with Shipping-Print price with available parameters when shipping is taxable and  When tax was checked(2 decimal),VeiwPricingPopUp,Item price,'$1.27,'$85.978,FAIL,null
+TC041,121.0,(2 Decimal point) To test Static Inventory with Shipping-Print price with available parameters when shipping is taxable and  When tax was checked(2 decimal),Select List,Shipping Price,'$3.56,'$2.563,FAIL,null
+TC041,121.0,(2 Decimal point) To test Static Inventory with Shipping-Print price with available parameters when shipping is taxable and  When tax was checked(2 decimal),ProductDetailsPopUp,Item price,'$1.27,'$85.978,FAIL,null
+TC041,121.0,(2 Decimal point) To test Static Inventory with Shipping-Print price with available parameters when shipping is taxable and  When tax was checked(2 decimal),ProductDetailsPopUp,Discount,'$2.78,'$0.000,FAIL,null
+TC041,121.0,(2 Decimal point) To test Static Inventory with Shipping-Print price with available parameters when shipping is taxable and  When tax was checked(2 decimal),AddonPrice,Addon price,'Addon1 - $0.46 ( Flat Rate ),'Addon1,FAIL,null
+TC041,121.0,(2 Decimal point) To test Static Inventory with Shipping-Print price with available parameters when shipping is taxable and  When tax was checked(2 decimal),ViewSummary,Item price,'$1.27,'$85.978,FAIL,null
+TC041,121.0,(2 Decimal point) To test Static Inventory with Shipping-Print price with available parameters when shipping is taxable and  When tax was checked(2 decimal),ViewSummary,subtotal,'$16.51,'$85.978,FAIL,null
+TC041,121.0,(2 Decimal point) To test Static Inventory with Shipping-Print price with available parameters when shipping is taxable and  When tax was checked(2 decimal),ViewSummary,Discount,'-( $2.78 ),'-$0.000,FAIL,null
+TC041,121.0,(2 Decimal point) To test Static Inventory with Shipping-Print price with available parameters when shipping is taxable and  When tax was checked(2 decimal),ViewSummary,Addon price,'$0.46,'$0.000,FAIL,null
+TC041,121.0,(2 Decimal point) To test Static Inventory with Shipping-Print price with available parameters when shipping is taxable and  When tax was checked(2 decimal),ViewSummary,Shipping price,'$3.56,'$2.563,FAIL,null
+TC041,121.0,(2 Decimal point) To test Static Inventory with Shipping-Print price with available parameters when shipping is taxable and  When tax was checked(2 decimal),ViewSummary,total,'$17.75,'$88.541,FAIL,null
+TC041,121.0,(2 Decimal point) To test Static Inventory with Shipping-Print price with available parameters when shipping is taxable and  When tax was checked(2 decimal),ShoppingCart,Item price,'$1.27,'$85.978,FAIL,null
+TC041,121.0,(2 Decimal point) To test Static Inventory with Shipping-Print price with available parameters when shipping is taxable and  When tax was checked(2 decimal),ShoppingCart,Discount price,'$2.78,'$0.000,FAIL,null
+TC041,121.0,(2 Decimal point) To test Static Inventory with Shipping-Print price with available parameters when shipping is taxable and  When tax was checked(2 decimal),ShoppingCart,Addon price,'$0.46,'$0.000,FAIL,null
+TC041,121.0,(2 Decimal point) To test Static Inventory with Shipping-Print price with available parameters when shipping is taxable and  When tax was checked(2 decimal),ShoppingCart,Shipping price,'$3.56,'$2.563,FAIL,null
+TC041,121.0,(2 Decimal point) To test Static Inventory with Shipping-Print price with available parameters when shipping is taxable and  When tax was checked(2 decimal),ShoppingCart,GridTotal,'$17.75,'$88.541,FAIL,null
+TC041,121.0,(2 Decimal point) To test Static Inventory with Shipping-Print price with available parameters when shipping is taxable and  When tax was checked(2 decimal),ShoppingCart,total,'$17.75,'$88.541,FAIL,null
+TC041,121.0,(2 Decimal point) To test Static Inventory with Shipping-Print price with available parameters when shipping is taxable and  When tax was checked(2 decimal),OrderCheckOut,ItemPrice,'$1.27,'$85.978,FAIL,null
+TC041,121.0,(2 Decimal point) To test Static Inventory with Shipping-Print price with available parameters when shipping is taxable and  When tax was checked(2 decimal),OrderCheckOut,Shipping price,'$3.56,'$2.563,FAIL,null
+TC041,121.0,(2 Decimal point) To test Static Inventory with Shipping-Print price with available parameters when shipping is taxable and  When tax was checked(2 decimal),OrderCheckOut,Amount,'$17.75,'$88.541,FAIL,null
+TC041,121.0,(2 Decimal point) To test Static Inventory with Shipping-Print price with available parameters when shipping is taxable and  When tax was checked(2 decimal),OrderCheckOut,SubTotal,'$17.75,'$88.541,FAIL,null
+TC041,121.0,(2 Decimal point) To test Static Inventory with Shipping-Print price with available parameters when shipping is taxable and  When tax was checked(2 decimal),OrderCheckOut,PromotionDiscount,'-$4.56,'-$0.000,FAIL,null
+TC041,121.0,(2 Decimal point) To test Static Inventory with Shipping-Print price with available parameters when shipping is taxable and  When tax was checked(2 decimal),OrderCheckOut,TaxPercentage,'(3.78%),'(0.000%),FAIL,null
+TC041,121.0,(2 Decimal point) To test Static Inventory with Shipping-Print price with available parameters when shipping is taxable and  When tax was checked(2 decimal),OrderCheckOut,TaxAmount,'$0.50,'$0.000,FAIL,null
+TC041,121.0,(2 Decimal point) To test Static Inventory with Shipping-Print price with available parameters when shipping is taxable and  When tax was checked(2 decimal),OrderCheckOut,Total,'$13.69,'$88.541,FAIL,null
+TC041,121.0,(2 Decimal point) To test Static Inventory with Shipping-Print price with available parameters when shipping is taxable and  When tax was checked(2 decimal),OrderCheckout,AppliedPayment,'$13.69,'$88.541,FAIL,null
+TC041,121.0,(2 Decimal point) To test Static Inventory with Shipping-Print price with available parameters when shipping is taxable and  When tax was checked(2 decimal),OS Print Popup,PrintTotal,'$13.69,'$88.541,FAIL,null
+TC041,121.0,(2 Decimal point) To test Static Inventory with Shipping-Print price with available parameters when shipping is taxable and  When tax was checked(2 decimal),OS Print Popup,ItemPrice,'$1.27,'$85.978,FAIL,null
+TC041,121.0,(2 Decimal point) To test Static Inventory with Shipping-Print price with available parameters when shipping is taxable and  When tax was checked(2 decimal),OS Print Popup,Discount,'$2.78,'$0.000,FAIL,null
+TC041,121.0,(2 Decimal point) To test Static Inventory with Shipping-Print price with available parameters when shipping is taxable and  When tax was checked(2 decimal),OS Print Popup,Amount,'$17.75,'$88.541,FAIL,null
+TC041,121.0,(2 Decimal point) To test Static Inventory with Shipping-Print price with available parameters when shipping is taxable and  When tax was checked(2 decimal),OS Print Popup,SubTotal,'$17.75,'$88.541,FAIL,null
+TC041,122.0,3 Decimal point,ShoppingCart,total,'$20.707,'$20.710,FAIL,6946
+TC041,122.0,3 Decimal point,OrderCheckOut,ItemPrice,'$1.679,'$1.68,FAIL,6946
+TC041,122.0,3 Decimal point,OrderCheckOut,Shipping price,'$2.896,'$2.90,FAIL,6946
+TC041,122.0,3 Decimal point,OrderCheckOut,Amount,'$20.707,'$20.71,FAIL,6946
+TC041,122.0,3 Decimal point,OrderCheckOut,SubTotal,'$20.707,'$20.71,FAIL,6946
+TC041,122.0,3 Decimal point,OrderCheckOut,PromotionDiscount,'-$1.650,'-$1.65,FAIL,6946
+TC041,122.0,3 Decimal point,OrderCheckOut,TaxPercentage,'(2.150%),'(2.15%),FAIL,6946
+TC041,122.0,3 Decimal point,OrderCheckOut,TaxAmount,'$0.410,'$0.41,FAIL,6946
+TC041,122.0,3 Decimal point,OrderCheckOut,Total,'$19.467,'$19.47,FAIL,6946
+TC041,122.0,3 Decimal point,OrderCheckout,AppliedPayment,'$19.467,'$19.47,FAIL,6946
+TC041,123.0,4 Decimal point,ProductDetailsPopUp,Item price,'$1.2034,'$0.742,FAIL,6946
+TC041,123.0,4 Decimal point,ProductDetailsPopUp,Discount,'$3.2100,'$0.000,FAIL,6946
+TC041,123.0,4 Decimal point,ProductDetailsPopUp,Item price,'$1.2034,'$0.742,FAIL,6946
+TC041,123.0,4 Decimal point,ProductDetailsPopUp,Discount,'$3.2100,'$0.000,FAIL,6946
+TC041,123.0,4 Decimal point,VeiwPricingPopUp,Item price,'$1.2034,'$0.742,FAIL,6946
+TC042,125.0,3 Decimal point,ProductDetailsPopUp,Item price,'$0.631,'$3.2145,FAIL,6946
+TC042,125.0,3 Decimal point,ProductDetailsPopUp,Discount,'1.560%,'$0.0000,FAIL,6946
+TC042,125.0,3 Decimal point,ProductDetailsPopUp,Item price,'$0.631,'$3.2145,FAIL,6946
+TC042,125.0,3 Decimal point,ProductDetailsPopUp,Discount,'1.560%,'$0.0000,FAIL,6946
+TC042,125.0,3 Decimal point,VeiwPricingPopUp,Item price,'$0.631,'$3.2145,FAIL,6946
+TC043,128.0,3 Decimal point,OrderCheckOut,ItemPrice,'$2.712,'$2.7120,FAIL,6946
+TC043,128.0,3 Decimal point,OrderCheckOut,Shipping price,'$2.952,'$2.9520,FAIL,6946
+TC043,128.0,3 Decimal point,OrderCheckOut,Amount,'$36.316,'$36.3160,FAIL,6946
+TC043,128.0,3 Decimal point,OrderCheckOut,SubTotal,'$36.316,'$36.3160,FAIL,6946
+TC043,128.0,3 Decimal point,OrderCheckOut,PromotionDiscount,'-$2.030,'-$2.0300,FAIL,6946
+TC043,128.0,3 Decimal point,OrderCheckOut,TaxPercentage,'(1.230%),'(1.2300%),FAIL,6946
+TC043,128.0,3 Decimal point,OrderCheckOut,TaxAmount,'$0.422,'$0.4217,FAIL,6946
+TC043,128.0,3 Decimal point,OrderCheckOut,Total,'$34.708,'$34.7077,FAIL,6946
+TC043,129.0,4 Decimal point,Select List,Shipping Price,'$1.6320,'$1.63,FAIL,6946
+TC043,129.0,4 Decimal point,ProductDetailsPopUp,Item price,'$1.4931,'$0.2546,FAIL,6946
+TC043,129.0,4 Decimal point,ViewSummary,Item price,'$1.4931,'$0.2546,FAIL,6946
+TC043,129.0,4 Decimal point,ViewSummary,subtotal,'$20.9034,'$3.56,FAIL,6946
+TC043,129.0,4 Decimal point,ViewSummary,Discount,'-$0.0000,'-$0.00,FAIL,6946
+TC043,129.0,4 Decimal point,ViewSummary,Addon price,'$0.2900,'$0.29,FAIL,6946
+TC043,129.0,4 Decimal point,ViewSummary,Shipping price,'$1.6320,'$1.63,FAIL,6946
+TC043,129.0,4 Decimal point,ViewSummary,total,'$22.8254,'$5.48,FAIL,6946
+TC043,129.0,4 Decimal point,ShoppingCart,Item price,'$1.4931,'$0.2546,FAIL,6946
+TC043,129.0,4 Decimal point,ShoppingCart,Discount price,'$0.0000,'$0.00,FAIL,6946
+TC043,129.0,4 Decimal point,ShoppingCart,Addon price,'$0.2900,'$0.29,FAIL,6946
+TC043,129.0,4 Decimal point,ShoppingCart,Shipping price,'$1.6320,'$1.63,FAIL,6946
+TC043,129.0,4 Decimal point,ShoppingCart,GridTotal,'$22.8254,'$5.48,FAIL,6946
+TC043,129.0,4 Decimal point,ShoppingCart,total,'$22.8254,'$5.48,FAIL,6946
+TC043,129.0,4 Decimal point,OrderCheckOut,ItemPrice,'$1.4931,'$0.2546,FAIL,6946
+TC043,129.0,4 Decimal point,OrderCheckOut,Shipping price,'$1.6320,'$1.63,FAIL,6946
+TC043,129.0,4 Decimal point,OrderCheckOut,Amount,'$22.8254,'$5.48,FAIL,6946
+TC043,129.0,4 Decimal point,OrderCheckOut,SubTotal,'$22.8254,'$5.48,FAIL,6946
+TC043,129.0,4 Decimal point,OrderCheckOut,PromotionDiscount,'-$1.9100,'-$1.91,FAIL,6946
+TC043,129.0,4 Decimal point,OrderCheckOut,TaxPercentage,'(2.1300%),'(2.13%),FAIL,6946
+TC043,129.0,4 Decimal point,OrderCheckOut,TaxAmount,'$0.4455,'$0.08,FAIL,6946
+TC043,129.0,4 Decimal point,OrderCheckOut,Total,'$21.3609,'$3.65,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,ProductDetailsPopUp,Item price,'$2.02,'$0.2546,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,ProductDetailsPopUp,Discount,'2.32%,'0.6546%,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,ProductDetailsPopUp,Item price,'$2.02,'$0.2546,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,ProductDetailsPopUp,Discount,'2.32%,'0.6546%,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,VeiwPricingPopUp,Item price,'$2.02,'$0.2546,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,ProductDetailsPopUp,Item price,'$2.02,'$0.2546,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,ProductDetailsPopUp,Discount,'2.32%,'0.6546%,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,AddonPrice,Addon price,'Addon1 - $0.41 ( Flat Rate ),'Addon1 - $0.5229 ( Per Piece ),FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,ViewSummary,Discount percentage,'(2.32 %),'(0.65 %),FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,ViewSummary,Item price,'$2.02,'$0.2546,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,ViewSummary,subtotal,'$22.22,'$2.80,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,ViewSummary,Discount,'-$0.52,'-$0.02,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,ViewSummary,Addon price,'$0.41,'$5.75,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,ViewSummary,total,'$23.35,'$9.77,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,ShoppingCart,Item price,'$2.02,'$0.2546,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,ShoppingCart,Discount price,'2.32%,'0.65%,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,ShoppingCart,Addon price,'$0.41,'$5.75,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,ShoppingCart,GridTotal,'$23.35,'$9.77,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,ShoppingCart,total,'$23.35,'$9.77,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,OrderCheckOut,ItemPrice,'$2.02,'$0.2546,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,OrderCheckOut,Amount,'$23.35,'$9.77,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,OrderCheckOut,SubTotal,'$23.35,'$9.77,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,OrderCheckOut,TaxPercentage,'(3.06%),'(1.56%),FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,OrderCheckOut,TaxAmount,'$0.71,'$0.15,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,OrderCheckOut,Total,'$24.06,'$9.92,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,OrderCheckout,AppliedPayment,'$24.06,'$9.92,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,Order Summary,ItemPrice,'$2.02,'$0.2546,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,Order Summary,Discount,'2.32%,'0.65%,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,Order Summary,Amount,'$23.35,'$9.77,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,Order Summary,SubTotal,'$23.35,'$9.77,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,Order Summary,TaxPercentage,'(3.06%),'(1.56%),FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,Order Summary,TaxValue,'$0.71,'$0.15,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,Order Summary,Total,'$24.06,'$9.92,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,Order Summary,AppliedDiscontPrice,'- $0.52,'- $0.02,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,Order Summary,AppliedAddonPrice,'$0.41,'$5.75,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,OS Print Popup,PrintTotal,'$24.06,'$9.92,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,OS Print Popup,ItemPrice,'$2.02,'$0.2546,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,OS Print Popup,Discount,'2.32%,'0.65%,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,OS Print Popup,Amount,'$23.35,'$9.77,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,OS Print Popup,SubTotal,'$23.35,'$9.77,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,OS Print Popup,PrintTaxValue,'$0.71,'$0.15,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,OS Print Popup,AppliedDiscontPrice,'-$0.52,'-$0.02,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,OS Print Popup,AppliedAddonPrice,'$0.41,'$5.75,FAIL,6946
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,User View Orders,Sub Total,'$22.22,'$2.80,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,User View Orders,Item Price,'$2.02,'$0.2546,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,User View Orders,SubTotal,'$22.22,'$2.80,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,User View Orders,Addon price,'$0.41,'$5.75,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,User View Orders,Discount,'2.32%,'0.65%,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,User View Orders,SubTotal,'$22.22,'$2.80,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,User View Orders,Addon price,'$0.41,'$5.75,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,User View Orders,Discount,'-$0.52,'-$0.02,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,User View Orders,Tax,'$0.71,'$0.15,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,User View Orders,Total,'$24.06,'$9.92,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,User View Orders,SubTotal,'$22.22,'$2.80,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,User View Orders,Addon price,'$0.41,'$5.75,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,User View Orders,Discount,'-$0.52,'-$0.02,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,User View Orders,Tax,'$0.71,'$0.15,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,User View Orders,Total,'$24.06,'$9.92,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,User View Orders,Item Price,'$,'$0.2546,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,User View Orders,Addon Price,'$0.41,'$5.75,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,User View Orders,Product Disocunt Price,'2.32%,'0.65%,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,User Print Popup,PrintTotal,'$24.06,'$9.92,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,User Print Popup,ItemPrice,'$2.02,'$0.2546,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,User Print Popup,Discount,'2.32%,'0.65%,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,User Print Popup,Amount,'$23.35,'$9.77,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,User Print Popup,SubTotal,'$23.35,'$9.77,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,User Print Popup,PrintTaxValue,'$0.71,'$0.15,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,User Print Popup,AppliedDiscontPrice,'-$0.52,'-$0.02,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,User Print Popup,AppliedAddonPrice,'$0.41,'$5.75,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,Approver View Orders,Sub Total,'$22.22,'$2.80,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,Approver View Orders,Item Price,'$2.02,'$0.2546,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,Approver View Orders,SubTotal,'$22.22,'$2.80,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,Approver View Orders,Addon price,'$0.41,'$5.75,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,Approver View Orders,Discount,'2.32%,'0.65%,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,Approver View Orders,SubTotal,'$22.22,'$2.80,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,Approver View Orders,Addon price,'$0.41,'$5.75,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,Approver View Orders,Discount,'-$0.52,'-$0.02,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,Approver View Orders,Tax,'$0.71,'$0.15,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,Approver View Orders,Total,'$24.06,'$9.92,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,Approver View Orders,SubTotal,'$22.22,'$2.80,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,Approver View Orders,Addon price,'$0.41,'$5.75,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,Approver View Orders,Discount,'-$0.52,'-$0.02,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,Approver View Orders,Tax,'$0.71,'$0.15,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,Approver View Orders,Total,'$24.06,'$9.92,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,Approver View Orders,Item Price,'$,'$0.2546,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,Approver View Orders,Addon Price,'$0.41,'$5.75,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,Approver View Orders,Product Disocunt Price,'2.32%,'0.65%,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,Approver Print Popup,PrintTotal,'$24.06,'$9.92,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,Approver Print Popup,ItemPrice,'$2.02,'$0.2546,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,Approver Print Popup,Discount,'2.32%,'0.65%,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,Approver Print Popup,Amount,'$23.35,'$9.77,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,Approver Print Popup,SubTotal,'$23.35,'$9.77,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,Approver Print Popup,PrintTaxValue,'$0.71,'$0.15,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,Approver Print Popup,AppliedDiscontPrice,'-$0.52,'-$0.02,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,Approver Print Popup,AppliedAddonPrice,'$0.41,'$5.75,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,PS View Orders,Sub Total,'$22.22,'$2.80,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,PS View Orders,Item Price,'$2.02,'$0.2546,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,PS View Orders,SubTotal,'$22.22,'$2.80,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,PS View Orders,Addon price,'$0.41,'$5.75,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,PS View Orders,Discount,'2.32%,'0.65%,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,PS View Orders,SubTotal,'$22.22,'$2.80,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,PS View Orders,Addon price,'$0.41,'$5.75,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,PS View Orders,Discount,'-$0.52,'-$0.02,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,PS View Orders,Tax,'$0.71,'$0.15,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,PS View Orders,Total,'$24.06,'$9.92,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,PS View Orders,SubTotal,'$22.22,'$2.80,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,PS View Orders,Addon price,'$0.41,'$5.75,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,PS View Orders,Discount,'-$0.52,'-$0.02,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,PS View Orders,Tax,'$0.71,'$0.15,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,PS View Orders,Total,'$24.06,'$9.92,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,PS View Orders,Item Price,'$,'$0.2546,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,PS View Orders,Addon Price,'$0.41,'$5.75,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,PS View Orders,Product Disocunt Price,'2.32%,'0.65%,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,PS Print Popup,PrintTotal,'$24.06,'$9.92,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,PS Print Popup,ItemPrice,'$2.02,'$0.2546,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,PS Print Popup,Discount,'2.32%,'0.65%,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,PS Print Popup,Amount,'$23.35,'$9.77,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,PS Print Popup,SubTotal,'$23.35,'$9.77,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,PS Print Popup,PrintTaxValue,'$0.71,'$0.15,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,PS Print Popup,AppliedDiscontPrice,'-$0.52,'-$0.02,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,PS Print Popup,AppliedAddonPrice,'$0.41,'$5.75,FAIL,6949
+TC044,130.0,(2 Decimal point) When coupon was not applicable , , , , , Fail,6949
+TC044,131.0,3 Decimal point,ProductDetailsPopUp,Item price,'$1.017,'$13.2561,FAIL,null
+TC044,131.0,3 Decimal point,ProductDetailsPopUp,Discount,'1.560%,'4.5600%,FAIL,null
+TC044,131.0,3 Decimal point,ProductDetailsPopUp,Item price,'$1.017,'$13.2561,FAIL,null
+TC044,131.0,3 Decimal point,ProductDetailsPopUp,Discount,'1.560%,'4.5600%,FAIL,null
+TC044,131.0,3 Decimal point,VeiwPricingPopUp,Item price,'$1.017,'$13.2561,FAIL,null
+TC045,135.0,4 Decimal point, , , , , PASS,6951

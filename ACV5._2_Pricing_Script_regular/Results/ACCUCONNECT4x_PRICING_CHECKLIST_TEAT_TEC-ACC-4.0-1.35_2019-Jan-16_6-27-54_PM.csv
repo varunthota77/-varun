@@ -1,0 +1,62 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC042,125.0,3 Decimal point,ProductDetailsPopUp,Item price,'$0.631,'$0.540,FAIL,null
+TC042,125.0,3 Decimal point,ProductDetailsPopUp,Discount,'1.560%,'3.120%,FAIL,null
+TC042,125.0,3 Decimal point,ProductDetailsPopUp,Item price,'$0.631,'$0.540,FAIL,null
+TC042,125.0,3 Decimal point,ProductDetailsPopUp,Discount,'1.560%,'3.120%,FAIL,null
+TC042,125.0,3 Decimal point,VeiwPricingPopUp,Item price,'$0.631,'$0.540,FAIL,null
+TC042,125.0,3 Decimal point,Select List,Shipping Price,'$2.031,'$4.050,FAIL,null
+TC042,125.0,3 Decimal point,ProductDetailsPopUp,Item price,'$0.631,'$0.540,FAIL,null
+TC042,125.0,3 Decimal point,ProductDetailsPopUp,Discount,'1.560%,'3.120%,FAIL,null
+TC042,125.0,3 Decimal point,AddonPrice,Addon price,'Addon1 - $0.312 ( Flat Rate ),'Addon1 - $0.120 ( Flat Rate ),FAIL,null
+TC042,125.0,3 Decimal point,ViewSummary,Discount percentage,'(1.560 %),'(3.120 %),FAIL,null
+TC042,125.0,3 Decimal point,ViewSummary,Item price,'$0.631,'$0.540,FAIL,null
+TC042,125.0,3 Decimal point,ViewSummary,subtotal,'$6.941,'$5.940,FAIL,null
+TC042,125.0,3 Decimal point,ViewSummary,Discount,'-$0.108,'-$0.185,FAIL,null
+TC042,125.0,3 Decimal point,ViewSummary,Addon price,'$0.312,'$0.120,FAIL,null
+TC042,125.0,3 Decimal point,ViewSummary,Shipping price,'$2.031,'$4.050,FAIL,null
+TC042,125.0,3 Decimal point,ViewSummary,total,'$9.176,'$9.925,FAIL,null
+TC042,125.0,3 Decimal point,ShoppingCart,Item price,'$0.631,'$0.540,FAIL,null
+TC042,125.0,3 Decimal point,ShoppingCart,Discount price,'1.560%,'3.120%,FAIL,null
+TC042,125.0,3 Decimal point,ShoppingCart,Addon price,'$0.312,'$0.120,FAIL,null
+TC042,125.0,3 Decimal point,ShoppingCart,Shipping price,'$2.031,'$4.050,FAIL,null
+TC042,125.0,3 Decimal point,ShoppingCart,GridTotal,'$9.176,'$9.925,FAIL,null
+TC042,125.0,3 Decimal point,ShoppingCart,total,'$9.176,'$9.925,FAIL,null
+TC042,125.0,3 Decimal point,OrderCheckOut,ItemPrice,'$0.631,'$0.540,FAIL,null
+TC042,125.0,3 Decimal point,OrderCheckOut,Shipping price,'$2.031,'$4.050,FAIL,null
+TC042,125.0,3 Decimal point,OrderCheckOut,Amount,'$9.176,'$9.925,FAIL,null
+TC042,125.0,3 Decimal point,OrderCheckOut,SubTotal,'$9.176,'$9.925,FAIL,null
+TC042,125.0,3 Decimal point,OrderCheckOut,PromotionDiscount,'-$1.850,'-$2.310,FAIL,null
+TC042,125.0,3 Decimal point,OrderCheckOut,Total,'$7.326,'$7.615,FAIL,null
+TC042,125.0,3 Decimal point,OrderCheckout,AppliedPayment,'$7.326,'$7.615,FAIL,null
+TC042,125.0,3 Decimal point,Order checkout,CostCenter,'Cost center option displayed to user,'Cost center option NOT displayed to user,FAIL,null
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,ProductDetailsPopUp,Item price,'$2.02,'$1.49,FAIL,null
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,ProductDetailsPopUp,Discount,'2.32%,'1.02%,FAIL,null
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,ProductDetailsPopUp,Item price,'$2.02,'$1.49,FAIL,null
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,ProductDetailsPopUp,Discount,'2.32%,'1.02%,FAIL,null
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,VeiwPricingPopUp,Item price,'$2.02,'$1.49,FAIL,null
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,Select List,Shipping Price,'$1.24,'$4.05,FAIL,null
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,ProductDetailsPopUp,Item price,'$2.02,'$1.49,FAIL,null
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,ProductDetailsPopUp,Discount,'2.32%,'1.02%,FAIL,null
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,AddonPrice,Addon price,'Addon1 - $0.41 ( Flat Rate ),'Addon1 - $0.12 ( Flat Rate ),FAIL,null
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,ViewSummary,Discount percentage,'(2.32 %),'(1.02 %),FAIL,null
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,ViewSummary,Item price,'$2.02,'$1.49,FAIL,null
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,ViewSummary,subtotal,'$22.22,'$16.39,FAIL,null
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,ViewSummary,Discount,'-$0.52,'-$0.17,FAIL,null
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,ViewSummary,Addon price,'$0.41,'$0.12,FAIL,null
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,ViewSummary,Shipping price,'$1.24,'$4.05,FAIL,null
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,ViewSummary,total,'$23.35,'$20.39,FAIL,null
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,ShoppingCart,Item price,'$2.02,'$1.49,FAIL,null
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,ShoppingCart,Discount price,'2.32%,'1.02%,FAIL,null
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,ShoppingCart,Addon price,'$0.41,'$0.12,FAIL,null
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,ShoppingCart,Shipping price,'$1.24,'$4.05,FAIL,null
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,ShoppingCart,GridTotal,'$23.35,'$20.39,FAIL,null
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,ShoppingCart,total,'$23.35,'$20.39,FAIL,null
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,OrderCheckOut,ItemPrice,'$2.02,'$1.49,FAIL,null
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,OrderCheckOut,Shipping price,'$1.24,'$4.05,FAIL,null
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,OrderCheckOut,Amount,'$23.35,'$20.39,FAIL,null
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,OrderCheckOut,SubTotal,'$23.35,'$20.39,FAIL,null
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,OrderCheckOut,TaxPercentage,'(3.06%),'(0.00%),FAIL,null
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,OrderCheckOut,TaxAmount,'$0.71,'$0.00,FAIL,null
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,OrderCheckOut,Total,'$24.06,'$20.39,FAIL,null
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,OrderCheckout,AppliedPayment,'$24.06,'$20.39,FAIL,null
+TC044,130.0,(2 Decimal point) When coupon was not applicable ,Order checkout,CostCenter,'Cost center option NOT displayed to user,'Cost center option displayed to user,FAIL,null

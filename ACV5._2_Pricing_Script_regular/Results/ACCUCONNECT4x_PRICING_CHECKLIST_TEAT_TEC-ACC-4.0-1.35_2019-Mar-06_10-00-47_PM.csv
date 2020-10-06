@@ -1,0 +1,6 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC041,122.0,3 Decimal point, , , , , PASS,7179
+TC042,124.0,(2 Decimal point) When tax was unchecked when shipping is taxable, , , , , PASS,7180
+TC042,125.0,3 Decimal point, , , , , PASS,7181
+TC042,126.0,4 Decimal point, , , , , PASS,7182
+TC044,130.0,(2 Decimal point) When coupon was not applicable , , , , , PASS,7183

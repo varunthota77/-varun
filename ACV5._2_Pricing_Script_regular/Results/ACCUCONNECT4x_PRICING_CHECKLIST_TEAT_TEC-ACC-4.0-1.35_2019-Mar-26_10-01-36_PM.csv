@@ -1,0 +1,205 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC034,101.0,3 Decimal point,Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC034,101.0,3 Decimal point,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC034,101.0,3 Decimal point,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7302
+TC034,101.0,3 Decimal point,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7302
+TC034,101.0,3 Decimal point,PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7302
+TC034,101.0,3 Decimal point, , , , , Fail,7302
+TC034,102.0,4 Decimal point,Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC034,102.0,4 Decimal point,Order checkout,ShipAddSameAsBillAdd,'Both BIlling, Shipping address are same and shipping address do not have Edit | Select LInks,'Both BIlling, Shipping address are Different and/or shipping address have Edit | Select LInks,FAIL,null
+TC034,102.0,4 Decimal point,OS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,null
+TC034,102.0,4 Decimal point,User Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7303
+TC034,102.0,4 Decimal point,Approver Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7303
+TC034,102.0,4 Decimal point,PS Print Popup,Billing Address,'Billing address displays to user,'Billing address not displayed,FAIL,7303
+TC034,102.0,4 Decimal point, , , , , Fail,7303
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,ProductDetailsPopUp,Discount,'$3.24,'2.68%,FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,ProductDetailsPopUp,Discount,'$3.24,'2.68%,FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,ProductDetailsPopUp,Discount,'$3.24,'2.68%,FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,ViewSummary,subtotal,'$13.99,'$9.59,FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,ViewSummary,Discount,'-( $3.24 ),'-$0.26,FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,ViewSummary,DownloadPrice,'$13.99,'$9.59,FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,ViewSummary,total,'$10.75,'$9.33,FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,ShoppingCart,Discount price,'$3.24,'2.68%,FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,ShoppingCart,GridTotal,'$10.75,'$9.33,FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,ShoppingCart,total,'$10.75,'$9.33,FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,OrderCheckOut,ItemPrice,'$13.99,'$9.59,FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,OrderCheckOut,Amount,'$10.75,'$9.33,FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,OrderCheckOut,SubTotal,'$10.75,'$9.33,FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,OrderCheckOut,PromotionDiscount,'-$1.23,'-$0.66,FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,OrderCheckOut,TaxPercentage,'(5.99%),'(5.23%),FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,OrderCheckOut,TaxAmount,'$0.57,'$0.45,FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,OrderCheckOut,Total,'$10.09,'$9.12,FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,OrderCheckout,AppliedPayment,'$10.09,'$9.12,FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Order Summary,ItemPrice,'$13.99,'$9.59,FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Order Summary,Discount,'$3.24,'2.68%,FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Order Summary,Amount,'$10.75,'$9.33,FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Order Summary,SubTotal,'$10.75,'$9.33,FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Order Summary,PromotionDiscount,'- $1.23,'- $0.66,FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Order Summary,TaxPercentage,'(5.99%),'(5.23%),FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Order Summary,TaxValue,'$0.57,'$0.45,FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Order Summary,Total,'$10.09,'$9.12,FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Order Summary,AppliedDiscontPrice,'- $3.24,'- $0.26,FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,OS Print Popup,PrintTotal,'$10.09,'$9.12,FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,OS Print Popup,ItemPrice,'$13.99,'$9.59,FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,OS Print Popup,Discount,'$3.24,'2.68%,FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,OS Print Popup,Amount,'$10.75,'$9.33,FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,OS Print Popup,SubTotal,'$10.75,'$9.33,FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,OS Print Popup,PromotionDiscount,'-$1.23,'-$0.66,FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,OS Print Popup,PrintTaxValue,'$0.57,'$0.45,FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,OS Print Popup,AppliedDiscontPrice,'-$3.24,'-$0.26,FAIL,null
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,User View Orders,Sub Total,'$13.99,'$9.59,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,User View Orders,Item Price,'$13.99,'$9.59,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,User View Orders,SubTotal,'$13.99,'$9.59,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,User View Orders,Discount,'$3.24,'2.68%,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,User View Orders,SubTotal,'$13.99,'$9.59,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,User View Orders,Discount,'-$3.24,'-$0.26,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,User View Orders,Promotion Disocunt,'-$1.23,'-$0.66,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,User View Orders,Tax,'$0.57,'$0.45,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,User View Orders,Total,'$10.09,'$9.12,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,User View Orders,SubTotal,'$13.99,'$9.59,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,User View Orders,Discount,'-$3.24,'-$0.26,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,User View Orders,Promotion Disocunt,'-$1.23,'-$0.66,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,User View Orders,Tax,'$0.57,'$0.45,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,User View Orders,Total,'$10.09,'$9.12,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,User View Orders,Item Price,'$13.99,'$9.59,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,User View Orders,Product Disocunt Price,'$3.24,'2.68%,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,User Print Popup,PrintTotal,'$10.09,'$9.12,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,User Print Popup,ItemPrice,'$13.99,'$9.59,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,User Print Popup,Discount,'$3.24,'2.68%,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,User Print Popup,Amount,'$10.75,'$9.33,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,User Print Popup,SubTotal,'$10.75,'$9.33,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,User Print Popup,PromotionDiscount,'-$1.23,'-$0.66,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,User Print Popup,PrintTaxValue,'$0.57,'$0.45,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,User Print Popup,AppliedDiscontPrice,'-$3.24,'-$0.26,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Approver View Orders,Sub Total,'$13.99,'$9.59,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Approver View Orders,Item Price,'$13.99,'$9.59,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Approver View Orders,SubTotal,'$13.99,'$9.59,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Approver View Orders,Discount,'$3.24,'2.68%,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Approver View Orders,SubTotal,'$13.99,'$9.59,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Approver View Orders,Discount,'-$3.24,'-$0.26,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Approver View Orders,Promotion Disocunt,'-$1.23,'-$0.66,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Approver View Orders,Tax,'$0.57,'$0.45,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Approver View Orders,Total,'$10.09,'$9.12,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Approver View Orders,SubTotal,'$13.99,'$9.59,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Approver View Orders,Discount,'-$3.24,'-$0.26,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Approver View Orders,Promotion Disocunt,'-$1.23,'-$0.66,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Approver View Orders,Tax,'$0.57,'$0.45,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Approver View Orders,Total,'$10.09,'$9.12,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Approver View Orders,Item Price,'$13.99,'$9.59,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Approver View Orders,Product Disocunt Price,'$3.24,'2.68%,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Approver Print Popup,PrintTotal,'$10.09,'$9.12,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Approver Print Popup,ItemPrice,'$13.99,'$9.59,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Approver Print Popup,Discount,'$3.24,'2.68%,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Approver Print Popup,Amount,'$10.75,'$9.33,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Approver Print Popup,SubTotal,'$10.75,'$9.33,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Approver Print Popup,PromotionDiscount,'-$1.23,'-$0.66,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Approver Print Popup,PrintTaxValue,'$0.57,'$0.45,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,Approver Print Popup,AppliedDiscontPrice,'-$3.24,'-$0.26,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,PS View Orders,Sub Total,'$13.99,'$9.59,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,PS View Orders,Item Price,'$13.99,'$9.59,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,PS View Orders,SubTotal,'$13.99,'$9.59,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,PS View Orders,Discount,'$3.24,'2.68%,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,PS View Orders,SubTotal,'$13.99,'$9.59,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,PS View Orders,Discount,'-$3.24,'-$0.26,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,PS View Orders,Promotion Disocunt,'-$1.23,'-$0.66,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,PS View Orders,Tax,'$0.57,'$0.45,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,PS View Orders,Total,'$10.09,'$9.12,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,PS View Orders,SubTotal,'$13.99,'$9.59,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,PS View Orders,Discount,'-$3.24,'-$0.26,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,PS View Orders,Promotion Disocunt,'-$1.23,'-$0.66,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,PS View Orders,Tax,'$0.57,'$0.45,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,PS View Orders,Total,'$10.09,'$9.12,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,PS View Orders,Item Price,'$13.99,'$9.59,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,PS View Orders,Product Disocunt Price,'$3.24,'2.68%,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,PS Print Popup,PrintTotal,'$10.09,'$9.12,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,PS Print Popup,ItemPrice,'$13.99,'$9.59,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,PS Print Popup,Discount,'$3.24,'2.68%,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,PS Print Popup,Amount,'$10.75,'$9.33,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,PS Print Popup,SubTotal,'$10.75,'$9.33,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,PS Print Popup,PromotionDiscount,'-$1.23,'-$0.66,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,PS Print Popup,PrintTaxValue,'$0.57,'$0.45,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type,PS Print Popup,AppliedDiscontPrice,'-$3.24,'-$0.26,FAIL,7304
+TC035,103.0,(2 Decimal point) To test Static-Download Item process type, , , , , Fail,7304
+TC035,104.0,3 Decimal point,ViewSummary,subtotal,'$11.456,'$9.590,FAIL,null
+TC035,104.0,3 Decimal point,ViewSummary,DownloadPrice,'$11.456,'$9.590,FAIL,null
+TC035,104.0,3 Decimal point,ViewSummary,total,'$6.466,'$4.600,FAIL,null
+TC035,104.0,3 Decimal point,ShoppingCart,GridTotal,'$6.466,'$4.600,FAIL,null
+TC035,104.0,3 Decimal point,ShoppingCart,total,'$6.466,'$4.600,FAIL,null
+TC035,104.0,3 Decimal point,OrderCheckOut,ItemPrice,'$11.456,'$9.590,FAIL,null
+TC035,104.0,3 Decimal point,OrderCheckOut,Amount,'$6.466,'$4.600,FAIL,null
+TC035,104.0,3 Decimal point,OrderCheckOut,SubTotal,'$6.466,'$4.600,FAIL,null
+TC035,104.0,3 Decimal point,OrderCheckOut,PromotionDiscount,'-$2.290,'-$0.328,FAIL,null
+TC035,104.0,3 Decimal point,OrderCheckOut,TaxPercentage,'(6.450%),'(5.230%),FAIL,null
+TC035,104.0,3 Decimal point,OrderCheckOut,TaxAmount,'$0.269,'$0.223,FAIL,null
+TC035,104.0,3 Decimal point,OrderCheckOut,Total,'$4.445,'$4.495,FAIL,null
+TC035,104.0,3 Decimal point,OrderCheckout,AppliedPayment,'$4.445,'$4.495,FAIL,null
+TC035,104.0,3 Decimal point,Order Summary,ItemPrice,'$11.456,'$9.590,FAIL,null
+TC035,104.0,3 Decimal point,Order Summary,Amount,'$6.466,'$4.600,FAIL,null
+TC035,104.0,3 Decimal point,Order Summary,SubTotal,'$6.466,'$4.600,FAIL,null
+TC035,104.0,3 Decimal point,Order Summary,PromotionDiscount,'- $2.290,'- $0.328,FAIL,null
+TC035,104.0,3 Decimal point,Order Summary,TaxPercentage,'(6.450%),'(5.230%),FAIL,null
+TC035,104.0,3 Decimal point,Order Summary,TaxValue,'$0.269,'$0.223,FAIL,null
+TC035,104.0,3 Decimal point,Order Summary,Total,'$4.445,'$4.495,FAIL,null
+TC035,104.0,3 Decimal point,OS Print Popup,PrintTotal,'$4.445,'$4.495,FAIL,null
+TC035,104.0,3 Decimal point,OS Print Popup,ItemPrice,'$11.456,'$9.590,FAIL,null
+TC035,104.0,3 Decimal point,OS Print Popup,Amount,'$6.466,'$4.600,FAIL,null
+TC035,104.0,3 Decimal point,OS Print Popup,SubTotal,'$6.466,'$4.600,FAIL,null
+TC035,104.0,3 Decimal point,OS Print Popup,PromotionDiscount,'-$2.290,'-$0.328,FAIL,null
+TC035,104.0,3 Decimal point,OS Print Popup,PrintTaxValue,'$0.269,'$0.223,FAIL,null
+TC035,104.0,3 Decimal point,User View Orders,Sub Total,'$11.456,'$9.590,FAIL,7305
+TC035,104.0,3 Decimal point,User View Orders,Item Price,'$11.456,'$9.590,FAIL,7305
+TC035,104.0,3 Decimal point,User View Orders,SubTotal,'$11.456,'$9.590,FAIL,7305
+TC035,104.0,3 Decimal point,User View Orders,SubTotal,'$11.456,'$9.590,FAIL,7305
+TC035,104.0,3 Decimal point,User View Orders,Promotion Disocunt,'-$2.290,'-$0.328,FAIL,7305
+TC035,104.0,3 Decimal point,User View Orders,Tax,'$0.269,'$0.223,FAIL,7305
+TC035,104.0,3 Decimal point,User View Orders,Total,'$4.445,'$4.495,FAIL,7305
+TC035,104.0,3 Decimal point,User View Orders,SubTotal,'$11.456,'$9.590,FAIL,7305
+TC035,104.0,3 Decimal point,User View Orders,Promotion Disocunt,'-$2.290,'-$0.328,FAIL,7305
+TC035,104.0,3 Decimal point,User View Orders,Tax,'$0.269,'$0.223,FAIL,7305
+TC035,104.0,3 Decimal point,User View Orders,Total,'$4.445,'$4.495,FAIL,7305
+TC035,104.0,3 Decimal point,User View Orders,Item Price,'$11.456,'$9.590,FAIL,7305
+TC035,104.0,3 Decimal point,User Print Popup,PrintTotal,'$4.445,'$4.495,FAIL,7305
+TC035,104.0,3 Decimal point,User Print Popup,ItemPrice,'$11.456,'$9.590,FAIL,7305
+TC035,104.0,3 Decimal point,User Print Popup,Amount,'$6.466,'$4.600,FAIL,7305
+TC035,104.0,3 Decimal point,User Print Popup,SubTotal,'$6.466,'$4.600,FAIL,7305
+TC035,104.0,3 Decimal point,User Print Popup,PromotionDiscount,'-$2.290,'-$0.328,FAIL,7305
+TC035,104.0,3 Decimal point,User Print Popup,PrintTaxValue,'$0.269,'$0.223,FAIL,7305
+TC035,104.0,3 Decimal point,Approver View Orders,Sub Total,'$11.456,'$9.590,FAIL,7305
+TC035,104.0,3 Decimal point,Approver View Orders,Item Price,'$11.456,'$9.590,FAIL,7305
+TC035,104.0,3 Decimal point,Approver View Orders,SubTotal,'$11.456,'$9.590,FAIL,7305
+TC035,104.0,3 Decimal point,Approver View Orders,SubTotal,'$11.456,'$9.590,FAIL,7305
+TC035,104.0,3 Decimal point,Approver View Orders,Promotion Disocunt,'-$2.290,'-$0.328,FAIL,7305
+TC035,104.0,3 Decimal point,Approver View Orders,Tax,'$0.269,'$0.223,FAIL,7305
+TC035,104.0,3 Decimal point,Approver View Orders,Total,'$4.445,'$4.495,FAIL,7305
+TC035,104.0,3 Decimal point,Approver View Orders,SubTotal,'$11.456,'$9.590,FAIL,7305
+TC035,104.0,3 Decimal point,Approver View Orders,Promotion Disocunt,'-$2.290,'-$0.328,FAIL,7305
+TC035,104.0,3 Decimal point,Approver View Orders,Tax,'$0.269,'$0.223,FAIL,7305
+TC035,104.0,3 Decimal point,Approver View Orders,Total,'$4.445,'$4.495,FAIL,7305
+TC035,104.0,3 Decimal point,Approver View Orders,Item Price,'$11.456,'$9.590,FAIL,7305
+TC035,104.0,3 Decimal point,Approver Print Popup,PrintTotal,'$4.445,'$4.495,FAIL,7305
+TC035,104.0,3 Decimal point,Approver Print Popup,ItemPrice,'$11.456,'$9.590,FAIL,7305
+TC035,104.0,3 Decimal point,Approver Print Popup,Amount,'$6.466,'$4.600,FAIL,7305
+TC035,104.0,3 Decimal point,Approver Print Popup,SubTotal,'$6.466,'$4.600,FAIL,7305
+TC035,104.0,3 Decimal point,Approver Print Popup,PromotionDiscount,'-$2.290,'-$0.328,FAIL,7305
+TC035,104.0,3 Decimal point,Approver Print Popup,PrintTaxValue,'$0.269,'$0.223,FAIL,7305
+TC035,104.0,3 Decimal point,PS View Orders,Sub Total,'$11.456,'$9.590,FAIL,7305
+TC035,104.0,3 Decimal point,PS View Orders,Item Price,'$11.456,'$9.590,FAIL,7305
+TC035,104.0,3 Decimal point,PS View Orders,SubTotal,'$11.456,'$9.590,FAIL,7305
+TC035,104.0,3 Decimal point,PS View Orders,SubTotal,'$11.456,'$9.590,FAIL,7305
+TC035,104.0,3 Decimal point,PS View Orders,Promotion Disocunt,'-$2.290,'-$0.328,FAIL,7305
+TC035,104.0,3 Decimal point,PS View Orders,Tax,'$0.269,'$0.223,FAIL,7305
+TC035,104.0,3 Decimal point,PS View Orders,Total,'$4.445,'$4.495,FAIL,7305
+TC035,104.0,3 Decimal point,PS View Orders,SubTotal,'$11.456,'$9.590,FAIL,7305
+TC035,104.0,3 Decimal point,PS View Orders,Promotion Disocunt,'-$2.290,'-$0.328,FAIL,7305
+TC035,104.0,3 Decimal point,PS View Orders,Tax,'$0.269,'$0.223,FAIL,7305
+TC035,104.0,3 Decimal point,PS View Orders,Total,'$4.445,'$4.495,FAIL,7305
+TC035,104.0,3 Decimal point,PS View Orders,Item Price,'$11.456,'$9.590,FAIL,7305
+TC035,104.0,3 Decimal point,PS Print Popup,PrintTotal,'$4.445,'$4.495,FAIL,7305
+TC035,104.0,3 Decimal point,PS Print Popup,ItemPrice,'$11.456,'$9.590,FAIL,7305
+TC035,104.0,3 Decimal point,PS Print Popup,Amount,'$6.466,'$4.600,FAIL,7305
+TC035,104.0,3 Decimal point,PS Print Popup,SubTotal,'$6.466,'$4.600,FAIL,7305
+TC035,104.0,3 Decimal point,PS Print Popup,PromotionDiscount,'-$2.290,'-$0.328,FAIL,7305
+TC035,104.0,3 Decimal point,PS Print Popup,PrintTaxValue,'$0.269,'$0.223,FAIL,7305
+TC035,104.0,3 Decimal point, , , , , Fail,7305
+TC035,105.0,4 Decimal point, , , , , PASS,7306
+TC036,107.0,3 Decimal point, , , , , PASS,7307

@@ -1,0 +1,31 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters ,ProductDetailsPopUp,Item price,'$0.54,'$0.845,FAIL,null
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters ,ProductDetailsPopUp,Discount,'$2.54,'$2.150,FAIL,null
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters ,ProductDetailsPopUp,Item price,'$0.54,'$0.845,FAIL,null
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters ,ProductDetailsPopUp,Discount,'$2.54,'$2.150,FAIL,null
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters ,VeiwPricingPopUp,Item price,'$0.54,'$0.845,FAIL,null
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters ,ProductDetailsPopUp,Item price,'$0.54,'$0.845,FAIL,null
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters ,ProductDetailsPopUp,Discount,'$2.54,'$2.150,FAIL,null
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters ,AddonPrice,Addon price,'Addon1 - $3.45 ( Flat Rate ),'Addon1,FAIL,null
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters ,ViewSummary,Item price,'$0.54,'$0.845,FAIL,null
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters ,ViewSummary,subtotal,'$5.40,'$8.450,FAIL,null
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters ,ViewSummary,Discount,'-( $2.54 ),'-( $2.150 ),FAIL,null
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters ,ViewSummary,Addon price,'$3.45,'$0.000,FAIL,null
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters ,ViewSummary,postage price,'$100.00,'$100.000,FAIL,null
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters ,ViewSummary,total,'$106.31,'$106.300,FAIL,null
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters ,ShoppingCart,Item price,'$0.54,'$0.845,FAIL,null
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters ,ShoppingCart,Discount price,'$2.54,'$2.150,FAIL,null
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters ,ShoppingCart,Addon price,'$3.45,'$0.000,FAIL,null
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters ,ShoppingCart,postage price,'$100.00,'$100.000,FAIL,null
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters ,ShoppingCart,GridTotal,'$106.31,'$106.300,FAIL,null
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters ,ShoppingCart,total,'$106.31,'$106.300,FAIL,null
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters ,OrderCheckOut,ItemPrice,'$0.54,'$0.845,FAIL,null
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters ,OrderCheckOut,postage price,'$100.00,'$100.000,FAIL,null
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters ,OrderCheckOut,Amount,'$106.31,'$106.300,FAIL,null
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters ,OrderCheckOut,SubTotal,'$106.31,'$106.300,FAIL,null
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters ,OrderCheckOut,PromotionDiscount,'-$1.54,'-$4.560,FAIL,null
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters ,OrderCheckOut,TaxPercentage,'(5.45%),'(2.120%),FAIL,null
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters ,OrderCheckOut,TaxAmount,'$5.71,'$2.157,FAIL,null
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters ,OrderCheckOut,Total,'$110.48,'$103.897,FAIL,null
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters ,OrderCheckout,AppliedPayment,'$110.48,'$103.897,FAIL,null
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters ,Order checkout,CostCenter,'Cost center option displayed to user,'Cost center option NOT displayed to user,FAIL,null

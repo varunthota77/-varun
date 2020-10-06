@@ -1,0 +1,10 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC014,41.0,3 Decimal point, , , , , PASS,7120
+TC014,42.0,4 Decimal point, , , , , PASS,7121
+TC015,43.0,(2 Decimal point) To test Dynamic-print Download Discount using Percentage, , , , , PASS,7122
+TC015,44.0,3 Decimal point, , , , , PASS,7123
+TC015,45.0,4 Decimal point, , , , , PASS,7124
+TC016,46.0,(2 Decimal point)  Dynamic print product:Download+Shipping (-Download/Print Item process type), , , , , PASS,7125
+TC016,47.0,3 Decimal point, , , , , PASS,7126
+TC016,48.0,4 Decimal point, , , , , PASS,7127
+TC017,49.0,(2 Decimal point) To test Dynamic-print (Download+shipping) when Discount and promotion coupon are Percentage where item price is flat rate, , , , , PASS,7128

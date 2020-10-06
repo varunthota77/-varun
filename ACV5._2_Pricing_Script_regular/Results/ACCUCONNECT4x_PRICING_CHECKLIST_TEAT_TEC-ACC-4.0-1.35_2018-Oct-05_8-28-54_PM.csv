@@ -1,0 +1,78 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC001,1.0,(2 Decimal point) To test Dynamic-Mailing List price with all available parameters , , , , , PASS,6609
+TC001,2.0,3 Decimal point, , , , , PASS,6610
+TC002,4.0,(2 Decimal point) To test Dynamic-print with list When Enable calculate tax is unchecked., , , , , PASS,6612
+TC002,5.0,3 Decimal point,Admin Coop Fund,TaxAmount,'62,495.946,'62,359.518,FAIL,6613
+TC002,5.0,3 Decimal point,Admin Coop Fund,TaxAmount,'9,937,503.054,'9,937,639.482,FAIL,6613
+TC002,5.0,3 Decimal point, , , , , Fail,6613
+TC004,10.0,(2 Decimal point) To test Dynamic-print with list WhenDiscount percentage and coupon value., , , , , PASS,6615
+TC004,11.0,3 Decimal point, , , , , PASS,6616
+TC004,12.0,4 Decimal point, , , , , PASS,6617
+TC005,15.0,4 Decimal point,ViewSummary,postage price,'$52.3160,'$42.3520,FAIL,6619
+TC005,15.0,4 Decimal point,ViewSummary,total,'$93.2240,'$83.2600,FAIL,6619
+TC005,15.0,4 Decimal point,ShoppingCart,postage price,'$52.3160,'$42.3520,FAIL,6619
+TC005,15.0,4 Decimal point,ShoppingCart,GridTotal,'$93.2240,'$83.2600,FAIL,6619
+TC005,15.0,4 Decimal point,ShoppingCart,total,'$93.2240,'$83.2600,FAIL,6619
+TC005,15.0,4 Decimal point,OrderCheckOut,postage price,'$52.3160,'$42.3520,FAIL,6619
+TC005,15.0,4 Decimal point,OrderCheckOut,Amount,'$93.2240,'$83.2600,FAIL,6619
+TC005,15.0,4 Decimal point,OrderCheckOut,SubTotal,'$93.2240,'$83.2600,FAIL,6619
+TC005,15.0,4 Decimal point,OrderCheckOut,TaxAmount,'$2.8887,'$2.5778,FAIL,6619
+TC005,15.0,4 Decimal point,OrderCheckOut,Total,'$95.4745,'$85.1996,FAIL,6619
+TC005,15.0,4 Decimal point,OrderCheckout,AppliedPayment,'$95.4745,'$85.1996,FAIL,6619
+TC005,15.0,4 Decimal point,Order Summary,postage price,'$52.3160,'$42.3520,FAIL,6619
+TC005,15.0,4 Decimal point,Order Summary,Amount,'$93.2240,'$83.2600,FAIL,6619
+TC005,15.0,4 Decimal point,Order Summary,SubTotal,'$93.2240,'$83.2600,FAIL,6619
+TC005,15.0,4 Decimal point,Order Summary,TaxValue,'$2.8887,'$2.5778,FAIL,6619
+TC005,15.0,4 Decimal point,Order Summary,Total,'$95.4745,'$85.1996,FAIL,6619
+TC005,15.0,4 Decimal point,Order Summary,AppliedTotalPostagePrice,'$52.3160,'$42.3520,FAIL,6619
+TC005,15.0,4 Decimal point,OS Print Popup,PrintTotal,'$95.4745,'$85.1996,FAIL,6619
+TC005,15.0,4 Decimal point,OS Print Popup,Amount,'$93.2240,'$83.2600,FAIL,6619
+TC005,15.0,4 Decimal point,OS Print Popup,SubTotal,'$93.2240,'$83.2600,FAIL,6619
+TC005,15.0,4 Decimal point,OS Print Popup,PrintTaxValue,'$2.8887,'$2.5778,FAIL,6619
+TC005,15.0,4 Decimal point,OS Print Popup,AppliedTotalPostagePrice,'$52.3160,'$42.3520,FAIL,6619
+TC005,15.0,4 Decimal point,User View Orders,Postage,'$52.3160,'$42.3520,FAIL,6620
+TC005,15.0,4 Decimal point,User View Orders,Postage,'$52.3160,'$42.3520,FAIL,6620
+TC005,15.0,4 Decimal point,User View Orders,Tax,'$2.8887,'$2.5778,FAIL,6620
+TC005,15.0,4 Decimal point,User View Orders,Total,'$95.4745,'$85.1996,FAIL,6620
+TC005,15.0,4 Decimal point,User View Orders,Postage,'$52.3160,'$42.3520,FAIL,6620
+TC005,15.0,4 Decimal point,User View Orders,Tax,'$2.8887,'$2.5778,FAIL,6620
+TC005,15.0,4 Decimal point,User View Orders,Total,'$95.4745,'$85.1996,FAIL,6620
+TC005,15.0,4 Decimal point,User View Orders,Postage Price,'$52.3160,'$42.3520,FAIL,6620
+TC005,15.0,4 Decimal point,User Print Popup,PrintTotal,'$95.4745,'$85.1996,FAIL,6620
+TC005,15.0,4 Decimal point,User Print Popup,Amount,'$93.2240,'$83.2600,FAIL,6620
+TC005,15.0,4 Decimal point,User Print Popup,SubTotal,'$93.2240,'$83.2600,FAIL,6620
+TC005,15.0,4 Decimal point,User Print Popup,PrintTaxValue,'$2.8887,'$2.5778,FAIL,6620
+TC005,15.0,4 Decimal point,User Print Popup,AppliedTotalPostagePrice,'$52.3160,'$42.3520,FAIL,6620
+TC005,15.0,4 Decimal point,Approver View Orders,Postage,'$52.3160,'$42.3520,FAIL,6620
+TC005,15.0,4 Decimal point,Approver View Orders,Postage,'$52.3160,'$42.3520,FAIL,6620
+TC005,15.0,4 Decimal point,Approver View Orders,Tax,'$2.8887,'$2.5778,FAIL,6620
+TC005,15.0,4 Decimal point,Approver View Orders,Total,'$95.4745,'$85.1996,FAIL,6620
+TC005,15.0,4 Decimal point,Approver View Orders,Postage,'$52.3160,'$42.3520,FAIL,6620
+TC005,15.0,4 Decimal point,Approver View Orders,Tax,'$2.8887,'$2.5778,FAIL,6620
+TC005,15.0,4 Decimal point,Approver View Orders,Total,'$95.4745,'$85.1996,FAIL,6620
+TC005,15.0,4 Decimal point,Approver View Orders,Postage Price,'$52.3160,'$42.3520,FAIL,6620
+TC005,15.0,4 Decimal point,Approver Print Popup,PrintTotal,'$95.4745,'$85.1996,FAIL,6620
+TC005,15.0,4 Decimal point,Approver Print Popup,Amount,'$93.2240,'$83.2600,FAIL,6620
+TC005,15.0,4 Decimal point,Approver Print Popup,SubTotal,'$93.2240,'$83.2600,FAIL,6620
+TC005,15.0,4 Decimal point,Approver Print Popup,PrintTaxValue,'$2.8887,'$2.5778,FAIL,6620
+TC005,15.0,4 Decimal point,Approver Print Popup,AppliedTotalPostagePrice,'$52.3160,'$42.3520,FAIL,6620
+TC005,15.0,4 Decimal point,PS View Orders,Postage,'$52.3160,'$42.3520,FAIL,6620
+TC005,15.0,4 Decimal point,PS View Orders,Postage,'$52.3160,'$42.3520,FAIL,6620
+TC005,15.0,4 Decimal point,PS View Orders,Tax,'$2.8887,'$2.5778,FAIL,6620
+TC005,15.0,4 Decimal point,PS View Orders,Total,'$95.4745,'$85.1996,FAIL,6620
+TC005,15.0,4 Decimal point,PS View Orders,Postage,'$52.3160,'$42.3520,FAIL,6620
+TC005,15.0,4 Decimal point,PS View Orders,Tax,'$2.8887,'$2.5778,FAIL,6620
+TC005,15.0,4 Decimal point,PS View Orders,Total,'$95.4745,'$85.1996,FAIL,6620
+TC005,15.0,4 Decimal point,PS View Orders,Postage Price,'$52.3160,'$42.3520,FAIL,6620
+TC005,15.0,4 Decimal point,PS Print Popup,PrintTotal,'$95.4745,'$85.1996,FAIL,6620
+TC005,15.0,4 Decimal point,PS Print Popup,Amount,'$93.2240,'$83.2600,FAIL,6620
+TC005,15.0,4 Decimal point,PS Print Popup,SubTotal,'$93.2240,'$83.2600,FAIL,6620
+TC005,15.0,4 Decimal point,PS Print Popup,PrintTaxValue,'$2.8887,'$2.5778,FAIL,6620
+TC005,15.0,4 Decimal point,PS Print Popup,AppliedTotalPostagePrice,'$52.3160,'$42.3520,FAIL,6620
+TC005,15.0,4 Decimal point,Admin Coop Fund,TaxAmount,'62,454.9926,'62,359.5181,FAIL,6620
+TC005,15.0,4 Decimal point,Admin Coop Fund,TaxAmount,'9,937,544.0074,'9,937,639.4819,FAIL,6620
+TC005,15.0,4 Decimal point, , , , , Fail,6620
+TC007,19.0,(2 Decimal point) To test Dynamic-print with list Without Addons , , , , , PASS,6621
+TC008,23.0,3 Decimal point,Admin Coop Fund,TaxAmount,'62,361.500,'62,359.518,FAIL,6625
+TC008,23.0,3 Decimal point,Admin Coop Fund,TaxAmount,'9,937,637.500,'9,937,639.482,FAIL,6625
+TC008,23.0,3 Decimal point, , , , , Fail,6625

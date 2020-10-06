@@ -1,0 +1,2 @@
+Test case , Test Step , Parameters , Page Name , Price Type , Expected Vlaue , Actual Vlaue, Status, OrderNumber, Comments
+TC001,2.0,3 Decimal point, , , , , PASS,7111

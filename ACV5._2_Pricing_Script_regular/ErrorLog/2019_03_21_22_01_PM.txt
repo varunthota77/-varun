@@ -1,0 +1,2397 @@
+****** ****** Test Case Number --> 21.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 7100
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+<------- Both Item prices are different ------> 1
+Expected value: $0.9658
+ Actual value :$10.1200
+<------- Both Itemm prices are different ------> 2
+Expected value: $0.9658
+Actual value :$10.1200
+<------- Both Item prices are different ------> 3
+Expected value: $0.9658
+ Actual value :$10.1200
+OrderFlow.IsBaseDiscountZero :false
+BasePriceIncrementValue :0
+Quantity11234____10
+<----- View Summary Both item prices are different ----->4
+Actual Item price is: $10.1200
+Expected Item price is: $0.9658
+<----- View Summary Both subtotals are different ----->5
+Actual subtotal is : $101.2000
+Expected subtotal is : $9.6580
+ActualDiscount-( $3.1800 )
+ExpectedDiscount-( $3.1800 )
+ActualDiscount0908hh-( $3.1800 )
+<------View Summary Both Total values are different ----->6
+Actual total value is :$198.0200
+Expected total value is :$106.4780
+<----- Shopping cart Both item prices are different -------->7
+Actual Item price is: $10.1200
+Expected Item price is: $0.9658
+<-------- Shopping cart Both Discount prices are different ------>8
+Actual Discount price is : 2.1200%
+Expected Discount price is : $3.1800
+<---------Shopping cart  Both Total values are different -------->9
+Actual total value is :$199.0500
+Expected total value is :$106.4780
+<---------- Shopping cart Both Total values are different ---------->10
+Actual total value is :$199.0500
+Expected total value is :$106.4780
+<------- Order Checkout Both Item prices are different --------> 11
+ActualOCItemPrice : $10.12
+ExpectedItemPrice : $0.9658
+gc
+<-------- Order check out Both postage prices are different -------->12
+Actual postage price value is: $100.00
+Expected postage price value is: $100.0000
+mp
+<---------- Order Checkout Both Amounts are different1 ------------>13
+ActualOCAmount : $199.05
+ExpectedAmount : $106.4780
+<----------- Order Checkout Both SubTotals are different ---------->14
+ActualOCSubTotal : $199.05
+ExpectedAmount : $106.4780
+<-------- Order Checkout Both Promotion discounts are different ---------->15
+ActualOCPromotionDiscount : -$7.89
+ExpectedPromotionDiscount : -$7.8900
+<------------- Order Checkout Both Tax percentages are different ------------>16
+ActualOCTaxPercentage : (8.14%)
+ExpectedTaxpercentage : (8.1400%)
+<---------- Order Checkout Both Tax amounts are different ------------->17
+ActualOCTaxAmount : $15.56
+ExpectedTaxAmount : $8.0251
+<------------ Order Checkout Both GrandTotal Amounts are different ----------->18
+ActualOCTotal : $206.72
+ExpectedTotal : $106.6131
+<--------- Ordercheckout Both applied payments values are different -------->19
+Actual Applied value is :$206.72
+Expected Applied value is :$106.6131
+Report are saved and closed
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: lnkPrint (tried for 500 second(s) with 1 SECONDS interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:264)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:3166)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: lnkPrint
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:899)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:898)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:184)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 23 more
+Time Stamp : _2019-Mar-21_10-39-27_PM
+ Don't kill browser
+****** ****** Test Case Number --> 22.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 42660
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+<------- Both Item prices are different ------> 1
+Expected value: $0.92
+ Actual value :$0.920
+<----  Both Discount prices are different ------> 2
+Exptected value :$2.21
+ Actual value :$2.210
+<------- Both Item prices are different ------> 3
+Expected value: $0.92
+ Actual value :$12.234
+<----  Both Discount prices are different ------> 4
+Exptected value :$2.21
+ Actual value :3.250%
+<------- Both Itemm prices are different ------> 5
+Expected value: $0.92
+Actual value :$12.234
+<------- Both Item prices are different ------> 6
+Expected value: $0.92
+ Actual value :$12.234
+<----  Both Discount prices are different ------> 7
+Exptected value :$2.21
+ Actual value :3.250%
+<----- View Summary Both Addon prices are different ----->8
+Actual Addon price is: Addon1 - $4.236 ( Flat Rate )
+Expected Addon price is: Addon1 - $0.23 ( Flat Rate )
+OrderFlow.IsBaseDiscountZero :false
+BasePriceIncrementValue :0
+Quantity11234____10
+<----- View Summary Both item prices are different ----->9
+Actual Item price is: $12.234
+Expected Item price is: $0.92
+<----- View Summary Both subtotals are different ----->10
+Actual subtotal is : $122.340
+Expected subtotal is : $9.20
+ActualDiscount-$3.976
+ExpectedDiscount-( $2.21 )
+ActualDiscount0908hh-$3.976
+<------ View Summary Both Discount prices are different ------>11
+Actual Discount price is : -$3.976
+Expected Discount price is : -( $2.21 )
+<------- View Summary Both Addon prices are different ------>12
+Actual Addon price is : $4.236
+Expected Addon price is : $0.23
+<------ View Summary Both postage prices are different ----->13
+Actual postage price value is: $0.000
+Expected postage price value is: $0.00
+<------View Summary Both Total values are different ----->14
+Actual total value is :$122.600
+Expected total value is :$7.22
+<----- Shopping cart Both item prices are different -------->15
+Actual Item price is: $12.234
+Expected Item price is: $0.92
+<-------- Shopping cart Both Discount prices are different ------>16
+Actual Discount price is : 3.250%
+Expected Discount price is : $2.21
+<-------- Shopping cart Both Addon prices are different ------->17
+Actual Addon price is : $4.236
+Expected Addon price is : $0.23
+<-------- Shopping cart Both postage prices are different -------->18
+Actual postage price value is: $0.000
+Expected postage price value is: $0.00
+<---------Shopping cart  Both Total values are different -------->19
+Actual total value is :$122.600
+Expected total value is :$7.22
+<---------- Shopping cart Both Total values are different ---------->20
+Actual total value is :$122.600
+Expected total value is :$7.22
+<------- Order Checkout Both Item prices are different --------> 21
+ActualOCItemPrice : $12.234
+ExpectedItemPrice : $0.92
+gc
+<-------- Order check out Both postage prices are different -------->22
+Actual postage price value is: $0.000
+Expected postage price value is: $0.00
+mp
+<---------- Order Checkout Both Amounts are different1 ------------>23
+ActualOCAmount : $122.600
+ExpectedAmount : $7.22
+<----------- Order Checkout Both SubTotals are different ---------->24
+ActualOCSubTotal : $122.600
+ExpectedAmount : $7.22
+<-------- Order Checkout Both Promotion discounts are different ---------->25
+ActualOCPromotionDiscount : -$3.450
+ExpectedPromotionDiscount : -$1.23
+<------------- Order Checkout Both Tax percentages are different ------------>26
+ActualOCTaxPercentage : (4.210%)
+ExpectedTaxpercentage : (0.98%)
+<---------- Order Checkout Both Tax amounts are different ------------->27
+ActualOCTaxAmount : $5.016
+ExpectedTaxAmount : $0.06
+<------------ Order Checkout Both GrandTotal Amounts are different ----------->28
+ActualOCTotal : $124.166
+ExpectedTotal : $6.05
+<--------- Ordercheckout Both applied payments values are different -------->29
+Actual Applied value is :$124.166
+Expected Applied value is :$6.05
+<----------- Order Summary Bothe Item prices are different -------->30
+ExpectedOSItemPrice : $0.92
+ActualOSItemPrice : $12.234
+<--------- Order Summary Both Discount prices are different ------------>31
+ExpectedOSDiscount : $2.21
+ActualOSDiscount : 3.250%
+<-------- Order Summary Both postage prices are different -------->32
+Actual postage price value is: $0.000
+Expected postage price value is: $0.00
+<---------- Order Summary Both Amounts are different2 ------------>33
+ExpectedOSAmount : $7.22
+ActualOSAmount : $122.600
+<----------Order Summary Both SubTotal are different ---------->34
+ExpectedOSSubTotal : $7.22
+ActualOSSubTotal : $122.600
+<--------- Order Summary Both Promotion Discount are different --------> 35
+ExpectedOSPromotionDiscount : - $1.23
+ActualOSPromotionDiscount : - $3.450
+<------------- Order Summary Both Tax percentages are different ------------->36
+ExpectedOSTaxPercentage : (0.98%)
+ActualOSTaxPercentage : (4.210%)
+<--------Order Summary Both Tax values are different ---------->37
+ExpectedOSTaxValue : $0.06
+ActualOSTaxValue : $5.016
+<---------- Order Summary Both Total values are different ---------->38
+ExpectedOSTotal : $6.05
+ ActualOSTotal : $124.166
+<----------Order Summary Both Applied Discount values are different ------------->39
+ExpectedOSAppliedDiscontPrice : - $2.21
+ActualOSAppliedDiscontPrice : - $3.976
+<------------ Order Summary Both Applied Addon prices are different----------->40
+ExpectedOSAppliedAddonPrice : $0.23
+ActualOSAppliedAddonPrice : $4.236
+billing1Billed to :
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+<--------- Both Total1 prices are different --------->41
+ExpectedPrintTotal1 : $6.05
+ActualPrintTotal1 : $124.166
+<-------- Bothe Item prices are different --------->42
+ExpectedPrintPOPUPSItemPrice : $0.92
+ActualPrintPOPUPSItemPrice : $12.234
+<------- Both Discount prices are different --------->43
+ExpectedPrintPOPUPSDiscount : $2.21
+ActualPrintPOPUPDiscount : 3.250%
+<-------- Both Amounts are different-------> 44
+ExpectedPrintPOPUPAmount : $7.22
+ActualPrintPOPUPAmount : $122.600
+<-------- Both SubTotal are different---------> 45
+ExpectedPrintPOPUPSubTotal :$7.22
+ActualPrintPOPUPSubTotal :$122.600
+<-------- Both Promotion Discounts are different --------->46
+ExpectedPrintPOPUPPromotionDiscount : -$1.23
+ActualPrintPOPUPPromotionDiscount : -$3.450
+<-------- Both Tax values are different --------->47
+ExpectedPrintTaxValue : $0.06
+ActualPrintPOPUPTaxValue : $5.016
+<-------- Both Applied Discount prices are different --------->48
+ExpectedPrintPOPUPAppliedDiscontPrice : -$2.21
+ActualPrintPOPUPAppliedDiscontPrice : -$3.976
+<-------- Both Applied Addon prices are different --------->49
+ExpectedPrintPOPUPAppliedAddonPrice : $0.23
+ActualPrintPOPUPAppliedAddonPrice : $4.236
+OrderNumber : 7268
+<--------- Both View orders grid subtotal prices are different ------> 50
+Expected value: $9.20
+  Actual value :$122.340
+ VO Popup Sub total price is -->$122.340
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  10
+Int Actual Qunaity -->10
+**ActualQuantity**10
+Both Item quantitys are same
+<-------- Both View Order Grid Pop-Up Item Prices are different --------->51
+Expected View Order Grid  Item Prices price : $0.92
+Actual Users View Order Grid  price : $12.234
+<-------- Both item Subtotals in view order grid popup values are different --------->52
+Expected View Order Grid  Subtotal price : $9.20
+Actual View Order Grid  Subtotal price : $122.340
+<-------- Both view order grid popup Addon prices are different --------->53
+Expected View Order Grid  Addon price : $0.23
+Actual View Order Grid  Addon price : $4.236
+OrderFlow.IsBaseDiscountZero :false
+BasePriceIncrementValue :0
+<-------- Both VOGPOPUP item Discount prices are different --------->54
+Expected View Order Grid Discount price : $2.21
+Actual View Order Grid  Discount price : 3.250%
+<------ VOGPOPUP Both Shipping prices are different1 ----->55
+Actual View Order Grid  Shipping price value is: $0.000
+Expected View Order Grid  Shipping price value is: $0.00
+<-------- Both order total Subtotals in view order grid popup values are different --------->56
+Expected View Order Grid  Subtotal price : $9.20
+Actual View Order Grid  Subtotal price : $122.340
+<-------- Both VOGPOPUP order total Addon prices are different --------->57
+Expected User View Order Grid Popup Addon price : $0.23
+Actual Users  View Order Grid Popup Addon price : $4.236
+ExpectedOrderDiscount4
+<-------- Both VOGPOPUP order  Discount prices are different --------->58
+Expected User VOGPOPUP order  Discount price : -$2.21
+Actual Users VOGPOPUP order  Discount price : -$3.976
+<-------- Both VOGPOPUP order  Promotion Discount prices are different --------->59
+Expected User VOGPOPUP order  Promotion Discount price : -$1.23
+Actual Users VOGPOPUP order  Promotion Discount price : -$3.450
+<-------- Both VOGPOPUP order Postage prices are different --------->60
+Expected User View Orders Postage price : $0.00
+Actual Users view orders Postage price : $0.000
+<-------- Both VOGPOPUP order  Tax prices are different3 -------->61
+Expected User View Orders Tax price : $0.06
+Actual Users view orders Tax price : null
+<-------- Both VOGPOPUP order  Total prices are different 1--------->62
+Expected User View Orders Total price : $6.05
+Actual Users view orders Total price : $124.166
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+<-------- Both subtotal prices are different --------->63
+ExpectedUserViewOrders Subtotal price : $9.20
+Actual Users view orders Subtotal price : $122.340
+<-------- Both Addon prices are different --------->64
+Expected User View Orders Addon price : $0.23
+Actual Users view orders Addon price : $4.236
+<-------- Both Discount prices are different --------->65
+Expected User View Orders Discount price : -$2.21
+Actual Users view orders Discount price : -$3.976
+<-------- Both Promotion Discount prices are different --------->66
+Expected User View Orders Promotion Discount price : -$1.23
+Actual Users view orders Promotion Discount price : -$3.450
+<-------- Both Promotion Tax prices are different -------->67
+Expected User View Orders Tax price : $0.06
+Actual Users view orders Tax price : $5.016
+<-------- Both Promotion Total prices are different --------->68
+Expected User View Orders Total price : $6.05
+Actual Users view orders Total price : $124.166
+<-------- Both Promotion Item Prices are different --------->69
+Expected User View Orders Item Prices price : $
+Actual Users view orders Item Prices price : $12.234
+<-------- Both Promotion Addon Prices are different --------->70
+Expected User View Orders Addon Prices price : $0.23
+Actual Users view orders Addon Prices price : $4.236
+<-------- Both Promotion Product Disocunt Prices are different --------->71
+Expected User View Orders Product Disocunt Prices price : $2.21
+Actual Users view orders Product Disocunt Prices price : 3.250%
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+<--------- Both Total1 prices are different --------->72
+ExpectedPrintTotal1 : $6.05
+ActualPrintTotal1 : $124.166
+<-------- Bothe Item prices are different --------->73
+ExpectedPrintPOPUPSItemPrice : $0.92
+ActualPrintPOPUPSItemPrice : $12.234
+<------- Both Discount prices are different --------->74
+ExpectedPrintPOPUPSDiscount : $2.21
+ActualPrintPOPUPDiscount : 3.250%
+<-------- Both Amounts are different-------> 75
+ExpectedPrintPOPUPAmount : $7.22
+ActualPrintPOPUPAmount : $122.600
+<-------- Both SubTotal are different---------> 76
+ExpectedPrintPOPUPSubTotal :$7.22
+ActualPrintPOPUPSubTotal :$122.600
+<-------- Both Promotion Discounts are different --------->77
+ExpectedPrintPOPUPPromotionDiscount : -$1.23
+ActualPrintPOPUPPromotionDiscount : -$3.450
+<-------- Both Tax values are different --------->78
+ExpectedPrintTaxValue : $0.06
+ActualPrintPOPUPTaxValue : $5.016
+<-------- Both Applied Discount prices are different --------->79
+ExpectedPrintPOPUPAppliedDiscontPrice : -$2.21
+ActualPrintPOPUPAppliedDiscontPrice : -$3.976
+<-------- Both Applied Addon prices are different --------->80
+ExpectedPrintPOPUPAppliedAddonPrice : $0.23
+ActualPrintPOPUPAppliedAddonPrice : $4.236
+<--------- Both View orders grid subtotal prices are different ------> 81
+Expected value: $9.20
+  Actual value :$122.340
+ VO Popup Sub total price is -->$122.340
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  10
+Int Actual Qunaity -->10
+**ActualQuantity**10
+Both Item quantitys are same
+<-------- Both View Order Grid Pop-Up Item Prices are different --------->82
+Expected View Order Grid  Item Prices price : $0.92
+Actual Users View Order Grid  price : $12.234
+<-------- Both item Subtotals in view order grid popup values are different --------->83
+Expected View Order Grid  Subtotal price : $9.20
+Actual View Order Grid  Subtotal price : $122.340
+<-------- Both view order grid popup Addon prices are different --------->84
+Expected View Order Grid  Addon price : $0.23
+Actual View Order Grid  Addon price : $4.236
+OrderFlow.IsBaseDiscountZero :false
+BasePriceIncrementValue :0
+<-------- Both VOGPOPUP item Discount prices are different --------->85
+Expected View Order Grid Discount price : $2.21
+Actual View Order Grid  Discount price : 3.250%
+<------ VOGPOPUP Both Shipping prices are different1 ----->86
+Actual View Order Grid  Shipping price value is: $0.000
+Expected View Order Grid  Shipping price value is: $0.00
+<-------- Both order total Subtotals in view order grid popup values are different --------->87
+Expected View Order Grid  Subtotal price : $9.20
+Actual View Order Grid  Subtotal price : $122.340
+<-------- Both VOGPOPUP order total Addon prices are different --------->88
+Expected User View Order Grid Popup Addon price : $0.23
+Actual Users  View Order Grid Popup Addon price : $4.236
+ExpectedOrderDiscount4
+<-------- Both VOGPOPUP order  Discount prices are different --------->89
+Expected User VOGPOPUP order  Discount price : -$2.21
+Actual Users VOGPOPUP order  Discount price : -$3.976
+<-------- Both VOGPOPUP order  Promotion Discount prices are different --------->90
+Expected User VOGPOPUP order  Promotion Discount price : -$1.23
+Actual Users VOGPOPUP order  Promotion Discount price : -$3.450
+<-------- Both VOGPOPUP order Postage prices are different --------->91
+Expected User View Orders Postage price : $0.00
+Actual Users view orders Postage price : $0.000
+<-------- Both VOGPOPUP order  Tax prices are different3 -------->92
+Expected User View Orders Tax price : $0.06
+Actual Users view orders Tax price : null
+<-------- Both VOGPOPUP order  Total prices are different 1--------->93
+Expected User View Orders Total price : $6.05
+Actual Users view orders Total price : $124.166
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+<-------- Both subtotal prices are different --------->94
+ExpectedUserViewOrders Subtotal price : $9.20
+Actual Users view orders Subtotal price : $122.340
+<-------- Both Addon prices are different --------->95
+Expected User View Orders Addon price : $0.23
+Actual Users view orders Addon price : $4.236
+<-------- Both Discount prices are different --------->96
+Expected User View Orders Discount price : -$2.21
+Actual Users view orders Discount price : -$3.976
+<-------- Both Promotion Discount prices are different --------->97
+Expected User View Orders Promotion Discount price : -$1.23
+Actual Users view orders Promotion Discount price : -$3.450
+<-------- Both Promotion Tax prices are different -------->98
+Expected User View Orders Tax price : $0.06
+Actual Users view orders Tax price : $5.016
+<-------- Both Promotion Total prices are different --------->99
+Expected User View Orders Total price : $6.05
+Actual Users view orders Total price : $124.166
+<-------- Both Promotion Item Prices are different --------->100
+Expected User View Orders Item Prices price : $
+Actual Users view orders Item Prices price : $12.234
+<-------- Both Promotion Addon Prices are different --------->101
+Expected User View Orders Addon Prices price : $0.23
+Actual Users view orders Addon Prices price : $4.236
+<-------- Both Promotion Product Disocunt Prices are different --------->102
+Expected User View Orders Product Disocunt Prices price : $2.21
+Actual Users view orders Product Disocunt Prices price : 3.250%
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+<--------- Both Total1 prices are different --------->103
+ExpectedPrintTotal1 : $6.05
+ActualPrintTotal1 : $124.166
+<-------- Bothe Item prices are different --------->104
+ExpectedPrintPOPUPSItemPrice : $0.92
+ActualPrintPOPUPSItemPrice : $12.234
+<------- Both Discount prices are different --------->105
+ExpectedPrintPOPUPSDiscount : $2.21
+ActualPrintPOPUPDiscount : 3.250%
+<-------- Both Amounts are different-------> 106
+ExpectedPrintPOPUPAmount : $7.22
+ActualPrintPOPUPAmount : $122.600
+<-------- Both SubTotal are different---------> 107
+ExpectedPrintPOPUPSubTotal :$7.22
+ActualPrintPOPUPSubTotal :$122.600
+<-------- Both Promotion Discounts are different --------->108
+ExpectedPrintPOPUPPromotionDiscount : -$1.23
+ActualPrintPOPUPPromotionDiscount : -$3.450
+<-------- Both Tax values are different --------->109
+ExpectedPrintTaxValue : $0.06
+ActualPrintPOPUPTaxValue : $5.016
+<-------- Both Applied Discount prices are different --------->110
+ExpectedPrintPOPUPAppliedDiscontPrice : -$2.21
+ActualPrintPOPUPAppliedDiscontPrice : -$3.976
+<-------- Both Applied Addon prices are different --------->111
+ExpectedPrintPOPUPAppliedAddonPrice : $0.23
+ActualPrintPOPUPAppliedAddonPrice : $4.236
+<--------- Both View orders grid subtotal prices are different ------> 112
+Expected value: $9.20
+  Actual value :$122.340
+ VO Popup Sub total price is -->$122.340
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  10
+Int Actual Qunaity -->10
+**ActualQuantity**10
+Both Item quantitys are same
+<-------- Both View Order Grid Pop-Up Item Prices are different --------->113
+Expected View Order Grid  Item Prices price : $0.92
+Actual Users View Order Grid  price : $12.234
+<-------- Both item Subtotals in view order grid popup values are different --------->114
+Expected View Order Grid  Subtotal price : $9.20
+Actual View Order Grid  Subtotal price : $122.340
+<-------- Both view order grid popup Addon prices are different --------->115
+Expected View Order Grid  Addon price : $0.23
+Actual View Order Grid  Addon price : $4.236
+OrderFlow.IsBaseDiscountZero :false
+BasePriceIncrementValue :0
+<-------- Both VOGPOPUP item Discount prices are different --------->116
+Expected View Order Grid Discount price : $2.21
+Actual View Order Grid  Discount price : 3.250%
+<------ VOGPOPUP Both Shipping prices are different1 ----->117
+Actual View Order Grid  Shipping price value is: $0.000
+Expected View Order Grid  Shipping price value is: $0.00
+<-------- Both order total Subtotals in view order grid popup values are different --------->118
+Expected View Order Grid  Subtotal price : $9.20
+Actual View Order Grid  Subtotal price : $122.340
+<-------- Both VOGPOPUP order total Addon prices are different --------->119
+Expected User View Order Grid Popup Addon price : $0.23
+Actual Users  View Order Grid Popup Addon price : $4.236
+ExpectedOrderDiscount4
+<-------- Both VOGPOPUP order  Discount prices are different --------->120
+Expected User VOGPOPUP order  Discount price : -$2.21
+Actual Users VOGPOPUP order  Discount price : -$3.976
+<-------- Both VOGPOPUP order  Promotion Discount prices are different --------->121
+Expected User VOGPOPUP order  Promotion Discount price : -$1.23
+Actual Users VOGPOPUP order  Promotion Discount price : -$3.450
+<-------- Both VOGPOPUP order Postage prices are different --------->122
+Expected User View Orders Postage price : $0.00
+Actual Users view orders Postage price : $0.000
+<-------- Both VOGPOPUP order  Tax prices are different3 -------->123
+Expected User View Orders Tax price : $0.06
+Actual Users view orders Tax price : null
+<-------- Both VOGPOPUP order  Total prices are different 1--------->124
+Expected User View Orders Total price : $6.05
+Actual Users view orders Total price : $124.166
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+<-------- Both subtotal prices are different --------->125
+ExpectedUserViewOrders Subtotal price : $9.20
+Actual Users view orders Subtotal price : $122.340
+<-------- Both Addon prices are different --------->126
+Expected User View Orders Addon price : $0.23
+Actual Users view orders Addon price : $4.236
+<-------- Both Discount prices are different --------->127
+Expected User View Orders Discount price : -$2.21
+Actual Users view orders Discount price : -$3.976
+<-------- Both Promotion Discount prices are different --------->128
+Expected User View Orders Promotion Discount price : -$1.23
+Actual Users view orders Promotion Discount price : -$3.450
+<-------- Both Promotion Tax prices are different -------->129
+Expected User View Orders Tax price : $0.06
+Actual Users view orders Tax price : $5.016
+<-------- Both Promotion Total prices are different --------->130
+Expected User View Orders Total price : $6.05
+Actual Users view orders Total price : $124.166
+<-------- Both Promotion Item Prices are different --------->131
+Expected User View Orders Item Prices price : $
+Actual Users view orders Item Prices price : $12.234
+<-------- Both Promotion Addon Prices are different --------->132
+Expected User View Orders Addon Prices price : $0.23
+Actual Users view orders Addon Prices price : $4.236
+<-------- Both Promotion Product Disocunt Prices are different --------->133
+Expected User View Orders Product Disocunt Prices price : $2.21
+Actual Users view orders Product Disocunt Prices price : 3.250%
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+<--------- Both Total1 prices are different --------->134
+ExpectedPrintTotal1 : $6.05
+ActualPrintTotal1 : $124.166
+<-------- Bothe Item prices are different --------->135
+ExpectedPrintPOPUPSItemPrice : $0.92
+ActualPrintPOPUPSItemPrice : $12.234
+<------- Both Discount prices are different --------->136
+ExpectedPrintPOPUPSDiscount : $2.21
+ActualPrintPOPUPDiscount : 3.250%
+<-------- Both Amounts are different-------> 137
+ExpectedPrintPOPUPAmount : $7.22
+ActualPrintPOPUPAmount : $122.600
+<-------- Both SubTotal are different---------> 138
+ExpectedPrintPOPUPSubTotal :$7.22
+ActualPrintPOPUPSubTotal :$122.600
+<-------- Both Promotion Discounts are different --------->139
+ExpectedPrintPOPUPPromotionDiscount : -$1.23
+ActualPrintPOPUPPromotionDiscount : -$3.450
+<-------- Both Tax values are different --------->140
+ExpectedPrintTaxValue : $0.06
+ActualPrintPOPUPTaxValue : $5.016
+<-------- Both Applied Discount prices are different --------->141
+ExpectedPrintPOPUPAppliedDiscontPrice : -$2.21
+ActualPrintPOPUPAppliedDiscontPrice : -$3.976
+<-------- Both Applied Addon prices are different --------->142
+ExpectedPrintPOPUPAppliedAddonPrice : $0.23
+ActualPrintPOPUPAppliedAddonPrice : $4.236
+___ ___ ___ ____ _ ____ ____ ____ ______ ____ ___ ____ ____ ____ ____ ____ ____ _____ ____ _____ ____ _
+** ** **Actual and Expected values are not same, Test FAIL** ** **
+Number of errors : 142
+Time Stamp : _2019-Mar-21_11-17-54_PM
+ Don't kill browser
+****** ****** Test Case Number --> 23.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 7164
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+Report are saved and closed
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //a[@title='Dynamic Print'] (tried for 500 second(s) with 1 SECONDS interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:264)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:775)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //a[@title='Dynamic Print']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:899)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:898)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:184)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 23 more
+Time Stamp : _2019-Mar-21_11-41-28_PM
+ Don't kill browser
+****** ****** Test Case Number --> 24.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 40385
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+<------- Both Item prices are different ------> 1
+Expected value: $0.6987
+ Actual value :$49.89
+<----  Both Discount prices are different ------> 2
+Exptected value :$4.1200
+ Actual value :$4.12
+<------- Both Item prices are different ------> 3
+Expected value: $0.6987
+ Actual value :$49.89
+<----  Both Discount prices are different ------> 4
+Exptected value :$4.1200
+ Actual value :2.29%
+<------- Both Itemm prices are different ------> 5
+Expected value: $0.6987
+Actual value :$49.89
+<------- Both Item prices are different ------> 6
+Expected value: $0.6987
+ Actual value :$49.89
+<----  Both Discount prices are different ------> 7
+Exptected value :$4.1200
+ Actual value :2.29%
+<----- View Summary Both Addon prices are different ----->8
+Actual Addon price is: Addon1 - $12.97 ( Flat Rate )
+Expected Addon price is: Addon1 - $0.6789 ( Flat Rate )
+OrderFlow.IsBaseDiscountZero :false
+BasePriceIncrementValue :0
+Quantity11234____10
+<----- View Summary Both item prices are different ----->9
+Actual Item price is: $49.89
+Expected Item price is: $0.6987
+<----- View Summary Both subtotals are different ----->10
+Actual subtotal is : $49.89
+Expected subtotal is : $6.9870
+ActualDiscount-$1.14
+ExpectedDiscount-( $4.1200 )
+ActualDiscount0908hh-$1.14
+<------ View Summary Both Discount prices are different ------>11
+Actual Discount price is : -$1.14
+Expected Discount price is : -( $4.1200 )
+<------- View Summary Both Addon prices are different ------>12
+Actual Addon price is : $12.97
+Expected Addon price is : $0.6789
+<------ View Summary Both postage prices are different ----->13
+Actual postage price value is: $0.00
+Expected postage price value is: $0.0000
+<------View Summary Both Total values are different ----->14
+Actual total value is :$61.72
+Expected total value is :$3.5459
+<----- Shopping cart Both item prices are different -------->15
+Actual Item price is: $49.89
+Expected Item price is: $0.6987
+<-------- Shopping cart Both Discount prices are different ------>16
+Actual Discount price is : 2.29%
+Expected Discount price is : $4.1200
+<-------- Shopping cart Both Addon prices are different ------->17
+Actual Addon price is : $12.97
+Expected Addon price is : $0.6789
+<-------- Shopping cart Both postage prices are different -------->18
+Actual postage price value is: $0.00
+Expected postage price value is: $0.0000
+<---------Shopping cart  Both Total values are different -------->19
+Actual total value is :$61.72
+Expected total value is :$3.5459
+<---------- Shopping cart Both Total values are different ---------->20
+Actual total value is :$61.72
+Expected total value is :$3.5459
+<------- Order Checkout Both Item prices are different --------> 21
+ActualOCItemPrice : $49.89
+ExpectedItemPrice : $0.6987
+gc
+<-------- Order check out Both postage prices are different -------->22
+Actual postage price value is: $0.00
+Expected postage price value is: $0.0000
+mp
+<---------- Order Checkout Both Amounts are different1 ------------>23
+ActualOCAmount : $61.72
+ExpectedAmount : $3.5459
+<----------- Order Checkout Both SubTotals are different ---------->24
+ActualOCSubTotal : $61.72
+ExpectedAmount : $3.5459
+<-------- Order Checkout Both Promotion discounts are different ---------->25
+ActualOCPromotionDiscount : -$7.77
+ExpectedPromotionDiscount : -$1.5600
+<------------- Order Checkout Both Tax percentages are different ------------>26
+ActualOCTaxPercentage : (5.34%)
+ExpectedTaxpercentage : (1.1200%)
+<---------- Order Checkout Both Tax amounts are different ------------->27
+ActualOCTaxAmount : $2.88
+ExpectedTaxAmount : $0.0222
+<------------ Order Checkout Both GrandTotal Amounts are different ----------->28
+ActualOCTotal : $56.83
+ExpectedTotal : $2.0081
+<--------- Ordercheckout Both applied payments values are different -------->29
+Actual Applied value is :$56.83
+Expected Applied value is :$2.0081
+Report are saved and closed
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: lnkPrint (tried for 500 second(s) with 1 SECONDS interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:264)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:3166)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: lnkPrint
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:899)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:898)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:184)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 23 more
+Time Stamp : _2019-Mar-22_12-18-49_AM
+ Don't kill browser
+****** ****** Test Case Number --> 25.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 9916
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+<------- Both Item prices are different ------> 1
+Expected value: $0.65
+ Actual value :$52.456
+<----  Both Discount prices are different ------> 2
+Exptected value :$0.00
+ Actual value :6.450%
+<------- Both Item prices are different ------> 3
+Expected value: $0.65
+ Actual value :$52.456
+<----  Both Discount prices are different ------> 4
+Exptected value :$0.00
+ Actual value :6.450%
+<------- Both Itemm prices are different ------> 5
+Expected value: $0.65
+Actual value :$52.456
+<------- Both Item prices are different ------> 6
+Expected value: $0.65
+ Actual value :$52.456
+<----  Both Discount prices are different ------> 7
+Exptected value :$0.00
+ Actual value :6.450%
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+Quantity11234____10
+<----- View Summary Both item prices are different ----->8
+Actual Item price is: $52.456
+Expected Item price is: $0.65
+<----- View Summary Both subtotals are different ----->9
+Actual subtotal is : $52.456
+Expected subtotal is : $6.50
+ActualDiscount-$3.383
+ExpectedDiscount-$0.00
+ActualDiscount0908hh-$3.383
+<------ View Summary Both Discount prices are different ------>10
+Actual Discount price is : -$3.383
+Expected Discount price is : -$0.00
+<------- View Summary Both Addon prices are different ------>11
+Actual Addon price is : $4.657
+Expected Addon price is : $0.00
+<------ View Summary Both postage prices are different ----->12
+Actual postage price value is: $0.000
+Expected postage price value is: $0.00
+<------View Summary Both Total values are different ----->13
+Actual total value is :$53.730
+Expected total value is :$6.50
+<----- Shopping cart Both item prices are different -------->14
+Actual Item price is: $52.456
+Expected Item price is: $0.65
+<-------- Shopping cart Both Discount prices are different ------>15
+Actual Discount price is : 6.450%
+Expected Discount price is : $0.00
+<-------- Shopping cart Both Addon prices are different ------->16
+Actual Addon price is : $4.657
+Expected Addon price is : $0.00
+<-------- Shopping cart Both postage prices are different -------->17
+Actual postage price value is: $0.000
+Expected postage price value is: $0.00
+<---------Shopping cart  Both Total values are different -------->18
+Actual total value is :$53.730
+Expected total value is :$6.50
+<---------- Shopping cart Both Total values are different ---------->19
+Actual total value is :$53.730
+Expected total value is :$6.50
+<------- Order Checkout Both Item prices are different --------> 20
+ActualOCItemPrice : $52.456
+ExpectedItemPrice : $0.65
+gc
+<-------- Order check out Both postage prices are different -------->21
+Actual postage price value is: $0.000
+Expected postage price value is: $0.00
+mp
+<---------- Order Checkout Both Amounts are different1 ------------>22
+ActualOCAmount : $53.730
+ExpectedAmount : $6.50
+<----------- Order Checkout Both SubTotals are different ---------->23
+ActualOCSubTotal : $53.730
+ExpectedAmount : $6.50
+<-------- Order Checkout Both Promotion discounts are different ---------->24
+ActualOCPromotionDiscount : -$0.000
+ExpectedPromotionDiscount : -$0.00
+<------------- Order Checkout Both Tax percentages are different ------------>25
+ActualOCTaxPercentage : (4.810%)
+ExpectedTaxpercentage : (0.00%)
+<---------- Order Checkout Both Tax amounts are different ------------->26
+ActualOCTaxAmount : $2.584
+ExpectedTaxAmount : $0.00
+<------------ Order Checkout Both GrandTotal Amounts are different ----------->27
+ActualOCTotal : $56.314
+ExpectedTotal : $6.50
+<--------- Ordercheckout Both applied payments values are different -------->28
+Actual Applied value is :$56.314
+Expected Applied value is :$6.50
+<----------- Order Summary Bothe Item prices are different -------->29
+ExpectedOSItemPrice : $0.65
+ActualOSItemPrice : $52.456
+<--------- Order Summary Both Discount prices are different ------------>30
+ExpectedOSDiscount : $0.00
+ActualOSDiscount : 6.450%
+<-------- Order Summary Both postage prices are different -------->31
+Actual postage price value is: $0.000
+Expected postage price value is: $0.00
+<---------- Order Summary Both Amounts are different2 ------------>32
+ExpectedOSAmount : $6.50
+ActualOSAmount : $53.730
+<----------Order Summary Both SubTotal are different ---------->33
+ExpectedOSSubTotal : $6.50
+ActualOSSubTotal : $53.730
+<------------- Order Summary Both Tax percentages are different ------------->34
+ExpectedOSTaxPercentage : (0.00%)
+ActualOSTaxPercentage : (4.810%)
+<--------Order Summary Both Tax values are different ---------->35
+ExpectedOSTaxValue : $0.00
+ActualOSTaxValue : $2.584
+<---------- Order Summary Both Total values are different ---------->36
+ExpectedOSTotal : $6.50
+ ActualOSTotal : $56.314
+<----------Order Summary Both Applied Discount values are different ------------->37
+ExpectedOSAppliedDiscontPrice : - $0.00
+ActualOSAppliedDiscontPrice : - $3.383
+<------------ Order Summary Both Applied Addon prices are different----------->38
+ExpectedOSAppliedAddonPrice : $0.00
+ActualOSAppliedAddonPrice : $4.657
+billing1Billed to :
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+<--------- Both Total1 prices are different --------->39
+ExpectedPrintTotal1 : $6.50
+ActualPrintTotal1 : $56.314
+<-------- Bothe Item prices are different --------->40
+ExpectedPrintPOPUPSItemPrice : $0.65
+ActualPrintPOPUPSItemPrice : $52.456
+<------- Both Discount prices are different --------->41
+ExpectedPrintPOPUPSDiscount : $0.00
+ActualPrintPOPUPDiscount : 6.450%
+<-------- Both Amounts are different-------> 42
+ExpectedPrintPOPUPAmount : $6.50
+ActualPrintPOPUPAmount : $53.730
+<-------- Both SubTotal are different---------> 43
+ExpectedPrintPOPUPSubTotal :$6.50
+ActualPrintPOPUPSubTotal :$53.730
+<-------- Both Tax values are different --------->44
+ExpectedPrintTaxValue : $0.00
+ActualPrintPOPUPTaxValue : $2.584
+<-------- Both Applied Discount prices are different --------->45
+ExpectedPrintPOPUPAppliedDiscontPrice : -$0.00
+ActualPrintPOPUPAppliedDiscontPrice : -$3.383
+<-------- Both Applied Addon prices are different --------->46
+ExpectedPrintPOPUPAppliedAddonPrice : $0.00
+ActualPrintPOPUPAppliedAddonPrice : $4.657
+OrderNumber : 7269
+<--------- Both View orders grid subtotal prices are different ------> 47
+Expected value: $6.50
+  Actual value :$52.456
+ VO Popup Sub total price is -->$52.456
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  10
+Int Actual Qunaity -->10
+**ActualQuantity**10
+Both Item quantitys are same
+<-------- Both View Order Grid Pop-Up Item Prices are different --------->48
+Expected View Order Grid  Item Prices price : $0.65
+Actual Users View Order Grid  price : $52.456
+<-------- Both item Subtotals in view order grid popup values are different --------->49
+Expected View Order Grid  Subtotal price : $6.50
+Actual View Order Grid  Subtotal price : $52.456
+<-------- Both view order grid popup Addon prices are different --------->50
+Expected View Order Grid  Addon price : $0.00
+Actual View Order Grid  Addon price : $4.657
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+<-------- Both VOGPOPUP item Discount prices are different --------->51
+Expected View Order Grid Discount price : $0.00
+Actual View Order Grid  Discount price : 6.450%
+<------ VOGPOPUP Both Shipping prices are different1 ----->52
+Actual View Order Grid  Shipping price value is: $0.000
+Expected View Order Grid  Shipping price value is: $0.00
+<-------- Both order total Subtotals in view order grid popup values are different --------->53
+Expected View Order Grid  Subtotal price : $6.50
+Actual View Order Grid  Subtotal price : $52.456
+<-------- Both VOGPOPUP order total Addon prices are different --------->54
+Expected User View Order Grid Popup Addon price : $0.00
+Actual Users  View Order Grid Popup Addon price : $4.657
+ExpectedOrderDiscount4
+<-------- Both VOGPOPUP order  Discount prices are different --------->55
+Expected User VOGPOPUP order  Discount price : -$0.00
+Actual Users VOGPOPUP order  Discount price : -$3.383
+<-------- Both VOGPOPUP order Postage prices are different --------->56
+Expected User View Orders Postage price : $0.00
+Actual Users view orders Postage price : $0.000
+<-------- Both VOGPOPUP order  Tax prices are different3 -------->57
+Expected User View Orders Tax price : $0.00
+Actual Users view orders Tax price : null
+<-------- Both VOGPOPUP order  Total prices are different 1--------->58
+Expected User View Orders Total price : $6.50
+Actual Users view orders Total price : $56.314
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+<-------- Both subtotal prices are different --------->59
+ExpectedUserViewOrders Subtotal price : $6.50
+Actual Users view orders Subtotal price : $52.456
+<-------- Both Addon prices are different --------->60
+Expected User View Orders Addon price : $0.00
+Actual Users view orders Addon price : $4.657
+<-------- Both Discount prices are different --------->61
+Expected User View Orders Discount price : -$0.00
+Actual Users view orders Discount price : -$3.383
+<-------- Both Promotion Tax prices are different -------->62
+Expected User View Orders Tax price : $0.00
+Actual Users view orders Tax price : $2.584
+<-------- Both Promotion Total prices are different --------->63
+Expected User View Orders Total price : $6.50
+Actual Users view orders Total price : $56.314
+<-------- Both Promotion Item Prices are different --------->64
+Expected User View Orders Item Prices price : $
+Actual Users view orders Item Prices price : $52.456
+<-------- Both Promotion Product Disocunt Prices are different --------->65
+Expected User View Orders Product Disocunt Prices price : $0.00
+Actual Users view orders Product Disocunt Prices price : 6.450%
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+<--------- Both Total1 prices are different --------->66
+ExpectedPrintTotal1 : $6.50
+ActualPrintTotal1 : $56.314
+<-------- Bothe Item prices are different --------->67
+ExpectedPrintPOPUPSItemPrice : $0.65
+ActualPrintPOPUPSItemPrice : $52.456
+<------- Both Discount prices are different --------->68
+ExpectedPrintPOPUPSDiscount : $0.00
+ActualPrintPOPUPDiscount : 6.450%
+<-------- Both Amounts are different-------> 69
+ExpectedPrintPOPUPAmount : $6.50
+ActualPrintPOPUPAmount : $53.730
+<-------- Both SubTotal are different---------> 70
+ExpectedPrintPOPUPSubTotal :$6.50
+ActualPrintPOPUPSubTotal :$53.730
+<-------- Both Tax values are different --------->71
+ExpectedPrintTaxValue : $0.00
+ActualPrintPOPUPTaxValue : $2.584
+<-------- Both Applied Discount prices are different --------->72
+ExpectedPrintPOPUPAppliedDiscontPrice : -$0.00
+ActualPrintPOPUPAppliedDiscontPrice : -$3.383
+<-------- Both Applied Addon prices are different --------->73
+ExpectedPrintPOPUPAppliedAddonPrice : $0.00
+ActualPrintPOPUPAppliedAddonPrice : $4.657
+<--------- Both View orders grid subtotal prices are different ------> 74
+Expected value: $6.50
+  Actual value :$52.456
+ VO Popup Sub total price is -->$52.456
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  10
+Int Actual Qunaity -->10
+**ActualQuantity**10
+Both Item quantitys are same
+<-------- Both View Order Grid Pop-Up Item Prices are different --------->75
+Expected View Order Grid  Item Prices price : $0.65
+Actual Users View Order Grid  price : $52.456
+<-------- Both item Subtotals in view order grid popup values are different --------->76
+Expected View Order Grid  Subtotal price : $6.50
+Actual View Order Grid  Subtotal price : $52.456
+<-------- Both view order grid popup Addon prices are different --------->77
+Expected View Order Grid  Addon price : $0.00
+Actual View Order Grid  Addon price : $4.657
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+<-------- Both VOGPOPUP item Discount prices are different --------->78
+Expected View Order Grid Discount price : $0.00
+Actual View Order Grid  Discount price : 6.450%
+<------ VOGPOPUP Both Shipping prices are different1 ----->79
+Actual View Order Grid  Shipping price value is: $0.000
+Expected View Order Grid  Shipping price value is: $0.00
+<-------- Both order total Subtotals in view order grid popup values are different --------->80
+Expected View Order Grid  Subtotal price : $6.50
+Actual View Order Grid  Subtotal price : $52.456
+<-------- Both VOGPOPUP order total Addon prices are different --------->81
+Expected User View Order Grid Popup Addon price : $0.00
+Actual Users  View Order Grid Popup Addon price : $4.657
+ExpectedOrderDiscount4
+<-------- Both VOGPOPUP order  Discount prices are different --------->82
+Expected User VOGPOPUP order  Discount price : -$0.00
+Actual Users VOGPOPUP order  Discount price : -$3.383
+<-------- Both VOGPOPUP order Postage prices are different --------->83
+Expected User View Orders Postage price : $0.00
+Actual Users view orders Postage price : $0.000
+<-------- Both VOGPOPUP order  Tax prices are different3 -------->84
+Expected User View Orders Tax price : $0.00
+Actual Users view orders Tax price : null
+<-------- Both VOGPOPUP order  Total prices are different 1--------->85
+Expected User View Orders Total price : $6.50
+Actual Users view orders Total price : $56.314
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+<-------- Both subtotal prices are different --------->86
+ExpectedUserViewOrders Subtotal price : $6.50
+Actual Users view orders Subtotal price : $52.456
+<-------- Both Addon prices are different --------->87
+Expected User View Orders Addon price : $0.00
+Actual Users view orders Addon price : $4.657
+<-------- Both Discount prices are different --------->88
+Expected User View Orders Discount price : -$0.00
+Actual Users view orders Discount price : -$3.383
+<-------- Both Promotion Tax prices are different -------->89
+Expected User View Orders Tax price : $0.00
+Actual Users view orders Tax price : $2.584
+<-------- Both Promotion Total prices are different --------->90
+Expected User View Orders Total price : $6.50
+Actual Users view orders Total price : $56.314
+<-------- Both Promotion Item Prices are different --------->91
+Expected User View Orders Item Prices price : $
+Actual Users view orders Item Prices price : $52.456
+<-------- Both Promotion Product Disocunt Prices are different --------->92
+Expected User View Orders Product Disocunt Prices price : $0.00
+Actual Users view orders Product Disocunt Prices price : 6.450%
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+<--------- Both Total1 prices are different --------->93
+ExpectedPrintTotal1 : $6.50
+ActualPrintTotal1 : $56.314
+<-------- Bothe Item prices are different --------->94
+ExpectedPrintPOPUPSItemPrice : $0.65
+ActualPrintPOPUPSItemPrice : $52.456
+<------- Both Discount prices are different --------->95
+ExpectedPrintPOPUPSDiscount : $0.00
+ActualPrintPOPUPDiscount : 6.450%
+<-------- Both Amounts are different-------> 96
+ExpectedPrintPOPUPAmount : $6.50
+ActualPrintPOPUPAmount : $53.730
+<-------- Both SubTotal are different---------> 97
+ExpectedPrintPOPUPSubTotal :$6.50
+ActualPrintPOPUPSubTotal :$53.730
+<-------- Both Tax values are different --------->98
+ExpectedPrintTaxValue : $0.00
+ActualPrintPOPUPTaxValue : $2.584
+<-------- Both Applied Discount prices are different --------->99
+ExpectedPrintPOPUPAppliedDiscontPrice : -$0.00
+ActualPrintPOPUPAppliedDiscontPrice : -$3.383
+<-------- Both Applied Addon prices are different --------->100
+ExpectedPrintPOPUPAppliedAddonPrice : $0.00
+ActualPrintPOPUPAppliedAddonPrice : $4.657
+<--------- Both View orders grid subtotal prices are different ------> 101
+Expected value: $6.50
+  Actual value :$52.456
+ VO Popup Sub total price is -->$52.456
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  10
+Int Actual Qunaity -->10
+**ActualQuantity**10
+Both Item quantitys are same
+<-------- Both View Order Grid Pop-Up Item Prices are different --------->102
+Expected View Order Grid  Item Prices price : $0.65
+Actual Users View Order Grid  price : $52.456
+<-------- Both item Subtotals in view order grid popup values are different --------->103
+Expected View Order Grid  Subtotal price : $6.50
+Actual View Order Grid  Subtotal price : $52.456
+<-------- Both view order grid popup Addon prices are different --------->104
+Expected View Order Grid  Addon price : $0.00
+Actual View Order Grid  Addon price : $4.657
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+<-------- Both VOGPOPUP item Discount prices are different --------->105
+Expected View Order Grid Discount price : $0.00
+Actual View Order Grid  Discount price : 6.450%
+<------ VOGPOPUP Both Shipping prices are different1 ----->106
+Actual View Order Grid  Shipping price value is: $0.000
+Expected View Order Grid  Shipping price value is: $0.00
+<-------- Both order total Subtotals in view order grid popup values are different --------->107
+Expected View Order Grid  Subtotal price : $6.50
+Actual View Order Grid  Subtotal price : $52.456
+<-------- Both VOGPOPUP order total Addon prices are different --------->108
+Expected User View Order Grid Popup Addon price : $0.00
+Actual Users  View Order Grid Popup Addon price : $4.657
+ExpectedOrderDiscount4
+<-------- Both VOGPOPUP order  Discount prices are different --------->109
+Expected User VOGPOPUP order  Discount price : -$0.00
+Actual Users VOGPOPUP order  Discount price : -$3.383
+<-------- Both VOGPOPUP order Postage prices are different --------->110
+Expected User View Orders Postage price : $0.00
+Actual Users view orders Postage price : $0.000
+<-------- Both VOGPOPUP order  Tax prices are different3 -------->111
+Expected User View Orders Tax price : $0.00
+Actual Users view orders Tax price : null
+<-------- Both VOGPOPUP order  Total prices are different 1--------->112
+Expected User View Orders Total price : $6.50
+Actual Users view orders Total price : $56.314
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+<-------- Both subtotal prices are different --------->113
+ExpectedUserViewOrders Subtotal price : $6.50
+Actual Users view orders Subtotal price : $52.456
+<-------- Both Addon prices are different --------->114
+Expected User View Orders Addon price : $0.00
+Actual Users view orders Addon price : $4.657
+<-------- Both Discount prices are different --------->115
+Expected User View Orders Discount price : -$0.00
+Actual Users view orders Discount price : -$3.383
+<-------- Both Promotion Tax prices are different -------->116
+Expected User View Orders Tax price : $0.00
+Actual Users view orders Tax price : $2.584
+<-------- Both Promotion Total prices are different --------->117
+Expected User View Orders Total price : $6.50
+Actual Users view orders Total price : $56.314
+<-------- Both Promotion Item Prices are different --------->118
+Expected User View Orders Item Prices price : $
+Actual Users view orders Item Prices price : $52.456
+<-------- Both Promotion Product Disocunt Prices are different --------->119
+Expected User View Orders Product Disocunt Prices price : $0.00
+Actual Users view orders Product Disocunt Prices price : 6.450%
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+<--------- Both Total1 prices are different --------->120
+ExpectedPrintTotal1 : $6.50
+ActualPrintTotal1 : $56.314
+<-------- Bothe Item prices are different --------->121
+ExpectedPrintPOPUPSItemPrice : $0.65
+ActualPrintPOPUPSItemPrice : $52.456
+<------- Both Discount prices are different --------->122
+ExpectedPrintPOPUPSDiscount : $0.00
+ActualPrintPOPUPDiscount : 6.450%
+<-------- Both Amounts are different-------> 123
+ExpectedPrintPOPUPAmount : $6.50
+ActualPrintPOPUPAmount : $53.730
+<-------- Both SubTotal are different---------> 124
+ExpectedPrintPOPUPSubTotal :$6.50
+ActualPrintPOPUPSubTotal :$53.730
+<-------- Both Tax values are different --------->125
+ExpectedPrintTaxValue : $0.00
+ActualPrintPOPUPTaxValue : $2.584
+<-------- Both Applied Discount prices are different --------->126
+ExpectedPrintPOPUPAppliedDiscontPrice : -$0.00
+ActualPrintPOPUPAppliedDiscontPrice : -$3.383
+<-------- Both Applied Addon prices are different --------->127
+ExpectedPrintPOPUPAppliedAddonPrice : $0.00
+ActualPrintPOPUPAppliedAddonPrice : $4.657
+___ ___ ___ ____ _ ____ ____ ____ ______ ____ ___ ____ ____ ____ ____ ____ ____ _____ ____ _____ ____ _
+** ** **Actual and Expected values are not same, Test FAIL** ** **
+Number of errors : 127
+Time Stamp : _2019-Mar-22_12-56-51_AM
+ Don't kill browser
+****** ****** Test Case Number --> 26.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 36839
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+Quantity11234____10
+ActualDiscount-$0.000
+ExpectedDiscount-$0.000
+ActualDiscount0908hh-$0.000
+gc
+mp
+billing1Billed to :
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+OrderNumber : 7270
+ VO Popup Sub total price is -->$8.120
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  10
+Int Actual Qunaity -->10
+**ActualQuantity**10
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount4
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$8.120
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  10
+Int Actual Qunaity -->10
+**ActualQuantity**10
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount4
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$8.120
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  10
+Int Actual Qunaity -->10
+**ActualQuantity**10
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount4
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+___ ___ ___ ____ _ ____ ____ ____ ______ ____ ___ ____ ____ ____ ____ ____ ____ _____ ____ _____ ____ _
+**** *** **Al l the Expected values and Actual values are same, Test PASS*** *** ***
+Time Stamp : _2019-Mar-22_1-33-50_AM
+ Don't kill browser
+****** ****** Test Case Number --> 27.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 31351
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+Quantity11234____10
+ActualDiscount-$0.0000
+ExpectedDiscount-$0.0000
+ActualDiscount0908hh-$0.0000
+gc
+mp
+billing1Billed to :
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+OrderNumber : 7271
+ VO Popup Sub total price is -->$7.8970
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  10
+Int Actual Qunaity -->10
+**ActualQuantity**10
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount4
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$7.8970
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  10
+Int Actual Qunaity -->10
+**ActualQuantity**10
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount4
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$7.8970
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  10
+Int Actual Qunaity -->10
+**ActualQuantity**10
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount4
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+___ ___ ___ ____ _ ____ ____ ____ ______ ____ ___ ____ ____ ____ ____ ____ ____ _____ ____ _____ ____ _
+**** *** **Al l the Expected values and Actual values are same, Test PASS*** *** ***
+Time Stamp : _2019-Mar-22_2-10-48_AM
+ Don't kill browser
+****** ****** Test Case Number --> 28.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 20529
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+Both addon prices are same
+Quantity11234____10
+ActualDiscount-$1.73
+ExpectedDiscount-$1.73
+ActualDiscount0908hh-$1.73
+gc
+mp
+billing1Billed to :
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing1
+<-------- Billing Address not displayed in OS Print Popup page ---------->1
+Actual Billing Address Status : Billing address not displayed
+Expected Billing Address Status : Billing address displays to user
+billing1
+<-------- Billing Address not displayed in OS Print Popup page ---------->2
+Actual Billing Address Status : Billing address not displayed
+Expected Billing Address Status : Billing address displays to user
+<--------- Both Total1 prices are different --------->3
+ExpectedPrintTotal1 : $52.42
+ActualPrintTotal1 : 
+java.lang.NumberFormatException: empty String
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1842)
+	at sun.misc.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.lang.Double.parseDouble(Double.java:538)
+	at java.lang.Double.valueOf(Double.java:502)
+	at tec.AC40.Common.Commonclass.PrintPopUpPriceVerification(Commonclass.java:15126)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:3215)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+OrderNumber : 7272
+Report are saved and closed
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //img[contains(@src,'image_a.jpg')] (tried for 500 second(s) with 1 SECONDS interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:264)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at tec.AC40.Suite.OrderFlow.AccuPrice(OrderFlow.java:3301)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //img[contains(@src,'image_a.jpg')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '5234b32', time: '2017-03-10 09:00:17 -0800'
+System info: host: 'RAMPRASAD-QA', ip: '192.168.1.79', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:899)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:898)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:208)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:204)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:647)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 23 more
+Time Stamp : _2019-Mar-22_2-52-35_AM
+ Don't kill browser
+****** ****** Test Case Number --> 29.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 48612
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+Both addon prices are same
+Quantity11234____10
+ActualDiscount-$3.442
+ExpectedDiscount-$3.442
+ActualDiscount0908hh-$3.442
+gc
+mp
+billing1Billed to :
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+OrderNumber : 7273
+ VO Popup Sub total price is -->$56.236
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  10
+Int Actual Qunaity -->10
+**ActualQuantity**10
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$56.236
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  10
+Int Actual Qunaity -->10
+**ActualQuantity**10
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  10
+Int Actual Qunaity -->10
+**ActualQuantity**10
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+___ ___ ___ ____ _ ____ ____ ____ ______ ____ ___ ____ ____ ____ ____ ____ ____ _____ ____ _____ ____ _
+**** *** **Al l the Expected values and Actual values are same, Test PASS*** *** ***
+Time Stamp : _2019-Mar-22_3-32-48_AM
+ Don't kill browser
+****** ****** Test Case Number --> 30.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 24179
+Only local connections are allowed.
+CBT Method works
+Admin Login done
+** Payment button worked fine **
+Edit link is working fine  
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Order element check box 1
+Order element check box 2
+Both addon prices are same
+Quantity11234____10
+ActualDiscount-$3.1260
+ExpectedDiscount-$3.1260
+ActualDiscount0908hh-$3.1260
+gc
+mp
+billing1Billed to :
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+OrderNumber : 7274
+ VO Popup Sub total price is -->$43.2364
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  10
+Int Actual Qunaity -->10
+**ActualQuantity**10
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$43.2364
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  10
+Int Actual Qunaity -->10
+**ActualQuantity**10
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+ VO Popup Sub total price is -->$43.2364
+Entered into PS View orders Pop-Up
+ Actual View order popup quantiy -->  10
+Int Actual Qunaity -->10
+**ActualQuantity**10
+Both Item quantitys are same
+View Order Grid Pop-Up Item prices are same
+Both item Subtotals in view order grid popup values are same
+Both view order grid popup Addon prices are same 
+Both VOGPOPUP item Discount prices are same
+VOGPOPUP shipping price is same
+Both order total  Subtotals in view order grid popup values are same
+ExpectedOrderDiscount6
+Both VOGPOPUP order Shipping prices are same 
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+Show more details
+Payment Type
+Billing
+PONumber:
+124
+BillingAddress & BillingAddress
+billing138345 W.10 Mile Road
+suite 115
+Formington Hills, Texas - 78732
+billing1Billing Information
+Address 1
+38345 W.10 Mile Road
+Address 2
+suite 115
+City
+Formington Hills
+State
+Texas
+Country
+USA
+Zip
+78732
+___ ___ ___ ____ _ ____ ____ ____ ______ ____ ___ ____ ____ ____ ____ ____ ____ _____ ____ _____ ____ _
+**** *** **Al l the Expected values and Actual values are same, Test PASS*** *** ***
+** End**
+
+===============================================
+Suite
+Total tests run: 448, Failures: 0, Skips: 0
+===============================================
+

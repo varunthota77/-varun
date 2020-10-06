@@ -1,0 +1,7 @@
+****** ****** Test Case Number --> 1.0******* *******
+Starting ChromeDriver 2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91) on port 2587
+Only local connections are allowed.
+Feb 12, 2019 11:32:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+CBT Method works
+Admin Login done
